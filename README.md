@@ -48,4 +48,4 @@ Atto 1 :
     Class dialogs           - 0%
     Deathknight Special     - 0%
 
-Quests :                    - on air %
+Quests :                    - 100%

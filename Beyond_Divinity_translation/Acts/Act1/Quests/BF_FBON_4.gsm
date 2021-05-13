@@ -2,7 +2,7 @@
 0,48,0,0,1,""
 0,48,0,0,2,""
 0,48,0,0,3,"$OWNER$ mi ha detto di un $NPC$ ladro! Pensa che si nasconda in uno di questi sotterranei. Mi ha anche chiesto di restituire la sua preziosa $OBJECTCLASS$."
-0,48,0,0,4,"$OWNER$ mi ha detto di un $NPC$ ladro! It was hiding in a dungeon. Ora riporterò la $OBJECTCLASS$ a $OWNER$."
+0,48,0,0,4,"$OWNER$ mi ha detto di un $NPC$ ladro! It was hiding in a dungeon. Ora riportero' la $OBJECTCLASS$ a $OWNER$."
 0,48,0,0,5,"$OWNER$ mi ha detto di un $NPC$ ladro! It was hiding in a dungeon. Ho riportato la $OBJECTCLASS$ a $OWNER$."
 0,48,0,0,6,""
 0,48,0,0,7,""
