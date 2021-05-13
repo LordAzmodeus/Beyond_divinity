@@ -1,3 +1,0 @@
-index 23 list 11 offsetx 1116 offsety 314 worldx 30036 worldy 24858 worldheight 200 map 0
-0
-0

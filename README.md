@@ -19,3 +19,20 @@ Note.
             * riga 23 questo fermacarte?
 
 - rivedi i dialoghi degli imp, dove *master* va tradotto con *padrone* probabilmente
+
+ **************************************** Progress: ****************************************
+Atto 1 :
+    01 Torture Level        - 100%
+    02 Pit Level            - 0%
+    03 First Dungeon Level  - 0%
+    04 Second Dungeon Level - 0%
+    05 Maze Level           - 0%
+    06 Key Level            - 0%
+    07 Drill Ground Level   - 0%
+    08 Barracks Level       - 0%
+    09 Demons Lair          - 0%
+    Battlefields            - 0%
+    Class dialogs           - 0%
+    Deathknight Special     - 0%
+
+Quests :
