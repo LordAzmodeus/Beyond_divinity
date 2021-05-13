@@ -5,6 +5,7 @@ Step 1
 Inizio traduzione sommaria per cercare di capire come si adatta il testo al contesto.
 
 Note.
+01. torture level
 - Chaos = divinità che vorrebbe scatenare il delirio sul Rivellion forse... Dark knight lo invoca nel primo atto, penso si riferisca a lui.
 - Imp = Diavoletto
 
@@ -19,6 +20,9 @@ Note.
             * riga 23 questo fermacarte?
 
 - rivedi i dialoghi degli imp, dove *master* va tradotto con *padrone* probabilmente
+
+02. Pit Level
+Imp 1.gsm * riga 1 - Our Odox is a good 'un! <--- che significa 'un??? piccolo? Amico? riferimento a imp avvelenato... vada per amico, per ora... No, è suo fratello, un nello slang potrebbe essere "stupido", vada per stupido, per ora.... un buono stupido o un bravo stupido?
 
 
 Sezione Quests :
