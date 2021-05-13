@@ -20,6 +20,19 @@ Note.
 
 - rivedi i dialoghi degli imp, dove *master* va tradotto con *padrone* probabilmente
 
+
+Sezione Quests :
+- ArcherImp.gsm * riga 6 * 
+I've discovered the truth about the so-called archery �champion�. The imp behind the bulls-eyes was told to help him win all the contests!
+Al diavoletto dietro gli occhi del bue???? Controllare contesto
+- Arrow Making Imp.gsm 
+Imp informer - sta per "diavoletto informatore"?
+- BF_FBO_1.gsm e seguenti
+C'è un riferimento a $OWNER$ e $OBJECTCLASS$ ... bisogna tenere d'occhio la quest per il genere degli articoli e eventualmente scriptare qualcosa
+idem per file successivi, riferimenti e gender case
+- BF_FBO * in the dungeons, of all places... Nei sotterranei, fra tutti i posti <--- questa traduzione non mi convince
+- BF_FBON_4.gsm * A raiding NPC <--- Un NPC predatore? + riga 4 ---> stalking NPC <--- ancora predatore? O inseguitore? Fare chiarezza (hint, raid = irruzione???)
+
  **************************************** Progress: ****************************************
 Atto 1 :
     01 Torture Level        - 100%
@@ -35,4 +48,4 @@ Atto 1 :
     Class dialogs           - 0%
     Deathknight Special     - 0%
 
-Quests :
+Quests :                    - on air %
