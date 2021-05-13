@@ -1,0 +1,596 @@
+// This file gets written by Divinity - don't put any comments here.
+// All comments or entries with syntax errors will be erased!
+
+
+//////////////////////////////////////////
+trap 0
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0032"
+
+
+//////////////////////////////////////////
+trap 1
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0031"
+
+
+//////////////////////////////////////////
+trap 2
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0034"
+
+
+//////////////////////////////////////////
+trap 3
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0033"
+
+
+//////////////////////////////////////////
+trap 4
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0036"
+
+
+//////////////////////////////////////////
+trap 5
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0035"
+
+
+//////////////////////////////////////////
+trap 6
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0038"
+
+
+//////////////////////////////////////////
+trap 7
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0037"
+
+
+//////////////////////////////////////////
+trap 8
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0040"
+
+
+//////////////////////////////////////////
+trap 9
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0039"
+
+
+//////////////////////////////////////////
+trap 10
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0042"
+
+
+//////////////////////////////////////////
+trap 11
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0041"
+
+
+//////////////////////////////////////////
+trap 12
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0044"
+
+
+//////////////////////////////////////////
+trap 13
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0043"
+
+
+//////////////////////////////////////////
+trap 14
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0046"
+
+
+//////////////////////////////////////////
+trap 15
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0045"
+
+
+//////////////////////////////////////////
+trap 16
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0048"
+
+
+//////////////////////////////////////////
+trap 17
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0047"
+
+
+//////////////////////////////////////////
+trap 18
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0050"
+
+
+//////////////////////////////////////////
+trap 19
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0049"
+
+
+//////////////////////////////////////////
+trap 20
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0052"
+
+
+//////////////////////////////////////////
+trap 21
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0051"
+
+
+//////////////////////////////////////////
+trap 22
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0054"
+
+
+//////////////////////////////////////////
+trap 23
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0053"
+
+
+//////////////////////////////////////////
+trap 24
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0056"
+
+
+//////////////////////////////////////////
+trap 25
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0055"
+
+
+//////////////////////////////////////////
+trap 26
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0058"
+
+
+//////////////////////////////////////////
+trap 27
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0057"
+
+
+//////////////////////////////////////////
+trap 28
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0060"
+
+
+//////////////////////////////////////////
+trap 29
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0059"
+
+
+//////////////////////////////////////////
+trap 30
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0062"
+
+
+//////////////////////////////////////////
+trap 31
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0061"
+
+
+//////////////////////////////////////////
+trap 32
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0064"
+
+
+//////////////////////////////////////////
+trap 33
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0063"
+
+
+//////////////////////////////////////////
+trap 34
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0066"
+
+
+//////////////////////////////////////////
+trap 35
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0065"
+
+
+//////////////////////////////////////////
+trap 36
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0068"
+
+
+//////////////////////////////////////////
+trap 37
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0067"
+
+
+//////////////////////////////////////////
+trap 38
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0070"
+
+
+//////////////////////////////////////////
+trap 39
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0069"
+
+
+//////////////////////////////////////////
+trap 40
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0072"
+
+
+//////////////////////////////////////////
+trap 41
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0071"
+
+
+//////////////////////////////////////////
+trap 42
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0074"
+
+
+//////////////////////////////////////////
+trap 43
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0073"
+
+
+//////////////////////////////////////////
+trap 44
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0076"
+
+
+//////////////////////////////////////////
+trap 45
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0075"
+
+
+//////////////////////////////////////////
+trap 46
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0078"
+
+
+//////////////////////////////////////////
+trap 47
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0077"
+
+
+//////////////////////////////////////////
+trap 48
+	2 frames
+	frame 0
+		unlock door 7
+	frame 1
+		lock door 7
+
+
+//////////////////////////////////////////
+trap 49
+	2 frames
+	frame 0
+		unlock door 8
+	frame 1
+		lock door 8
+
+
+//////////////////////////////////////////
+trap 50
+	2 frames
+	frame 0
+		unlock door 9
+	frame 1
+		lock door 9
+
+
+//////////////////////////////////////////
+trap 51
+	2 frames
+	frame 0
+		unlock door 10
+	frame 1
+		lock door 10
+
+
+//////////////////////////////////////////
+trap 52
+	2 frames
+	frame 0
+		unlock door 11
+	frame 1
+		lock door 11
+
+
+//////////////////////////////////////////
+trap 53
+	2 frames
+	frame 0
+		unlock door 12
+	frame 1
+		lock door 12
+
+
+//////////////////////////////////////////
+trap 54
+	2 frames
+	frame 0
+		unlock door 13
+	frame 1
+		lock door 13
+
+
+//////////////////////////////////////////
+trap 55
+	2 frames
+	frame 0
+		unlock door 14
+	frame 1
+		lock door 14
+
+
+//////////////////////////////////////////
+trap 56
+	2 frames
+	frame 0
+		unlock door 15
+	frame 1
+		lock door 15
+
+
+//////////////////////////////////////////
+trap 57
+	2 frames
+	frame 0
+		unlock door 16
+	frame 1
+		lock door 16
+
+
+//////////////////////////////////////////
+trap 58
+	2 frames
+	frame 0
+		unlock door 17
+	frame 1
+		lock door 17
+
+
+//////////////////////////////////////////
+trap 59
+	2 frames
+	frame 0
+		unlock door 18
+	frame 1
+		lock door 18
+
+
+//////////////////////////////////////////
+trap 60
+	2 frames
+	frame 0
+		unlock door 19
+	frame 1
+		lock door 19
+
+
+//////////////////////////////////////////
+trap 61
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0080"
+
+
+//////////////////////////////////////////
+trap 62
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0079"
+
+
+//////////////////////////////////////////
+trap 63
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0082"
+
+
+//////////////////////////////////////////
+trap 64
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0081"
+
+
+//////////////////////////////////////////
+trap 65
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0084"
+
+
+//////////////////////////////////////////
+trap 66
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0083"
+
+
+//////////////////////////////////////////
+trap 67
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0086"
+
+
+//////////////////////////////////////////
+trap 68
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0085"
+
+
+//////////////////////////////////////////
+trap 69
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0088"
+
+
+//////////////////////////////////////////
+trap 70
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0087"
+
+
+//////////////////////////////////////////
+trap 71
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0090"
+
+
+//////////////////////////////////////////
+trap 72
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0089"
+
+
+//////////////////////////////////////////
+trap 73
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0092"
+
+
+//////////////////////////////////////////
+trap 74
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0091"
+
+
+//////////////////////////////////////////
+trap 75
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0094"
+
+
+//////////////////////////////////////////
+trap 76
+	1 frames
+	frame 0
+		teleport to "CTrapWizardWnd::CreateLocation_0093"
+
+
+//////////////////////////////////////////
+trap 77
+	2 frames
+	frame 0
+		unlock door 31
+	frame 1
+		lock door 31
+
+
+//////////////////////////////////////////
+trap 78
+	2 frames
+	frame 0
+		unlock door 32
+	frame 1
+		lock door 32
+
+
+//////////////////////////////////////////
+trap 79
+	2 frames
+	frame 0
+		unlock door 33
+	frame 1
+		lock door 33
+
+

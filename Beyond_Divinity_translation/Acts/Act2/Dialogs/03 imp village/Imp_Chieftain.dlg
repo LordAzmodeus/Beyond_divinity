@@ -1,0 +1,54 @@
+version 11
+id 6,1,0,15
+name "Imp_Chieftain"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 15,0,0,1
+
+node BLOCK_GREET_AVAILABLE 15,0,0,2
+connected to 15,0,0,12
+
+node BLOCK_GREET_ACTIVE 15,0,0,3
+connected to 15,0,0,14
+
+node BLOCK_GREET_SUCCESS 15,0,0,4
+
+node BLOCK_GREET_COMPLETED 15,0,0,5
+
+node BLOCK_GREET_FAILURE 15,0,0,6
+
+node BLOCK_GREET_FAILED 15,0,0,7
+
+node BLOCK_GREET_REFUSED 15,0,0,8
+
+node BLOCK_STD 15,0,0,9
+
+node BLOCK_SERV 15,0,0,10
+
+node BLOCK_EXIT 15,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 15,0,0,13
+
+node BLOCK_QUEST_ACTIVE 15,0,0,15
+
+node MONO 15,0,0,12
+mono 9 9,2,0,0 9,3,0,0
+mono 9 9,2,0,13 9,3,0,13
+mono 0 9,2,0,18 9,3,0,18
+mono 9 9,2,0,14 9,3,0,14
+mono 0 9,2,0,15 9,3,0,15
+mono 9 9,2,0,16 9,3,0,16
+mono 9 9,2,0,10 9,3,0,10
+mono 9 9,2,0,20 9,3,0,20
+mono 9 9,2,0,3 9,3,0,3
+mono 0 9,2,0,8 9,3,0,8
+mono 1 9,2,0,21 9,3,0,21
+connected to 15,0,0,13
+
+node MONO 15,0,0,14
+mono 9 9,2,0,5 9,3,0,5
+mono 0 9,2,0,22 9,3,0,22
+mono 9 9,2,0,7 9,3,0,7
+connected to 15,0,0,15
+

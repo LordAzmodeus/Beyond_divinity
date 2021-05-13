@@ -1,0 +1,51 @@
+version 11
+id 6,1,0,2
+name "Giant_Gate_Guard"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 2,0,0,1
+connected to 2,0,0,12
+
+node BLOCK_GREET_AVAILABLE 2,0,0,2
+
+node BLOCK_GREET_ACTIVE 2,0,0,3
+
+node BLOCK_GREET_SUCCESS 2,0,0,4
+
+node BLOCK_GREET_COMPLETED 2,0,0,5
+
+node BLOCK_GREET_FAILURE 2,0,0,6
+
+node BLOCK_GREET_FAILED 2,0,0,7
+
+node BLOCK_GREET_REFUSED 2,0,0,8
+
+node BLOCK_STD 2,0,0,9
+
+node BLOCK_SERV 2,0,0,10
+
+node BLOCK_EXIT 2,0,0,11
+
+node BLOCK_QUEST_INACTIVE 2,0,0,13
+connected to 2,0,0,14
+
+node MONO 2,0,0,12
+mono 2 2,2,0,0 2,3,0,0
+mono 1 2,2,0,1 2,3,0,1
+mono 0 2,2,0,2 2,3,0,2
+mono 2 2,2,0,9 2,3,0,9
+connected to 2,0,0,13
+
+node TEXT_HERO 2,0,0,14
+text 2,0,0,0
+alttext 2,0,0,1
+quest event 1
+connected to 2,0,0,15
+
+node MONO 2,0,0,15
+mono 2 2,2,0,14 2,3,0,14
+mono 1 2,2,0,15 2,3,0,15
+mono 2 2,2,0,16 2,3,0,16
+mono 2 2,2,0,17 2,3,0,17
+

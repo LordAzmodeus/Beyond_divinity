@@ -1,0 +1,14 @@
+quest id 115
+quest name "Chieftain Village"
+quest status -1
+quest status override 2 4
+quest title 0
+quest description 0 1
+quest description 1 2
+quest description 2 3
+quest description 3 4
+quest description 4 5
+quest description 5 6
+quest description 6 7
+quest description 7 8
+deed morality "none" visibility "none"

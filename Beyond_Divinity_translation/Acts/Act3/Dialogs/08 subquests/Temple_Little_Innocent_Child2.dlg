@@ -1,0 +1,36 @@
+version 11
+id 6,1,0,184
+name "Temple_Little_Innocent_Child2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 184,0,0,1
+
+node BLOCK_GREET_AVAILABLE 184,0,0,2
+connected to 184,0,0,12
+
+node BLOCK_GREET_ACTIVE 184,0,0,3
+
+node BLOCK_GREET_SUCCESS 184,0,0,4
+
+node BLOCK_GREET_COMPLETED 184,0,0,5
+
+node BLOCK_GREET_FAILURE 184,0,0,6
+
+node BLOCK_GREET_FAILED 184,0,0,7
+
+node BLOCK_GREET_REFUSED 184,0,0,8
+
+node BLOCK_STD 184,0,0,9
+
+node BLOCK_SERV 184,0,0,10
+
+node BLOCK_EXIT 184,0,0,11
+
+node TEXT_NPC 184,0,0,12
+text 160,1,0,0
+alttext 160,1,0,1
+connected to 184,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 184,0,0,13
+

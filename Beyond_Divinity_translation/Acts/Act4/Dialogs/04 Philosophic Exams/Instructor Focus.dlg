@@ -1,0 +1,108 @@
+version 11
+id 6,1,0,153
+name "Instructor Focus"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 153,0,0,1
+
+node BLOCK_GREET_AVAILABLE 153,0,0,2
+connected to 153,0,0,12
+
+node BLOCK_GREET_ACTIVE 153,0,0,3
+connected to 153,0,0,32
+
+node BLOCK_GREET_SUCCESS 153,0,0,4
+
+node BLOCK_GREET_COMPLETED 153,0,0,5
+
+node BLOCK_GREET_FAILURE 153,0,0,6
+
+node BLOCK_GREET_FAILED 153,0,0,7
+
+node BLOCK_GREET_REFUSED 153,0,0,8
+
+node BLOCK_STD 153,0,0,9
+connected to 153,0,0,21
+connected to 153,0,0,27
+
+node BLOCK_SERV 153,0,0,10
+
+node BLOCK_EXIT 153,0,0,11
+connected to 153,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 153,0,0,13
+connected to 153,0,0,30
+
+node TEXT_HERO 153,0,0,14
+text 189,0,0,0
+
+node TEXT_HERO 153,0,0,21
+stdnode
+text 189,0,0,4
+alttext 188,0,0,7
+connected to 153,0,0,22
+
+node TEXT_NPC 153,0,0,22
+text 189,1,0,4
+alttext 188,1,0,10
+connected to 153,0,0,23
+
+node BLOCK_STD 153,0,0,23
+
+node TEXT_HERO 153,0,0,27
+stdnode
+text 189,0,0,6
+alttext 188,0,0,8
+connected to 153,0,0,28
+
+node TEXT_NPC 153,0,0,28
+text 189,1,0,6
+alttext 188,1,0,8
+connected to 153,0,0,29
+
+node BLOCK_STD 153,0,0,29
+
+node MONO 153,0,0,12
+mono 72 188,2,0,0 188,3,0,0
+mono 0 188,2,0,2 188,3,0,2
+mono 72 188,2,0,3 188,3,0,3
+mono 72 188,2,0,4 188,3,0,4
+connected to 153,0,0,13
+
+node TEXT_HERO 153,0,0,30
+text 189,0,0,7
+alttext 188,0,0,6
+quest event 2
+connected to 153,0,0,31
+
+node TEXT_NPC 153,0,0,31
+text 189,1,0,7
+alttext 188,1,0,9
+
+node BLOCK_QUEST_ACTIVE 153,0,0,33
+connected to 153,0,0,40
+
+node MONO 153,0,0,32
+mono 72 188,2,0,1 188,3,0,1
+mono 72 188,2,0,5 188,3,0,5
+mono 72 188,2,0,6 188,3,0,6
+mono 1 188,2,0,7 188,3,0,7
+mono 72 188,2,0,8 188,3,0,8
+mono 0 188,2,0,17 188,3,0,17
+mono 1 188,2,0,18 188,3,0,18
+mono 72 188,2,0,19 188,3,0,19
+mono 72 188,2,0,20 188,3,0,20
+mono 1 188,2,0,21 188,3,0,21
+connected to 153,0,0,33
+
+node TEXT_HERO 153,0,0,40
+text 188,0,0,4
+alttext 188,0,0,5
+quest event 3
+connected to 153,0,0,41
+
+node TEXT_NPC 153,0,0,41
+text 188,1,0,6
+alttext 188,1,0,7
+

@@ -1,0 +1,36 @@
+version 11
+id 6,1,0,99
+name "Drill Ground Chest Ghost"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 99,0,0,1
+connected to 99,0,0,12
+
+node BLOCK_GREET_AVAILABLE 99,0,0,2
+
+node BLOCK_GREET_ACTIVE 99,0,0,3
+
+node BLOCK_GREET_SUCCESS 99,0,0,4
+
+node BLOCK_GREET_COMPLETED 99,0,0,5
+
+node BLOCK_GREET_FAILURE 99,0,0,6
+
+node BLOCK_GREET_FAILED 99,0,0,7
+
+node BLOCK_GREET_REFUSED 99,0,0,8
+
+node BLOCK_STD 99,0,0,9
+
+node BLOCK_SERV 99,0,0,10
+
+node BLOCK_EXIT 99,0,0,11
+
+node BLOCK_QUEST_INACTIVE 99,0,0,13
+
+node MONO 99,0,0,12
+mono 156 236,2,0,0 236,3,0,0
+mono 156 236,2,0,1 236,3,0,1
+connected to 99,0,0,13
+

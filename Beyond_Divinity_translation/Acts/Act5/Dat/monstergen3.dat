@@ -1,0 +1,208 @@
+new group "Group"
+
+new group "Rat"
+add class "Rat" probability 100
+
+new group "Black Ring"
+add class "Black Ring Guard" probability 70
+add class "Black Ring Cleric" probability 30
+
+new group "Crystal Gargoyles"
+add class "Crystal Gargoyle" probability 100
+
+new group "Air Elementals"
+add class "Air Elemental" probability 100
+
+new group "Water Elementals"
+add class "Water Elemental Act3" probability 100
+
+new group "Earth Elementals"
+add class "Earth Elemental Act3" probability 100
+
+new group "Behind Temple"
+add class "Air Elemental" probability 70
+add class "Red DeathKnight" probability 30
+
+new group "Shadows 1"
+add class "Shadow Man" probability 100
+
+new group "Shadows 2"
+add class "Shadow Man Fly" probability 100
+
+new group "Shadows 3"
+add class "Shadow Horse" probability 100
+
+new group "Shadows 4"
+add class "Shadow Horse Fly" probability 100
+
+new group "Mutants"
+add class "Mutant Act3" probability 100
+
+new group "Baby water"
+add class "Fragment" probability 100
+
+new group "Evil eyes"
+add class "Evil Flying Eye" probability 100
+
+new group "BF31"
+add class "BF31melee" probability 50
+add class "BF31ranged" probability 30
+add class "BF31mage" probability 15
+add class "BF31boss" probability 5
+
+new group "BF32"
+add class "BF32melee" probability 50
+add class "BF32ranged" probability 30
+add class "BF32mage" probability 15
+add class "BF32boss" probability 5
+
+new group "BF33"
+add class "BF33melee" probability 50
+add class "BF33ranged" probability 30
+add class "BF33mage" probability 15
+add class "BF33boss" probability 5
+
+new group "BF34"
+add class "BF34melee" probability 50
+add class "BF34ranged" probability 30
+add class "BF34mage" probability 15
+add class "BF34boss" probability 5
+
+new group "BF35"
+add class "BF35melee" probability 50
+add class "BF35ranged" probability 30
+add class "BF35mage" probability 15
+add class "BF35boss" probability 5
+
+new group "BF36"
+add class "BF36melee" probability 50
+add class "BF36ranged" probability 30
+add class "BF36mage" probability 15
+add class "BF36boss" probability 5
+
+new clone region "BF_Dungeon_1_1"
+add group "BF31" probability 100
+set cluster factor 3
+set monster amount 100
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_1_2"
+add group "BF31" probability 100
+set cluster factor 3
+set monster amount 150
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_2_1"
+add group "BF32" probability 100
+set cluster factor 3
+set monster amount 150
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_2_2"
+add group "BF32" probability 100
+set cluster factor 3
+set monster amount 200
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_3_1"
+add group "BF33" probability 100
+set cluster factor 3
+set monster amount 200
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_3_2"
+add group "BF33" probability 100
+set cluster factor 3
+set monster amount 250
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_4_1"
+add group "BF34" probability 100
+set cluster factor 3
+set monster amount 100
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_4_2"
+add group "BF34" probability 100
+set cluster factor 3
+set monster amount 150
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_5_1"
+add group "BF35" probability 100
+set cluster factor 3
+set monster amount 150
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_5_2"
+add group "BF35" probability 100
+set cluster factor 3
+set monster amount 200
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_6_1"
+add group "BF36" probability 100
+set cluster factor 3
+set monster amount 200
+set min distance 20
+set power base "1.4000"
+
+new clone region "BF_Dungeon_6_2"
+add group "BF36" probability 100
+set cluster factor 3
+set monster amount 250
+set min distance 20
+set power base "1.4000"
+
+new bf region "BF_1"
+add group "BF31" probability 100
+set cluster factor 3
+set monster amount 2
+set min distance 20
+set power base "1.4000"
+
+new bf region "BF_2"
+add group "BF32" probability 100
+set cluster factor 3
+set monster amount 2
+set min distance 20
+set power base "1.4000"
+
+new bf region "BF_3"
+add group "BF33" probability 100
+set cluster factor 3
+set monster amount 2
+set min distance 20
+set power base "1.4000"
+
+new bf region "BF_4"
+add group "BF34" probability 100
+set cluster factor 3
+set monster amount 2
+set min distance 20
+set power base "1.4000"
+
+new bf region "BF_5"
+add group "BF35" probability 100
+set cluster factor 3
+set monster amount 2
+set min distance 20
+set power base "1.4000"
+
+new bf region "BF_6"
+add group "BF36" probability 100
+set cluster factor 3
+set monster amount 2
+set min distance 20
+set power base "1.4000"
+

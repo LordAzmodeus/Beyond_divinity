@@ -1,0 +1,41 @@
+version 11
+id 6,1,0,120
+name "Samuel Basic Training"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 120,0,0,1
+connected to 120,0,0,12
+
+node BLOCK_GREET_AVAILABLE 120,0,0,2
+
+node BLOCK_GREET_ACTIVE 120,0,0,3
+
+node BLOCK_GREET_SUCCESS 120,0,0,4
+
+node BLOCK_GREET_COMPLETED 120,0,0,5
+
+node BLOCK_GREET_FAILURE 120,0,0,6
+
+node BLOCK_GREET_FAILED 120,0,0,7
+
+node BLOCK_GREET_REFUSED 120,0,0,8
+
+node BLOCK_STD 120,0,0,9
+
+node BLOCK_SERV 120,0,0,10
+
+node BLOCK_EXIT 120,0,0,11
+
+node BLOCK_QUEST_INACTIVE 120,0,0,13
+
+node MONO 120,0,0,12
+mono 49 176,2,0,0 176,3,0,0
+mono 49 176,2,0,1 176,3,0,1
+mono 0 176,2,0,3 176,3,0,3
+mono 49 176,2,0,4 176,3,0,4
+mono 1 176,2,0,5 176,3,0,5
+mono 49 176,2,0,6 176,3,0,6
+mono 49 176,2,0,2 176,3,0,2
+connected to 120,0,0,13
+

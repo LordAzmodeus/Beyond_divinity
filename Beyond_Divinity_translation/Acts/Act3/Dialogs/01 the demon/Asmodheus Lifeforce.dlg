@@ -1,0 +1,74 @@
+version 11
+id 6,1,0,3
+name "Asmodheus Lifeforce"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 3,0,0,1
+
+node BLOCK_GREET_AVAILABLE 3,0,0,2
+connected to 3,0,0,12
+
+node BLOCK_GREET_ACTIVE 3,0,0,3
+
+node BLOCK_GREET_SUCCESS 3,0,0,4
+
+node BLOCK_GREET_COMPLETED 3,0,0,5
+
+node BLOCK_GREET_FAILURE 3,0,0,6
+
+node BLOCK_GREET_FAILED 3,0,0,7
+
+node BLOCK_GREET_REFUSED 3,0,0,8
+
+node BLOCK_STD 3,0,0,9
+
+node BLOCK_SERV 3,0,0,10
+
+node BLOCK_EXIT 3,0,0,11
+
+node TEXT_NPC 3,0,0,12
+text 62,1,0,0
+alttext 62,1,0,4
+connected to 3,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 3,0,0,13
+connected to 3,0,0,14
+
+node TEXT_HERO 3,0,0,14
+text 62,0,0,0
+alttext 62,0,0,4
+connected to 3,0,0,15
+
+node TEXT_HERO 3,0,0,16
+text 62,0,0,1
+alttext 62,0,0,3
+quest event 2
+connected to 3,0,0,17
+
+node TEXT_HERO 3,0,0,18
+text 62,0,0,2
+alttext 62,0,0,5
+quest event 7
+connected to 3,0,0,19
+
+node TEXT_NPC 3,0,0,19
+text 62,1,0,3
+alttext 62,1,0,5
+
+node MONO 3,0,0,15
+mono 2 62,2,0,0 62,3,0,0
+mono 1 62,2,0,1 62,3,0,1
+mono 2 62,2,0,2 62,3,0,2
+mono 2 62,2,0,3 62,3,0,3
+connected to 3,0,0,16
+connected to 3,0,0,18
+
+node MONO 3,0,0,17
+mono 2 62,2,0,4 62,3,0,4
+mono 1 62,2,0,5 62,3,0,5
+mono 2 62,2,0,6 62,3,0,6
+mono 2 62,2,0,7 62,3,0,7
+mono 1 62,2,0,8 62,3,0,8
+mono 2 62,2,0,9 62,3,0,9
+

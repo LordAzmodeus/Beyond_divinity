@@ -1,0 +1,97 @@
+version 11
+id 6,1,0,39
+name "Alchemist_Plague_Victim1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 39,0,0,1
+connected to 39,0,0,12
+
+node BLOCK_GREET_AVAILABLE 39,0,0,2
+
+node BLOCK_GREET_ACTIVE 39,0,0,3
+
+node BLOCK_GREET_SUCCESS 39,0,0,4
+
+node BLOCK_GREET_COMPLETED 39,0,0,5
+
+node BLOCK_GREET_FAILURE 39,0,0,6
+
+node BLOCK_GREET_FAILED 39,0,0,7
+
+node BLOCK_GREET_REFUSED 39,0,0,8
+
+node BLOCK_STD 39,0,0,9
+connected to 39,0,0,14
+connected to 39,0,0,17
+connected to 39,0,0,21
+connected to 39,0,0,24
+
+node BLOCK_SERV 39,0,0,10
+
+node BLOCK_EXIT 39,0,0,11
+connected to 39,0,0,20
+
+node TEXT_NPC 39,0,0,12
+text 27,1,0,0
+alttext 27,1,0,5
+connected to 39,0,0,13
+
+node BLOCK_QUEST_INACTIVE 39,0,0,13
+
+node TEXT_HERO 39,0,0,14
+stdnode
+text 27,0,0,0
+alttext 39,0,0,1
+connected to 39,0,0,15
+
+node TEXT_NPC 39,0,0,15
+text 27,1,0,1
+alttext 27,1,0,6
+connected to 39,0,0,16
+
+node BLOCK_STD 39,0,0,16
+
+node TEXT_HERO 39,0,0,17
+stdnode
+text 27,0,0,1
+alttext 39,0,0,2
+connected to 39,0,0,18
+
+node TEXT_NPC 39,0,0,18
+text 27,1,0,2
+alttext 39,1,0,0
+connected to 39,0,0,19
+
+node BLOCK_STD 39,0,0,19
+
+node TEXT_HERO 39,0,0,20
+text 27,0,0,2
+alttext 39,0,0,4
+
+node TEXT_HERO 39,0,0,21
+stdnode
+text 27,0,0,3
+alttext 39,0,0,3
+connected to 39,0,0,22
+
+node TEXT_NPC 39,0,0,22
+text 27,1,0,3
+alttext 27,1,0,7
+connected to 39,0,0,23
+
+node BLOCK_STD 39,0,0,23
+
+node TEXT_HERO 39,0,0,24
+stdnode
+text 27,0,0,4
+alttext 39,0,0,0
+connected to 39,0,0,25
+
+node TEXT_NPC 39,0,0,25
+text 27,1,0,4
+alttext 27,1,0,8
+connected to 39,0,0,26
+
+node BLOCK_STD 39,0,0,26
+

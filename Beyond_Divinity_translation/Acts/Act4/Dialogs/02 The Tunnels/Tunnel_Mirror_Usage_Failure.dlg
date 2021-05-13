@@ -1,0 +1,35 @@
+version 11
+id 6,1,0,71
+name "Tunnel_Mirror_Usage_Failure"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 71,0,0,1
+connected to 71,0,0,12
+
+node BLOCK_GREET_AVAILABLE 71,0,0,2
+
+node BLOCK_GREET_ACTIVE 71,0,0,3
+
+node BLOCK_GREET_SUCCESS 71,0,0,4
+
+node BLOCK_GREET_COMPLETED 71,0,0,5
+
+node BLOCK_GREET_FAILURE 71,0,0,6
+
+node BLOCK_GREET_FAILED 71,0,0,7
+
+node BLOCK_GREET_REFUSED 71,0,0,8
+
+node BLOCK_STD 71,0,0,9
+
+node BLOCK_SERV 71,0,0,10
+
+node BLOCK_EXIT 71,0,0,11
+
+node TEXT_NPC 71,0,0,12
+text 272,1,0,0
+connected to 71,0,0,13
+
+node BLOCK_QUEST_INACTIVE 71,0,0,13
+

@@ -1,0 +1,36 @@
+version 11
+id 6,1,0,210
+name "DK Damian"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 210,0,0,1
+connected to 210,0,0,12
+
+node BLOCK_GREET_AVAILABLE 210,0,0,2
+
+node BLOCK_GREET_ACTIVE 210,0,0,3
+
+node BLOCK_GREET_SUCCESS 210,0,0,4
+
+node BLOCK_GREET_COMPLETED 210,0,0,5
+
+node BLOCK_GREET_FAILURE 210,0,0,6
+
+node BLOCK_GREET_FAILED 210,0,0,7
+
+node BLOCK_GREET_REFUSED 210,0,0,8
+
+node BLOCK_STD 210,0,0,9
+
+node BLOCK_SERV 210,0,0,10
+
+node BLOCK_EXIT 210,0,0,11
+
+node TEXT_NPC 210,0,0,12
+text 210,1,0,0
+alttext 210,1,0,1
+connected to 210,0,0,13
+
+node BLOCK_QUEST_INACTIVE 210,0,0,13
+

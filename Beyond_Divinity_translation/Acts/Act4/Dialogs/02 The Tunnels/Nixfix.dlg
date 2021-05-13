@@ -1,0 +1,184 @@
+version 11
+id 6,1,0,60
+name "Nixfix"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 60,0,0,1
+
+node BLOCK_GREET_AVAILABLE 60,0,0,2
+connected to 60,0,0,13
+
+node BLOCK_GREET_ACTIVE 60,0,0,3
+
+node BLOCK_GREET_SUCCESS 60,0,0,4
+connected to 60,0,0,20
+
+node BLOCK_GREET_COMPLETED 60,0,0,5
+connected to 60,0,0,22
+
+node BLOCK_GREET_FAILURE 60,0,0,6
+
+node BLOCK_GREET_FAILED 60,0,0,7
+
+node BLOCK_GREET_REFUSED 60,0,0,8
+
+node BLOCK_STD 60,0,0,9
+connected to 60,0,0,17
+connected to 60,0,0,24
+connected to 60,0,0,27
+connected to 60,0,0,44
+
+node BLOCK_SERV 60,0,0,10
+connected to 60,0,0,36
+connected to 60,0,0,47
+
+node BLOCK_EXIT 60,0,0,11
+connected to 60,0,0,12
+
+node TEXT_HERO 60,0,0,12
+text 89,0,0,0
+
+node BLOCK_QUEST_AVAILABLE 60,0,0,14
+connected to 60,0,0,15
+
+node TEXT_HERO 60,0,0,15
+text 89,0,0,1
+alttext 149,0,0,0
+quest event 2
+connected to 60,0,0,16
+
+node TEXT_HERO 60,0,0,17
+stdnode
+text 89,0,0,2
+alttext 149,0,0,2
+connected to 60,0,0,18
+
+node TEXT_NPC 60,0,0,18
+text 89,1,0,2
+connected to 60,0,0,19
+
+node BLOCK_STD 60,0,0,19
+
+node BLOCK_QUEST_SUCCESS 60,0,0,21
+
+node BLOCK_QUEST_COMPLETED 60,0,0,23
+
+node TEXT_HERO 60,0,0,24
+stdnode
+text 89,0,0,3
+alttext 149,0,0,3
+connected to 60,0,0,25
+
+node TEXT_NPC 60,0,0,25
+text 89,1,0,5
+connected to 60,0,0,26
+
+node BLOCK_STD 60,0,0,26
+
+node TEXT_HERO 60,0,0,27
+stdnode
+text 89,0,0,4
+alttext 149,0,0,4
+connected to 60,0,0,28
+
+node TEXT_NPC 60,0,0,28
+text 89,1,0,6
+alttext 149,1,0,4
+connected to 60,0,0,29
+
+node BLOCK_STD 60,0,0,29
+connected to 60,0,0,38
+connected to 60,0,0,40
+connected to 60,0,0,42
+
+node TEXT_HERO 60,0,0,36
+servnode 2 1
+text 89,0,0,7
+alttext 149,0,0,1
+connected to 60,0,0,37
+
+node TEXT_NPC 60,0,0,37
+text 89,1,0,9
+alttext 149,1,0,5
+
+node TEXT_HERO 60,0,0,38
+stdnode
+text 89,0,0,8
+alttext 149,0,0,5
+connected to 60,0,0,39
+
+node TEXT_NPC 60,0,0,39
+text 89,1,0,10
+alttext 149,1,0,2
+
+node TEXT_HERO 60,0,0,40
+stdnode
+text 89,0,0,9
+alttext 149,0,0,6
+connected to 60,0,0,41
+
+node TEXT_NPC 60,0,0,41
+text 89,1,0,11
+alttext 149,1,0,3
+
+node TEXT_HERO 60,0,0,42
+stdnode
+text 89,0,0,10
+alttext 149,0,0,7
+connected to 60,0,0,43
+
+node TEXT_NPC 60,0,0,43
+text 89,1,0,12
+alttext 149,1,0,1
+
+node MONO 60,0,0,16
+mono 26 89,2,0,0 89,3,0,0
+mono 1 89,2,0,1 89,3,0,1
+mono 26 89,2,0,2 89,3,0,2
+
+node MONO 60,0,0,20
+mono 26 89,2,0,3 89,3,0,3
+mono 1 89,2,0,4 89,3,0,4
+mono 26 89,2,0,5 89,3,0,5
+mono 1 89,2,0,6 89,3,0,6
+connected to 60,0,0,21
+
+node MONO 60,0,0,22
+mono 26 89,2,0,7 89,3,0,7
+mono 0 89,2,0,8 89,3,0,8
+mono 26 89,2,0,9 89,3,0,9
+mono 1 89,2,0,10 89,3,0,10
+mono 26 89,2,0,11 89,3,0,11
+connected to 60,0,0,23
+
+node TEXT_NPC 60,0,0,13
+text 89,1,0,13
+alttext 149,1,0,0
+connected to 60,0,0,14
+
+node TEXT_HERO 60,0,0,44
+stdnode
+text 89,0,0,11
+alttext 149,0,0,8
+connected to 60,0,0,45
+
+node BLOCK_STD 60,0,0,46
+
+node MONO 60,0,0,45
+mono 26 89,2,0,12 89,3,0,12
+mono 1 89,2,0,13 89,3,0,13
+mono 26 89,2,0,14 89,3,0,14
+mono 0 89,2,0,15 89,3,0,15
+connected to 60,0,0,46
+
+node TEXT_HERO 60,0,0,47
+servnode 4 1
+text 149,0,0,9
+alttext 149,0,0,10
+connected to 60,0,0,48
+
+node TEXT_NPC 60,0,0,48
+text 149,1,0,6
+alttext 149,1,0,7
+

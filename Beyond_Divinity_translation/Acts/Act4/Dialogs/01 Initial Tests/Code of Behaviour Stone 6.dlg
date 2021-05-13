@@ -1,0 +1,35 @@
+version 11
+id 6,1,0,14
+name "Code of Behaviour Stone 6"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 14,0,0,1
+connected to 14,0,0,12
+
+node BLOCK_GREET_AVAILABLE 14,0,0,2
+
+node BLOCK_GREET_ACTIVE 14,0,0,3
+
+node BLOCK_GREET_SUCCESS 14,0,0,4
+
+node BLOCK_GREET_COMPLETED 14,0,0,5
+
+node BLOCK_GREET_FAILURE 14,0,0,6
+
+node BLOCK_GREET_FAILED 14,0,0,7
+
+node BLOCK_GREET_REFUSED 14,0,0,8
+
+node BLOCK_STD 14,0,0,9
+
+node BLOCK_SERV 14,0,0,10
+
+node BLOCK_EXIT 14,0,0,11
+
+node TEXT_NPC 14,0,0,12
+text 198,1,0,0
+connected to 14,0,0,13
+
+node BLOCK_QUEST_INACTIVE 14,0,0,13
+

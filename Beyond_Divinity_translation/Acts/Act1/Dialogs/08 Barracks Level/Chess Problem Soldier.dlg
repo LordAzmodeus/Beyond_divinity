@@ -1,0 +1,114 @@
+version 11
+id 6,1,0,144
+name "Chess Problem Soldier"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 144,0,0,1
+
+node BLOCK_GREET_AVAILABLE 144,0,0,2
+connected to 144,0,0,12
+
+node BLOCK_GREET_ACTIVE 144,0,0,3
+connected to 144,0,0,16
+
+node BLOCK_GREET_SUCCESS 144,0,0,4
+
+node BLOCK_GREET_COMPLETED 144,0,0,5
+connected to 144,0,0,34
+
+node BLOCK_GREET_FAILURE 144,0,0,6
+
+node BLOCK_GREET_FAILED 144,0,0,7
+
+node BLOCK_GREET_REFUSED 144,0,0,8
+
+node BLOCK_STD 144,0,0,9
+
+node BLOCK_SERV 144,0,0,10
+
+node BLOCK_EXIT 144,0,0,11
+
+node TEXT_NPC 144,0,0,12
+text 42,1,0,0
+alttext 142,1,0,0
+connected to 144,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 144,0,0,13
+connected to 144,0,0,14
+
+node TEXT_HERO 144,0,0,14
+text 42,0,0,0
+quest event 2
+connected to 144,0,0,15
+
+node MONO 144,0,0,15
+mono 79 42,2,0,0 42,3,0,0
+mono 1 42,2,0,1 42,3,0,1
+mono 79 42,2,0,2 42,3,0,2
+
+node TEXT_NPC 144,0,0,16
+text 42,1,0,1
+connected to 144,0,0,17
+
+node BLOCK_QUEST_ACTIVE 144,0,0,17
+connected to 144,0,0,22
+
+node TEXT_HERO 144,0,0,22
+text 42,0,0,1
+connected to 144,0,0,23
+
+node TEXT_NPC 144,0,0,23
+text 42,1,0,4
+connected to 144,0,0,24
+connected to 144,0,0,26
+connected to 144,0,0,28
+connected to 144,0,0,30
+connected to 144,0,0,32
+
+node TEXT_HERO 144,0,0,24
+text 42,0,0,2
+quest event 3
+connected to 144,0,0,25
+
+node TEXT_NPC 144,0,0,25
+text 42,1,0,5
+
+node TEXT_HERO 144,0,0,26
+text 42,0,0,3
+quest event 5
+connected to 144,0,0,27
+
+node TEXT_NPC 144,0,0,27
+text 42,1,0,6
+
+node TEXT_HERO 144,0,0,28
+text 42,0,0,4
+quest event 5
+connected to 144,0,0,29
+
+node TEXT_NPC 144,0,0,29
+text 42,1,0,7
+
+node TEXT_HERO 144,0,0,30
+text 42,0,0,5
+quest event 5
+connected to 144,0,0,31
+
+node TEXT_NPC 144,0,0,31
+text 42,1,0,8
+
+node TEXT_HERO 144,0,0,32
+text 42,0,0,6
+quest event 5
+connected to 144,0,0,33
+
+node TEXT_NPC 144,0,0,33
+text 42,1,0,9
+
+node TEXT_NPC 144,0,0,34
+text 142,1,0,1
+connected to 144,0,0,35
+
+node BLOCK_QUEST_COMPLETED 144,0,0,35
+

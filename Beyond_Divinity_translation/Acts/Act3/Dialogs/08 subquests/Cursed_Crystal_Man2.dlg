@@ -1,0 +1,104 @@
+version 11
+id 6,1,0,98
+name "Cursed_Crystal_Man2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 98,0,0,1
+
+node BLOCK_GREET_AVAILABLE 98,0,0,2
+connected to 98,0,0,27
+
+node BLOCK_GREET_ACTIVE 98,0,0,3
+connected to 98,0,0,14
+
+node BLOCK_GREET_SUCCESS 98,0,0,4
+connected to 98,0,0,20
+
+node BLOCK_GREET_COMPLETED 98,0,0,5
+connected to 98,0,0,12
+
+node BLOCK_GREET_FAILURE 98,0,0,6
+
+node BLOCK_GREET_FAILED 98,0,0,7
+
+node BLOCK_GREET_REFUSED 98,0,0,8
+
+node BLOCK_STD 98,0,0,9
+
+node BLOCK_SERV 98,0,0,10
+
+node BLOCK_EXIT 98,0,0,11
+connected to 98,0,0,26
+
+node TEXT_NPC 98,0,0,12
+text 199,1,0,0
+alttext 199,1,0,1
+connected to 98,0,0,13
+
+node BLOCK_QUEST_COMPLETED 98,0,0,13
+
+node TEXT_NPC 98,0,0,14
+text 199,1,0,2
+alttext 199,1,0,3
+connected to 98,0,0,15
+
+node BLOCK_QUEST_ACTIVE 98,0,0,15
+connected to 98,0,0,24
+
+node TEXT_NPC 98,0,0,20
+text 199,1,0,6
+alttext 199,1,0,7
+connected to 98,0,0,21
+
+node BLOCK_QUEST_SUCCESS 98,0,0,21
+connected to 98,0,0,22
+
+node TEXT_HERO 98,0,0,22
+text 199,0,0,2
+alttext 199,0,0,3
+quest event 4
+connected to 98,0,0,23
+
+node MONO 98,0,0,23
+mono 180 199,2,0,7 199,3,0,7
+mono 180 199,2,0,8 199,3,0,8
+mono 180 199,2,0,9 199,3,0,9
+mono 0 199,2,0,10 199,3,0,10
+mono 180 199,2,0,11 199,3,0,11
+mono 0 199,2,0,13 199,3,0,13
+mono 180 199,2,0,12 199,3,0,12
+
+node TEXT_HERO 98,0,0,24
+text 199,0,0,4
+alttext 199,0,0,5
+quest event 3
+connected to 98,0,0,25
+
+node TEXT_HERO 98,0,0,26
+text 199,0,0,6
+alttext 199,0,0,7
+
+node TEXT_NPC 98,0,0,27
+text 199,1,0,10
+alttext 199,1,0,11
+connected to 98,0,0,28
+
+node BLOCK_QUEST_AVAILABLE 98,0,0,28
+connected to 98,0,0,29
+
+node TEXT_HERO 98,0,0,29
+text 199,0,0,8
+alttext 199,0,0,9
+quest event 2
+connected to 98,0,0,30
+
+node TEXT_NPC 98,0,0,30
+text 199,1,0,12
+alttext 199,1,0,13
+
+node MONO 98,0,0,25
+mono 180 199,2,0,14 199,3,0,14
+mono 180 199,2,0,15 199,3,0,15
+mono 180 199,2,0,16 199,3,0,16
+

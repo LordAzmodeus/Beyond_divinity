@@ -1,0 +1,89 @@
+version 11
+id 6,1,0,247
+name "Church_Entrance_Guard1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 247,0,0,1
+
+node BLOCK_GREET_AVAILABLE 247,0,0,2
+connected to 247,0,0,12
+
+node BLOCK_GREET_ACTIVE 247,0,0,3
+connected to 247,0,0,14
+
+node BLOCK_GREET_SUCCESS 247,0,0,4
+connected to 247,0,0,16
+
+node BLOCK_GREET_COMPLETED 247,0,0,5
+connected to 247,0,0,18
+
+node BLOCK_GREET_FAILURE 247,0,0,6
+
+node BLOCK_GREET_FAILED 247,0,0,7
+
+node BLOCK_GREET_REFUSED 247,0,0,8
+
+node BLOCK_STD 247,0,0,9
+
+node BLOCK_SERV 247,0,0,10
+
+node BLOCK_EXIT 247,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 247,0,0,13
+connected to 247,0,0,20
+
+node TEXT_NPC 247,0,0,14
+text 247,1,0,2
+alttext 247,1,0,3
+connected to 247,0,0,15
+
+node BLOCK_QUEST_ACTIVE 247,0,0,15
+
+node BLOCK_QUEST_SUCCESS 247,0,0,17
+connected to 247,0,0,22
+
+node TEXT_NPC 247,0,0,18
+text 247,1,0,6
+alttext 247,1,0,7
+connected to 247,0,0,19
+
+node BLOCK_QUEST_COMPLETED 247,0,0,19
+
+node TEXT_HERO 247,0,0,20
+text 247,0,0,0
+alttext 247,0,0,1
+quest event 2
+connected to 247,0,0,21
+
+node MONO 247,0,0,21
+mono 213 247,2,0,4 247,3,0,4
+mono 214 247,2,0,5 247,3,0,5
+mono 1 247,2,0,6 247,3,0,6
+mono 213 247,2,0,7 247,3,0,7
+mono 213 247,2,0,8 247,3,0,8
+mono 0 247,2,0,9 247,3,0,9
+mono 213 247,2,0,10 247,3,0,10
+mono 214 247,2,0,11 247,3,0,11
+mono 213 247,2,0,12 247,3,0,12
+
+node TEXT_NPC 247,0,0,12
+text 247,1,0,8
+alttext 247,1,0,9
+connected to 247,0,0,13
+
+node TEXT_HERO 247,0,0,22
+text 247,0,0,2
+alttext 247,0,0,3
+quest event 4
+connected to 247,0,0,23
+
+node TEXT_NPC 247,0,0,23
+text 247,1,0,10
+alttext 247,1,0,11
+
+node TEXT_NPC 247,0,0,16
+text 247,1,0,12
+alttext 247,1,0,13
+connected to 247,0,0,17
+

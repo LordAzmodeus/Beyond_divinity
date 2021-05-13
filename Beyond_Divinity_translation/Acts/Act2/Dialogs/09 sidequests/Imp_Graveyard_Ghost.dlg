@@ -1,0 +1,113 @@
+version 11
+id 6,3,0,121
+name "Imp_Graveyard_Ghost"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 121,0,0,1
+
+node BLOCK_GREET_AVAILABLE 121,0,0,2
+connected to 121,0,0,12
+
+node BLOCK_GREET_ACTIVE 121,0,0,3
+connected to 121,0,0,17
+
+node BLOCK_GREET_SUCCESS 121,0,0,4
+connected to 121,0,0,19
+
+node BLOCK_GREET_COMPLETED 121,0,0,5
+
+node BLOCK_GREET_FAILURE 121,0,0,6
+connected to 121,0,0,23
+
+node BLOCK_GREET_FAILED 121,0,0,7
+
+node BLOCK_GREET_REFUSED 121,0,0,8
+
+node BLOCK_STD 121,0,0,9
+
+node BLOCK_SERV 121,0,0,10
+connected to 121,0,0,27
+
+node BLOCK_EXIT 121,0,0,11
+connected to 121,0,0,16
+
+node TEXT_NPC 121,0,0,12
+text 136,1,0,0
+alttext 136,1,0,1
+connected to 121,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 121,0,0,13
+connected to 121,0,0,14
+
+node TEXT_HERO 121,0,0,14
+text 136,0,0,0
+alttext 136,0,0,1
+quest event 2
+connected to 121,0,0,15
+
+node TEXT_HERO 121,0,0,16
+text 136,0,0,2
+alttext 136,0,0,3
+
+node TEXT_NPC 121,0,0,17
+text 136,1,0,4
+alttext 136,1,0,5
+connected to 121,0,0,18
+
+node BLOCK_QUEST_ACTIVE 121,0,0,18
+
+node TEXT_NPC 121,0,0,19
+text 136,1,0,6
+alttext 136,1,0,7
+connected to 121,0,0,20
+
+node BLOCK_QUEST_SUCCESS 121,0,0,20
+connected to 121,0,0,21
+
+node TEXT_HERO 121,0,0,21
+text 136,0,0,4
+alttext 136,0,0,5
+quest event 4
+connected to 121,0,0,22
+
+node TEXT_NPC 121,0,0,22
+text 136,1,0,8
+alttext 136,1,0,9
+
+node MONO 121,0,0,15
+mono 92 136,2,0,0 136,3,0,0
+mono 92 136,2,0,1 136,3,0,1
+mono 92 136,2,0,2 136,3,0,2
+
+node TEXT_NPC 121,0,0,23
+text 119,1,0,0
+alttext 119,1,0,1
+connected to 121,0,0,24
+
+node BLOCK_QUEST_FAILURE 121,0,0,24
+connected to 121,0,0,25
+
+node TEXT_HERO 121,0,0,25
+text 119,0,0,0
+alttext 119,0,0,1
+quest event 6
+connected to 121,0,0,26
+
+node MONO 121,0,0,26
+mono 92 119,2,0,0 119,3,0,0
+mono 92 119,2,0,1 119,3,0,1
+mono 92 119,2,0,2 119,3,0,2
+mono 0 119,2,0,3 119,3,0,3
+mono 92 119,2,0,4 119,3,0,4
+
+node TEXT_HERO 121,0,0,27
+servnode 3 1
+text 119,0,0,2
+alttext 119,0,0,3
+connected to 121,0,0,28
+
+node TEXT_NPC 121,0,0,28
+text 119,1,0,2
+alttext 119,1,0,3
+

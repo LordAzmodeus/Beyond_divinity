@@ -1,0 +1,129 @@
+version 11
+id 6,1,0,81
+name "Necromancer Wastelands Salt Miner 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 81,0,0,1
+connected to 81,0,0,12
+
+node BLOCK_GREET_AVAILABLE 81,0,0,2
+
+node BLOCK_GREET_ACTIVE 81,0,0,3
+
+node BLOCK_GREET_SUCCESS 81,0,0,4
+
+node BLOCK_GREET_COMPLETED 81,0,0,5
+
+node BLOCK_GREET_FAILURE 81,0,0,6
+
+node BLOCK_GREET_FAILED 81,0,0,7
+
+node BLOCK_GREET_REFUSED 81,0,0,8
+
+node BLOCK_STD 81,0,0,9
+connected to 81,0,0,14
+connected to 81,0,0,17
+connected to 81,0,0,20
+connected to 81,0,0,30
+
+node BLOCK_SERV 81,0,0,10
+connected to 81,0,0,33
+connected to 81,0,0,35
+connected to 81,0,0,37
+
+node BLOCK_EXIT 81,0,0,11
+connected to 81,0,0,23
+
+node TEXT_NPC 81,0,0,12
+text 47,1,0,0
+alttext 47,1,0,8
+connected to 81,0,0,13
+
+node BLOCK_QUEST_INACTIVE 81,0,0,13
+
+node TEXT_HERO 81,0,0,14
+stdnode
+text 47,0,0,0
+alttext 72,0,0,0
+connected to 81,0,0,15
+
+node TEXT_NPC 81,0,0,15
+text 47,1,0,1
+alttext 72,1,0,1
+connected to 81,0,0,16
+
+node BLOCK_STD 81,0,0,16
+
+node TEXT_HERO 81,0,0,17
+stdnode
+text 47,0,0,1
+alttext 72,0,0,1
+connected to 81,0,0,18
+
+node TEXT_NPC 81,0,0,18
+text 47,1,0,2
+alttext 72,1,0,0
+connected to 81,0,0,19
+
+node BLOCK_STD 81,0,0,19
+
+node TEXT_HERO 81,0,0,20
+stdnode
+text 47,0,0,2
+alttext 72,0,0,3
+connected to 81,0,0,21
+
+node TEXT_NPC 81,0,0,21
+text 47,1,0,3
+alttext 72,1,0,2
+connected to 81,0,0,22
+
+node BLOCK_STD 81,0,0,22
+
+node TEXT_HERO 81,0,0,23
+text 47,0,0,3
+
+node TEXT_HERO 81,0,0,30
+stdnode
+text 47,0,0,7
+alttext 72,0,0,2
+connected to 81,0,0,31
+
+node TEXT_NPC 81,0,0,31
+text 47,1,0,7
+alttext 72,1,0,3
+connected to 81,0,0,32
+
+node BLOCK_STD 81,0,0,32
+
+node TEXT_HERO 81,0,0,33
+servnode 1 1
+text 70,0,0,0
+alttext 70,0,0,1
+connected to 81,0,0,34
+
+node TEXT_NPC 81,0,0,34
+text 70,1,0,0
+alttext 70,1,0,1
+
+node TEXT_HERO 81,0,0,35
+servnode 2 1
+text 70,0,0,2
+alttext 70,0,0,3
+connected to 81,0,0,36
+
+node TEXT_NPC 81,0,0,36
+text 70,1,0,2
+alttext 70,1,0,3
+
+node TEXT_HERO 81,0,0,37
+servnode 4 1
+text 70,0,0,4
+alttext 70,0,0,5
+connected to 81,0,0,38
+
+node TEXT_NPC 81,0,0,38
+text 70,1,0,4
+alttext 70,1,0,5
+

@@ -1,0 +1,145 @@
+version 11
+id 6,1,0,79
+name "Necromancer Wastelands Salt Miner 1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 79,0,0,1
+
+node BLOCK_GREET_AVAILABLE 79,0,0,2
+connected to 79,0,0,12
+
+node BLOCK_GREET_ACTIVE 79,0,0,3
+connected to 79,0,0,26
+
+node BLOCK_GREET_SUCCESS 79,0,0,4
+
+node BLOCK_GREET_COMPLETED 79,0,0,5
+
+node BLOCK_GREET_FAILURE 79,0,0,6
+
+node BLOCK_GREET_FAILED 79,0,0,7
+
+node BLOCK_GREET_REFUSED 79,0,0,8
+
+node BLOCK_STD 79,0,0,9
+connected to 79,0,0,16
+connected to 79,0,0,19
+connected to 79,0,0,23
+connected to 79,0,0,34
+
+node BLOCK_SERV 79,0,0,10
+connected to 79,0,0,37
+connected to 79,0,0,39
+
+node BLOCK_EXIT 79,0,0,11
+connected to 79,0,0,22
+
+node BLOCK_QUEST_AVAILABLE 79,0,0,13
+connected to 79,0,0,14
+
+node MONO 79,0,0,12
+mono 31 46,2,0,0 46,3,0,0
+mono 1 46,2,0,1 46,3,0,1
+mono 31 46,2,0,2 46,3,0,2
+mono 0 46,2,0,10 46,3,0,10
+mono 31 46,2,0,11 46,3,0,11
+mono 32 46,2,0,12 46,3,0,12
+mono 33 46,2,0,13 46,3,0,13
+connected to 79,0,0,13
+
+node TEXT_HERO 79,0,0,14
+text 46,0,0,0
+alttext 46,0,0,9
+quest event 2
+connected to 79,0,0,15
+
+node TEXT_HERO 79,0,0,16
+stdnode
+text 46,0,0,1
+alttext 70,0,0,0
+connected to 79,0,0,17
+
+node TEXT_NPC 79,0,0,17
+text 46,1,0,1
+alttext 70,1,0,2
+connected to 79,0,0,18
+
+node BLOCK_STD 79,0,0,18
+
+node TEXT_HERO 79,0,0,19
+stdnode
+text 46,0,0,2
+alttext 70,0,0,1
+connected to 79,0,0,20
+
+node TEXT_NPC 79,0,0,20
+text 46,1,0,2
+alttext 70,1,0,3
+connected to 79,0,0,21
+
+node BLOCK_STD 79,0,0,21
+
+node TEXT_HERO 79,0,0,22
+text 46,0,0,3
+
+node TEXT_HERO 79,0,0,23
+stdnode
+text 46,0,0,4
+alttext 70,0,0,2
+connected to 79,0,0,24
+
+node TEXT_NPC 79,0,0,24
+text 46,1,0,3
+alttext 70,1,0,0
+connected to 79,0,0,25
+
+node BLOCK_STD 79,0,0,25
+
+node MONO 79,0,0,15
+mono 1 46,2,0,9 46,3,0,9
+mono 31 46,2,0,14 46,3,0,14
+mono 32 46,2,0,16 46,3,0,16
+mono 33 46,2,0,15 46,3,0,15
+mono 1 46,2,0,17 46,3,0,17
+
+node TEXT_NPC 79,0,0,26
+text 46,1,0,4
+alttext 46,1,0,9
+connected to 79,0,0,27
+
+node BLOCK_QUEST_ACTIVE 79,0,0,27
+
+node TEXT_HERO 79,0,0,34
+stdnode
+text 46,0,0,8
+alttext 70,0,0,3
+connected to 79,0,0,35
+
+node TEXT_NPC 79,0,0,35
+text 46,1,0,8
+alttext 70,1,0,1
+connected to 79,0,0,36
+
+node BLOCK_STD 79,0,0,36
+
+node TEXT_HERO 79,0,0,37
+servnode 2 1
+text 68,0,0,1
+alttext 68,0,0,2
+connected to 79,0,0,38
+
+node TEXT_NPC 79,0,0,38
+text 68,1,0,0
+alttext 68,1,0,1
+
+node TEXT_HERO 79,0,0,39
+servnode 4 1
+text 68,0,0,3
+alttext 68,0,0,4
+connected to 79,0,0,40
+
+node TEXT_NPC 79,0,0,40
+text 68,1,0,2
+alttext 68,1,0,3
+

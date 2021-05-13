@@ -1,0 +1,124 @@
+version 11
+id 6,1,0,62
+name "Necromancer_First_Summon"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 62,0,0,1
+
+node BLOCK_GREET_AVAILABLE 62,0,0,2
+connected to 62,0,0,12
+
+node BLOCK_GREET_ACTIVE 62,0,0,3
+
+node BLOCK_GREET_SUCCESS 62,0,0,4
+connected to 62,0,0,15
+
+node BLOCK_GREET_COMPLETED 62,0,0,5
+
+node BLOCK_GREET_FAILURE 62,0,0,6
+
+node BLOCK_GREET_FAILED 62,0,0,7
+
+node BLOCK_GREET_REFUSED 62,0,0,8
+
+node BLOCK_STD 62,0,0,9
+
+node BLOCK_SERV 62,0,0,10
+connected to 62,0,0,21
+connected to 62,0,0,23
+
+node BLOCK_EXIT 62,0,0,11
+connected to 62,0,0,25
+
+node BLOCK_QUEST_AVAILABLE 62,0,0,13
+connected to 62,0,0,17
+
+node MONO 62,0,0,12
+mono 37 15,2,0,0 15,3,0,0
+mono 37 15,2,0,16 15,3,0,16
+mono 0 15,2,0,17 15,3,0,17
+mono 37 15,2,0,18 15,3,0,18
+mono 1 15,2,0,6 15,3,0,6
+mono 37 15,2,0,7 15,3,0,7
+mono 1 15,2,0,39 15,3,0,39
+mono 37 15,2,0,40 15,3,0,40
+mono 1 15,2,0,36 15,3,0,36
+mono 37 15,2,0,37 15,3,0,37
+mono 37 15,2,0,8 15,3,0,8
+mono 0 15,2,0,9 15,3,0,9
+mono 1 15,2,0,10 15,3,0,10
+mono 37 15,2,0,11 15,3,0,11
+mono 37 15,2,0,12 15,3,0,12
+mono 1 15,2,0,13 15,3,0,13
+mono 37 15,2,0,14 15,3,0,14
+mono 37 15,2,0,15 15,3,0,15
+mono 37 15,2,0,19 15,3,0,19
+mono 37 15,2,0,20 15,3,0,20
+mono 1 15,2,0,21 15,3,0,21
+mono 37 15,2,0,22 15,3,0,22
+mono 37 15,2,0,23 15,3,0,23
+mono 0 15,2,0,24 15,3,0,24
+mono 37 15,2,0,25 15,3,0,25
+mono 37 15,2,0,26 15,3,0,26
+mono 37 15,2,0,27 15,3,0,27
+connected to 62,0,0,13
+
+node BLOCK_QUEST_SUCCESS 62,0,0,16
+connected to 62,0,0,19
+
+node MONO 62,0,0,15
+mono 37 15,2,0,1 15,3,0,1
+mono 37 15,2,0,28 15,3,0,28
+connected to 62,0,0,16
+
+node TEXT_HERO 62,0,0,17
+text 15,0,0,1
+alttext 15,0,0,3
+quest event 2
+connected to 62,0,0,18
+
+node TEXT_NPC 62,0,0,18
+text 15,1,0,0
+alttext 15,1,0,1
+
+node TEXT_HERO 62,0,0,19
+text 15,0,0,2
+alttext 15,0,0,4
+quest event 4
+connected to 62,0,0,20
+
+node MONO 62,0,0,20
+mono 37 15,2,0,29 15,3,0,29
+mono 37 15,2,0,30 15,3,0,30
+mono 1 15,2,0,35 15,3,0,35
+mono 37 15,2,0,31 15,3,0,31
+mono 37 15,2,0,33 15,3,0,33
+mono 37 15,2,0,32 15,3,0,32
+mono 1 15,2,0,34 15,3,0,34
+mono 37 60,2,0,0 60,3,0,0
+
+node TEXT_HERO 62,0,0,21
+servnode 2 1
+text 60,0,0,0
+alttext 60,0,0,1
+connected to 62,0,0,22
+
+node TEXT_NPC 62,0,0,22
+text 60,1,0,0
+alttext 60,1,0,1
+
+node TEXT_HERO 62,0,0,23
+servnode 3 1
+text 60,0,0,2
+alttext 60,0,0,3
+connected to 62,0,0,24
+
+node TEXT_NPC 62,0,0,24
+text 60,1,0,2
+alttext 60,1,0,3
+
+node TEXT_HERO 62,0,0,25
+text 62,0,0,0
+alttext 62,0,0,1
+

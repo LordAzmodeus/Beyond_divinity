@@ -1,0 +1,339 @@
+// RIFTRUNNER
+// TRAPS.DAT
+
+// Tunnel entrance
+
+trap 1
+1 frames
+frame 0
+teleport to "tunnel_entrance1"
+
+trap 2
+1 frames
+frame 0
+teleport to "tunnel_entrance2"
+
+// Tunnel exit
+
+trap 3
+1 frames
+frame 0
+teleport to "tunnel_exit1"
+
+trap 4
+1 frames
+frame 0
+teleport to "tunnel_exit2"
+
+// Tunnel lever stubs
+
+trap 5
+2 frames
+frame 0
+frame 1
+
+trap 6
+2 frames
+frame 0
+frame 1
+
+trap 7
+2 frames
+frame 0
+frame 1
+
+trap 8
+2 frames
+frame 0
+frame 1
+
+// Tunnel 2 entrance
+
+trap 9
+1 frames
+frame 0
+teleport to "tunnel2_entrance1"
+
+trap 10
+1 frames
+frame 0
+teleport to "tunnel2_entrance2"
+
+// Tunnel 2 lever
+trap 11
+2 frames
+frame 0
+unlock door 1
+frame 1
+lock door 1
+
+// Tunnel 2 second entrance
+
+trap 12
+1 frames
+frame 0
+teleport to "tunnel2_entrance3"
+
+trap 13
+1 frames
+frame 0
+teleport to "tunnel2_entrance4"
+
+// Academy secret room
+
+trap 14
+1 frames
+frame 0
+teleport to "secret_room1"
+
+trap 15
+1 frames
+frame 0
+teleport to "secret_room2"
+
+// Interfere prisoner lever dummy
+trap 16
+2 frames
+frame 0
+frame 1
+
+// Maze lever dummies
+trap 17
+2 frames
+frame 0
+frame 1
+
+trap 18
+2 frames
+frame 0
+frame 1
+
+trap 19
+2 frames
+frame 0
+frame 1
+
+trap 20
+2 frames
+frame 0
+frame 1
+
+trap 21
+2 frames
+frame 0
+frame 1
+
+// Bron's traps
+
+trap 916
+2 frames
+frame 0
+frame 1
+
+trap 917
+2 frames
+frame 0
+frame 1
+
+trap 918
+2 frames
+frame 0
+frame 1
+
+trap 919
+2 frames
+frame 0
+frame 1
+
+trap 920
+2 frames
+frame 0
+frame 1
+
+trap 921
+2 frames
+frame 0
+frame 1
+
+trap 922
+2 frames
+frame 0
+frame 1
+
+trap 923
+2 frames
+frame 0
+frame 1
+
+trap 924
+2 frames
+frame 0
+frame 1
+
+trap 925
+2 frames
+frame 0
+frame 1
+
+trap 926
+2 frames
+frame 0
+frame 1
+
+trap 927
+2 frames
+frame 0
+frame 1
+
+trap 928
+2 frames
+frame 0
+frame 1
+
+trap 929
+2 frames
+frame 0
+frame 1
+
+trap 930
+2 frames
+frame 0
+frame 1
+
+trap 931
+2 frames
+frame 0
+frame 1
+
+trap 932
+2 frames
+frame 0
+frame 1
+
+trap 933
+2 frames
+frame 0
+frame 1
+
+trap 934
+2 frames
+frame 0
+frame 1
+
+// Region traps
+
+trap 940
+1 frames
+region trigger "monster_roars_region"
+frame 0
+skill frame 20 29 0 0 0 0
+
+trap 941
+1 frames
+region trigger "traps_corridor1"
+frame 0
+skill frame 7 27 0 0 0 0
+
+trap 942
+1 frames
+region trigger "traps_corridor2"
+frame 0
+skill frame 10 0 0 0 27 0
+
+trap 943
+1 frames
+region trigger "traps_corridor3"
+frame 0
+skill frame 4 0 0 0 27 0
+
+trap 944
+1 frames
+region trigger "traps_corridor4"
+frame 0
+skill frame 3 27 0 0 0 0
+
+trap 945
+1 frames
+region trigger "statue_room_trap1"
+frame 0
+skill frame 10 0 27 0 0 0
+
+trap 946
+1 frames
+region trigger "statue_room_trap2"
+frame 0
+skill frame 4 0 27 0 0 0
+
+trap 947
+1 frames
+region trigger "statue_room_trap3"
+frame 0
+skill frame 1 27 0 0 0 0
+
+trap 948
+1 frames
+region trigger "statue_room_trap4"
+frame 0
+skill frame 8 27 0 0 0 0
+
+trap 949
+1 frames
+region trigger "statue_room_trap5"
+frame 0
+skill frame 4 0 0 0 0 27
+
+trap 950
+1 frames
+region trigger "statue_room_trap6"
+frame 0
+skill frame 10 0 0 0 0 27
+
+trap 951
+1 frames
+region trigger "statue_room_trap7"
+frame 0
+skill frame 20 27 0 0 0 0
+
+trap 952
+1 frames
+region trigger "statue_room_trap8"
+frame 0
+skill frame 9 27 0 0 0 0
+
+trap 953
+1 frames
+region trigger "statue_room_trap9"
+frame 0
+skill frame 4 0 0 27 0 0
+
+trap 954
+1 frames
+region trigger "trap_corridor5"
+frame 0
+skill frame 3 27 0 0 0 0
+
+trap 955
+1 frames
+region trigger "trap_corridor_trap6"
+frame 0
+skill frame 3 27 0 0 0 0
+
+trap 956
+1 frames
+region trigger "traps_corridor7"
+frame 0
+skill frame 3 27 0 0 0 0
+
+trap 957
+1 frames
+region trigger "traps_corridor8"
+frame 0
+skill frame 3 27 0 0 0 0
+
+trap 958
+1 frames
+region trigger "traps_corridor9"
+frame 0
+skill frame 6 27 0 0 0 0
+
+// END OF FILE

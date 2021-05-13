@@ -1,0 +1,87 @@
+version 11
+id 6,0,0,188
+name "Rift Instructor 1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 188,0,0,1
+
+node BLOCK_GREET_AVAILABLE 188,0,0,2
+connected to 188,0,0,12
+
+node BLOCK_GREET_ACTIVE 188,0,0,3
+connected to 188,0,0,16
+
+node BLOCK_GREET_SUCCESS 188,0,0,4
+connected to 188,0,0,18
+
+node BLOCK_GREET_COMPLETED 188,0,0,5
+connected to 188,0,0,25
+
+node BLOCK_GREET_FAILURE 188,0,0,6
+
+node BLOCK_GREET_FAILED 188,0,0,7
+
+node BLOCK_GREET_REFUSED 188,0,0,8
+
+node BLOCK_STD 188,0,0,9
+
+node BLOCK_SERV 188,0,0,10
+
+node BLOCK_EXIT 188,0,0,11
+connected to 188,0,0,24
+
+node BLOCK_QUEST_AVAILABLE 188,0,0,13
+connected to 188,0,0,14
+
+node TEXT_HERO 188,0,0,14
+text 229,0,0,0
+alttext 229,0,0,2
+quest event 2
+connected to 188,0,0,15
+
+node TEXT_NPC 188,0,0,15
+text 229,1,0,1
+alttext 229,1,0,6
+
+node TEXT_NPC 188,0,0,16
+text 229,1,0,2
+alttext 229,1,0,7
+connected to 188,0,0,17
+
+node BLOCK_QUEST_ACTIVE 188,0,0,17
+
+node TEXT_NPC 188,0,0,18
+text 229,1,0,3
+alttext 229,1,0,8
+connected to 188,0,0,19
+
+node BLOCK_QUEST_SUCCESS 188,0,0,19
+connected to 188,0,0,20
+
+node TEXT_HERO 188,0,0,20
+text 229,0,0,1
+alttext 229,0,0,5
+quest event 4
+connected to 188,0,0,21
+
+node TEXT_NPC 188,0,0,21
+text 229,1,0,4
+alttext 229,1,0,10
+
+node MONO 188,0,0,12
+mono 112 229,2,0,0 229,3,0,0
+mono 112 229,2,0,1 229,3,0,1
+connected to 188,0,0,13
+
+node TEXT_HERO 188,0,0,24
+text 229,0,0,3
+alttext 229,0,0,4
+
+node TEXT_NPC 188,0,0,25
+text 229,1,0,11
+alttext 229,1,0,12
+connected to 188,0,0,26
+
+node BLOCK_QUEST_COMPLETED 188,0,0,26
+

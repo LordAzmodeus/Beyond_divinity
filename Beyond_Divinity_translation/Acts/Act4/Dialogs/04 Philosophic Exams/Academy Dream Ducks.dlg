@@ -1,0 +1,37 @@
+version 11
+id 6,1,0,134
+name "Academy Dream Ducks"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 134,0,0,1
+connected to 134,0,0,12
+
+node BLOCK_GREET_AVAILABLE 134,0,0,2
+
+node BLOCK_GREET_ACTIVE 134,0,0,3
+
+node BLOCK_GREET_SUCCESS 134,0,0,4
+
+node BLOCK_GREET_COMPLETED 134,0,0,5
+
+node BLOCK_GREET_FAILURE 134,0,0,6
+
+node BLOCK_GREET_FAILED 134,0,0,7
+
+node BLOCK_GREET_REFUSED 134,0,0,8
+
+node BLOCK_STD 134,0,0,9
+
+node BLOCK_SERV 134,0,0,10
+
+node BLOCK_EXIT 134,0,0,11
+
+node BLOCK_QUEST_INACTIVE 134,0,0,13
+
+node MONO 134,0,0,12
+mono 169 306,2,0,0 306,3,0,0
+mono 170 306,2,0,1 306,3,0,1
+mono 171 306,2,0,2 306,3,0,2
+connected to 134,0,0,13
+

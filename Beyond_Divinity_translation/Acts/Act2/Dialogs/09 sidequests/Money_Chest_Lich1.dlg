@@ -1,0 +1,77 @@
+version 11
+id 6,3,0,155
+name "Money_Chest_Lich1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 155,0,0,1
+
+node BLOCK_GREET_AVAILABLE 155,0,0,2
+
+node BLOCK_GREET_ACTIVE 155,0,0,3
+connected to 155,0,0,12
+
+node BLOCK_GREET_SUCCESS 155,0,0,4
+
+node BLOCK_GREET_COMPLETED 155,0,0,5
+
+node BLOCK_GREET_FAILURE 155,0,0,6
+
+node BLOCK_GREET_FAILED 155,0,0,7
+
+node BLOCK_GREET_REFUSED 155,0,0,8
+
+node BLOCK_STD 155,0,0,9
+connected to 155,0,0,17
+
+node BLOCK_SERV 155,0,0,10
+
+node BLOCK_EXIT 155,0,0,11
+connected to 155,0,0,16
+
+node TEXT_NPC 155,0,0,12
+text 145,1,0,0
+alttext 145,1,0,1
+connected to 155,0,0,13
+
+node BLOCK_QUEST_ACTIVE 155,0,0,13
+connected to 155,0,0,14
+
+node TEXT_HERO 155,0,0,14
+text 145,0,0,0
+alttext 145,0,0,1
+quest event 3
+connected to 155,0,0,15
+
+node TEXT_NPC 155,0,0,15
+text 145,1,0,2
+alttext 145,1,0,3
+
+node TEXT_HERO 155,0,0,16
+text 145,0,0,2
+alttext 145,0,0,3
+
+node TEXT_HERO 155,0,0,17
+stdnode
+text 152,0,0,0
+alttext 152,0,0,1
+connected to 155,0,0,18
+
+node TEXT_NPC 155,0,0,18
+text 152,1,0,0
+alttext 152,1,0,1
+connected to 155,0,0,19
+
+node BLOCK_STD 155,0,0,19
+connected to 155,0,0,20
+
+node TEXT_HERO 155,0,0,20
+stdnode
+text 152,0,0,2
+alttext 152,0,0,3
+connected to 155,0,0,21
+
+node TEXT_NPC 155,0,0,21
+text 152,1,0,2
+alttext 152,1,0,3
+

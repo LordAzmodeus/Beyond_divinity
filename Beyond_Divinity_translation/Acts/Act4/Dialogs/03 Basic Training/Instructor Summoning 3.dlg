@@ -1,0 +1,49 @@
+version 11
+id 6,1,0,100
+name "Instructor Summoning 3"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 100,0,0,1
+
+node BLOCK_GREET_AVAILABLE 100,0,0,2
+connected to 100,0,0,16
+
+node BLOCK_GREET_ACTIVE 100,0,0,3
+
+node BLOCK_GREET_SUCCESS 100,0,0,4
+
+node BLOCK_GREET_COMPLETED 100,0,0,5
+
+node BLOCK_GREET_FAILURE 100,0,0,6
+
+node BLOCK_GREET_FAILED 100,0,0,7
+
+node BLOCK_GREET_REFUSED 100,0,0,8
+
+node BLOCK_STD 100,0,0,9
+
+node BLOCK_SERV 100,0,0,10
+
+node BLOCK_EXIT 100,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 100,0,0,17
+connected to 100,0,0,26
+
+node MONO 100,0,0,16
+mono 42 167,2,0,2 167,3,0,0
+mono 42 167,2,0,4 167,3,0,2
+mono 42 167,2,0,5 167,3,0,3
+mono 42 167,2,0,6 167,3,0,4
+connected to 100,0,0,17
+
+node TEXT_HERO 100,0,0,26
+text 141,0,0,4
+alttext 167,0,0,0
+quest event 2
+connected to 100,0,0,27
+
+node MONO 100,0,0,27
+mono 42 167,2,0,3 167,3,0,1
+mono 42 167,2,0,7 167,3,0,5
+

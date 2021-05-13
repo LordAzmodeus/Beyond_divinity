@@ -1,0 +1,63 @@
+version 11
+id 6,1,0,207
+name "Temple_Thief_Merchant"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 207,0,0,1
+connected to 207,0,0,12
+
+node BLOCK_GREET_AVAILABLE 207,0,0,2
+
+node BLOCK_GREET_ACTIVE 207,0,0,3
+
+node BLOCK_GREET_SUCCESS 207,0,0,4
+
+node BLOCK_GREET_COMPLETED 207,0,0,5
+
+node BLOCK_GREET_FAILURE 207,0,0,6
+
+node BLOCK_GREET_FAILED 207,0,0,7
+
+node BLOCK_GREET_REFUSED 207,0,0,8
+
+node BLOCK_STD 207,0,0,9
+
+node BLOCK_SERV 207,0,0,10
+connected to 207,0,0,16
+connected to 207,0,0,19
+
+node BLOCK_EXIT 207,0,0,11
+connected to 207,0,0,18
+
+node BLOCK_QUEST_INACTIVE 207,0,0,13
+
+node MONO 207,0,0,12
+mono 120 144,2,0,3 144,3,0,3
+mono 120 144,2,0,2 144,3,0,2
+connected to 207,0,0,13
+
+node TEXT_HERO 207,0,0,16
+servnode 2 1
+text 189,0,0,0
+alttext 189,0,0,1
+connected to 207,0,0,17
+
+node TEXT_NPC 207,0,0,17
+text 189,1,0,0
+alttext 189,1,0,1
+
+node TEXT_HERO 207,0,0,18
+text 196,0,0,0
+alttext 196,0,0,1
+
+node TEXT_HERO 207,0,0,19
+servnode 3 1
+text 196,0,0,2
+alttext 196,0,0,3
+connected to 207,0,0,20
+
+node TEXT_NPC 207,0,0,20
+text 196,1,0,0
+alttext 196,1,0,1
+

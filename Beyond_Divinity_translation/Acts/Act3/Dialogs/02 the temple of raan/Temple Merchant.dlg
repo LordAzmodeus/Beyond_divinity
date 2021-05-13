@@ -1,0 +1,184 @@
+version 11
+id 6,1,0,38
+name "Temple Merchant"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 38,0,0,1
+
+node BLOCK_GREET_AVAILABLE 38,0,0,2
+connected to 38,0,0,12
+
+node BLOCK_GREET_ACTIVE 38,0,0,3
+connected to 38,0,0,14
+
+node BLOCK_GREET_SUCCESS 38,0,0,4
+connected to 38,0,0,16
+
+node BLOCK_GREET_COMPLETED 38,0,0,5
+connected to 38,0,0,18
+
+node BLOCK_GREET_FAILURE 38,0,0,6
+connected to 38,0,0,20
+
+node BLOCK_GREET_FAILED 38,0,0,7
+
+node BLOCK_GREET_REFUSED 38,0,0,8
+
+node BLOCK_STD 38,0,0,9
+connected to 38,0,0,29
+connected to 38,0,0,32
+connected to 38,0,0,35
+
+node BLOCK_SERV 38,0,0,10
+connected to 38,0,0,44
+
+node BLOCK_EXIT 38,0,0,11
+connected to 38,0,0,28
+
+node TEXT_NPC 38,0,0,12
+text 20,1,0,0
+alttext 20,1,0,11
+connected to 38,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 38,0,0,13
+connected to 38,0,0,24
+
+node TEXT_NPC 38,0,0,14
+text 20,1,0,1
+alttext 20,1,0,12
+connected to 38,0,0,15
+
+node BLOCK_QUEST_ACTIVE 38,0,0,15
+
+node BLOCK_QUEST_SUCCESS 38,0,0,17
+connected to 38,0,0,38
+
+node TEXT_NPC 38,0,0,18
+text 20,1,0,3
+alttext 20,1,0,13
+connected to 38,0,0,19
+
+node BLOCK_QUEST_COMPLETED 38,0,0,19
+
+node BLOCK_QUEST_FAILURE 38,0,0,21
+connected to 38,0,0,46
+
+node TEXT_HERO 38,0,0,24
+text 20,0,0,0
+alttext 20,0,0,6
+quest event 2
+connected to 38,0,0,25
+
+node TEXT_HERO 38,0,0,28
+text 20,0,0,2
+
+node TEXT_HERO 38,0,0,29
+stdnode
+text 20,0,0,3
+alttext 36,0,0,4
+connected to 38,0,0,30
+
+node TEXT_NPC 38,0,0,30
+text 20,1,0,8
+alttext 20,1,0,14
+connected to 38,0,0,31
+
+node BLOCK_STD 38,0,0,31
+
+node TEXT_HERO 38,0,0,32
+stdnode
+text 20,0,0,4
+alttext 36,0,0,5
+connected to 38,0,0,33
+
+node TEXT_NPC 38,0,0,33
+text 20,1,0,9
+alttext 36,1,0,6
+connected to 38,0,0,34
+
+node BLOCK_STD 38,0,0,34
+
+node TEXT_HERO 38,0,0,35
+stdnode
+text 20,0,0,5
+alttext 36,0,0,6
+connected to 38,0,0,36
+
+node TEXT_NPC 38,0,0,36
+text 20,1,0,10
+alttext 20,1,0,21
+connected to 38,0,0,37
+
+node BLOCK_STD 38,0,0,37
+
+node MONO 38,0,0,25
+mono 14 20,2,0,0 20,3,0,0
+mono 14 20,2,0,1 20,3,0,1
+mono 14 20,2,0,2 20,3,0,2
+mono 14 20,2,0,3 20,3,0,3
+mono 14 20,2,0,4 20,3,0,4
+mono 14 20,2,0,5 20,3,0,5
+mono 14 20,2,0,6 20,3,0,6
+mono 14 20,2,0,7 20,3,0,7
+
+node MONO 38,0,0,16
+mono 14 20,2,0,8 20,3,0,8
+mono 14 20,2,0,10 20,3,0,10
+connected to 38,0,0,17
+
+node TEXT_HERO 38,0,0,38
+text 20,0,0,7
+alttext 20,0,0,8
+connected to 38,0,0,39
+
+node TEXT_NPC 38,0,0,39
+text 20,1,0,15
+alttext 20,1,0,16
+connected to 38,0,0,40
+connected to 38,0,0,42
+
+node TEXT_HERO 38,0,0,40
+text 20,0,0,9
+alttext 20,0,0,10
+quest event 4
+connected to 38,0,0,41
+
+node TEXT_HERO 38,0,0,42
+text 20,0,0,11
+alttext 20,0,0,12
+connected to 38,0,0,43
+
+node TEXT_HERO 38,0,0,44
+servnode 2 1
+text 36,0,0,0
+alttext 36,0,0,1
+connected to 38,0,0,45
+
+node TEXT_NPC 38,0,0,45
+text 36,1,0,0
+alttext 36,1,0,1
+
+node TEXT_HERO 38,0,0,46
+text 36,0,0,2
+alttext 36,0,0,3
+quest event 6
+connected to 38,0,0,47
+
+node MONO 38,0,0,47
+mono 14 36,2,0,0 36,3,0,0
+mono 14 36,2,0,1 36,3,0,1
+
+node TEXT_NPC 38,0,0,20
+text 36,1,0,2
+alttext 36,1,0,3
+connected to 38,0,0,21
+
+node MONO 38,0,0,43
+mono 14 36,2,0,2 36,3,0,2
+mono 14 36,2,0,3 36,3,0,3
+
+node TEXT_NPC 38,0,0,41
+text 36,1,0,4
+alttext 36,1,0,5
+

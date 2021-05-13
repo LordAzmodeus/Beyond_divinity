@@ -1,0 +1,47 @@
+version 11
+id 6,0,0,6
+name "Asmodheus Present3"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 6,0,0,1
+connected to 6,0,0,12
+
+node BLOCK_GREET_AVAILABLE 6,0,0,2
+
+node BLOCK_GREET_ACTIVE 6,0,0,3
+
+node BLOCK_GREET_SUCCESS 6,0,0,4
+
+node BLOCK_GREET_COMPLETED 6,0,0,5
+
+node BLOCK_GREET_FAILURE 6,0,0,6
+
+node BLOCK_GREET_FAILED 6,0,0,7
+
+node BLOCK_GREET_REFUSED 6,0,0,8
+
+node BLOCK_STD 6,0,0,9
+
+node BLOCK_SERV 6,0,0,10
+
+node BLOCK_EXIT 6,0,0,11
+
+node TEXT_NPC 6,0,0,12
+text 206,1,0,0
+alttext 206,1,0,1
+connected to 6,0,0,13
+
+node BLOCK_QUEST_INACTIVE 6,0,0,13
+connected to 6,0,0,14
+
+node TEXT_HERO 6,0,0,14
+text 206,0,0,0
+alttext 206,0,0,1
+quest event 1
+connected to 6,0,0,15
+
+node TEXT_NPC 6,0,0,15
+text 206,1,0,2
+alttext 206,1,0,3
+

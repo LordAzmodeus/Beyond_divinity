@@ -1,0 +1,60 @@
+version 11
+id 6,0,0,65
+name "Rebel Leader Crystal"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 65,0,0,1
+
+node BLOCK_GREET_AVAILABLE 65,0,0,2
+connected to 65,0,0,12
+
+node BLOCK_GREET_ACTIVE 65,0,0,3
+connected to 65,0,0,14
+
+node BLOCK_GREET_SUCCESS 65,0,0,4
+connected to 65,0,0,16
+
+node BLOCK_GREET_COMPLETED 65,0,0,5
+connected to 65,0,0,18
+
+node BLOCK_GREET_FAILURE 65,0,0,6
+
+node BLOCK_GREET_FAILED 65,0,0,7
+
+node BLOCK_GREET_REFUSED 65,0,0,8
+
+node BLOCK_STD 65,0,0,9
+
+node BLOCK_SERV 65,0,0,10
+
+node BLOCK_EXIT 65,0,0,11
+
+node TEXT_NPC 65,0,0,12
+text 200,1,0,0
+alttext 200,1,0,1
+connected to 65,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 65,0,0,13
+
+node TEXT_NPC 65,0,0,14
+text 200,1,0,2
+alttext 200,1,0,3
+connected to 65,0,0,15
+
+node BLOCK_QUEST_ACTIVE 65,0,0,15
+
+node TEXT_NPC 65,0,0,16
+text 200,1,0,4
+alttext 200,1,0,5
+connected to 65,0,0,17
+
+node BLOCK_QUEST_SUCCESS 65,0,0,17
+
+node TEXT_NPC 65,0,0,18
+text 200,1,0,6
+alttext 200,1,0,7
+connected to 65,0,0,19
+
+node BLOCK_QUEST_COMPLETED 65,0,0,19
+

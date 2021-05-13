@@ -1,0 +1,38 @@
+version 11
+id 6,0,0,11
+name "Chieftain_Son_To_Chieftain"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 11,0,0,1
+connected to 11,0,0,12
+
+node BLOCK_GREET_AVAILABLE 11,0,0,2
+
+node BLOCK_GREET_ACTIVE 11,0,0,3
+
+node BLOCK_GREET_SUCCESS 11,0,0,4
+
+node BLOCK_GREET_COMPLETED 11,0,0,5
+
+node BLOCK_GREET_FAILURE 11,0,0,6
+
+node BLOCK_GREET_FAILED 11,0,0,7
+
+node BLOCK_GREET_REFUSED 11,0,0,8
+
+node BLOCK_STD 11,0,0,9
+
+node BLOCK_SERV 11,0,0,10
+
+node BLOCK_EXIT 11,0,0,11
+
+node BLOCK_QUEST_INACTIVE 11,0,0,13
+
+node MONO 11,0,0,12
+mono 13 119,2,0,0 119,3,0,0
+mono 0 119,2,0,1 119,3,0,1
+mono 13 119,2,0,2 119,3,0,2
+mono 1 119,2,0,3 119,3,0,3
+connected to 11,0,0,13
+

@@ -1,0 +1,230 @@
+version 11
+id 6,1,0,17
+name "Imp_Frog_Herder"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 17,0,0,1
+
+node BLOCK_GREET_AVAILABLE 17,0,0,2
+connected to 17,0,0,12
+
+node BLOCK_GREET_ACTIVE 17,0,0,3
+connected to 17,0,0,66
+
+node BLOCK_GREET_SUCCESS 17,0,0,4
+connected to 17,0,0,68
+
+node BLOCK_GREET_COMPLETED 17,0,0,5
+connected to 17,0,0,74
+
+node BLOCK_GREET_FAILURE 17,0,0,6
+
+node BLOCK_GREET_FAILED 17,0,0,7
+
+node BLOCK_GREET_REFUSED 17,0,0,8
+connected to 17,0,0,72
+
+node BLOCK_STD 17,0,0,9
+connected to 17,0,0,19
+connected to 17,0,0,22
+connected to 17,0,0,28
+connected to 17,0,0,31
+connected to 17,0,0,90
+
+node BLOCK_SERV 17,0,0,10
+
+node BLOCK_EXIT 17,0,0,11
+connected to 17,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 17,0,0,13
+connected to 17,0,0,60
+
+node TEXT_HERO 17,0,0,14
+text 80,0,0,0
+
+node TEXT_HERO 17,0,0,19
+stdnode
+text 80,0,0,3
+alttext 17,0,0,3
+connected to 17,0,0,20
+
+node TEXT_NPC 17,0,0,20
+text 80,1,0,3
+alttext 80,1,0,42
+connected to 17,0,0,21
+
+node BLOCK_STD 17,0,0,21
+
+node TEXT_HERO 17,0,0,22
+stdnode
+text 80,0,0,4
+alttext 17,0,0,4
+connected to 17,0,0,23
+
+node TEXT_NPC 17,0,0,23
+text 80,1,0,4
+alttext 80,1,0,52
+connected to 17,0,0,24
+
+node BLOCK_STD 17,0,0,24
+
+node TEXT_HERO 17,0,0,28
+stdnode
+text 80,0,0,6
+alttext 17,0,0,5
+connected to 17,0,0,29
+
+node BLOCK_STD 17,0,0,30
+
+node TEXT_HERO 17,0,0,31
+stdnode
+text 80,0,0,7
+alttext 17,0,0,6
+connected to 17,0,0,32
+
+node TEXT_NPC 17,0,0,32
+text 80,1,0,7
+alttext 80,1,0,54
+connected to 17,0,0,33
+
+node BLOCK_STD 17,0,0,33
+
+node TEXT_HERO 17,0,0,60
+text 80,0,0,20
+connected to 17,0,0,61
+
+node TEXT_HERO 17,0,0,62
+text 80,0,0,21
+alttext 80,0,0,30
+quest event 2
+connected to 17,0,0,63
+
+node TEXT_NPC 17,0,0,63
+text 80,1,0,22
+alttext 80,1,0,46
+
+node TEXT_HERO 17,0,0,64
+text 80,0,0,22
+alttext 17,0,0,0
+quest event 7
+connected to 17,0,0,65
+
+node TEXT_NPC 17,0,0,65
+text 80,1,0,23
+alttext 80,1,0,47
+
+node BLOCK_QUEST_ACTIVE 17,0,0,67
+connected to 17,0,0,88
+
+node TEXT_NPC 17,0,0,68
+text 80,1,0,24
+alttext 80,1,0,44
+connected to 17,0,0,69
+
+node BLOCK_QUEST_SUCCESS 17,0,0,69
+connected to 17,0,0,78
+
+node TEXT_NPC 17,0,0,72
+text 80,1,0,26
+alttext 80,1,0,48
+connected to 17,0,0,73
+
+node BLOCK_QUEST_REFUSED 17,0,0,73
+connected to 17,0,0,82
+
+node TEXT_NPC 17,0,0,74
+text 80,1,0,27
+alttext 80,1,0,45
+connected to 17,0,0,75
+
+node BLOCK_QUEST_COMPLETED 17,0,0,75
+
+node TEXT_HERO 17,0,0,78
+text 80,0,0,23
+alttext 17,0,0,1
+quest event 4
+connected to 17,0,0,79
+
+node TEXT_HERO 17,0,0,82
+text 80,0,0,25
+alttext 80,0,0,31
+connected to 17,0,0,83
+
+node TEXT_NPC 17,0,0,83
+text 80,1,0,31
+alttext 80,1,0,49
+connected to 17,0,0,84
+connected to 17,0,0,86
+
+node TEXT_HERO 17,0,0,84
+text 80,0,0,26
+alttext 17,0,0,2
+quest event 2
+connected to 17,0,0,85
+
+node TEXT_NPC 17,0,0,85
+text 80,1,0,32
+alttext 80,1,0,50
+
+node TEXT_HERO 17,0,0,86
+text 80,0,0,27
+alttext 80,0,0,33
+connected to 17,0,0,87
+
+node TEXT_NPC 17,0,0,87
+text 80,1,0,33
+alttext 80,1,0,51
+
+node TEXT_NPC 17,0,0,61
+text 80,1,0,35
+connected to 17,0,0,62
+connected to 17,0,0,64
+
+node TEXT_NPC 17,0,0,66
+text 80,1,0,36
+alttext 80,1,0,41
+connected to 17,0,0,67
+
+node TEXT_NPC 17,0,0,29
+text 80,1,0,37
+alttext 80,1,0,53
+connected to 17,0,0,30
+
+node TEXT_HERO 17,0,0,88
+text 80,0,0,28
+alttext 80,0,0,32
+quest event 3
+connected to 17,0,0,89
+
+node TEXT_NPC 17,0,0,89
+text 80,1,0,38
+alttext 80,1,0,43
+
+node TEXT_NPC 17,0,0,79
+text 80,1,0,39
+alttext 80,1,0,55
+
+node TEXT_HERO 17,0,0,90
+stdnode
+text 80,0,0,29
+alttext 17,0,0,7
+connected to 17,0,0,91
+
+node TEXT_NPC 17,0,0,91
+text 80,1,0,40
+alttext 80,1,0,56
+connected to 17,0,0,92
+
+node BLOCK_STD 17,0,0,92
+
+node MONO 17,0,0,12
+mono 16 80,2,0,0 80,3,0,0
+mono 0 80,2,0,1 80,3,0,1
+mono 16 80,2,0,2 80,3,0,2
+mono 16 80,2,0,3 80,3,0,3
+mono 16 80,2,0,4 80,3,0,4
+mono 16 80,2,0,6 80,3,0,6
+mono 1 80,2,0,7 80,3,0,7
+connected to 17,0,0,13
+

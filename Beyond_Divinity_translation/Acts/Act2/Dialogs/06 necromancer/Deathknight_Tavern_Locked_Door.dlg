@@ -1,0 +1,37 @@
+version 11
+id 6,1,0,52
+name "Deathknight_Tavern_Locked_Door"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 52,0,0,1
+connected to 52,0,0,12
+
+node BLOCK_GREET_AVAILABLE 52,0,0,2
+
+node BLOCK_GREET_ACTIVE 52,0,0,3
+
+node BLOCK_GREET_SUCCESS 52,0,0,4
+
+node BLOCK_GREET_COMPLETED 52,0,0,5
+
+node BLOCK_GREET_FAILURE 52,0,0,6
+
+node BLOCK_GREET_FAILED 52,0,0,7
+
+node BLOCK_GREET_REFUSED 52,0,0,8
+
+node BLOCK_STD 52,0,0,9
+
+node BLOCK_SERV 52,0,0,10
+
+node BLOCK_EXIT 52,0,0,11
+
+node BLOCK_QUEST_INACTIVE 52,0,0,13
+
+node MONO 52,0,0,12
+mono 1 103,2,0,0 103,3,0,0
+mono 44 103,2,0,1 103,3,0,1
+mono 1 103,2,0,2 103,3,0,2
+connected to 52,0,0,13
+

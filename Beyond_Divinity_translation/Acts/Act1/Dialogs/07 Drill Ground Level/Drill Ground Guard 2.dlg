@@ -1,0 +1,82 @@
+version 11
+id 6,1,0,105
+name "Drill Ground Guard 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 105,0,0,1
+
+node BLOCK_GREET_AVAILABLE 105,0,0,2
+connected to 105,0,0,12
+
+node BLOCK_GREET_ACTIVE 105,0,0,3
+
+node BLOCK_GREET_SUCCESS 105,0,0,4
+connected to 105,0,0,28
+
+node BLOCK_GREET_COMPLETED 105,0,0,5
+
+node BLOCK_GREET_FAILURE 105,0,0,6
+
+node BLOCK_GREET_FAILED 105,0,0,7
+
+node BLOCK_GREET_REFUSED 105,0,0,8
+connected to 105,0,0,20
+
+node BLOCK_STD 105,0,0,9
+
+node BLOCK_SERV 105,0,0,10
+
+node BLOCK_EXIT 105,0,0,11
+connected to 105,0,0,30
+
+node TEXT_NPC 105,0,0,12
+text 254,1,0,0
+connected to 105,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 105,0,0,13
+connected to 105,0,0,14
+
+node TEXT_HERO 105,0,0,14
+text 254,0,0,0
+connected to 105,0,0,15
+
+node TEXT_NPC 105,0,0,15
+text 254,1,0,1
+connected to 105,0,0,16
+connected to 105,0,0,18
+
+node TEXT_HERO 105,0,0,16
+text 254,0,0,1
+quest event 2
+connected to 105,0,0,17
+
+node TEXT_HERO 105,0,0,18
+text 254,0,0,2
+quest event 7
+connected to 105,0,0,19
+
+node TEXT_NPC 105,0,0,19
+text 254,1,0,3
+
+node TEXT_NPC 105,0,0,20
+text 254,1,0,4
+connected to 105,0,0,21
+
+node BLOCK_QUEST_REFUSED 105,0,0,21
+
+node TEXT_NPC 105,0,0,28
+text 254,1,0,8
+connected to 105,0,0,29
+
+node BLOCK_QUEST_SUCCESS 105,0,0,29
+
+node TEXT_HERO 105,0,0,30
+text 254,0,0,3
+
+node MONO 105,0,0,17
+mono 55 254,2,0,0 254,3,0,0
+mono 1 254,2,0,1 254,3,0,1
+mono 55 254,2,0,2 254,3,0,2
+mono 1 254,2,0,3 254,3,0,3
+

@@ -1,0 +1,92 @@
+version 11
+id 6,3,0,164
+name "Skeleton_Cursed_Ring"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 164,0,0,1
+connected to 164,0,0,20
+
+node BLOCK_GREET_AVAILABLE 164,0,0,2
+
+node BLOCK_GREET_ACTIVE 164,0,0,3
+connected to 164,0,0,12
+
+node BLOCK_GREET_SUCCESS 164,0,0,4
+
+node BLOCK_GREET_COMPLETED 164,0,0,5
+
+node BLOCK_GREET_FAILURE 164,0,0,6
+
+node BLOCK_GREET_FAILED 164,0,0,7
+
+node BLOCK_GREET_REFUSED 164,0,0,8
+
+node BLOCK_STD 164,0,0,9
+connected to 164,0,0,22
+
+node BLOCK_SERV 164,0,0,10
+
+node BLOCK_EXIT 164,0,0,11
+
+node BLOCK_QUEST_ACTIVE 164,0,0,13
+connected to 164,0,0,14
+
+node MONO 164,0,0,12
+mono 171 159,2,0,0 159,3,0,0
+mono 170 159,2,0,1 159,3,0,1
+mono 171 159,2,0,2 159,3,0,2
+mono 170 159,2,0,3 159,3,0,3
+connected to 164,0,0,13
+
+node TEXT_HERO 164,0,0,14
+text 159,0,0,0
+alttext 159,0,0,1
+connected to 164,0,0,15
+
+node TEXT_NPC 164,0,0,15
+text 159,1,0,0
+alttext 159,1,0,1
+connected to 164,0,0,16
+connected to 164,0,0,18
+
+node TEXT_HERO 164,0,0,16
+text 159,0,0,2
+alttext 159,0,0,3
+quest event 3
+connected to 164,0,0,17
+
+node TEXT_NPC 164,0,0,17
+text 159,1,0,2
+alttext 159,1,0,3
+
+node TEXT_HERO 164,0,0,18
+text 159,0,0,4
+alttext 159,0,0,5
+quest event 5
+connected to 164,0,0,19
+
+node TEXT_NPC 164,0,0,19
+text 159,1,0,4
+alttext 159,1,0,5
+
+node TEXT_NPC 164,0,0,20
+text 159,1,0,6
+alttext 159,1,0,7
+connected to 164,0,0,21
+
+node BLOCK_QUEST_INACTIVE 164,0,0,21
+
+node TEXT_HERO 164,0,0,22
+stdnode
+text 161,0,0,0
+alttext 161,0,0,1
+connected to 164,0,0,23
+
+node BLOCK_STD 164,0,0,24
+
+node MONO 164,0,0,23
+mono 170 161,2,0,0 161,3,0,0
+mono 1 161,2,0,1 161,3,0,1
+connected to 164,0,0,24
+

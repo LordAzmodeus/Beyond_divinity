@@ -1,0 +1,50 @@
+version 11
+id 6,3,0,162
+name "Rescued_Imp"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 162,0,0,1
+
+node BLOCK_GREET_AVAILABLE 162,0,0,2
+
+node BLOCK_GREET_ACTIVE 162,0,0,3
+
+node BLOCK_GREET_SUCCESS 162,0,0,4
+connected to 162,0,0,12
+
+node BLOCK_GREET_COMPLETED 162,0,0,5
+connected to 162,0,0,15
+
+node BLOCK_GREET_FAILURE 162,0,0,6
+
+node BLOCK_GREET_FAILED 162,0,0,7
+
+node BLOCK_GREET_REFUSED 162,0,0,8
+
+node BLOCK_STD 162,0,0,9
+
+node BLOCK_SERV 162,0,0,10
+
+node BLOCK_EXIT 162,0,0,11
+connected to 162,0,0,14
+
+node TEXT_NPC 162,0,0,12
+text 160,1,0,0
+alttext 160,1,0,1
+connected to 162,0,0,13
+
+node BLOCK_QUEST_SUCCESS 162,0,0,13
+
+node TEXT_HERO 162,0,0,14
+text 160,0,0,0
+alttext 160,0,0,1
+
+node BLOCK_QUEST_COMPLETED 162,0,0,16
+
+node MONO 162,0,0,15
+mono 172 159,2,0,0 159,3,0,0
+mono 172 159,2,0,1 159,3,0,1
+mono 172 159,2,0,2 159,3,0,2
+connected to 162,0,0,16
+

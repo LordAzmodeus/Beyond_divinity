@@ -1,0 +1,14 @@
+// RIFTRUNNER
+// TRAPS.DAT
+
+trap 80
+2 frames
+frame 0
+frame 1
+
+trap 81
+2 frames
+frame 0
+frame 1
+
+// END OF FILE

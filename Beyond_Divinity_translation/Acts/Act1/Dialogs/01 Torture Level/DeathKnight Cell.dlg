@@ -1,0 +1,39 @@
+version 11
+id 6,0,0,4
+name "DeathKnight Cell"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 4,0,0,1
+connected to 4,0,0,12
+
+node BLOCK_GREET_AVAILABLE 4,0,0,2
+
+node BLOCK_GREET_ACTIVE 4,0,0,3
+
+node BLOCK_GREET_SUCCESS 4,0,0,4
+
+node BLOCK_GREET_COMPLETED 4,0,0,5
+
+node BLOCK_GREET_FAILURE 4,0,0,6
+
+node BLOCK_GREET_FAILED 4,0,0,7
+
+node BLOCK_GREET_REFUSED 4,0,0,8
+
+node BLOCK_STD 4,0,0,9
+
+node BLOCK_SERV 4,0,0,10
+
+node BLOCK_EXIT 4,0,0,11
+
+node BLOCK_QUEST_INACTIVE 4,0,0,13
+
+node MONO 4,0,0,12
+mono 1 81,2,0,0 81,3,0,0
+mono 0 81,2,0,1 81,3,0,1
+mono 1 81,2,0,2 81,3,0,2
+mono 0 81,2,0,3 81,3,0,3
+mono 1 81,2,0,4 81,3,0,4
+connected to 4,0,0,13
+

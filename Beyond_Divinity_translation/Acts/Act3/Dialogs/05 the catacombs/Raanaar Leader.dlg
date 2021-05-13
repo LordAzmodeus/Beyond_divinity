@@ -1,0 +1,196 @@
+version 11
+id 6,1,0,60
+name "Raanaar Leader"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 60,0,0,1
+
+node BLOCK_GREET_AVAILABLE 60,0,0,2
+connected to 60,0,0,12
+
+node BLOCK_GREET_ACTIVE 60,0,0,3
+connected to 60,0,0,47
+
+node BLOCK_GREET_SUCCESS 60,0,0,4
+connected to 60,0,0,21
+
+node BLOCK_GREET_COMPLETED 60,0,0,5
+connected to 60,0,0,49
+
+node BLOCK_GREET_FAILURE 60,0,0,6
+
+node BLOCK_GREET_FAILED 60,0,0,7
+
+node BLOCK_GREET_REFUSED 60,0,0,8
+
+node BLOCK_STD 60,0,0,9
+connected to 60,0,0,23
+connected to 60,0,0,26
+connected to 60,0,0,29
+connected to 60,0,0,34
+connected to 60,0,0,37
+connected to 60,0,0,40
+
+node BLOCK_SERV 60,0,0,10
+connected to 60,0,0,43
+connected to 60,0,0,45
+
+node BLOCK_EXIT 60,0,0,11
+connected to 60,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 60,0,0,13
+connected to 60,0,0,32
+
+node TEXT_HERO 60,0,0,14
+text 34,0,0,0
+
+node BLOCK_QUEST_SUCCESS 60,0,0,22
+
+node TEXT_HERO 60,0,0,23
+stdnode
+text 34,0,0,3
+alttext 56,0,0,0
+connected to 60,0,0,24
+
+node TEXT_NPC 60,0,0,24
+text 34,1,0,5
+alttext 34,1,0,11
+connected to 60,0,0,25
+
+node BLOCK_STD 60,0,0,25
+
+node TEXT_HERO 60,0,0,26
+stdnode
+text 34,0,0,4
+alttext 56,0,0,1
+connected to 60,0,0,27
+
+node TEXT_NPC 60,0,0,27
+text 34,1,0,6
+alttext 56,1,0,0
+connected to 60,0,0,28
+
+node BLOCK_STD 60,0,0,28
+
+node TEXT_HERO 60,0,0,29
+stdnode
+text 34,0,0,5
+alttext 34,0,0,11
+connected to 60,0,0,30
+
+node TEXT_NPC 60,0,0,30
+text 34,1,0,7
+alttext 56,1,0,1
+connected to 60,0,0,31
+
+node BLOCK_STD 60,0,0,31
+
+node TEXT_HERO 60,0,0,32
+text 34,0,0,6
+alttext 34,0,0,10
+quest event 2
+connected to 60,0,0,33
+
+node MONO 60,0,0,21
+mono 209 34,2,0,0 34,3,0,0
+mono 209 34,2,0,2 34,3,0,2
+mono 209 34,2,0,3 34,3,0,3
+mono 209 34,2,0,4 34,3,0,4
+mono 209 34,2,0,5 34,3,0,5
+mono 209 34,2,0,6 34,3,0,6
+mono 209 34,2,0,7 34,3,0,7
+mono 209 34,2,0,8 34,3,0,8
+connected to 60,0,0,22
+
+node MONO 60,0,0,12
+mono 209 34,2,0,19 34,3,0,19
+mono 0 34,2,0,20 34,3,0,20
+mono 209 34,2,0,21 34,3,0,21
+mono 1 34,2,0,22 34,3,0,22
+mono 0 34,2,0,31 34,3,0,22
+mono 209 34,2,0,23 34,3,0,23
+mono 1 34,2,0,24 34,3,0,24
+mono 0 34,2,0,32 34,3,0,24
+mono 209 34,2,0,25 34,3,0,25
+connected to 60,0,0,13
+
+node TEXT_HERO 60,0,0,34
+stdnode
+text 34,0,0,7
+alttext 56,0,0,2
+connected to 60,0,0,35
+
+node TEXT_NPC 60,0,0,35
+text 34,1,0,9
+alttext 56,1,0,2
+connected to 60,0,0,36
+
+node BLOCK_STD 60,0,0,36
+
+node TEXT_HERO 60,0,0,37
+stdnode
+text 34,0,0,8
+alttext 56,0,0,3
+connected to 60,0,0,38
+
+node TEXT_NPC 60,0,0,38
+text 34,1,0,10
+alttext 55,1,0,0
+connected to 60,0,0,39
+
+node BLOCK_STD 60,0,0,39
+
+node TEXT_HERO 60,0,0,40
+stdnode
+text 34,0,0,9
+alttext 56,0,0,4
+connected to 60,0,0,41
+
+node BLOCK_STD 60,0,0,42
+
+node MONO 60,0,0,41
+mono 7 34,2,0,9 34,3,0,9
+mono 7 34,2,0,10 34,3,0,10
+mono 7 34,2,0,11 34,3,0,11
+mono 7 34,2,0,12 34,3,0,12
+connected to 60,0,0,42
+
+node MONO 60,0,0,33
+mono 209 34,2,0,26 34,3,0,26
+mono 209 34,2,0,27 34,3,0,27
+
+node TEXT_HERO 60,0,0,43
+servnode 1 1
+text 55,0,0,0
+alttext 55,0,0,1
+connected to 60,0,0,44
+
+node TEXT_NPC 60,0,0,44
+text 55,1,0,1
+alttext 55,1,0,2
+
+node TEXT_HERO 60,0,0,45
+servnode 4 1
+text 55,0,0,2
+alttext 55,0,0,3
+connected to 60,0,0,46
+
+node TEXT_NPC 60,0,0,46
+text 55,1,0,3
+alttext 55,1,0,4
+
+node TEXT_NPC 60,0,0,47
+text 55,1,0,5
+alttext 55,1,0,6
+connected to 60,0,0,48
+
+node BLOCK_QUEST_ACTIVE 60,0,0,48
+
+node TEXT_NPC 60,0,0,49
+text 55,1,0,7
+alttext 55,1,0,8
+connected to 60,0,0,50
+
+node BLOCK_QUEST_COMPLETED 60,0,0,50
+

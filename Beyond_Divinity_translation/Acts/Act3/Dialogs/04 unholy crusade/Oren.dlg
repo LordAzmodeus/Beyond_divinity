@@ -1,0 +1,136 @@
+version 11
+id 6,1,0,52
+name "Oren"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 52,0,0,1
+
+node BLOCK_GREET_AVAILABLE 52,0,0,2
+connected to 52,0,0,12
+
+node BLOCK_GREET_ACTIVE 52,0,0,3
+connected to 52,0,0,17
+
+node BLOCK_GREET_SUCCESS 52,0,0,4
+connected to 52,0,0,19
+
+node BLOCK_GREET_COMPLETED 52,0,0,5
+connected to 52,0,0,23
+
+node BLOCK_GREET_FAILURE 52,0,0,6
+connected to 52,0,0,31
+
+node BLOCK_GREET_FAILED 52,0,0,7
+
+node BLOCK_GREET_REFUSED 52,0,0,8
+
+node BLOCK_STD 52,0,0,9
+connected to 52,0,0,25
+connected to 52,0,0,28
+
+node BLOCK_SERV 52,0,0,10
+
+node BLOCK_EXIT 52,0,0,11
+connected to 52,0,0,16
+
+node BLOCK_QUEST_AVAILABLE 52,0,0,13
+connected to 52,0,0,14
+
+node TEXT_HERO 52,0,0,14
+text 27,0,0,0
+alttext 27,0,0,5
+quest event 2
+connected to 52,0,0,15
+
+node TEXT_NPC 52,0,0,15
+text 27,1,0,1
+alttext 27,1,0,12
+
+node TEXT_HERO 52,0,0,16
+text 27,0,0,1
+
+node MONO 52,0,0,12
+mono 20 27,2,0,0 27,3,0,0
+mono 0 27,2,0,1 27,3,0,1
+mono 20 27,2,0,2 27,3,0,2
+mono 0 27,2,0,3 27,3,0,3
+mono 20 27,2,0,4 27,3,0,4
+mono 1 27,2,0,5 27,3,0,5
+mono 0 27,2,0,15 27,3,0,5
+mono 20 27,2,0,6 27,3,0,6
+mono 20 27,2,0,7 27,3,0,7
+mono 1 27,2,0,8 27,3,0,8
+mono 0 27,2,0,16 27,3,0,10
+mono 20 27,2,0,9 27,3,0,9
+connected to 52,0,0,13
+
+node TEXT_NPC 52,0,0,17
+text 27,1,0,2
+alttext 27,1,0,7
+connected to 52,0,0,18
+
+node BLOCK_QUEST_ACTIVE 52,0,0,18
+
+node TEXT_NPC 52,0,0,19
+text 27,1,0,3
+alttext 27,1,0,13
+connected to 52,0,0,20
+
+node BLOCK_QUEST_SUCCESS 52,0,0,20
+connected to 52,0,0,21
+
+node TEXT_HERO 52,0,0,21
+text 27,0,0,2
+alttext 27,0,0,6
+quest event 4
+connected to 52,0,0,22
+
+node MONO 52,0,0,22
+mono 1 27,2,0,10 27,3,0,10
+mono 20 27,2,0,11 27,3,0,11
+mono 0 27,2,0,12 27,3,0,12
+mono 20 27,2,0,13 27,3,0,13
+mono 1 27,2,0,14 27,3,0,14
+
+node TEXT_NPC 52,0,0,23
+text 27,1,0,4
+alttext 27,1,0,14
+connected to 52,0,0,24
+
+node BLOCK_QUEST_COMPLETED 52,0,0,24
+
+node TEXT_HERO 52,0,0,25
+stdnode
+text 27,0,0,3
+alttext 49,0,0,0
+connected to 52,0,0,26
+
+node TEXT_NPC 52,0,0,26
+text 27,1,0,5
+alttext 27,1,0,10
+connected to 52,0,0,27
+
+node BLOCK_STD 52,0,0,27
+
+node TEXT_HERO 52,0,0,28
+stdnode
+text 27,0,0,4
+alttext 49,0,0,1
+connected to 52,0,0,29
+
+node TEXT_NPC 52,0,0,29
+text 27,1,0,6
+alttext 27,1,0,11
+connected to 52,0,0,30
+
+node BLOCK_STD 52,0,0,30
+
+node BLOCK_QUEST_FAILURE 52,0,0,32
+
+node MONO 52,0,0,31
+mono 20 27,2,0,17 27,3,0,14
+mono 20 27,2,0,18 27,3,0,15
+mono 1 27,2,0,19 27,3,0,16
+connected to 52,0,0,32
+

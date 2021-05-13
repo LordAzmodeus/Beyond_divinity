@@ -1,0 +1,38 @@
+version 11
+id 6,1,0,133
+name "Patrol 1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 133,0,0,1
+connected to 133,0,0,12
+
+node BLOCK_GREET_AVAILABLE 133,0,0,2
+
+node BLOCK_GREET_ACTIVE 133,0,0,3
+
+node BLOCK_GREET_SUCCESS 133,0,0,4
+
+node BLOCK_GREET_COMPLETED 133,0,0,5
+
+node BLOCK_GREET_FAILURE 133,0,0,6
+
+node BLOCK_GREET_FAILED 133,0,0,7
+
+node BLOCK_GREET_REFUSED 133,0,0,8
+
+node BLOCK_STD 133,0,0,9
+
+node BLOCK_SERV 133,0,0,10
+
+node BLOCK_EXIT 133,0,0,11
+
+node BLOCK_QUEST_INACTIVE 133,0,0,13
+
+node MONO 133,0,0,12
+mono 56 30,2,0,0 30,3,0,0
+mono 1 30,2,0,1 30,3,0,1
+mono 56 30,2,0,2 30,3,0,2
+mono 1 30,2,0,3 30,3,0,3
+connected to 133,0,0,13
+

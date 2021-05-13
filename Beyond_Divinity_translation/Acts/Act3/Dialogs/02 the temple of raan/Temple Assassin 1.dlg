@@ -1,0 +1,166 @@
+version 11
+id 6,1,0,31
+name "Temple Assassin 1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 31,0,0,1
+
+node BLOCK_GREET_AVAILABLE 31,0,0,2
+connected to 31,0,0,13
+
+node BLOCK_GREET_ACTIVE 31,0,0,3
+connected to 31,0,0,15
+
+node BLOCK_GREET_SUCCESS 31,0,0,4
+connected to 31,0,0,17
+
+node BLOCK_GREET_COMPLETED 31,0,0,5
+connected to 31,0,0,41
+
+node BLOCK_GREET_FAILURE 31,0,0,6
+connected to 31,0,0,21
+
+node BLOCK_GREET_FAILED 31,0,0,7
+
+node BLOCK_GREET_REFUSED 31,0,0,8
+connected to 31,0,0,37
+
+node BLOCK_STD 31,0,0,9
+connected to 31,0,0,25
+connected to 31,0,0,28
+
+node BLOCK_SERV 31,0,0,10
+connected to 31,0,0,43
+
+node BLOCK_EXIT 31,0,0,11
+connected to 31,0,0,12
+
+node TEXT_HERO 31,0,0,12
+text 23,0,0,0
+alttext 29,0,0,3
+
+node BLOCK_QUEST_AVAILABLE 31,0,0,14
+connected to 31,0,0,31
+
+node TEXT_NPC 31,0,0,15
+text 23,1,0,1
+alttext 23,1,0,18
+connected to 31,0,0,16
+
+node BLOCK_QUEST_ACTIVE 31,0,0,16
+
+node TEXT_NPC 31,0,0,17
+text 23,1,0,2
+alttext 23,1,0,19
+connected to 31,0,0,18
+
+node BLOCK_QUEST_SUCCESS 31,0,0,18
+
+node BLOCK_QUEST_FAILURE 31,0,0,22
+
+node TEXT_HERO 31,0,0,25
+stdnode
+text 23,0,0,1
+alttext 23,0,0,10
+connected to 31,0,0,26
+
+node TEXT_NPC 31,0,0,26
+text 23,1,0,6
+alttext 23,1,0,22
+connected to 31,0,0,27
+
+node BLOCK_STD 31,0,0,27
+
+node TEXT_HERO 31,0,0,28
+stdnode
+text 23,0,0,2
+alttext 23,0,0,9
+connected to 31,0,0,29
+
+node TEXT_NPC 31,0,0,29
+text 23,1,0,7
+alttext 23,1,0,23
+connected to 31,0,0,30
+
+node BLOCK_STD 31,0,0,30
+
+node MONO 31,0,0,13
+mono 16 23,2,0,0 23,3,0,0
+mono 16 23,2,0,5 23,3,0,5
+mono 16 23,2,0,3 23,3,0,3
+connected to 31,0,0,14
+
+node TEXT_HERO 31,0,0,31
+text 23,0,0,3
+alttext 29,0,0,3
+connected to 31,0,0,32
+
+node TEXT_NPC 31,0,0,32
+text 23,1,0,8
+alttext 23,1,0,16
+connected to 31,0,0,33
+connected to 31,0,0,35
+
+node TEXT_HERO 31,0,0,33
+text 23,0,0,4
+alttext 23,0,0,11
+quest event 2
+connected to 31,0,0,34
+
+node TEXT_HERO 31,0,0,35
+text 23,0,0,5
+alttext 29,0,0,0
+quest event 7
+connected to 31,0,0,36
+
+node TEXT_NPC 31,0,0,36
+text 23,1,0,10
+alttext 23,1,0,15
+
+node TEXT_NPC 31,0,0,37
+text 23,1,0,11
+alttext 29,1,0,2
+connected to 31,0,0,38
+
+node BLOCK_QUEST_REFUSED 31,0,0,38
+connected to 31,0,0,39
+
+node TEXT_HERO 31,0,0,39
+text 23,0,0,6
+alttext 23,0,0,8
+quest event 2
+connected to 31,0,0,40
+
+node TEXT_NPC 31,0,0,40
+text 23,1,0,12
+alttext 23,1,0,21
+
+node MONO 31,0,0,21
+mono 16 23,2,0,7 23,3,0,7
+mono 0 23,2,0,8 23,3,0,8
+mono 16 23,2,0,9 23,3,0,9
+mono 16 23,2,0,10 23,3,0,10
+connected to 31,0,0,22
+
+node TEXT_NPC 31,0,0,41
+text 23,1,0,13
+alttext 23,1,0,20
+connected to 31,0,0,42
+
+node BLOCK_QUEST_COMPLETED 31,0,0,42
+
+node TEXT_NPC 31,0,0,34
+text 23,1,0,24
+alttext 23,1,0,25
+
+node TEXT_HERO 31,0,0,43
+servnode 3 1
+text 29,0,0,1
+alttext 29,0,0,2
+connected to 31,0,0,44
+
+node TEXT_NPC 31,0,0,44
+text 29,1,0,0
+alttext 29,1,0,1
+

@@ -1,0 +1,52 @@
+version 11
+id 6,1,0,239
+name "Raanaar_female2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 239,0,0,1
+connected to 239,0,0,13
+
+node BLOCK_GREET_AVAILABLE 239,0,0,2
+
+node BLOCK_GREET_ACTIVE 239,0,0,3
+
+node BLOCK_GREET_SUCCESS 239,0,0,4
+
+node BLOCK_GREET_COMPLETED 239,0,0,5
+
+node BLOCK_GREET_FAILURE 239,0,0,6
+
+node BLOCK_GREET_FAILED 239,0,0,7
+
+node BLOCK_GREET_REFUSED 239,0,0,8
+
+node BLOCK_STD 239,0,0,9
+
+node BLOCK_SERV 239,0,0,10
+connected to 239,0,0,15
+
+node BLOCK_EXIT 239,0,0,11
+connected to 239,0,0,12
+
+node TEXT_HERO 239,0,0,12
+text 239,0,0,0
+alttext 239,0,0,1
+
+node TEXT_NPC 239,0,0,13
+text 239,1,0,0
+alttext 239,1,0,1
+connected to 239,0,0,14
+
+node BLOCK_QUEST_INACTIVE 239,0,0,14
+
+node TEXT_HERO 239,0,0,15
+servnode 0 1
+text 239,0,0,2
+alttext 239,0,0,3
+connected to 239,0,0,16
+
+node TEXT_NPC 239,0,0,16
+text 239,1,0,2
+alttext 239,1,0,3
+

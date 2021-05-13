@@ -1,0 +1,36 @@
+version 11
+id 6,3,0,93
+name "Ambush_Lady"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 93,0,0,1
+connected to 93,0,0,12
+
+node BLOCK_GREET_AVAILABLE 93,0,0,2
+
+node BLOCK_GREET_ACTIVE 93,0,0,3
+
+node BLOCK_GREET_SUCCESS 93,0,0,4
+
+node BLOCK_GREET_COMPLETED 93,0,0,5
+
+node BLOCK_GREET_FAILURE 93,0,0,6
+
+node BLOCK_GREET_FAILED 93,0,0,7
+
+node BLOCK_GREET_REFUSED 93,0,0,8
+
+node BLOCK_STD 93,0,0,9
+
+node BLOCK_SERV 93,0,0,10
+
+node BLOCK_EXIT 93,0,0,11
+
+node TEXT_NPC 93,0,0,12
+text 199,1,0,0
+alttext 199,1,0,1
+connected to 93,0,0,13
+
+node BLOCK_QUEST_INACTIVE 93,0,0,13
+

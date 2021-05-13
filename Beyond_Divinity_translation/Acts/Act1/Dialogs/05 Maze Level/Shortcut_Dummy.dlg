@@ -1,0 +1,62 @@
+version 11
+id 6,1,0,68
+name "Shortcut_Dummy"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 68,0,0,1
+
+node BLOCK_GREET_AVAILABLE 68,0,0,2
+connected to 68,0,0,12
+
+node BLOCK_GREET_ACTIVE 68,0,0,3
+
+node BLOCK_GREET_SUCCESS 68,0,0,4
+
+node BLOCK_GREET_COMPLETED 68,0,0,5
+
+node BLOCK_GREET_FAILURE 68,0,0,6
+
+node BLOCK_GREET_FAILED 68,0,0,7
+
+node BLOCK_GREET_REFUSED 68,0,0,8
+
+node BLOCK_STD 68,0,0,9
+
+node BLOCK_SERV 68,0,0,10
+
+node BLOCK_EXIT 68,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 68,0,0,13
+connected to 68,0,0,32
+
+node TEXT_HERO 68,0,0,32
+text 228,0,0,8
+connected to 68,0,0,33
+
+node TEXT_NPC 68,0,0,33
+text 228,1,0,10
+connected to 68,0,0,34
+connected to 68,0,0,36
+
+node TEXT_HERO 68,0,0,34
+text 228,0,0,9
+quest event 2
+connected to 68,0,0,35
+
+node TEXT_NPC 68,0,0,35
+text 228,1,0,11
+
+node TEXT_HERO 68,0,0,36
+text 228,0,0,10
+quest event 7
+connected to 68,0,0,37
+
+node TEXT_NPC 68,0,0,37
+text 228,1,0,12
+
+node MONO 68,0,0,12
+mono 1 228,2,0,0 228,3,0,0
+mono 1 228,2,0,1 228,3,0,1
+connected to 68,0,0,13
+

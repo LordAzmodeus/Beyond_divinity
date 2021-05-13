@@ -1,0 +1,125 @@
+version 11
+id 6,1,0,72
+name "Necromancer Lizard King"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 72,0,0,1
+
+node BLOCK_GREET_AVAILABLE 72,0,0,2
+connected to 72,0,0,12
+
+node BLOCK_GREET_ACTIVE 72,0,0,3
+connected to 72,0,0,14
+
+node BLOCK_GREET_SUCCESS 72,0,0,4
+connected to 72,0,0,27
+
+node BLOCK_GREET_COMPLETED 72,0,0,5
+
+node BLOCK_GREET_FAILURE 72,0,0,6
+
+node BLOCK_GREET_FAILED 72,0,0,7
+
+node BLOCK_GREET_REFUSED 72,0,0,8
+
+node BLOCK_STD 72,0,0,9
+
+node BLOCK_SERV 72,0,0,10
+connected to 72,0,0,29
+connected to 72,0,0,31
+
+node BLOCK_EXIT 72,0,0,11
+connected to 72,0,0,16
+
+node TEXT_NPC 72,0,0,12
+text 36,1,0,0
+alttext 36,1,0,7
+connected to 72,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 72,0,0,13
+connected to 72,0,0,19
+
+node TEXT_NPC 72,0,0,14
+text 36,1,0,1
+alttext 36,1,0,9
+connected to 72,0,0,15
+
+node BLOCK_QUEST_ACTIVE 72,0,0,15
+
+node TEXT_HERO 72,0,0,16
+text 36,0,0,0
+
+node TEXT_HERO 72,0,0,19
+text 36,0,0,2
+alttext 63,0,0,0
+connected to 72,0,0,20
+
+node TEXT_HERO 72,0,0,21
+text 36,0,0,3
+alttext 36,0,0,6
+quest event 2
+connected to 72,0,0,22
+
+node TEXT_HERO 72,0,0,23
+text 36,0,0,4
+alttext 36,0,0,7
+quest event 7
+connected to 72,0,0,24
+
+node TEXT_NPC 72,0,0,24
+text 36,1,0,5
+alttext 36,1,0,8
+
+node MONO 72,0,0,20
+mono 27 36,2,0,0 36,3,0,0
+mono 27 36,2,0,1 36,3,0,1
+mono 1 36,2,0,2 36,3,0,2
+mono 27 36,2,0,3 36,3,0,3
+connected to 72,0,0,21
+connected to 72,0,0,23
+
+node MONO 72,0,0,22
+mono 27 36,2,0,4 36,3,0,4
+mono 0 36,2,0,11 36,3,0,11
+mono 27 36,2,0,10 36,3,0,10
+mono 1 36,2,0,12 36,3,0,12
+mono 0 36,2,0,19 36,3,0,17
+mono 27 36,2,0,13 36,3,0,13
+mono 27 36,2,0,14 36,3,0,14
+mono 27 36,2,0,15 36,3,0,15
+mono 1 36,2,0,16 36,3,0,16
+mono 0 36,2,0,20 36,3,0,18
+mono 27 36,2,0,17 36,3,0,17
+mono 0 36,2,0,18 36,3,0,18
+
+node BLOCK_QUEST_SUCCESS 72,0,0,28
+
+node MONO 72,0,0,27
+mono 27 36,2,0,5 36,3,0,5
+mono 27 36,2,0,6 36,3,0,6
+mono 1 36,2,0,7 36,3,0,7
+mono 27 36,2,0,8 36,3,0,8
+mono 1 36,2,0,9 36,3,0,9
+connected to 72,0,0,28
+
+node TEXT_HERO 72,0,0,29
+servnode 2 1
+text 61,0,0,0
+alttext 61,0,0,1
+connected to 72,0,0,30
+
+node TEXT_NPC 72,0,0,30
+text 61,1,0,0
+alttext 61,1,0,1
+
+node TEXT_HERO 72,0,0,31
+servnode 4 1
+text 61,0,0,2
+alttext 61,0,0,3
+connected to 72,0,0,32
+
+node TEXT_NPC 72,0,0,32
+text 61,1,0,2
+alttext 61,1,0,3
+

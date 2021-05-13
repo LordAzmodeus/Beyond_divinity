@@ -1,0 +1,63 @@
+version 11
+id 6,3,0,153
+name "Money_Chest_Imp2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 153,0,0,1
+connected to 153,0,0,12
+
+node BLOCK_GREET_AVAILABLE 153,0,0,2
+
+node BLOCK_GREET_ACTIVE 153,0,0,3
+
+node BLOCK_GREET_SUCCESS 153,0,0,4
+
+node BLOCK_GREET_COMPLETED 153,0,0,5
+
+node BLOCK_GREET_FAILURE 153,0,0,6
+
+node BLOCK_GREET_FAILED 153,0,0,7
+
+node BLOCK_GREET_REFUSED 153,0,0,8
+
+node BLOCK_STD 153,0,0,9
+
+node BLOCK_SERV 153,0,0,10
+connected to 153,0,0,18
+connected to 153,0,0,20
+
+node BLOCK_EXIT 153,0,0,11
+connected to 153,0,0,17
+
+node TEXT_NPC 153,0,0,12
+text 150,1,0,0
+alttext 150,1,0,1
+connected to 153,0,0,13
+
+node BLOCK_QUEST_INACTIVE 153,0,0,13
+
+node TEXT_HERO 153,0,0,17
+text 150,0,0,2
+alttext 150,0,0,3
+
+node TEXT_HERO 153,0,0,18
+servnode 2 1
+text 150,0,0,4
+alttext 150,0,0,5
+connected to 153,0,0,19
+
+node TEXT_NPC 153,0,0,19
+text 150,1,0,4
+alttext 150,1,0,5
+
+node TEXT_HERO 153,0,0,20
+servnode 3 1
+text 150,0,0,6
+alttext 150,0,0,7
+connected to 153,0,0,21
+
+node TEXT_NPC 153,0,0,21
+text 150,1,0,6
+alttext 150,1,0,7
+

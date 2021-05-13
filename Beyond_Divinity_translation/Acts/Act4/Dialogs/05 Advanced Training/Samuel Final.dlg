@@ -1,0 +1,45 @@
+version 11
+id 6,1,0,192
+name "Samuel Final"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 192,0,0,1
+
+node BLOCK_GREET_AVAILABLE 192,0,0,2
+connected to 192,0,0,14
+
+node BLOCK_GREET_ACTIVE 192,0,0,3
+
+node BLOCK_GREET_SUCCESS 192,0,0,4
+connected to 192,0,0,18
+
+node BLOCK_GREET_COMPLETED 192,0,0,5
+
+node BLOCK_GREET_FAILURE 192,0,0,6
+
+node BLOCK_GREET_FAILED 192,0,0,7
+
+node BLOCK_GREET_REFUSED 192,0,0,8
+
+node BLOCK_STD 192,0,0,9
+
+node BLOCK_SERV 192,0,0,10
+
+node BLOCK_EXIT 192,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 192,0,0,15
+
+node MONO 192,0,0,14
+mono 57 220,2,0,0 220,3,0,0
+mono 0 220,2,0,1 220,3,0,1
+mono 57 220,2,0,2 220,3,0,2
+connected to 192,0,0,15
+
+node TEXT_NPC 192,0,0,18
+text 148,1,0,1
+alttext 220,1,0,0
+connected to 192,0,0,19
+
+node BLOCK_QUEST_SUCCESS 192,0,0,19
+

@@ -1,0 +1,57 @@
+version 11
+id 6,0,0,0
+name "Chieftain Son Prison"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 0,0,0,1
+
+node BLOCK_GREET_AVAILABLE 0,0,0,2
+connected to 0,0,0,12
+
+node BLOCK_GREET_ACTIVE 0,0,0,3
+connected to 0,0,0,14
+
+node BLOCK_GREET_SUCCESS 0,0,0,4
+
+node BLOCK_GREET_COMPLETED 0,0,0,5
+
+node BLOCK_GREET_FAILURE 0,0,0,6
+
+node BLOCK_GREET_FAILED 0,0,0,7
+
+node BLOCK_GREET_REFUSED 0,0,0,8
+
+node BLOCK_STD 0,0,0,9
+
+node BLOCK_SERV 0,0,0,10
+
+node BLOCK_EXIT 0,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 0,0,0,13
+
+node TEXT_NPC 0,0,0,14
+text 117,1,0,2
+alttext 117,1,0,3
+connected to 0,0,0,15
+
+node BLOCK_QUEST_ACTIVE 0,0,0,15
+connected to 0,0,0,16
+
+node TEXT_HERO 0,0,0,16
+text 117,0,0,0
+alttext 117,0,0,1
+quest event 3
+connected to 0,0,0,17
+
+node MONO 0,0,0,12
+mono 13 117,2,0,0 117,3,0,0
+mono 1 117,2,0,1 117,3,0,1
+mono 0 117,2,0,2 117,3,0,2
+mono 13 117,2,0,3 117,3,0,3
+connected to 0,0,0,13
+
+node MONO 0,0,0,17
+mono 13 117,2,0,4 117,3,0,4
+mono 1 117,2,0,5 117,3,0,5
+

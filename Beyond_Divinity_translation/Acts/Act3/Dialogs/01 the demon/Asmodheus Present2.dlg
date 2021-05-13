@@ -1,0 +1,44 @@
+version 11
+id 6,0,0,5
+name "Asmodheus Present2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 5,0,0,1
+connected to 5,0,0,12
+
+node BLOCK_GREET_AVAILABLE 5,0,0,2
+
+node BLOCK_GREET_ACTIVE 5,0,0,3
+
+node BLOCK_GREET_SUCCESS 5,0,0,4
+
+node BLOCK_GREET_COMPLETED 5,0,0,5
+
+node BLOCK_GREET_FAILURE 5,0,0,6
+
+node BLOCK_GREET_FAILED 5,0,0,7
+
+node BLOCK_GREET_REFUSED 5,0,0,8
+
+node BLOCK_STD 5,0,0,9
+
+node BLOCK_SERV 5,0,0,10
+
+node BLOCK_EXIT 5,0,0,11
+
+node BLOCK_QUEST_INACTIVE 5,0,0,13
+
+node MONO 5,0,0,12
+mono 2 205,2,0,0 205,3,0,0
+mono 2 205,2,0,1 205,3,0,1
+mono 2 205,2,0,2 205,3,0,2
+mono 211 205,2,0,3 205,3,0,3
+mono 2 205,2,0,4 205,3,0,4
+mono 211 205,2,0,5 205,3,0,5
+mono 2 205,2,0,6 205,3,0,6
+mono 2 205,2,0,7 205,3,0,7
+mono 1 205,2,0,8 205,3,0,8
+mono 2 205,2,0,9 205,3,0,9
+connected to 5,0,0,13
+

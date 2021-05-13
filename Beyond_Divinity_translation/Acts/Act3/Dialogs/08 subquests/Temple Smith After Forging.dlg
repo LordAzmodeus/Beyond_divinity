@@ -1,0 +1,71 @@
+version 11
+id 6,1,0,160
+name "Temple Smith After Forging"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 160,0,0,1
+
+node BLOCK_GREET_AVAILABLE 160,0,0,2
+
+node BLOCK_GREET_ACTIVE 160,0,0,3
+
+node BLOCK_GREET_SUCCESS 160,0,0,4
+connected to 160,0,0,16
+
+node BLOCK_GREET_COMPLETED 160,0,0,5
+connected to 160,0,0,14
+
+node BLOCK_GREET_FAILURE 160,0,0,6
+
+node BLOCK_GREET_FAILED 160,0,0,7
+
+node BLOCK_GREET_REFUSED 160,0,0,8
+
+node BLOCK_STD 160,0,0,9
+
+node BLOCK_SERV 160,0,0,10
+connected to 160,0,0,19
+connected to 160,0,0,21
+
+node BLOCK_EXIT 160,0,0,11
+connected to 160,0,0,18
+
+node TEXT_NPC 160,0,0,14
+text 218,1,0,2
+alttext 218,1,0,3
+connected to 160,0,0,15
+
+node BLOCK_QUEST_COMPLETED 160,0,0,15
+
+node TEXT_NPC 160,0,0,16
+text 218,1,0,4
+alttext 218,1,0,5
+connected to 160,0,0,17
+
+node BLOCK_QUEST_SUCCESS 160,0,0,17
+
+node TEXT_HERO 160,0,0,18
+text 218,0,0,0
+alttext 218,0,0,1
+
+node TEXT_HERO 160,0,0,19
+servnode 2 1
+text 218,0,0,2
+alttext 218,0,0,3
+connected to 160,0,0,20
+
+node TEXT_NPC 160,0,0,20
+text 218,1,0,6
+alttext 218,1,0,7
+
+node TEXT_HERO 160,0,0,21
+servnode 3 1
+text 218,0,0,4
+alttext 218,0,0,5
+connected to 160,0,0,22
+
+node TEXT_NPC 160,0,0,22
+text 218,1,0,8
+alttext 218,1,0,9
+

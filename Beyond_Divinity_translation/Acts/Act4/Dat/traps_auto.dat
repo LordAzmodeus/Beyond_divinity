@@ -1,0 +1,106 @@
+// This file gets written by Divinity - don't put any comments here.
+// All comments or entries with syntax errors will be erased!
+
+
+//////////////////////////////////////////
+trap 22
+	1 frames
+	frame 0
+		teleport to "gen_loc1"
+
+
+//////////////////////////////////////////
+trap 23
+	1 frames
+	frame 0
+		teleport to "gen_loc2"
+
+
+//////////////////////////////////////////
+trap 24
+	1 frames
+	frame 0
+		teleport to "gen_loc3"
+
+
+//////////////////////////////////////////
+trap 25
+	1 frames
+	frame 0
+		teleport to "gen_loc4"
+
+
+//////////////////////////////////////////
+trap 26
+	1 frames
+	frame 0
+		teleport to "Gen_Location_18"
+
+
+//////////////////////////////////////////
+trap 27
+	2 frames
+	frame 0
+		unlock door 4
+	frame 1
+		lock door 4
+
+
+//////////////////////////////////////////
+trap 28
+	2 frames
+	frame 0
+		unlock door 5
+	frame 1
+		lock door 5
+
+
+//////////////////////////////////////////
+trap 10000
+	1 frames
+	frame 0
+		skill trap 5 25 0 0 0 0 in Gen_Location_19
+
+
+//////////////////////////////////////////
+trap 10001
+	1 frames
+	frame 0
+		skill trap 20 27 0 0 0 0 in Gen_Location_20
+
+
+//////////////////////////////////////////
+trap 10002
+	1 frames
+	frame 0
+		skill trap 4 0 31 0 0 0 in Gen_Location_21
+
+
+//////////////////////////////////////////
+trap 10003
+	1 frames
+	frame 0
+		skill trap 20 30 0 0 0 0 in Gen_Location_22
+
+
+//////////////////////////////////////////
+trap 10004
+	1 frames
+	frame 0
+		skill trap 20 30 0 0 0 0 in Gen_Location_23
+
+
+//////////////////////////////////////////
+trap 10005
+	1 frames
+	frame 0
+		skill trap 20 30 0 0 0 0 in Gen_Location_24
+
+
+//////////////////////////////////////////
+trap 10006
+	1 frames
+	frame 0
+		skill trap 11 30 0 0 0 0 in Gen_Location_25
+
+

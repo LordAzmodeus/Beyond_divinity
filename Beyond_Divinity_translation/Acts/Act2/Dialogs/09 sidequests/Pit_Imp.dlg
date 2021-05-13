@@ -1,0 +1,175 @@
+version 11
+id 6,3,0,160
+name "Pit_Imp"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 160,0,0,1
+
+node BLOCK_GREET_AVAILABLE 160,0,0,2
+connected to 160,0,0,29
+
+node BLOCK_GREET_ACTIVE 160,0,0,3
+connected to 160,0,0,12
+
+node BLOCK_GREET_SUCCESS 160,0,0,4
+connected to 160,0,0,20
+
+node BLOCK_GREET_COMPLETED 160,0,0,5
+
+node BLOCK_GREET_FAILURE 160,0,0,6
+connected to 160,0,0,33
+
+node BLOCK_GREET_FAILED 160,0,0,7
+
+node BLOCK_GREET_REFUSED 160,0,0,8
+
+node BLOCK_STD 160,0,0,9
+
+node BLOCK_SERV 160,0,0,10
+
+node BLOCK_EXIT 160,0,0,11
+connected to 160,0,0,22
+
+node BLOCK_QUEST_ACTIVE 160,0,0,13
+connected to 160,0,0,14
+
+node TEXT_HERO 160,0,0,14
+text 161,0,0,0
+alttext 161,0,0,1
+connected to 160,0,0,15
+
+node TEXT_HERO 160,0,0,16
+text 161,0,0,2
+alttext 161,0,0,3
+quest event 3
+connected to 160,0,0,17
+
+node TEXT_HERO 160,0,0,18
+text 161,0,0,4
+alttext 161,0,0,5
+quest event 5
+connected to 160,0,0,19
+
+node BLOCK_QUEST_SUCCESS 160,0,0,21
+connected to 160,0,0,23
+
+node TEXT_HERO 160,0,0,22
+text 161,0,0,6
+alttext 161,0,0,7
+
+node MONO 160,0,0,12
+mono 112 161,2,0,0 161,3,0,0
+mono 112 161,2,0,1 161,3,0,1
+mono 112 161,2,0,2 161,3,0,2
+connected to 160,0,0,13
+
+node MONO 160,0,0,20
+mono 112 161,2,0,3 161,3,0,3
+mono 1 161,2,0,4 161,3,0,4
+connected to 160,0,0,21
+
+node MONO 160,0,0,15
+mono 1 161,2,0,5 161,3,0,5
+mono 112 161,2,0,6 161,3,0,6
+connected to 160,0,0,16
+connected to 160,0,0,18
+
+node TEXT_HERO 160,0,0,23
+text 161,0,0,8
+alttext 161,0,0,9
+connected to 160,0,0,24
+
+node TEXT_NPC 160,0,0,24
+text 161,1,0,8
+alttext 161,1,0,9
+connected to 160,0,0,25
+connected to 160,0,0,27
+
+node TEXT_HERO 160,0,0,25
+text 161,0,0,10
+alttext 161,0,0,11
+quest event 4
+connected to 160,0,0,26
+
+node TEXT_NPC 160,0,0,26
+text 161,1,0,10
+alttext 161,1,0,11
+
+node TEXT_HERO 160,0,0,27
+text 161,0,0,12
+alttext 161,0,0,13
+connected to 160,0,0,28
+
+node MONO 160,0,0,17
+mono 112 161,2,0,7 161,3,0,7
+mono 1 161,2,0,8 161,3,0,8
+
+node MONO 160,0,0,19
+mono 112 161,2,0,9 161,3,0,9
+mono 1 161,2,0,10 161,3,0,10
+
+node BLOCK_QUEST_AVAILABLE 160,0,0,30
+connected to 160,0,0,31
+
+node MONO 160,0,0,29
+mono 112 147,2,0,0 147,3,0,0
+mono 112 147,2,0,1 147,3,0,1
+mono 112 147,2,0,2 147,3,0,2
+connected to 160,0,0,30
+
+node TEXT_HERO 160,0,0,31
+text 147,0,0,0
+alttext 147,0,0,1
+quest event 2
+connected to 160,0,0,32
+
+node MONO 160,0,0,32
+mono 1 147,2,0,3 147,3,0,3
+mono 112 147,2,0,4 147,3,0,4
+
+node MONO 160,0,0,28
+mono 112 157,2,0,0 157,3,0,0
+mono 1 157,2,0,1 157,3,0,1
+mono 0 157,2,0,4 157,3,0,4
+mono 112 157,2,0,5 157,3,0,5
+mono 1 157,2,0,6 157,3,0,6
+
+node BLOCK_QUEST_FAILURE 160,0,0,34
+connected to 160,0,0,35
+
+node MONO 160,0,0,33
+mono 112 157,2,0,2 157,3,0,2
+mono 1 157,2,0,3 157,3,0,3
+connected to 160,0,0,34
+
+node TEXT_HERO 160,0,0,35
+text 157,0,0,0
+alttext 157,0,0,1
+connected to 160,0,0,36
+
+node TEXT_NPC 160,0,0,36
+text 157,1,0,0
+alttext 157,1,0,1
+connected to 160,0,0,37
+connected to 160,0,0,39
+
+node TEXT_HERO 160,0,0,37
+text 157,0,0,2
+alttext 157,0,0,3
+quest event 6
+connected to 160,0,0,38
+
+node TEXT_NPC 160,0,0,38
+text 157,1,0,2
+alttext 157,1,0,3
+
+node TEXT_HERO 160,0,0,39
+text 157,0,0,4
+alttext 157,0,0,5
+connected to 160,0,0,40
+
+node TEXT_NPC 160,0,0,40
+text 157,1,0,4
+alttext 157,1,0,5
+

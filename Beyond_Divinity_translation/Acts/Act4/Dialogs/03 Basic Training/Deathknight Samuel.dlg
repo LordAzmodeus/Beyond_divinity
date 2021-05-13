@@ -1,0 +1,46 @@
+version 11
+id 6,1,0,84
+name "Deathknight Samuel"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 84,0,0,1
+connected to 84,0,0,12
+
+node BLOCK_GREET_AVAILABLE 84,0,0,2
+
+node BLOCK_GREET_ACTIVE 84,0,0,3
+
+node BLOCK_GREET_SUCCESS 84,0,0,4
+
+node BLOCK_GREET_COMPLETED 84,0,0,5
+
+node BLOCK_GREET_FAILURE 84,0,0,6
+
+node BLOCK_GREET_FAILED 84,0,0,7
+
+node BLOCK_GREET_REFUSED 84,0,0,8
+
+node BLOCK_STD 84,0,0,9
+
+node BLOCK_SERV 84,0,0,10
+
+node BLOCK_EXIT 84,0,0,11
+
+node BLOCK_QUEST_INACTIVE 84,0,0,13
+
+node MONO 84,0,0,12
+mono 1 155,2,0,0 155,3,0,0
+mono 1 155,2,0,1 155,3,0,1
+mono 1 155,2,0,2 155,3,0,2
+mono 0 155,2,0,3 155,3,0,3
+mono 1 155,2,0,4 155,3,0,4
+mono 1 155,2,0,5 155,3,0,5
+mono 42 155,2,0,6 155,3,0,6
+mono 42 155,2,0,7 155,3,0,7
+mono 1 155,2,0,12 155,3,0,12
+mono 42 155,2,0,8 155,3,0,8
+mono 42 155,2,0,9 155,3,0,9
+mono 42 155,2,0,11 155,3,0,11
+connected to 84,0,0,13
+

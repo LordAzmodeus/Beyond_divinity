@@ -1,0 +1,244 @@
+version 11
+id 6,7,0,40
+name "Imp 1"
+face npc 1
+quest id 4
+
+node BLOCK_GREET_INACTIVE 40,0,0,1
+
+node BLOCK_GREET_AVAILABLE 40,0,0,2
+connected to 40,0,0,20
+
+node BLOCK_GREET_ACTIVE 40,0,0,3
+connected to 40,0,0,42
+
+node BLOCK_GREET_SUCCESS 40,0,0,4
+connected to 40,0,0,50
+
+node BLOCK_GREET_COMPLETED 40,0,0,5
+connected to 40,0,0,58
+
+node BLOCK_GREET_FAILURE 40,0,0,6
+
+node BLOCK_GREET_FAILED 40,0,0,7
+
+node BLOCK_GREET_REFUSED 40,0,0,8
+connected to 40,0,0,28
+
+node BLOCK_STD 40,0,0,9
+connected to 40,0,0,36
+connected to 40,0,0,60
+connected to 40,0,0,72
+
+node BLOCK_SERV 40,0,0,10
+connected to 40,0,0,68
+
+node BLOCK_EXIT 40,0,0,11
+connected to 40,0,0,41
+
+node BLOCK_QUEST_AVAILABLE 40,0,0,21
+connected to 40,0,0,22
+
+node TEXT_HERO 40,0,0,22
+text 4,0,0,3
+connected to 40,0,0,23
+
+node TEXT_HERO 40,0,0,24
+text 4,0,0,4
+quest event 2
+connected to 40,0,0,25
+
+node TEXT_HERO 40,0,0,26
+text 4,0,0,5
+quest event 7
+connected to 40,0,0,27
+
+node TEXT_NPC 40,0,0,27
+text 4,1,0,7
+
+node MONO 40,0,0,25
+mono 11 4,2,0,12 4,3,0,0
+mono 11 4,2,0,13 4,3,0,1
+
+node TEXT_NPC 40,0,0,28
+text 4,1,0,8
+connected to 40,0,0,29
+
+node BLOCK_QUEST_REFUSED 40,0,0,29
+connected to 40,0,0,30
+
+node TEXT_HERO 40,0,0,30
+text 4,0,0,6
+connected to 40,0,0,31
+
+node TEXT_NPC 40,0,0,31
+text 4,1,0,9
+connected to 40,0,0,32
+connected to 40,0,0,34
+
+node TEXT_HERO 40,0,0,32
+text 4,0,0,7
+quest event 2
+connected to 40,0,0,33
+
+node TEXT_HERO 40,0,0,34
+text 4,0,0,8
+connected to 40,0,0,35
+
+node TEXT_NPC 40,0,0,35
+text 4,1,0,11
+
+node MONO 40,0,0,33
+mono 11 4,2,0,14 4,3,0,2
+mono 11 4,2,0,15 4,3,0,3
+
+node TEXT_HERO 40,0,0,36
+stdnode
+text 4,0,0,9
+connected to 40,0,0,37
+
+node TEXT_NPC 40,0,0,37
+text 4,1,0,12
+connected to 40,0,0,38
+
+node BLOCK_STD 40,0,0,38
+
+node TEXT_HERO 40,0,0,41
+text 4,0,0,11
+
+node TEXT_NPC 40,0,0,42
+text 4,1,0,14
+connected to 40,0,0,43
+
+node BLOCK_QUEST_ACTIVE 40,0,0,43
+connected to 40,0,0,44
+
+node TEXT_HERO 40,0,0,44
+text 4,0,0,12
+connected to 40,0,0,45
+
+node TEXT_NPC 40,0,0,45
+text 4,1,0,15
+connected to 40,0,0,46
+connected to 40,0,0,48
+
+node TEXT_HERO 40,0,0,46
+text 4,0,0,13
+quest event 3
+connected to 40,0,0,47
+
+node TEXT_NPC 40,0,0,47
+text 4,1,0,16
+
+node TEXT_HERO 40,0,0,48
+text 4,0,0,14
+quest event 5
+connected to 40,0,0,49
+
+node TEXT_NPC 40,0,0,49
+text 4,1,0,17
+
+node TEXT_NPC 40,0,0,50
+text 4,1,0,18
+connected to 40,0,0,51
+
+node BLOCK_QUEST_SUCCESS 40,0,0,51
+connected to 40,0,0,52
+
+node TEXT_HERO 40,0,0,52
+text 4,0,0,15
+connected to 40,0,0,53
+
+node TEXT_NPC 40,0,0,53
+text 4,1,0,19
+connected to 40,0,0,54
+connected to 40,0,0,56
+
+node TEXT_HERO 40,0,0,54
+text 4,0,0,16
+quest event 4
+connected to 40,0,0,55
+
+node TEXT_HERO 40,0,0,56
+text 4,0,0,17
+connected to 40,0,0,57
+
+node TEXT_NPC 40,0,0,57
+text 4,1,0,21
+
+node MONO 40,0,0,55
+mono 11 4,2,0,21 4,3,0,4
+mono 12 4,2,0,22 4,3,0,5
+mono 11 4,2,0,23 4,3,0,6
+
+node TEXT_NPC 40,0,0,58
+text 4,1,0,22
+connected to 40,0,0,59
+
+node BLOCK_QUEST_COMPLETED 40,0,0,59
+
+node TEXT_HERO 40,0,0,60
+stdnode
+text 4,0,0,18
+connected to 40,0,0,61
+
+node TEXT_NPC 40,0,0,61
+text 4,1,0,23
+connected to 40,0,0,62
+
+node BLOCK_STD 40,0,0,62
+connected to 40,0,0,63
+connected to 40,0,0,70
+
+node TEXT_HERO 40,0,0,63
+stdnode
+text 4,0,0,19
+connected to 40,0,0,64
+
+node TEXT_NPC 40,0,0,64
+text 4,1,0,24
+
+node TEXT_HERO 40,0,0,68
+servnode 2 1
+text 4,0,0,21
+alttext 39,0,0,0
+connected to 40,0,0,69
+
+node TEXT_NPC 40,0,0,69
+text 4,1,0,26
+
+node MONO 40,0,0,20
+mono 11 38,2,0,0 38,3,0,7
+mono 0 38,2,0,1 38,3,0,8
+mono 11 38,2,0,2 38,3,0,9
+mono 11 38,2,0,3 38,3,0,10
+mono 11 38,2,0,4 38,3,0,11
+mono 1 38,2,0,5 38,3,0,12
+mono 12 38,2,0,6 38,3,0,13
+mono 11 38,2,0,7 38,3,0,14
+connected to 40,0,0,21
+
+node TEXT_NPC 40,0,0,23
+text 38,1,0,0
+connected to 40,0,0,24
+connected to 40,0,0,26
+
+node TEXT_HERO 40,0,0,70
+stdnode
+text 38,0,0,0
+connected to 40,0,0,71
+
+node TEXT_NPC 40,0,0,71
+text 38,1,0,1
+
+node TEXT_HERO 40,0,0,72
+stdnode
+text 38,0,0,1
+connected to 40,0,0,73
+
+node TEXT_NPC 40,0,0,73
+text 38,1,0,2
+connected to 40,0,0,74
+
+node BLOCK_STD 40,0,0,74
+

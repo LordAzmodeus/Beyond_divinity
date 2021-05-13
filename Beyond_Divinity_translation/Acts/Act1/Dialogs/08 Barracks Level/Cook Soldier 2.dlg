@@ -1,0 +1,75 @@
+version 11
+id 6,1,0,148
+name "Cook Soldier 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 148,0,0,1
+connected to 148,0,0,21
+
+node BLOCK_GREET_AVAILABLE 148,0,0,2
+
+node BLOCK_GREET_ACTIVE 148,0,0,3
+
+node BLOCK_GREET_SUCCESS 148,0,0,4
+
+node BLOCK_GREET_COMPLETED 148,0,0,5
+
+node BLOCK_GREET_FAILURE 148,0,0,6
+
+node BLOCK_GREET_FAILED 148,0,0,7
+
+node BLOCK_GREET_REFUSED 148,0,0,8
+
+node BLOCK_STD 148,0,0,9
+connected to 148,0,0,12
+connected to 148,0,0,15
+connected to 148,0,0,18
+
+node BLOCK_SERV 148,0,0,10
+
+node BLOCK_EXIT 148,0,0,11
+connected to 148,0,0,23
+
+node TEXT_HERO 148,0,0,12
+stdnode
+text 61,0,0,0
+connected to 148,0,0,13
+
+node TEXT_NPC 148,0,0,13
+text 61,1,0,0
+connected to 148,0,0,14
+
+node BLOCK_STD 148,0,0,14
+
+node TEXT_HERO 148,0,0,15
+stdnode
+text 61,0,0,1
+connected to 148,0,0,16
+
+node TEXT_NPC 148,0,0,16
+text 61,1,0,1
+connected to 148,0,0,17
+
+node BLOCK_STD 148,0,0,17
+
+node TEXT_HERO 148,0,0,18
+stdnode
+text 61,0,0,2
+connected to 148,0,0,19
+
+node TEXT_NPC 148,0,0,19
+text 61,1,0,2
+connected to 148,0,0,20
+
+node BLOCK_STD 148,0,0,20
+
+node TEXT_NPC 148,0,0,21
+text 61,1,0,3
+connected to 148,0,0,22
+
+node BLOCK_QUEST_INACTIVE 148,0,0,22
+
+node TEXT_HERO 148,0,0,23
+text 61,0,0,3
+

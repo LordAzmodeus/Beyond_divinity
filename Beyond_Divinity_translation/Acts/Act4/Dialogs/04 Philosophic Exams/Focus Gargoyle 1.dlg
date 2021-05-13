@@ -1,0 +1,205 @@
+version 11
+id 6,1,0,144
+name "Focus Gargoyle 1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 144,0,0,1
+
+node BLOCK_GREET_AVAILABLE 144,0,0,2
+connected to 144,0,0,12
+
+node BLOCK_GREET_ACTIVE 144,0,0,3
+connected to 144,0,0,19
+
+node BLOCK_GREET_SUCCESS 144,0,0,4
+connected to 144,0,0,21
+
+node BLOCK_GREET_COMPLETED 144,0,0,5
+connected to 144,0,0,23
+
+node BLOCK_GREET_FAILURE 144,0,0,6
+
+node BLOCK_GREET_FAILED 144,0,0,7
+
+node BLOCK_GREET_REFUSED 144,0,0,8
+
+node BLOCK_STD 144,0,0,9
+connected to 144,0,0,16
+connected to 144,0,0,26
+connected to 144,0,0,29
+connected to 144,0,0,32
+
+node BLOCK_SERV 144,0,0,10
+connected to 144,0,0,35
+connected to 144,0,0,37
+
+node BLOCK_EXIT 144,0,0,11
+connected to 144,0,0,25
+
+node BLOCK_QUEST_AVAILABLE 144,0,0,13
+connected to 144,0,0,14
+
+node TEXT_HERO 144,0,0,14
+text 167,0,0,0
+alttext 183,0,0,0
+quest event 2
+connected to 144,0,0,15
+
+node MONO 144,0,0,12
+mono 74 167,2,0,1 167,3,0,1
+mono 0 167,2,0,2 167,3,0,2
+mono 74 167,2,0,10 167,3,0,10
+connected to 144,0,0,13
+
+node TEXT_HERO 144,0,0,16
+stdnode
+text 167,0,0,1
+alttext 183,0,0,5
+connected to 144,0,0,17
+
+node TEXT_NPC 144,0,0,17
+text 167,1,0,0
+alttext 183,1,0,7
+connected to 144,0,0,18
+
+node BLOCK_STD 144,0,0,18
+
+node TEXT_NPC 144,0,0,19
+text 167,1,0,2
+alttext 183,1,0,0
+connected to 144,0,0,20
+
+node BLOCK_QUEST_ACTIVE 144,0,0,20
+
+node TEXT_NPC 144,0,0,21
+text 167,1,0,3
+alttext 183,1,0,1
+connected to 144,0,0,22
+
+node BLOCK_QUEST_SUCCESS 144,0,0,22
+connected to 144,0,0,39
+
+node TEXT_NPC 144,0,0,23
+text 167,1,0,4
+alttext 183,1,0,6
+connected to 144,0,0,24
+
+node BLOCK_QUEST_COMPLETED 144,0,0,24
+
+node TEXT_HERO 144,0,0,25
+text 167,0,0,2
+
+node TEXT_HERO 144,0,0,26
+stdnode
+text 167,0,0,3
+alttext 183,0,0,6
+connected to 144,0,0,27
+
+node BLOCK_STD 144,0,0,28
+
+node TEXT_HERO 144,0,0,29
+stdnode
+text 167,0,0,4
+alttext 183,0,0,7
+connected to 144,0,0,30
+
+node TEXT_NPC 144,0,0,30
+text 167,1,0,6
+alttext 183,1,0,8
+connected to 144,0,0,31
+
+node BLOCK_STD 144,0,0,31
+
+node TEXT_HERO 144,0,0,32
+stdnode
+text 167,0,0,5
+alttext 183,0,0,8
+connected to 144,0,0,33
+
+node BLOCK_STD 144,0,0,34
+
+node TEXT_HERO 144,0,0,35
+servnode 2 1
+text 167,0,0,6
+alttext 183,0,0,9
+connected to 144,0,0,36
+
+node TEXT_NPC 144,0,0,36
+text 167,1,0,8
+alttext 183,1,0,9
+
+node MONO 144,0,0,27
+mono 74 167,2,0,3 167,3,0,3
+mono 0 167,2,0,4 167,3,0,4
+mono 74 167,2,0,5 167,3,0,5
+mono 1 167,2,0,6 167,3,0,6
+mono 74 167,2,0,7 167,3,0,7
+mono 1 167,2,0,8 167,3,0,8
+mono 74 167,2,0,9 167,3,0,9
+connected to 144,0,0,28
+
+node MONO 144,0,0,15
+mono 74 167,2,0,11 167,3,0,11
+mono 0 167,2,0,12 167,3,0,12
+mono 74 167,2,0,13 167,3,0,13
+
+node TEXT_HERO 144,0,0,37
+servnode 0 1
+text 167,0,0,7
+alttext 183,0,0,10
+connected to 144,0,0,38
+
+node TEXT_NPC 144,0,0,38
+text 167,1,0,9
+alttext 183,1,0,10
+
+node TEXT_HERO 144,0,0,39
+text 167,0,0,8
+alttext 183,0,0,1
+connected to 144,0,0,40
+
+node TEXT_NPC 144,0,0,40
+text 167,1,0,10
+alttext 183,1,0,2
+connected to 144,0,0,41
+connected to 144,0,0,43
+connected to 144,0,0,45
+
+node TEXT_HERO 144,0,0,41
+text 167,0,0,9
+alttext 183,0,0,2
+quest event 4
+connected to 144,0,0,42
+
+node TEXT_NPC 144,0,0,42
+text 167,1,0,11
+alttext 183,1,0,3
+
+node TEXT_HERO 144,0,0,43
+text 167,0,0,10
+alttext 183,0,0,3
+connected to 144,0,0,44
+
+node TEXT_NPC 144,0,0,44
+text 167,1,0,12
+alttext 183,1,0,4
+
+node TEXT_HERO 144,0,0,45
+text 167,0,0,11
+alttext 183,0,0,4
+connected to 144,0,0,46
+
+node TEXT_NPC 144,0,0,46
+text 167,1,0,13
+alttext 183,1,0,5
+
+node MONO 144,0,0,33
+mono 74 167,2,0,14 167,3,0,14
+mono 74 167,2,0,15 167,3,0,15
+mono 74 167,2,0,16 167,3,0,16
+mono 74 167,2,0,17 167,3,0,17
+mono 1 167,2,0,18 167,3,0,18
+mono 74 167,2,0,19 167,3,0,19
+connected to 144,0,0,34
+

@@ -1,0 +1,84 @@
+version 11
+id 6,1,0,47
+name "Hunting Imp 1a"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 47,0,0,1
+
+node BLOCK_GREET_AVAILABLE 47,0,0,2
+connected to 47,0,0,12
+
+node BLOCK_GREET_ACTIVE 47,0,0,3
+connected to 47,0,0,20
+
+node BLOCK_GREET_SUCCESS 47,0,0,4
+connected to 47,0,0,22
+
+node BLOCK_GREET_COMPLETED 47,0,0,5
+
+node BLOCK_GREET_FAILURE 47,0,0,6
+
+node BLOCK_GREET_FAILED 47,0,0,7
+
+node BLOCK_GREET_REFUSED 47,0,0,8
+
+node BLOCK_STD 47,0,0,9
+
+node BLOCK_SERV 47,0,0,10
+
+node BLOCK_EXIT 47,0,0,11
+
+node TEXT_NPC 47,0,0,12
+text 202,1,0,0
+alttext 202,1,0,1
+connected to 47,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 47,0,0,13
+connected to 47,0,0,14
+
+node TEXT_HERO 47,0,0,14
+text 202,0,0,0
+alttext 202,0,0,1
+connected to 47,0,0,15
+
+node TEXT_NPC 47,0,0,15
+text 202,1,0,2
+alttext 202,1,0,3
+connected to 47,0,0,16
+connected to 47,0,0,18
+
+node TEXT_HERO 47,0,0,16
+text 202,0,0,2
+alttext 202,0,0,3
+quest event 2
+connected to 47,0,0,17
+
+node TEXT_HERO 47,0,0,18
+text 202,0,0,4
+alttext 202,0,0,5
+quest event 7
+connected to 47,0,0,19
+
+node TEXT_NPC 47,0,0,19
+text 202,1,0,6
+alttext 202,1,0,7
+
+node TEXT_NPC 47,0,0,20
+text 202,1,0,8
+alttext 202,1,0,9
+connected to 47,0,0,21
+
+node BLOCK_QUEST_ACTIVE 47,0,0,21
+
+node TEXT_NPC 47,0,0,22
+text 202,1,0,10
+alttext 202,1,0,11
+connected to 47,0,0,23
+
+node BLOCK_QUEST_SUCCESS 47,0,0,23
+
+node MONO 47,0,0,17
+mono 21 202,2,0,0 202,3,0,0
+mono 1 202,2,0,1 202,3,0,1
+

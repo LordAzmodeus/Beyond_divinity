@@ -1,0 +1,50 @@
+// Generic Books placement
+// Loops over defined regions and adjusts books that are not assigned yet
+
+booklist "Imp Village"
+new bookrange 86,90
+new book 92
+new book 93
+new book 116
+new book 121
+new book 128
+
+booklist "Rivellon Houses"
+new bookrange 147,176
+
+booklist "Raanaar Library"
+new book 46
+new bookrange 54,56
+new book 59
+new bookrange 69,71
+new bookrange 73,78
+new book 103
+new book 112
+new bookrange 117,118
+new bookrange 134,137
+new bookrange 141,142
+new bookrange 149,157
+
+booklist "Humans"
+new book 7
+new bookrange 16,17
+new book 19
+new book 91
+new bookrange 106,109
+new book 122
+new book 124
+new bookrange 130,132
+new bookrange 144,145
+
+
+
+// Associate them with the regions
+
+region "serrick_lvl1_book_region" has "Humans"
+region "serrick_lvl2_book_region" has "Humans"
+region "temple_book_region" has "Humans"
+
+region "raanaar_library_book_region" has "Raanaar Library"
+
+region "swamp_farmer_book_region" has "Rivellon Houses"
+region "wastelands_book_region" has "Rivellon Houses"

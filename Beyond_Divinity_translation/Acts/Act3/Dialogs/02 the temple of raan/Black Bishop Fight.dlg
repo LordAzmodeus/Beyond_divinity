@@ -1,0 +1,36 @@
+version 11
+id 6,1,0,20
+name "Black Bishop Fight"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 20,0,0,1
+connected to 20,0,0,12
+
+node BLOCK_GREET_AVAILABLE 20,0,0,2
+
+node BLOCK_GREET_ACTIVE 20,0,0,3
+
+node BLOCK_GREET_SUCCESS 20,0,0,4
+
+node BLOCK_GREET_COMPLETED 20,0,0,5
+
+node BLOCK_GREET_FAILURE 20,0,0,6
+
+node BLOCK_GREET_FAILED 20,0,0,7
+
+node BLOCK_GREET_REFUSED 20,0,0,8
+
+node BLOCK_STD 20,0,0,9
+
+node BLOCK_SERV 20,0,0,10
+
+node BLOCK_EXIT 20,0,0,11
+
+node BLOCK_QUEST_INACTIVE 20,0,0,13
+
+node MONO 20,0,0,12
+mono 10 63,2,0,0 63,3,0,0
+mono 10 63,2,0,2 63,3,0,2
+connected to 20,0,0,13
+

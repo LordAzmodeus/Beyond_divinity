@@ -1,0 +1,88 @@
+version 11
+id 6,1,0,80
+name "Deathknight Warns About Patrols"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 80,0,0,1
+connected to 80,0,0,12
+
+node BLOCK_GREET_AVAILABLE 80,0,0,2
+
+node BLOCK_GREET_ACTIVE 80,0,0,3
+
+node BLOCK_GREET_SUCCESS 80,0,0,4
+
+node BLOCK_GREET_COMPLETED 80,0,0,5
+
+node BLOCK_GREET_FAILURE 80,0,0,6
+
+node BLOCK_GREET_FAILED 80,0,0,7
+
+node BLOCK_GREET_REFUSED 80,0,0,8
+
+node BLOCK_STD 80,0,0,9
+connected to 80,0,0,14
+
+node BLOCK_SERV 80,0,0,10
+
+node BLOCK_EXIT 80,0,0,11
+connected to 80,0,0,23
+
+node BLOCK_QUEST_INACTIVE 80,0,0,13
+
+node MONO 80,0,0,12
+mono 1 232,2,0,0 232,3,0,0
+mono 1 232,2,0,1 232,3,0,1
+mono 0 232,2,0,2 232,3,0,2
+mono 1 232,2,0,3 232,3,0,3
+mono 1 232,2,0,4 232,3,0,4
+mono 1 232,2,0,5 232,3,0,5
+connected to 80,0,0,13
+
+node TEXT_HERO 80,0,0,14
+stdnode
+text 232,0,0,0
+alttext 78,0,0,0
+connected to 80,0,0,15
+
+node TEXT_NPC 80,0,0,15
+text 232,1,0,0
+connected to 80,0,0,16
+
+node BLOCK_STD 80,0,0,16
+connected to 80,0,0,17
+connected to 80,0,0,19
+connected to 80,0,0,21
+
+node TEXT_HERO 80,0,0,17
+stdnode
+text 232,0,0,1
+alttext 78,0,0,1
+connected to 80,0,0,18
+
+node TEXT_NPC 80,0,0,18
+text 232,1,0,1
+
+node TEXT_HERO 80,0,0,19
+stdnode
+text 232,0,0,2
+alttext 78,0,0,2
+connected to 80,0,0,20
+
+node TEXT_NPC 80,0,0,20
+text 232,1,0,2
+
+node TEXT_HERO 80,0,0,21
+stdnode
+text 232,0,0,3
+alttext 78,0,0,3
+connected to 80,0,0,22
+
+node MONO 80,0,0,22
+mono 1 232,2,0,6 232,3,0,6
+mono 1 232,2,0,7 232,3,0,7
+
+node TEXT_HERO 80,0,0,23
+text 232,0,0,4
+

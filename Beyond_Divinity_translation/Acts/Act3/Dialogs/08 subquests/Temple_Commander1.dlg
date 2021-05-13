@@ -1,0 +1,79 @@
+version 11
+id 6,1,0,169
+name "Temple_Commander1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 169,0,0,1
+
+node BLOCK_GREET_AVAILABLE 169,0,0,2
+connected to 169,0,0,18
+
+node BLOCK_GREET_ACTIVE 169,0,0,3
+connected to 169,0,0,22
+
+node BLOCK_GREET_SUCCESS 169,0,0,4
+connected to 169,0,0,27
+
+node BLOCK_GREET_COMPLETED 169,0,0,5
+
+node BLOCK_GREET_FAILURE 169,0,0,6
+
+node BLOCK_GREET_FAILED 169,0,0,7
+
+node BLOCK_GREET_REFUSED 169,0,0,8
+
+node BLOCK_STD 169,0,0,9
+connected to 169,0,0,24
+
+node BLOCK_SERV 169,0,0,10
+
+node BLOCK_EXIT 169,0,0,11
+
+node TEXT_NPC 169,0,0,18
+text 174,1,0,4
+alttext 174,1,0,5
+connected to 169,0,0,19
+
+node BLOCK_QUEST_AVAILABLE 169,0,0,19
+connected to 169,0,0,20
+
+node TEXT_HERO 169,0,0,20
+text 174,0,0,2
+alttext 174,0,0,3
+quest event 2
+connected to 169,0,0,21
+
+node MONO 169,0,0,21
+mono 154 174,2,0,2 174,3,0,2
+mono 0 151,2,0,0 151,3,0,0
+mono 154 174,2,0,3 174,3,0,3
+mono 154 151,2,0,1 151,3,0,1
+
+node TEXT_NPC 169,0,0,22
+text 174,1,0,6
+alttext 174,1,0,7
+connected to 169,0,0,23
+
+node BLOCK_QUEST_ACTIVE 169,0,0,23
+
+node TEXT_HERO 169,0,0,24
+stdnode
+text 151,0,0,0
+alttext 151,0,0,1
+connected to 169,0,0,25
+
+node TEXT_NPC 169,0,0,25
+text 151,1,0,0
+alttext 151,1,0,1
+connected to 169,0,0,26
+
+node BLOCK_STD 169,0,0,26
+
+node TEXT_NPC 169,0,0,27
+text 151,1,0,2
+alttext 151,1,0,3
+connected to 169,0,0,28
+
+node BLOCK_QUEST_SUCCESS 169,0,0,28
+

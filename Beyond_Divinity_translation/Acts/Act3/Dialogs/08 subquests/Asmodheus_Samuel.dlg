@@ -1,0 +1,48 @@
+version 11
+id 6,1,0,87
+name "Asmodheus_Samuel"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 87,0,0,1
+connected to 87,0,0,12
+
+node BLOCK_GREET_AVAILABLE 87,0,0,2
+
+node BLOCK_GREET_ACTIVE 87,0,0,3
+
+node BLOCK_GREET_SUCCESS 87,0,0,4
+
+node BLOCK_GREET_COMPLETED 87,0,0,5
+
+node BLOCK_GREET_FAILURE 87,0,0,6
+
+node BLOCK_GREET_FAILED 87,0,0,7
+
+node BLOCK_GREET_REFUSED 87,0,0,8
+
+node BLOCK_STD 87,0,0,9
+
+node BLOCK_SERV 87,0,0,10
+
+node BLOCK_EXIT 87,0,0,11
+
+node BLOCK_QUEST_INACTIVE 87,0,0,13
+
+node MONO 87,0,0,12
+mono 2 76,2,0,0 76,3,0,0
+mono 12 76,2,0,1 76,3,0,1
+mono 2 76,2,0,2 76,3,0,2
+mono 12 76,2,0,3 76,3,0,3
+mono 2 76,2,0,4 76,3,0,4
+mono 2 76,2,0,13 76,3,0,13
+mono 12 76,2,0,5 76,3,0,5
+mono 2 76,2,0,6 76,3,0,6
+mono 12 76,2,0,7 76,3,0,7
+mono 2 76,2,0,8 76,3,0,8
+mono 12 76,2,0,9 76,3,0,9
+mono 2 76,2,0,10 76,3,0,10
+mono 12 76,2,0,11 76,3,0,11
+mono 2 76,2,0,12 76,3,0,12
+connected to 87,0,0,13
+

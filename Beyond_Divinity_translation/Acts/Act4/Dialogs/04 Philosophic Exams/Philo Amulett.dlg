@@ -1,0 +1,122 @@
+version 11
+id 6,1,0,164
+name "Philo Amulett"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 164,0,0,1
+
+node BLOCK_GREET_AVAILABLE 164,0,0,2
+connected to 164,0,0,22
+
+node BLOCK_GREET_ACTIVE 164,0,0,3
+connected to 164,0,0,24
+
+node BLOCK_GREET_SUCCESS 164,0,0,4
+connected to 164,0,0,26
+
+node BLOCK_GREET_COMPLETED 164,0,0,5
+connected to 164,0,0,28
+
+node BLOCK_GREET_FAILURE 164,0,0,6
+
+node BLOCK_GREET_FAILED 164,0,0,7
+
+node BLOCK_GREET_REFUSED 164,0,0,8
+
+node BLOCK_STD 164,0,0,9
+connected to 164,0,0,12
+connected to 164,0,0,15
+connected to 164,0,0,18
+
+node BLOCK_SERV 164,0,0,10
+
+node BLOCK_EXIT 164,0,0,11
+connected to 164,0,0,21
+
+node TEXT_HERO 164,0,0,12
+stdnode
+text 180,0,0,0
+alttext 198,0,0,1
+connected to 164,0,0,13
+
+node TEXT_NPC 164,0,0,13
+text 180,1,0,0
+alttext 198,1,0,6
+connected to 164,0,0,14
+
+node BLOCK_STD 164,0,0,14
+
+node TEXT_HERO 164,0,0,15
+stdnode
+text 180,0,0,1
+alttext 198,0,0,2
+connected to 164,0,0,16
+
+node TEXT_NPC 164,0,0,16
+text 180,1,0,1
+alttext 198,1,0,4
+connected to 164,0,0,17
+
+node BLOCK_STD 164,0,0,17
+
+node TEXT_HERO 164,0,0,18
+stdnode
+text 180,0,0,2
+alttext 198,0,0,3
+connected to 164,0,0,19
+
+node TEXT_NPC 164,0,0,19
+text 180,1,0,2
+alttext 198,1,0,3
+connected to 164,0,0,20
+
+node BLOCK_STD 164,0,0,20
+
+node TEXT_HERO 164,0,0,21
+text 180,0,0,3
+
+node TEXT_NPC 164,0,0,22
+text 180,1,0,3
+alttext 198,1,0,0
+connected to 164,0,0,23
+
+node BLOCK_QUEST_AVAILABLE 164,0,0,23
+connected to 164,0,0,30
+
+node TEXT_NPC 164,0,0,24
+text 180,1,0,4
+alttext 198,1,0,5
+connected to 164,0,0,25
+
+node BLOCK_QUEST_ACTIVE 164,0,0,25
+
+node TEXT_NPC 164,0,0,26
+text 180,1,0,5
+alttext 198,1,0,1
+connected to 164,0,0,27
+
+node BLOCK_QUEST_SUCCESS 164,0,0,27
+
+node TEXT_NPC 164,0,0,28
+text 180,1,0,6
+alttext 198,1,0,2
+connected to 164,0,0,29
+
+node BLOCK_QUEST_COMPLETED 164,0,0,29
+
+node TEXT_HERO 164,0,0,30
+text 180,0,0,4
+alttext 198,0,0,0
+quest event 2
+connected to 164,0,0,31
+
+node MONO 164,0,0,31
+mono 86 180,2,0,0 180,3,0,0
+mono 0 180,2,0,1 180,3,0,1
+mono 86 180,2,0,2 180,3,0,2
+mono 86 180,2,0,3 180,3,0,3
+mono 86 180,2,0,4 180,3,0,4
+mono 1 180,2,0,5 180,3,0,5
+mono 86 180,2,0,6 180,3,0,6
+

@@ -1,0 +1,63 @@
+version 11
+id 6,0,0,228
+name "BF Trader 4"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 228,0,0,1
+connected to 228,0,0,12
+
+node BLOCK_GREET_AVAILABLE 228,0,0,2
+
+node BLOCK_GREET_ACTIVE 228,0,0,3
+
+node BLOCK_GREET_SUCCESS 228,0,0,4
+
+node BLOCK_GREET_COMPLETED 228,0,0,5
+
+node BLOCK_GREET_FAILURE 228,0,0,6
+
+node BLOCK_GREET_FAILED 228,0,0,7
+
+node BLOCK_GREET_REFUSED 228,0,0,8
+
+node BLOCK_STD 228,0,0,9
+
+node BLOCK_SERV 228,0,0,10
+connected to 228,0,0,14
+connected to 228,0,0,17
+
+node BLOCK_EXIT 228,0,0,11
+connected to 228,0,0,16
+
+node TEXT_NPC 228,0,0,12
+text 179,1,0,0
+alttext 179,1,0,1
+connected to 228,0,0,13
+
+node BLOCK_QUEST_INACTIVE 228,0,0,13
+
+node TEXT_HERO 228,0,0,14
+servnode 2 1
+text 179,0,0,0
+alttext 179,0,0,1
+connected to 228,0,0,15
+
+node TEXT_NPC 228,0,0,15
+text 179,1,0,2
+alttext 179,1,0,3
+
+node TEXT_HERO 228,0,0,16
+text 179,0,0,2
+alttext 179,0,0,3
+
+node TEXT_HERO 228,0,0,17
+servnode 3 1
+text 179,0,0,4
+alttext 179,0,0,5
+connected to 228,0,0,18
+
+node TEXT_NPC 228,0,0,18
+text 179,1,0,4
+alttext 179,1,0,5
+

@@ -1,0 +1,44 @@
+version 11
+id 6,1,0,159
+name "Teleporter_Warning_Raanaar"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 159,0,0,1
+connected to 159,0,0,28
+
+node BLOCK_GREET_AVAILABLE 159,0,0,2
+
+node BLOCK_GREET_ACTIVE 159,0,0,3
+
+node BLOCK_GREET_SUCCESS 159,0,0,4
+
+node BLOCK_GREET_COMPLETED 159,0,0,5
+
+node BLOCK_GREET_FAILURE 159,0,0,6
+
+node BLOCK_GREET_FAILED 159,0,0,7
+
+node BLOCK_GREET_REFUSED 159,0,0,8
+
+node BLOCK_STD 159,0,0,9
+
+node BLOCK_SERV 159,0,0,10
+
+node BLOCK_EXIT 159,0,0,11
+connected to 159,0,0,30
+
+node BLOCK_QUEST_INACTIVE 159,0,0,29
+
+node MONO 159,0,0,28
+mono 97 142,2,0,0 142,3,0,0
+mono 97 142,2,0,1 142,3,0,1
+mono 97 142,2,0,2 142,3,0,2
+mono 0 142,2,0,4 142,3,0,4
+mono 97 142,2,0,3 142,3,0,3
+connected to 159,0,0,29
+
+node TEXT_HERO 159,0,0,30
+text 142,0,0,0
+alttext 142,0,0,1
+

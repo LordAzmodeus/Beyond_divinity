@@ -1,0 +1,178 @@
+version 11
+id 6,1,0,46
+name "Deathknight 3"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 46,0,0,1
+connected to 46,0,0,56
+
+node BLOCK_GREET_AVAILABLE 46,0,0,2
+connected to 46,0,0,50
+
+node BLOCK_GREET_ACTIVE 46,0,0,3
+connected to 46,0,0,41
+
+node BLOCK_GREET_SUCCESS 46,0,0,4
+connected to 46,0,0,58
+
+node BLOCK_GREET_COMPLETED 46,0,0,5
+connected to 46,0,0,54
+
+node BLOCK_GREET_FAILURE 46,0,0,6
+connected to 46,0,0,62
+
+node BLOCK_GREET_FAILED 46,0,0,7
+connected to 46,0,0,60
+
+node BLOCK_GREET_REFUSED 46,0,0,8
+
+node BLOCK_STD 46,0,0,9
+connected to 46,0,0,12
+connected to 46,0,0,15
+connected to 46,0,0,18
+connected to 46,0,0,21
+connected to 46,0,0,32
+
+node BLOCK_SERV 46,0,0,10
+
+node BLOCK_EXIT 46,0,0,11
+connected to 46,0,0,47
+
+node TEXT_HERO 46,0,0,12
+stdnode
+text 25,0,0,0
+connected to 46,0,0,13
+
+node TEXT_NPC 46,0,0,13
+text 25,1,0,0
+connected to 46,0,0,14
+
+node BLOCK_STD 46,0,0,14
+connected to 46,0,0,37
+connected to 46,0,0,39
+
+node TEXT_HERO 46,0,0,15
+stdnode
+text 25,0,0,1
+connected to 46,0,0,16
+
+node TEXT_NPC 46,0,0,16
+text 25,1,0,1
+connected to 46,0,0,17
+
+node BLOCK_STD 46,0,0,17
+
+node TEXT_HERO 46,0,0,18
+stdnode
+text 25,0,0,2
+connected to 46,0,0,19
+
+node TEXT_NPC 46,0,0,19
+text 25,1,0,2
+connected to 46,0,0,20
+
+node BLOCK_STD 46,0,0,20
+connected to 46,0,0,35
+
+node TEXT_HERO 46,0,0,21
+stdnode
+text 25,0,0,3
+connected to 46,0,0,22
+
+node TEXT_NPC 46,0,0,22
+text 25,1,0,3
+connected to 46,0,0,23
+
+node BLOCK_STD 46,0,0,23
+
+node TEXT_HERO 46,0,0,32
+stdnode
+text 25,0,0,7
+connected to 46,0,0,33
+
+node BLOCK_STD 46,0,0,34
+
+node TEXT_HERO 46,0,0,35
+stdnode
+text 25,0,0,8
+connected to 46,0,0,36
+
+node TEXT_NPC 46,0,0,36
+text 25,1,0,9
+
+node TEXT_HERO 46,0,0,37
+stdnode
+text 25,0,0,9
+connected to 46,0,0,38
+
+node TEXT_NPC 46,0,0,38
+text 25,1,0,10
+
+node TEXT_HERO 46,0,0,39
+stdnode
+text 25,0,0,10
+connected to 46,0,0,40
+
+node TEXT_NPC 46,0,0,40
+text 25,1,0,11
+
+node TEXT_NPC 46,0,0,41
+text 25,1,0,12
+connected to 46,0,0,42
+
+node BLOCK_QUEST_ACTIVE 46,0,0,42
+
+node TEXT_HERO 46,0,0,47
+text 25,0,0,11
+
+node TEXT_NPC 46,0,0,50
+text 25,1,0,13
+connected to 46,0,0,51
+
+node BLOCK_QUEST_AVAILABLE 46,0,0,51
+connected to 46,0,0,52
+
+node TEXT_HERO 46,0,0,52
+text 25,0,0,12
+quest event 2
+connected to 46,0,0,53
+
+node TEXT_NPC 46,0,0,53
+text 25,1,0,14
+
+node TEXT_NPC 46,0,0,54
+text 25,1,0,15
+connected to 46,0,0,55
+
+node BLOCK_QUEST_COMPLETED 46,0,0,55
+
+node TEXT_NPC 46,0,0,56
+text 25,1,0,16
+connected to 46,0,0,57
+
+node BLOCK_QUEST_INACTIVE 46,0,0,57
+
+node TEXT_NPC 46,0,0,58
+text 25,1,0,17
+connected to 46,0,0,59
+
+node BLOCK_QUEST_SUCCESS 46,0,0,59
+
+node TEXT_NPC 46,0,0,60
+text 25,1,0,18
+connected to 46,0,0,61
+
+node BLOCK_QUEST_FAILED 46,0,0,61
+
+node TEXT_NPC 46,0,0,62
+text 25,1,0,19
+connected to 46,0,0,63
+
+node BLOCK_QUEST_FAILURE 46,0,0,63
+
+node MONO 46,0,0,33
+mono 1 25,2,0,0 25,3,0,0
+mono 1 25,2,0,1 25,3,0,1
+connected to 46,0,0,34
+

@@ -1,0 +1,37 @@
+version 11
+id 6,1,0,183
+name "DK Keylevel"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 183,0,0,1
+connected to 183,0,0,12
+
+node BLOCK_GREET_AVAILABLE 183,0,0,2
+
+node BLOCK_GREET_ACTIVE 183,0,0,3
+
+node BLOCK_GREET_SUCCESS 183,0,0,4
+
+node BLOCK_GREET_COMPLETED 183,0,0,5
+
+node BLOCK_GREET_FAILURE 183,0,0,6
+
+node BLOCK_GREET_FAILED 183,0,0,7
+
+node BLOCK_GREET_REFUSED 183,0,0,8
+
+node BLOCK_STD 183,0,0,9
+
+node BLOCK_SERV 183,0,0,10
+
+node BLOCK_EXIT 183,0,0,11
+
+node BLOCK_QUEST_INACTIVE 183,0,0,13
+
+node MONO 183,0,0,12
+mono 1 183,2,0,0 183,3,0,0
+mono 0 183,2,0,1 183,3,0,1
+mono 1 183,2,0,2 183,3,0,2
+connected to 183,0,0,13
+

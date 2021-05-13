@@ -1,0 +1,37 @@
+version 11
+id 6,1,0,152
+name "Soldiers_Camp_Young_Mage"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 152,0,0,1
+connected to 152,0,0,12
+
+node BLOCK_GREET_AVAILABLE 152,0,0,2
+
+node BLOCK_GREET_ACTIVE 152,0,0,3
+
+node BLOCK_GREET_SUCCESS 152,0,0,4
+
+node BLOCK_GREET_COMPLETED 152,0,0,5
+
+node BLOCK_GREET_FAILURE 152,0,0,6
+
+node BLOCK_GREET_FAILED 152,0,0,7
+
+node BLOCK_GREET_REFUSED 152,0,0,8
+
+node BLOCK_STD 152,0,0,9
+
+node BLOCK_SERV 152,0,0,10
+
+node BLOCK_EXIT 152,0,0,11
+
+node BLOCK_QUEST_INACTIVE 152,0,0,13
+
+node MONO 152,0,0,12
+mono 45 83,2,0,0 83,3,0,0
+mono 45 83,2,0,1 83,3,0,1
+mono 1 83,2,0,2 83,3,0,2
+connected to 152,0,0,13
+

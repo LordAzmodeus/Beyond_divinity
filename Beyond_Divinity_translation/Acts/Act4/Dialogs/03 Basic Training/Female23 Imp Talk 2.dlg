@@ -1,0 +1,37 @@
+version 11
+id 6,1,0,94
+name "Female23 Imp Talk 2"
+face npc 0
+quest id -1
+
+node BLOCK_GREET_INACTIVE 94,0,0,1
+connected to 94,0,0,12
+
+node BLOCK_GREET_AVAILABLE 94,0,0,2
+
+node BLOCK_GREET_ACTIVE 94,0,0,3
+
+node BLOCK_GREET_SUCCESS 94,0,0,4
+
+node BLOCK_GREET_COMPLETED 94,0,0,5
+
+node BLOCK_GREET_FAILURE 94,0,0,6
+
+node BLOCK_GREET_FAILED 94,0,0,7
+
+node BLOCK_GREET_REFUSED 94,0,0,8
+
+node BLOCK_STD 94,0,0,9
+
+node BLOCK_SERV 94,0,0,10
+
+node BLOCK_EXIT 94,0,0,11
+
+node BLOCK_QUEST_INACTIVE 94,0,0,13
+
+node MONO 94,0,0,12
+mono 33 160,2,0,0 160,3,0,0
+mono 34 160,2,0,1 160,3,0,1
+mono 33 160,2,0,2 160,3,0,2
+connected to 94,0,0,13
+

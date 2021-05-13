@@ -1,0 +1,78 @@
+version 11
+id 6,1,0,77
+name "Necromancer Wastelands Imp Zaknadrix"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 77,0,0,1
+
+node BLOCK_GREET_AVAILABLE 77,0,0,2
+connected to 77,0,0,12
+
+node BLOCK_GREET_ACTIVE 77,0,0,3
+connected to 77,0,0,18
+
+node BLOCK_GREET_SUCCESS 77,0,0,4
+connected to 77,0,0,14
+
+node BLOCK_GREET_COMPLETED 77,0,0,5
+
+node BLOCK_GREET_FAILURE 77,0,0,6
+
+node BLOCK_GREET_FAILED 77,0,0,7
+
+node BLOCK_GREET_REFUSED 77,0,0,8
+
+node BLOCK_STD 77,0,0,9
+
+node BLOCK_SERV 77,0,0,10
+
+node BLOCK_EXIT 77,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 77,0,0,13
+connected to 77,0,0,16
+
+node MONO 77,0,0,12
+mono 35 50,2,0,0 50,3,0,0
+mono 1 50,2,0,20 50,3,0,6
+mono 0 50,2,0,5 50,3,0,5
+mono 35 50,2,0,6 50,3,0,6
+mono 1 50,2,0,7 50,3,0,7
+mono 35 50,2,0,8 50,3,0,8
+mono 35 50,2,0,10 50,3,0,10
+mono 35 50,2,0,11 50,3,0,11
+mono 0 50,2,0,12 50,3,0,12
+mono 35 50,2,0,13 50,3,0,13
+mono 35 50,2,0,15 50,3,0,15
+mono 1 50,2,0,16 50,3,0,16
+mono 35 50,2,0,17 50,3,0,17
+mono 0 50,2,0,18 50,3,0,18
+mono 35 50,2,0,19 50,3,0,19
+connected to 77,0,0,13
+
+node BLOCK_QUEST_SUCCESS 77,0,0,15
+
+node MONO 77,0,0,14
+mono 35 50,2,0,1 50,3,0,1
+mono 35 50,2,0,2 50,3,0,2
+mono 35 50,2,0,3 50,3,0,3
+mono 1 50,2,0,4 50,3,0,4
+connected to 77,0,0,15
+
+node TEXT_HERO 77,0,0,16
+text 50,0,0,0
+alttext 50,0,0,1
+quest event 2
+connected to 77,0,0,17
+
+node TEXT_NPC 77,0,0,17
+text 50,1,0,0
+alttext 50,1,0,1
+
+node TEXT_NPC 77,0,0,18
+text 66,1,0,0
+alttext 66,1,0,1
+connected to 77,0,0,19
+
+node BLOCK_QUEST_ACTIVE 77,0,0,19
+

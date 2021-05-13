@@ -1,0 +1,181 @@
+version 11
+id 6,1,0,24
+name "Crazy Barnabus"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 24,0,0,1
+
+node BLOCK_GREET_AVAILABLE 24,0,0,2
+connected to 24,0,0,12
+
+node BLOCK_GREET_ACTIVE 24,0,0,3
+connected to 24,0,0,16
+
+node BLOCK_GREET_SUCCESS 24,0,0,4
+connected to 24,0,0,18
+
+node BLOCK_GREET_COMPLETED 24,0,0,5
+connected to 24,0,0,20
+
+node BLOCK_GREET_FAILURE 24,0,0,6
+
+node BLOCK_GREET_FAILED 24,0,0,7
+
+node BLOCK_GREET_REFUSED 24,0,0,8
+
+node BLOCK_STD 24,0,0,9
+connected to 24,0,0,25
+connected to 24,0,0,28
+connected to 24,0,0,37
+
+node BLOCK_SERV 24,0,0,10
+connected to 24,0,0,40
+connected to 24,0,0,42
+
+node BLOCK_EXIT 24,0,0,11
+connected to 24,0,0,24
+
+node BLOCK_QUEST_AVAILABLE 24,0,0,13
+connected to 24,0,0,14
+
+node TEXT_HERO 24,0,0,14
+text 22,0,0,0
+alttext 22,0,0,9
+quest event 2
+connected to 24,0,0,15
+
+node TEXT_NPC 24,0,0,15
+text 22,1,0,1
+alttext 22,1,0,12
+
+node TEXT_NPC 24,0,0,16
+text 22,1,0,2
+alttext 22,1,0,13
+connected to 24,0,0,17
+
+node BLOCK_QUEST_ACTIVE 24,0,0,17
+connected to 24,0,0,31
+
+node BLOCK_QUEST_SUCCESS 24,0,0,19
+
+node TEXT_NPC 24,0,0,20
+text 22,1,0,4
+connected to 24,0,0,21
+
+node BLOCK_QUEST_COMPLETED 24,0,0,21
+
+node TEXT_HERO 24,0,0,24
+text 22,0,0,2
+
+node MONO 24,0,0,12
+mono 15 22,2,0,0 22,3,0,0
+mono 0 22,2,0,1 22,3,0,1
+mono 15 22,2,0,2 22,3,0,2
+mono 1 22,2,0,3 22,3,0,3
+mono 15 22,2,0,4 22,3,0,4
+mono 15 22,2,0,5 22,3,0,5
+mono 0 22,2,0,8 22,3,0,8
+mono 15 22,2,0,7 22,3,0,7
+mono 1 22,2,0,9 22,3,0,9
+mono 0 22,2,0,16 22,3,0,11
+mono 15 22,2,0,10 22,3,0,10
+connected to 24,0,0,13
+
+node TEXT_HERO 24,0,0,25
+stdnode
+text 22,0,0,3
+alttext 22,0,0,18
+connected to 24,0,0,26
+
+node TEXT_NPC 24,0,0,26
+text 22,1,0,6
+alttext 22,1,0,17
+connected to 24,0,0,27
+
+node BLOCK_STD 24,0,0,27
+
+node TEXT_HERO 24,0,0,28
+stdnode
+text 22,0,0,4
+alttext 22,0,0,11
+connected to 24,0,0,29
+
+node TEXT_NPC 24,0,0,29
+text 22,1,0,7
+alttext 22,1,0,22
+connected to 24,0,0,30
+
+node BLOCK_STD 24,0,0,30
+
+node TEXT_HERO 24,0,0,31
+text 22,0,0,5
+alttext 22,0,0,10
+connected to 24,0,0,32
+
+node TEXT_NPC 24,0,0,32
+text 22,1,0,8
+alttext 22,1,0,14
+connected to 24,0,0,33
+connected to 24,0,0,35
+
+node TEXT_HERO 24,0,0,33
+text 22,0,0,6
+alttext 22,0,0,16
+quest event 3
+connected to 24,0,0,34
+
+node TEXT_NPC 24,0,0,34
+text 22,1,0,9
+alttext 22,1,0,15
+
+node TEXT_HERO 24,0,0,35
+text 22,0,0,7
+alttext 22,0,0,17
+quest event 5
+connected to 24,0,0,36
+
+node TEXT_NPC 24,0,0,36
+text 22,1,0,10
+alttext 22,1,0,16
+
+node TEXT_HERO 24,0,0,37
+stdnode
+text 22,0,0,8
+alttext 22,0,0,19
+connected to 24,0,0,38
+
+node TEXT_NPC 24,0,0,38
+text 22,1,0,11
+alttext 22,1,0,23
+connected to 24,0,0,39
+
+node BLOCK_STD 24,0,0,39
+
+node MONO 24,0,0,18
+mono 15 22,2,0,11 22,3,0,11
+mono 0 22,2,0,12 22,3,0,12
+mono 15 22,2,0,13 22,3,0,13
+mono 15 22,2,0,14 22,3,0,14
+connected to 24,0,0,19
+
+node TEXT_HERO 24,0,0,40
+servnode 1 1
+text 22,0,0,12
+alttext 22,0,0,13
+connected to 24,0,0,41
+
+node TEXT_NPC 24,0,0,41
+text 22,1,0,18
+alttext 22,1,0,19
+
+node TEXT_HERO 24,0,0,42
+servnode 2 1
+text 22,0,0,14
+alttext 22,0,0,15
+connected to 24,0,0,43
+
+node TEXT_NPC 24,0,0,43
+text 22,1,0,20
+alttext 22,1,0,21
+

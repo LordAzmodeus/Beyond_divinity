@@ -1,0 +1,52 @@
+version 11
+id 6,3,0,158
+name "Money_Chest_Lich4"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 158,0,0,1
+
+node BLOCK_GREET_AVAILABLE 158,0,0,2
+connected to 158,0,0,16
+
+node BLOCK_GREET_ACTIVE 158,0,0,3
+connected to 158,0,0,18
+
+node BLOCK_GREET_SUCCESS 158,0,0,4
+connected to 158,0,0,20
+
+node BLOCK_GREET_COMPLETED 158,0,0,5
+
+node BLOCK_GREET_FAILURE 158,0,0,6
+
+node BLOCK_GREET_FAILED 158,0,0,7
+
+node BLOCK_GREET_REFUSED 158,0,0,8
+
+node BLOCK_STD 158,0,0,9
+
+node BLOCK_SERV 158,0,0,10
+
+node BLOCK_EXIT 158,0,0,11
+
+node TEXT_NPC 158,0,0,16
+text 155,1,0,0
+alttext 155,1,0,1
+connected to 158,0,0,17
+
+node BLOCK_QUEST_AVAILABLE 158,0,0,17
+
+node TEXT_NPC 158,0,0,18
+text 155,1,0,2
+alttext 155,1,0,3
+connected to 158,0,0,19
+
+node BLOCK_QUEST_ACTIVE 158,0,0,19
+
+node TEXT_NPC 158,0,0,20
+text 155,1,0,4
+alttext 155,1,0,5
+connected to 158,0,0,21
+
+node BLOCK_QUEST_SUCCESS 158,0,0,21
+

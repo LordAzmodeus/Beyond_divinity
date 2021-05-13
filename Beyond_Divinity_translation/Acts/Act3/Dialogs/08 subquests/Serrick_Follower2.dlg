@@ -1,0 +1,63 @@
+version 11
+id 6,1,0,141
+name "Serrick_Follower2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 141,0,0,1
+connected to 141,0,0,12
+
+node BLOCK_GREET_AVAILABLE 141,0,0,2
+
+node BLOCK_GREET_ACTIVE 141,0,0,3
+
+node BLOCK_GREET_SUCCESS 141,0,0,4
+
+node BLOCK_GREET_COMPLETED 141,0,0,5
+
+node BLOCK_GREET_FAILURE 141,0,0,6
+
+node BLOCK_GREET_FAILED 141,0,0,7
+
+node BLOCK_GREET_REFUSED 141,0,0,8
+
+node BLOCK_STD 141,0,0,9
+
+node BLOCK_SERV 141,0,0,10
+connected to 141,0,0,17
+
+node BLOCK_EXIT 141,0,0,11
+connected to 141,0,0,16
+
+node TEXT_NPC 141,0,0,12
+text 123,1,0,0
+alttext 123,1,0,1
+connected to 141,0,0,13
+
+node BLOCK_QUEST_INACTIVE 141,0,0,13
+connected to 141,0,0,14
+
+node TEXT_HERO 141,0,0,14
+text 123,0,0,0
+alttext 123,0,0,1
+quest event 1
+connected to 141,0,0,15
+
+node TEXT_NPC 141,0,0,15
+text 123,1,0,2
+alttext 123,1,0,3
+
+node TEXT_HERO 141,0,0,16
+text 131,0,0,0
+alttext 131,0,0,1
+
+node TEXT_HERO 141,0,0,17
+servnode 1 1
+text 131,0,0,2
+alttext 131,0,0,3
+connected to 141,0,0,18
+
+node TEXT_NPC 141,0,0,18
+text 131,1,0,0
+alttext 131,1,0,1
+

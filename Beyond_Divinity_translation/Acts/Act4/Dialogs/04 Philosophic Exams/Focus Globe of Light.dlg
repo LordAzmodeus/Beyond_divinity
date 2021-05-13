@@ -1,0 +1,44 @@
+version 11
+id 6,1,0,145
+name "Focus Globe of Light"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 145,0,0,1
+
+node BLOCK_GREET_AVAILABLE 145,0,0,2
+
+node BLOCK_GREET_ACTIVE 145,0,0,3
+
+node BLOCK_GREET_SUCCESS 145,0,0,4
+connected to 145,0,0,12
+
+node BLOCK_GREET_COMPLETED 145,0,0,5
+
+node BLOCK_GREET_FAILURE 145,0,0,6
+connected to 145,0,0,14
+
+node BLOCK_GREET_FAILED 145,0,0,7
+
+node BLOCK_GREET_REFUSED 145,0,0,8
+
+node BLOCK_STD 145,0,0,9
+
+node BLOCK_SERV 145,0,0,10
+
+node BLOCK_EXIT 145,0,0,11
+
+node TEXT_NPC 145,0,0,12
+text 190,1,0,0
+alttext 184,1,0,0
+connected to 145,0,0,13
+
+node BLOCK_QUEST_SUCCESS 145,0,0,13
+
+node TEXT_NPC 145,0,0,14
+text 190,1,0,1
+alttext 184,1,0,1
+connected to 145,0,0,15
+
+node BLOCK_QUEST_FAILURE 145,0,0,15
+

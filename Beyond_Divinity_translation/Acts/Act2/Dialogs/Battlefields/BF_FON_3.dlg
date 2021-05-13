@@ -1,0 +1,169 @@
+version 11
+id 6,0,0,243
+name "BF_FON_3"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 243,0,0,1
+
+node BLOCK_GREET_AVAILABLE 243,0,0,2
+connected to 243,0,0,12
+
+node BLOCK_GREET_ACTIVE 243,0,0,3
+connected to 243,0,0,20
+
+node BLOCK_GREET_SUCCESS 243,0,0,4
+connected to 243,0,0,22
+
+node BLOCK_GREET_COMPLETED 243,0,0,5
+connected to 243,0,0,39
+
+node BLOCK_GREET_FAILURE 243,0,0,6
+
+node BLOCK_GREET_FAILED 243,0,0,7
+
+node BLOCK_GREET_REFUSED 243,0,0,8
+connected to 243,0,0,26
+
+node BLOCK_STD 243,0,0,9
+
+node BLOCK_SERV 243,0,0,10
+connected to 243,0,0,34
+connected to 243,0,0,36
+
+node BLOCK_EXIT 243,0,0,11
+connected to 243,0,0,38
+
+node TEXT_NPC 243,0,0,12
+text 221,1,0,0
+alttext 221,1,0,1
+connected to 243,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 243,0,0,13
+connected to 243,0,0,14
+
+node TEXT_HERO 243,0,0,14
+text 221,0,0,0
+alttext 221,0,0,1
+connected to 243,0,0,15
+
+node TEXT_NPC 243,0,0,15
+text 221,1,0,2
+alttext 221,1,0,3
+connected to 243,0,0,16
+connected to 243,0,0,18
+
+node TEXT_HERO 243,0,0,16
+text 221,0,0,2
+alttext 221,0,0,3
+quest event 2
+connected to 243,0,0,17
+
+node TEXT_NPC 243,0,0,17
+text 221,1,0,4
+alttext 221,1,0,5
+
+node TEXT_HERO 243,0,0,18
+text 221,0,0,4
+alttext 221,0,0,5
+quest event 7
+connected to 243,0,0,19
+
+node TEXT_NPC 243,0,0,19
+text 221,1,0,6
+alttext 221,1,0,7
+
+node TEXT_NPC 243,0,0,20
+text 221,1,0,8
+alttext 221,1,0,9
+connected to 243,0,0,21
+
+node BLOCK_QUEST_ACTIVE 243,0,0,21
+
+node TEXT_NPC 243,0,0,22
+text 221,1,0,10
+alttext 221,1,0,11
+connected to 243,0,0,23
+
+node BLOCK_QUEST_SUCCESS 243,0,0,23
+connected to 243,0,0,24
+
+node TEXT_HERO 243,0,0,24
+text 221,0,0,6
+alttext 221,0,0,7
+quest event 4
+connected to 243,0,0,25
+
+node TEXT_NPC 243,0,0,25
+text 221,1,0,12
+alttext 221,1,0,13
+
+node TEXT_NPC 243,0,0,26
+text 221,1,0,14
+alttext 221,1,0,15
+connected to 243,0,0,27
+
+node BLOCK_QUEST_REFUSED 243,0,0,27
+connected to 243,0,0,28
+
+node TEXT_HERO 243,0,0,28
+text 221,0,0,8
+alttext 221,0,0,9
+connected to 243,0,0,29
+
+node TEXT_NPC 243,0,0,29
+text 221,1,0,16
+alttext 221,1,0,17
+connected to 243,0,0,30
+connected to 243,0,0,32
+
+node TEXT_HERO 243,0,0,30
+text 221,0,0,10
+alttext 221,0,0,11
+quest event 2
+connected to 243,0,0,31
+
+node TEXT_NPC 243,0,0,31
+text 221,1,0,18
+alttext 221,1,0,19
+
+node TEXT_HERO 243,0,0,32
+text 221,0,0,12
+alttext 221,0,0,13
+connected to 243,0,0,33
+
+node TEXT_NPC 243,0,0,33
+text 221,1,0,20
+alttext 221,1,0,21
+
+node TEXT_HERO 243,0,0,34
+servnode 2 1
+text 221,0,0,14
+alttext 221,0,0,15
+connected to 243,0,0,35
+
+node TEXT_NPC 243,0,0,35
+text 221,1,0,22
+alttext 221,1,0,23
+
+node TEXT_HERO 243,0,0,36
+servnode 3 1
+text 221,0,0,16
+alttext 221,0,0,17
+connected to 243,0,0,37
+
+node TEXT_NPC 243,0,0,37
+text 221,1,0,24
+alttext 221,1,0,25
+
+node TEXT_HERO 243,0,0,38
+text 221,0,0,18
+alttext 221,0,0,19
+
+node TEXT_NPC 243,0,0,39
+text 221,1,0,26
+alttext 221,1,0,27
+connected to 243,0,0,40
+
+node BLOCK_QUEST_COMPLETED 243,0,0,40
+

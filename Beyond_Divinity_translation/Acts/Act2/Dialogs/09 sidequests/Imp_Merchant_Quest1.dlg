@@ -1,0 +1,158 @@
+version 11
+id 6,3,0,140
+name "Imp_Merchant_Quest1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 140,0,0,1
+
+node BLOCK_GREET_AVAILABLE 140,0,0,2
+connected to 140,0,0,12
+
+node BLOCK_GREET_ACTIVE 140,0,0,3
+connected to 140,0,0,20
+
+node BLOCK_GREET_SUCCESS 140,0,0,4
+connected to 140,0,0,31
+
+node BLOCK_GREET_COMPLETED 140,0,0,5
+connected to 140,0,0,33
+
+node BLOCK_GREET_FAILURE 140,0,0,6
+
+node BLOCK_GREET_FAILED 140,0,0,7
+
+node BLOCK_GREET_REFUSED 140,0,0,8
+connected to 140,0,0,22
+
+node BLOCK_STD 140,0,0,9
+
+node BLOCK_SERV 140,0,0,10
+connected to 140,0,0,35
+connected to 140,0,0,37
+
+node BLOCK_EXIT 140,0,0,11
+connected to 140,0,0,30
+
+node TEXT_NPC 140,0,0,12
+text 153,1,0,0
+alttext 153,1,0,1
+connected to 140,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 140,0,0,13
+connected to 140,0,0,14
+
+node TEXT_HERO 140,0,0,14
+text 153,0,0,0
+alttext 153,0,0,1
+connected to 140,0,0,15
+
+node TEXT_NPC 140,0,0,15
+text 153,1,0,2
+alttext 153,1,0,3
+connected to 140,0,0,16
+connected to 140,0,0,18
+
+node TEXT_HERO 140,0,0,16
+text 153,0,0,2
+alttext 153,0,0,3
+quest event 2
+connected to 140,0,0,17
+
+node TEXT_NPC 140,0,0,17
+text 153,1,0,4
+alttext 153,1,0,5
+
+node TEXT_HERO 140,0,0,18
+text 153,0,0,4
+alttext 153,0,0,5
+quest event 7
+connected to 140,0,0,19
+
+node TEXT_NPC 140,0,0,19
+text 153,1,0,6
+alttext 153,1,0,7
+
+node TEXT_NPC 140,0,0,20
+text 153,1,0,8
+alttext 153,1,0,9
+connected to 140,0,0,21
+
+node BLOCK_QUEST_ACTIVE 140,0,0,21
+
+node TEXT_NPC 140,0,0,22
+text 153,1,0,10
+alttext 153,1,0,11
+connected to 140,0,0,23
+
+node BLOCK_QUEST_REFUSED 140,0,0,23
+connected to 140,0,0,24
+
+node TEXT_HERO 140,0,0,24
+text 153,0,0,6
+alttext 153,0,0,7
+connected to 140,0,0,25
+
+node TEXT_NPC 140,0,0,25
+text 153,1,0,12
+alttext 153,1,0,13
+connected to 140,0,0,26
+connected to 140,0,0,28
+
+node TEXT_HERO 140,0,0,26
+text 153,0,0,8
+alttext 153,0,0,9
+quest event 2
+connected to 140,0,0,27
+
+node TEXT_NPC 140,0,0,27
+text 153,1,0,14
+alttext 153,1,0,15
+
+node TEXT_HERO 140,0,0,28
+text 153,0,0,10
+alttext 153,0,0,11
+connected to 140,0,0,29
+
+node TEXT_NPC 140,0,0,29
+text 153,1,0,16
+alttext 153,1,0,17
+
+node TEXT_HERO 140,0,0,30
+text 153,0,0,12
+alttext 153,0,0,13
+
+node TEXT_NPC 140,0,0,31
+text 125,1,0,0
+alttext 125,1,0,1
+connected to 140,0,0,32
+
+node BLOCK_QUEST_SUCCESS 140,0,0,32
+
+node TEXT_NPC 140,0,0,33
+text 125,1,0,2
+alttext 125,1,0,3
+connected to 140,0,0,34
+
+node BLOCK_QUEST_COMPLETED 140,0,0,34
+
+node TEXT_HERO 140,0,0,35
+servnode 2 1
+text 138,0,0,0
+alttext 138,0,0,1
+connected to 140,0,0,36
+
+node TEXT_NPC 140,0,0,36
+text 138,1,0,0
+alttext 138,1,0,1
+
+node TEXT_HERO 140,0,0,37
+servnode 3 1
+text 138,0,0,2
+alttext 138,0,0,3
+connected to 140,0,0,38
+
+node TEXT_NPC 140,0,0,38
+text 138,1,0,2
+alttext 138,1,0,3
+

@@ -1,0 +1,85 @@
+version 11
+id 6,1,0,77
+name "Deathknight Hiding Soldier"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 77,0,0,1
+connected to 77,0,0,12
+
+node BLOCK_GREET_AVAILABLE 77,0,0,2
+
+node BLOCK_GREET_ACTIVE 77,0,0,3
+
+node BLOCK_GREET_SUCCESS 77,0,0,4
+
+node BLOCK_GREET_COMPLETED 77,0,0,5
+
+node BLOCK_GREET_FAILURE 77,0,0,6
+
+node BLOCK_GREET_FAILED 77,0,0,7
+
+node BLOCK_GREET_REFUSED 77,0,0,8
+
+node BLOCK_STD 77,0,0,9
+connected to 77,0,0,14
+connected to 77,0,0,22
+
+node BLOCK_SERV 77,0,0,10
+
+node BLOCK_EXIT 77,0,0,11
+connected to 77,0,0,17
+
+node TEXT_NPC 77,0,0,12
+text 238,1,0,0
+connected to 77,0,0,13
+
+node BLOCK_QUEST_INACTIVE 77,0,0,13
+
+node TEXT_HERO 77,0,0,14
+stdnode
+text 238,0,0,0
+alttext 75,0,0,0
+connected to 77,0,0,15
+
+node BLOCK_STD 77,0,0,16
+connected to 77,0,0,18
+connected to 77,0,0,20
+
+node TEXT_HERO 77,0,0,17
+text 238,0,0,1
+
+node TEXT_HERO 77,0,0,18
+stdnode
+text 238,0,0,2
+alttext 75,0,0,1
+connected to 77,0,0,19
+
+node TEXT_NPC 77,0,0,15
+text 238,1,0,1
+connected to 77,0,0,16
+
+node TEXT_HERO 77,0,0,20
+stdnode
+text 238,0,0,3
+alttext 75,0,0,2
+connected to 77,0,0,21
+
+node TEXT_NPC 77,0,0,21
+text 238,1,0,2
+
+node TEXT_HERO 77,0,0,22
+stdnode
+text 238,0,0,4
+alttext 75,0,0,3
+connected to 77,0,0,23
+
+node TEXT_NPC 77,0,0,23
+text 238,1,0,3
+connected to 77,0,0,24
+
+node BLOCK_STD 77,0,0,24
+
+node TEXT_NPC 77,0,0,19
+text 238,1,0,4
+

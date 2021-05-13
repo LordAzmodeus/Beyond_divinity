@@ -1,0 +1,49 @@
+version 11
+id 6,1,0,51
+name "Oren Kill"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 51,0,0,1
+
+node BLOCK_GREET_AVAILABLE 51,0,0,2
+connected to 51,0,0,12
+
+node BLOCK_GREET_ACTIVE 51,0,0,3
+
+node BLOCK_GREET_SUCCESS 51,0,0,4
+
+node BLOCK_GREET_COMPLETED 51,0,0,5
+
+node BLOCK_GREET_FAILURE 51,0,0,6
+
+node BLOCK_GREET_FAILED 51,0,0,7
+
+node BLOCK_GREET_REFUSED 51,0,0,8
+
+node BLOCK_STD 51,0,0,9
+
+node BLOCK_SERV 51,0,0,10
+
+node BLOCK_EXIT 51,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 51,0,0,13
+connected to 51,0,0,14
+
+node MONO 51,0,0,12
+mono 20 65,2,0,0 65,3,0,0
+mono 0 65,2,0,1 65,3,0,1
+mono 1 65,2,0,2 65,3,0,2
+mono 20 65,2,0,3 65,3,0,3
+mono 20 65,2,0,4 65,3,0,4
+connected to 51,0,0,13
+
+node TEXT_HERO 51,0,0,14
+text 65,0,0,0
+alttext 48,0,0,0
+quest event 2
+connected to 51,0,0,15
+
+node TEXT_NPC 51,0,0,15
+text 65,1,0,0
+

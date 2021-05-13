@@ -1,0 +1,36 @@
+version 11
+id 6,3,0,136
+name "Imp_Locked_Chests"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 136,0,0,1
+connected to 136,0,0,12
+
+node BLOCK_GREET_AVAILABLE 136,0,0,2
+
+node BLOCK_GREET_ACTIVE 136,0,0,3
+
+node BLOCK_GREET_SUCCESS 136,0,0,4
+
+node BLOCK_GREET_COMPLETED 136,0,0,5
+
+node BLOCK_GREET_FAILURE 136,0,0,6
+
+node BLOCK_GREET_FAILED 136,0,0,7
+
+node BLOCK_GREET_REFUSED 136,0,0,8
+
+node BLOCK_STD 136,0,0,9
+
+node BLOCK_SERV 136,0,0,10
+
+node BLOCK_EXIT 136,0,0,11
+
+node BLOCK_QUEST_INACTIVE 136,0,0,13
+
+node MONO 136,0,0,12
+mono 18 141,2,0,0 141,3,0,0
+mono 18 141,2,0,1 141,3,0,1
+connected to 136,0,0,13
+

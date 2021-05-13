@@ -1,0 +1,122 @@
+version 11
+id 6,1,0,122
+name "Statue of Ra"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 122,0,0,1
+
+node BLOCK_GREET_AVAILABLE 122,0,0,2
+connected to 122,0,0,12
+
+node BLOCK_GREET_ACTIVE 122,0,0,3
+
+node BLOCK_GREET_SUCCESS 122,0,0,4
+
+node BLOCK_GREET_COMPLETED 122,0,0,5
+
+node BLOCK_GREET_FAILURE 122,0,0,6
+
+node BLOCK_GREET_FAILED 122,0,0,7
+
+node BLOCK_GREET_REFUSED 122,0,0,8
+
+node BLOCK_STD 122,0,0,9
+
+node BLOCK_SERV 122,0,0,10
+
+node BLOCK_EXIT 122,0,0,11
+connected to 122,0,0,36
+
+node TEXT_NPC 122,0,0,12
+text 125,1,0,0
+alttext 177,1,0,2
+connected to 122,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 122,0,0,13
+connected to 122,0,0,24
+
+node TEXT_HERO 122,0,0,24
+text 177,0,0,0
+alttext 177,0,0,9
+connected to 122,0,0,25
+
+node TEXT_NPC 122,0,0,25
+text 177,1,0,0
+alttext 177,1,0,1
+connected to 122,0,0,26
+connected to 122,0,0,28
+connected to 122,0,0,30
+connected to 122,0,0,32
+connected to 122,0,0,34
+
+node TEXT_HERO 122,0,0,26
+text 177,0,0,1
+alttext 177,0,0,11
+quest event 2
+connected to 122,0,0,27
+
+node TEXT_HERO 122,0,0,28
+text 177,0,0,2
+alttext 177,0,0,8
+quest event 7
+connected to 122,0,0,29
+
+node TEXT_HERO 122,0,0,30
+text 177,0,0,3
+alttext 177,0,0,10
+quest event 7
+connected to 122,0,0,31
+
+node TEXT_HERO 122,0,0,32
+text 177,0,0,4
+alttext 177,0,0,7
+quest event 7
+connected to 122,0,0,33
+
+node TEXT_HERO 122,0,0,34
+text 177,0,0,5
+alttext 177,0,0,12
+quest event 7
+connected to 122,0,0,35
+
+node TEXT_HERO 122,0,0,36
+text 177,0,0,6
+
+node MONO 122,0,0,27
+mono 53 177,2,0,27 177,3,0,0
+mono 53 177,2,0,32 177,3,0,5
+mono 1 177,2,0,33 177,3,0,6
+
+node MONO 122,0,0,29
+mono 53 177,2,0,28 177,3,0,1
+mono 0 177,2,0,34 177,3,0,7
+mono 48 177,2,0,35 177,3,0,8
+mono 48 177,2,0,37 177,3,0,10
+mono 48 177,2,0,38 177,3,0,11
+mono 1 177,2,0,36 177,3,0,9
+
+node MONO 122,0,0,31
+mono 53 177,2,0,29 177,3,0,2
+mono 0 177,2,0,39 177,3,0,12
+mono 48 177,2,0,40 177,3,0,13
+mono 48 177,2,0,41 177,3,0,14
+mono 48 177,2,0,42 177,3,0,15
+mono 1 177,2,0,43 177,3,0,16
+
+node MONO 122,0,0,33
+mono 53 177,2,0,30 177,3,0,3
+mono 0 177,2,0,44 177,3,0,17
+mono 48 177,2,0,46 177,3,0,19
+mono 48 177,2,0,47 177,3,0,20
+mono 48 177,2,0,48 177,3,0,21
+mono 1 177,2,0,45 177,3,0,18
+
+node MONO 122,0,0,35
+mono 53 177,2,0,31 177,3,0,4
+mono 0 177,2,0,49 177,3,0,22
+mono 48 177,2,0,53 177,3,0,26
+mono 48 177,2,0,52 177,3,0,25
+mono 48 177,2,0,51 177,3,0,24
+mono 1 177,2,0,50 177,3,0,23
+

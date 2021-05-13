@@ -1,0 +1,48 @@
+version 11
+id 6,1,0,35
+name "Temple Assassin Guard"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 35,0,0,1
+connected to 35,0,0,12
+
+node BLOCK_GREET_AVAILABLE 35,0,0,2
+connected to 35,0,0,14
+
+node BLOCK_GREET_ACTIVE 35,0,0,3
+
+node BLOCK_GREET_SUCCESS 35,0,0,4
+
+node BLOCK_GREET_COMPLETED 35,0,0,5
+
+node BLOCK_GREET_FAILURE 35,0,0,6
+
+node BLOCK_GREET_FAILED 35,0,0,7
+
+node BLOCK_GREET_REFUSED 35,0,0,8
+
+node BLOCK_STD 35,0,0,9
+
+node BLOCK_SERV 35,0,0,10
+
+node BLOCK_EXIT 35,0,0,11
+
+node TEXT_NPC 35,0,0,12
+text 51,1,0,0
+alttext 51,1,0,1
+connected to 35,0,0,13
+
+node BLOCK_QUEST_INACTIVE 35,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 35,0,0,15
+
+node MONO 35,0,0,14
+mono 18 51,2,0,0 51,3,0,0
+mono 0 51,2,0,1 51,3,0,1
+mono 18 51,2,0,2 51,3,0,2
+mono 0 51,2,0,3 51,3,0,3
+mono 18 51,2,0,4 51,3,0,4
+mono 18 51,2,0,5 51,3,0,5
+connected to 35,0,0,15
+

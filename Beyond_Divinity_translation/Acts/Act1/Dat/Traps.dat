@@ -1,0 +1,704 @@
+// RIFTRUNNER
+// TRAPS.DAT
+
+// Arena Hatch to Pit Level
+trap 1
+1 frames
+frame 0
+teleport to "arena_hatch_to_pit_level"
+
+// Pit Level to First dungeon level - generated
+trap 2
+1 frames
+frame 0
+// TODO - dungeon region assignment
+//generate dungeon "Citadel_FirstDungeonLevel" 10 10 100 100 "Citadel_Dungeon_1" "maze_level_entrance" 42 0
+
+// First dungeon level to second dungeon level - generated
+//trap 3
+//1 frames
+//frame 0
+//generate dungeon "Citadel_SecondDungeonLevel" 10 120 100 100 "Citadel_Dungeon_2" "stairway_second_dungeon_to_maze_level" 22 0
+
+// Key Level Entrance to Key Level
+trap 4
+1 frames
+frame 0
+teleport to "key_level_entrance_to_key_level"
+
+// Key Level to Key Level entrance
+trap 5
+1 frames
+frame 0
+teleport to "key_level_to_key_level_entrance"
+
+// Key level to key level exit
+trap 6
+1 frames
+frame 0
+teleport to "key_level_to_key_level_exit"
+
+// Key level exit to key level
+trap 7
+1 frames
+frame 0
+teleport to "key_level_exit_to_key_level"
+
+// Pit Level to torture level
+trap 8
+1 frames
+frame 0
+teleport to "pit_level_to_torture_level"
+
+// torture level to pit level
+trap 9
+1 frames
+frame 0
+teleport to "torture_level_to_pit_level"
+
+// torture level to drill grounds
+trap 10
+1 frames
+frame 0
+teleport to "torture_level_to_drill_grounds"
+
+// drill grounds to torture level
+trap 11
+1 frames
+frame 0
+teleport to "drill_grounds_to_torture_level"
+
+// drill grounds to barracks
+trap 12
+1 frames
+frame 0
+teleport to "drill_grounds_to_barracks"
+
+// barracks to drill grounds
+trap 13
+1 frames
+frame 0
+teleport to "barracks_to_drill_grounds"
+
+// Citadel Torture Area lever stubs
+trap 14
+2 frames
+frame 0
+frame 1
+
+trap 15
+2 frames
+frame 0
+frame 1
+
+trap 16
+2 frames
+frame 0
+frame 1
+
+trap 17
+2 frames
+frame 0
+frame 1
+
+trap 18
+2 frames
+frame 0
+frame 1
+
+// Citadel torture area lever trap
+//trap 19
+//1 frames
+//region trigger "citadel_torture_lever_trap"
+//frame 0
+//melee damage amount 10
+
+// Citadel pit level stairs down lever
+trap 20
+2 frames
+frame 0
+unlock door 2
+frame 1
+lock door 2
+
+// Exit of citadel generated dungeon level
+trap 21
+1 frames
+frame 0
+
+// Stairway between second dungeon level and maze level - generated trap
+//trap 22
+//1 frames
+//frame 0
+
+// To maze level - generated
+//trap 23
+//1 frames
+//frame 0
+//generate dungeon "Citadel_MazeLevel" 10 230 100 100 "Citadel_Maze" "maze_level_to_key_level" 24 0
+
+// Key level to maze level
+trap 24
+1 frames
+frame 0
+teleport to "key_level_to_maze_level"
+
+// Key level lever stubs
+trap 25
+2 frames
+frame 0
+frame 1
+
+trap 26
+2 frames
+frame 0
+frame 1
+
+trap 27
+2 frames
+frame 0
+frame 1
+
+trap 28
+2 frames
+frame 0
+frame 1
+
+trap 29
+2 frames
+frame 0
+frame 1
+
+trap 30
+2 frames
+frame 0
+frame 1
+
+trap 31
+2 frames
+frame 0
+unlock door 4
+frame 1
+lock door 4
+
+trap 32
+1 frames
+frame 0
+teleport to "citadel_demon_lair_entrance"
+
+trap 33
+1 frames
+frame 0
+teleport to "citadel_demon_lair_exit"
+
+trap 34
+1 frames
+region trigger "citadel_arena_monster_trap1"
+frame 0
+unlock door 5
+
+trap 35
+1 frames
+region trigger "citadel_arena_monster_trap2"
+frame 0
+unlock door 6
+
+trap 36
+1 frames
+frame 0
+teleport to "citadel_prison_secret_tunnel_exit"
+
+trap 37
+1 frames
+frame 0
+teleport to "prison_escape1"
+
+trap 38
+1 frames
+frame 0
+teleport to "prison_escape2"
+
+trap 39
+1 frames
+frame 0
+teleport to "prison_escape3"
+
+trap 40
+1 frames
+frame 0
+teleport to "prison_escape4"
+
+trap 41
+2 frames
+frame 0
+unlock door 19
+frame 1
+lock door 19
+
+// Generated trap
+trap 42
+1 frames
+frame 0
+
+// Citadel maze level to key level
+trap 43
+1 frames
+frame 0
+teleport to "maze_level_to_key_level"
+
+// Citadel maze entrance traps
+//trap 44
+//1 frames
+//region trigger "maze_entrance_trap1"
+//frame 0
+//melee damage amount 25
+//
+//trap 44
+//1 frames
+//region trigger "maze_entrance_trap2"
+//frame 0
+//melee damage amount 25
+
+// Maze trap room
+//trap 45
+//1 frames
+//region trigger "maze_trap_room1"
+//frame 0
+//fire damage level 40
+//
+//trap 46
+//1 frames
+//region trigger "maze_trap_room2"
+//frame 0
+//lightning damage level 40
+//
+//trap 47
+//1 frames
+//region trigger "maze_trap_room3"
+//frame 0
+//spiritual damage level 40
+//
+//trap 48
+//1 frames
+//region trigger "maze_trap_room4"
+//frame 0
+//fire damage level 40
+//
+//trap 49
+//1 frames
+//region trigger "maze_trap_room5"
+//frame 0
+//poison damage level 40
+//
+//trap 50
+//1 frames
+//region trigger "maze_trap_room6"
+//frame 0
+//fire damage level 40
+//
+//trap 51
+//1 frames
+//region trigger "maze_trap_room7"
+//frame 0
+//poison damage level 40
+//
+//trap 52
+//1 frames
+//region trigger "maze_trap_room8"
+//frame 0
+//lightning damage level 40
+//
+//trap 53
+//1 frames
+//region trigger "maze_trap_room9"
+//frame 0
+//fire damage level 40
+//
+//trap 54
+//1 frames
+//region trigger "maze_trap_room10"
+//frame 0
+//poison damage level 40
+//
+//trap 55
+//1 frames
+//region trigger "maze_trap_room11"
+//frame 0
+//spiritual damage level 40
+//
+//trap 56
+//1 frames
+//region trigger "maze_trap_room12"
+//frame 0
+//lightning damage level 40
+//
+//trap 57
+//1 frames
+//region trigger "maze_trap_room13"
+//frame 0
+//fire damage level 40
+
+// Maze poison room lever
+trap 58
+2 frames
+frame 0
+frame 1
+
+// Maze poison room trap
+//trap 59
+//1 frames
+//region trigger "maze_poison_room"
+//frame 0
+//poison damage level 60
+
+// Statue traps
+//trap 60
+//1 frames
+//region trigger "statue_trap1"
+//frame 0
+//lightning damage level 40
+//
+//trap 61
+//1 frames
+//region trigger "statue_trap2"
+//frame 0
+//lightning damage level 40
+//
+//trap 62
+//1 frames
+//region trigger "statue_trap3"
+//frame 0
+//lightning damage level 40
+//
+//trap 63
+//1 frames
+//region trigger "statue_trap4"
+//frame 0
+//lightning damage level 40
+//
+//trap 64
+//1 frames
+//region trigger "statue_trap5"
+//frame 0
+//lightning damage level 40
+//
+//trap 65
+//1 frames
+//region trigger "statue_trap6"
+//frame 0
+//lightning damage level 40
+
+// Maze gargoyle lever dummy traps
+trap 66
+2 frames
+frame 0
+frame 1
+
+trap 67
+2 frames
+frame 0
+frame 1
+
+trap 68
+2 frames
+frame 0
+frame 1
+
+// Pit level healer secret room
+trap 69
+1 frames
+frame 0
+teleport to "pit_level_secret_room_entrance"
+
+trap 70
+1 frames
+frame 0
+teleport to "pit_level_secret_room_exit"
+
+trap 71
+2 frames
+frame 0
+frame 1
+
+// Key level secret room
+trap 72
+1 frames
+frame 0
+teleport to "key_level_secret_room"
+
+trap 73
+1 frames
+frame 0
+teleport to "key_level_secret_room_exit"
+
+// Maze trapped corridor
+//trap 511
+//1 frames
+//region trigger "maze_trap_false_walls1"
+//frame 0
+//fire damage level 30
+//
+//trap 512
+//1 frames
+//region trigger "maze_trap_false_walls2"
+//frame 0
+//fire damage level 40
+//
+//trap 513
+//1 frames
+//region trigger "maze_trap_false_walls3"
+//frame 0
+//fire damage level 50
+
+//trap 514
+//1 frames
+//region trigger "maze_trap_around_chest"
+//frame 0
+//lightning damage level 40
+
+trap 516
+1 frames
+frame 0
+teleport to "ambush56"
+
+//trap 518
+//1 frames
+//region trigger "maze_surprise_trap"
+//frame 0
+//fire damage level 40
+
+//trap 519
+//1 frames
+//region trigger "illusion_well_poison_trap"
+//frame 0
+//poison damage level 40
+
+//trap 520
+//1 frames
+//region trigger "illusion_well_poison_trap2"
+//frame 0
+//poison damage level 40
+
+//trap 521
+//1 frames
+//region trigger "maze_trap_around_chest2"
+//frame 0
+//spiritual damage level 40
+
+//trap 522
+//1 frames
+//region trigger "maze_shortcut_trap"
+//frame 0
+//lightning damage level 50
+
+//trap 523
+//1 frames
+//region trigger "maze_shortcut_trap2"
+//frame 0
+//fire damage level 40
+
+trap 524
+1 frames
+region trigger "maze_portal_trap"
+frame 0
+fire damage level 40
+
+// Triangle Traps
+trap 525
+1 frames
+region trigger "maze_teleport_traingle_a"
+frame 0
+teleport to "maze_teleport_triangle_b"
+
+trap 526
+1 frames
+region trigger "maze_teleport_triangle_b"
+frame 0
+teleport to "maze_teleport_triangle_c"
+
+trap 527
+1 frames
+region trigger "maze_teleport_triangle_c"
+frame 0
+teleport to "maze_teleport_triangle_a"
+
+//trap 528
+//1 frames
+//region trigger "drill_ground_trap_f"
+//frame 0
+//fire damage level 30
+//
+//trap 529
+//1 frames
+//region trigger "drill_ground_trap_g"
+//frame 0
+//spiritual damage level 20
+//
+//trap 530
+//1 frames
+//region trigger "drill_ground_trap_h1"
+//frame 0
+//lightning damage level 80
+//
+//trap 531
+//1 frames
+//region trigger "drill_ground_trap_h2"
+//frame 0
+//melee damage amount 80
+//
+//trap 532
+//1 frames
+//region trigger "drill_ground_trap_h3"
+//frame 0
+//fire damage level 80
+//
+//trap 533
+//1 frames
+//region trigger "drill_ground_trap_h4"
+//frame 0
+//lightning damage level 80
+//
+//trap 534
+//1 frames
+//region trigger "drill_ground_trap_h5"
+//frame 0
+//spiritual damage level 80
+//
+//trap 535
+//1 frames
+//region trigger "drill_ground_trap_i1"
+//frame 0
+//fire damage level 50
+//
+//trap 536
+//1 frames
+//region trigger "drill_ground_trap_i2"
+//frame 0
+//lightning damage level 40
+//
+//trap 537
+//1 frames
+//region trigger "drill_ground_trap_i3"
+//frame 0
+//melee damage amount 60
+
+//trap 544
+//1 frames
+//region trigger "barracks_trap_region_1"
+//frame 0
+//fire damage level 50
+//
+//trap 545
+//1 frames
+//region trigger "barracks_trap_region2"
+//frame 0
+//fire damage level 50
+//
+//trap 546
+//1 frames
+//region trigger "barracks_trap_region_3"
+//frame 0
+//fire damage level 50
+
+//trap 547
+//1 frames
+//region trigger "barracks_exit_region"
+//frame 0
+//fire damage level 50
+
+// Bran to Dungeon
+trap 548
+1 frames
+frame 0
+teleport to "dungeon_to_bran"
+
+// Dungeon to Bran
+trap 549
+1 frames
+frame 0
+teleport to "bran_to_dungeon"
+
+trap 900
+2 frames
+frame 0
+frame 1
+
+trap 901
+2 frames
+frame 0
+frame 1
+
+trap 902
+2 frames
+frame 0
+frame 1
+
+trap 903
+2 frames
+frame 0
+frame 1
+
+trap 904
+2 frames
+frame 0
+frame 1
+
+trap 905
+2 frames
+frame 0
+frame 1
+
+trap 906
+2 frames
+frame 0
+frame 1
+
+trap 907
+2 frames
+frame 0
+frame 1
+
+trap 908
+2 frames
+frame 0
+frame 1
+
+trap 909
+2 frames
+frame 0
+frame 1
+
+trap 910
+2 frames
+frame 0
+frame 1
+
+trap 911
+2 frames
+frame 0
+frame 1
+
+trap 912
+2 frames
+frame 0
+frame 1
+
+trap 913
+2 frames
+frame 0
+frame 1
+
+trap 914
+2 frames
+frame 0
+frame 1
+
+trap 915
+2 frames
+frame 0
+frame 1
+
+trap 916
+1 frames
+frame 0
+teleport to "dungeon_level_1_to_pit_level"

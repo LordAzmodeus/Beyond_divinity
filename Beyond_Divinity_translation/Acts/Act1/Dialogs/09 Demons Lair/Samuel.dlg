@@ -1,0 +1,46 @@
+version 11
+id 6,1,0,173
+name "Samuel"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 173,0,0,1
+connected to 173,0,0,12
+
+node BLOCK_GREET_AVAILABLE 173,0,0,2
+
+node BLOCK_GREET_ACTIVE 173,0,0,3
+
+node BLOCK_GREET_SUCCESS 173,0,0,4
+
+node BLOCK_GREET_COMPLETED 173,0,0,5
+
+node BLOCK_GREET_FAILURE 173,0,0,6
+
+node BLOCK_GREET_FAILED 173,0,0,7
+
+node BLOCK_GREET_REFUSED 173,0,0,8
+
+node BLOCK_STD 173,0,0,9
+
+node BLOCK_SERV 173,0,0,10
+
+node BLOCK_EXIT 173,0,0,11
+
+node BLOCK_QUEST_INACTIVE 173,0,0,13
+
+node MONO 173,0,0,12
+mono 82 96,2,0,0 96,3,0,0
+mono 1 96,2,0,1 96,3,0,1
+mono 82 96,2,0,2 96,3,0,2
+mono 1 96,2,0,3 96,3,0,3
+mono 82 96,2,0,4 96,3,0,4
+mono 82 96,2,0,5 96,3,0,5
+mono 0 96,2,0,10 96,3,0,6
+mono 1 96,2,0,11 96,3,0,7
+mono 82 96,2,0,6 96,3,0,8
+mono 82 96,2,0,7 96,3,0,9
+mono 82 96,2,0,8 96,3,0,10
+mono 83 96,2,0,9 96,3,0,11
+connected to 173,0,0,13
+

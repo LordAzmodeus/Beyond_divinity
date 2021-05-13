@@ -1,0 +1,46 @@
+version 11
+id 6,1,0,81
+name "Necromancer_Village_Grown_Up2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 81,0,0,1
+
+node BLOCK_GREET_AVAILABLE 81,0,0,2
+
+node BLOCK_GREET_ACTIVE 81,0,0,3
+connected to 81,0,0,13
+
+node BLOCK_GREET_SUCCESS 81,0,0,4
+connected to 81,0,0,15
+
+node BLOCK_GREET_COMPLETED 81,0,0,5
+
+node BLOCK_GREET_FAILURE 81,0,0,6
+
+node BLOCK_GREET_FAILED 81,0,0,7
+
+node BLOCK_GREET_REFUSED 81,0,0,8
+
+node BLOCK_STD 81,0,0,9
+
+node BLOCK_SERV 81,0,0,10
+
+node BLOCK_EXIT 81,0,0,11
+connected to 81,0,0,12
+
+node TEXT_HERO 81,0,0,12
+text 96,0,0,0
+
+node TEXT_NPC 81,0,0,13
+text 96,1,0,0
+connected to 81,0,0,14
+
+node BLOCK_QUEST_ACTIVE 81,0,0,14
+
+node TEXT_NPC 81,0,0,15
+text 96,1,0,1
+connected to 81,0,0,16
+
+node BLOCK_QUEST_SUCCESS 81,0,0,16
+

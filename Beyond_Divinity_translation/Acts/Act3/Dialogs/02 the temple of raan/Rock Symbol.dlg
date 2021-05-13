@@ -1,0 +1,60 @@
+version 11
+id 6,0,0,29
+name "Rock Symbol"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 29,0,0,1
+connected to 29,0,0,12
+
+node BLOCK_GREET_AVAILABLE 29,0,0,2
+
+node BLOCK_GREET_ACTIVE 29,0,0,3
+connected to 29,0,0,14
+
+node BLOCK_GREET_SUCCESS 29,0,0,4
+
+node BLOCK_GREET_COMPLETED 29,0,0,5
+
+node BLOCK_GREET_FAILURE 29,0,0,6
+
+node BLOCK_GREET_FAILED 29,0,0,7
+
+node BLOCK_GREET_REFUSED 29,0,0,8
+
+node BLOCK_STD 29,0,0,9
+
+node BLOCK_SERV 29,0,0,10
+
+node BLOCK_EXIT 29,0,0,11
+connected to 29,0,0,18
+
+node TEXT_NPC 29,0,0,12
+text 211,1,0,0
+alttext 211,1,0,1
+connected to 29,0,0,13
+
+node BLOCK_QUEST_INACTIVE 29,0,0,13
+
+node TEXT_NPC 29,0,0,14
+text 211,1,0,2
+alttext 211,1,0,3
+connected to 29,0,0,15
+
+node BLOCK_QUEST_ACTIVE 29,0,0,15
+connected to 29,0,0,16
+
+node TEXT_HERO 29,0,0,16
+text 211,0,0,0
+alttext 211,0,0,1
+quest event 3
+connected to 29,0,0,17
+
+node TEXT_NPC 29,0,0,17
+text 211,1,0,4
+alttext 211,1,0,5
+
+node TEXT_HERO 29,0,0,18
+text 211,0,0,2
+alttext 211,0,0,3
+

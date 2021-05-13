@@ -1,0 +1,74 @@
+version 11
+id 6,1,0,69
+name "Tunnel_Mirror_Usage"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 69,0,0,1
+connected to 69,0,0,12
+
+node BLOCK_GREET_AVAILABLE 69,0,0,2
+connected to 69,0,0,16
+
+node BLOCK_GREET_ACTIVE 69,0,0,3
+
+node BLOCK_GREET_SUCCESS 69,0,0,4
+
+node BLOCK_GREET_COMPLETED 69,0,0,5
+
+node BLOCK_GREET_FAILURE 69,0,0,6
+connected to 69,0,0,20
+
+node BLOCK_GREET_FAILED 69,0,0,7
+
+node BLOCK_GREET_REFUSED 69,0,0,8
+
+node BLOCK_STD 69,0,0,9
+
+node BLOCK_SERV 69,0,0,10
+
+node BLOCK_EXIT 69,0,0,11
+
+node TEXT_NPC 69,0,0,12
+text 269,1,0,0
+alttext 269,1,0,5
+connected to 69,0,0,13
+
+node BLOCK_QUEST_INACTIVE 69,0,0,13
+connected to 69,0,0,14
+
+node TEXT_HERO 69,0,0,14
+text 269,0,0,0
+alttext 269,0,0,2
+quest event 1
+connected to 69,0,0,15
+
+node TEXT_NPC 69,0,0,15
+text 269,1,0,1
+alttext 269,1,0,6
+
+node TEXT_NPC 69,0,0,16
+text 269,1,0,2
+alttext 269,1,0,7
+connected to 69,0,0,17
+
+node BLOCK_QUEST_AVAILABLE 69,0,0,17
+connected to 69,0,0,18
+
+node TEXT_HERO 69,0,0,18
+text 269,0,0,1
+alttext 269,0,0,3
+quest event 2
+connected to 69,0,0,19
+
+node TEXT_NPC 69,0,0,19
+text 269,1,0,3
+alttext 269,1,0,8
+
+node TEXT_NPC 69,0,0,20
+text 269,1,0,4
+alttext 269,1,0,9
+connected to 69,0,0,21
+
+node BLOCK_QUEST_FAILURE 69,0,0,21
+

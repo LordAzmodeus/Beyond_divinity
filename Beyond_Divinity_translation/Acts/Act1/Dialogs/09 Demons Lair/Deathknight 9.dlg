@@ -1,0 +1,192 @@
+version 11
+id 6,1,0,172
+name "Deathknight 9"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 172,0,0,1
+
+node BLOCK_GREET_AVAILABLE 172,0,0,2
+connected to 172,0,0,54
+
+node BLOCK_GREET_ACTIVE 172,0,0,3
+connected to 172,0,0,62
+
+node BLOCK_GREET_SUCCESS 172,0,0,4
+connected to 172,0,0,50
+
+node BLOCK_GREET_COMPLETED 172,0,0,5
+connected to 172,0,0,48
+
+node BLOCK_GREET_FAILURE 172,0,0,6
+
+node BLOCK_GREET_FAILED 172,0,0,7
+connected to 172,0,0,64
+
+node BLOCK_GREET_REFUSED 172,0,0,8
+connected to 172,0,0,52
+
+node BLOCK_STD 172,0,0,9
+connected to 172,0,0,12
+connected to 172,0,0,15
+connected to 172,0,0,18
+connected to 172,0,0,21
+connected to 172,0,0,32
+
+node BLOCK_SERV 172,0,0,10
+
+node BLOCK_EXIT 172,0,0,11
+connected to 172,0,0,47
+
+node TEXT_HERO 172,0,0,12
+stdnode
+text 25,0,0,0
+connected to 172,0,0,13
+
+node TEXT_NPC 172,0,0,13
+text 25,1,0,0
+connected to 172,0,0,14
+
+node BLOCK_STD 172,0,0,14
+connected to 172,0,0,37
+connected to 172,0,0,39
+
+node TEXT_HERO 172,0,0,15
+stdnode
+text 25,0,0,1
+connected to 172,0,0,16
+
+node TEXT_NPC 172,0,0,16
+text 25,1,0,1
+connected to 172,0,0,17
+
+node BLOCK_STD 172,0,0,17
+
+node TEXT_HERO 172,0,0,18
+stdnode
+text 25,0,0,2
+connected to 172,0,0,19
+
+node TEXT_NPC 172,0,0,19
+text 25,1,0,2
+connected to 172,0,0,20
+
+node BLOCK_STD 172,0,0,20
+connected to 172,0,0,35
+
+node TEXT_HERO 172,0,0,21
+stdnode
+text 25,0,0,3
+connected to 172,0,0,22
+
+node TEXT_NPC 172,0,0,22
+text 25,1,0,3
+connected to 172,0,0,23
+
+node BLOCK_STD 172,0,0,23
+
+node TEXT_HERO 172,0,0,32
+stdnode
+text 25,0,0,7
+connected to 172,0,0,33
+
+node BLOCK_STD 172,0,0,34
+
+node TEXT_HERO 172,0,0,35
+stdnode
+text 25,0,0,8
+connected to 172,0,0,36
+
+node TEXT_NPC 172,0,0,36
+text 25,1,0,9
+
+node TEXT_HERO 172,0,0,37
+stdnode
+text 25,0,0,9
+connected to 172,0,0,38
+
+node TEXT_NPC 172,0,0,38
+text 25,1,0,10
+
+node TEXT_HERO 172,0,0,39
+stdnode
+text 25,0,0,10
+connected to 172,0,0,40
+
+node TEXT_NPC 172,0,0,40
+text 25,1,0,11
+
+node TEXT_HERO 172,0,0,47
+text 25,0,0,11
+
+node TEXT_NPC 172,0,0,48
+text 25,1,0,13
+connected to 172,0,0,49
+
+node BLOCK_QUEST_COMPLETED 172,0,0,49
+
+node TEXT_NPC 172,0,0,50
+text 25,1,0,14
+connected to 172,0,0,51
+
+node BLOCK_QUEST_SUCCESS 172,0,0,51
+
+node TEXT_NPC 172,0,0,52
+text 25,1,0,15
+connected to 172,0,0,53
+
+node BLOCK_QUEST_REFUSED 172,0,0,53
+
+node TEXT_NPC 172,0,0,54
+text 25,1,0,16
+connected to 172,0,0,55
+
+node BLOCK_QUEST_AVAILABLE 172,0,0,55
+connected to 172,0,0,56
+
+node TEXT_HERO 172,0,0,56
+text 25,0,0,12
+connected to 172,0,0,57
+
+node TEXT_NPC 172,0,0,57
+text 25,1,0,17
+connected to 172,0,0,58
+connected to 172,0,0,60
+
+node TEXT_HERO 172,0,0,58
+text 25,0,0,13
+quest event 2
+connected to 172,0,0,59
+
+node TEXT_NPC 172,0,0,59
+text 25,1,0,18
+
+node TEXT_HERO 172,0,0,60
+text 25,0,0,14
+quest event 7
+connected to 172,0,0,61
+
+node TEXT_NPC 172,0,0,61
+text 25,1,0,19
+
+node BLOCK_QUEST_ACTIVE 172,0,0,63
+
+node MONO 172,0,0,62
+mono 1 25,2,0,0 25,3,0,0
+mono 1 25,2,0,1 25,3,0,1
+mono 1 25,2,0,2 25,3,0,2
+mono 1 25,2,0,3 25,3,0,3
+mono 1 25,2,0,4 25,3,0,4
+connected to 172,0,0,63
+
+node TEXT_NPC 172,0,0,64
+text 25,1,0,20
+connected to 172,0,0,65
+
+node BLOCK_QUEST_FAILED 172,0,0,65
+
+node MONO 172,0,0,33
+mono 1 25,2,0,5 25,3,0,5
+mono 1 25,2,0,6 25,3,0,6
+connected to 172,0,0,34
+

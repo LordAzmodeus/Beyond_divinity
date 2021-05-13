@@ -1,0 +1,52 @@
+version 11
+id 6,1,0,168
+name "Temple_Church_Merchant"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 168,0,0,1
+connected to 168,0,0,12
+
+node BLOCK_GREET_AVAILABLE 168,0,0,2
+
+node BLOCK_GREET_ACTIVE 168,0,0,3
+
+node BLOCK_GREET_SUCCESS 168,0,0,4
+
+node BLOCK_GREET_COMPLETED 168,0,0,5
+
+node BLOCK_GREET_FAILURE 168,0,0,6
+
+node BLOCK_GREET_FAILED 168,0,0,7
+
+node BLOCK_GREET_REFUSED 168,0,0,8
+
+node BLOCK_STD 168,0,0,9
+
+node BLOCK_SERV 168,0,0,10
+connected to 168,0,0,15
+
+node BLOCK_EXIT 168,0,0,11
+connected to 168,0,0,14
+
+node TEXT_NPC 168,0,0,12
+text 145,1,0,0
+alttext 145,1,0,1
+connected to 168,0,0,13
+
+node BLOCK_QUEST_INACTIVE 168,0,0,13
+
+node TEXT_HERO 168,0,0,14
+text 157,0,0,0
+alttext 157,0,0,1
+
+node TEXT_HERO 168,0,0,15
+servnode 2 1
+text 157,0,0,2
+alttext 157,0,0,3
+connected to 168,0,0,16
+
+node TEXT_NPC 168,0,0,16
+text 157,1,0,0
+alttext 157,1,0,1
+

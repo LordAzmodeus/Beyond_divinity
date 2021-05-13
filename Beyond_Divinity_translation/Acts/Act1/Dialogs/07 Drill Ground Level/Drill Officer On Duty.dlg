@@ -1,0 +1,43 @@
+version 11
+id 6,1,0,116
+name "Drill Officer On Duty"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 116,0,0,1
+connected to 116,0,0,12
+
+node BLOCK_GREET_AVAILABLE 116,0,0,2
+
+node BLOCK_GREET_ACTIVE 116,0,0,3
+
+node BLOCK_GREET_SUCCESS 116,0,0,4
+
+node BLOCK_GREET_COMPLETED 116,0,0,5
+
+node BLOCK_GREET_FAILURE 116,0,0,6
+
+node BLOCK_GREET_FAILED 116,0,0,7
+
+node BLOCK_GREET_REFUSED 116,0,0,8
+
+node BLOCK_STD 116,0,0,9
+
+node BLOCK_SERV 116,0,0,10
+
+node BLOCK_EXIT 116,0,0,11
+
+node BLOCK_QUEST_INACTIVE 116,0,0,13
+
+node MONO 116,0,0,12
+mono 45 35,2,0,0 35,3,0,0
+mono 46 35,2,0,1 35,3,0,1
+mono 45 35,2,0,2 35,3,0,2
+mono 47 35,2,0,3 35,3,0,3
+mono 45 35,2,0,4 35,3,0,4
+mono 48 35,2,0,5 35,3,0,5
+mono 45 35,2,0,6 35,3,0,6
+mono 48 35,2,0,7 35,3,0,7
+mono 45 35,2,0,8 35,3,0,8
+connected to 116,0,0,13
+

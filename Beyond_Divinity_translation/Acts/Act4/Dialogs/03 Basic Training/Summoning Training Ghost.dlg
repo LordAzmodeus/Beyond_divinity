@@ -1,0 +1,246 @@
+version 11
+id 6,1,0,130
+name "Summoning Training Ghost"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 130,0,0,1
+
+node BLOCK_GREET_AVAILABLE 130,0,0,2
+connected to 130,0,0,13
+
+node BLOCK_GREET_ACTIVE 130,0,0,3
+connected to 130,0,0,15
+
+node BLOCK_GREET_SUCCESS 130,0,0,4
+connected to 130,0,0,17
+
+node BLOCK_GREET_COMPLETED 130,0,0,5
+connected to 130,0,0,19
+
+node BLOCK_GREET_FAILURE 130,0,0,6
+
+node BLOCK_GREET_FAILED 130,0,0,7
+
+node BLOCK_GREET_REFUSED 130,0,0,8
+connected to 130,0,0,51
+
+node BLOCK_STD 130,0,0,9
+connected to 130,0,0,21
+connected to 130,0,0,24
+connected to 130,0,0,30
+
+node BLOCK_SERV 130,0,0,10
+
+node BLOCK_EXIT 130,0,0,11
+connected to 130,0,0,12
+
+node TEXT_HERO 130,0,0,12
+text 114,0,0,0
+
+node TEXT_NPC 130,0,0,13
+text 114,1,0,0
+alttext 179,1,0,3
+connected to 130,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 130,0,0,14
+connected to 130,0,0,35
+
+node TEXT_NPC 130,0,0,15
+text 114,1,0,1
+alttext 179,1,0,14
+connected to 130,0,0,16
+
+node BLOCK_QUEST_ACTIVE 130,0,0,16
+connected to 130,0,0,41
+
+node TEXT_NPC 130,0,0,17
+text 114,1,0,2
+alttext 179,1,0,1
+connected to 130,0,0,18
+
+node BLOCK_QUEST_SUCCESS 130,0,0,18
+connected to 130,0,0,47
+
+node TEXT_NPC 130,0,0,19
+text 114,1,0,3
+alttext 179,1,0,8
+connected to 130,0,0,20
+
+node BLOCK_QUEST_COMPLETED 130,0,0,20
+connected to 130,0,0,49
+
+node TEXT_HERO 130,0,0,21
+stdnode
+text 114,0,0,1
+alttext 179,0,0,0
+connected to 130,0,0,22
+
+node TEXT_NPC 130,0,0,22
+text 114,1,0,4
+alttext 179,1,0,16
+connected to 130,0,0,23
+
+node BLOCK_STD 130,0,0,23
+
+node TEXT_HERO 130,0,0,24
+stdnode
+text 114,0,0,2
+alttext 179,0,0,12
+connected to 130,0,0,25
+
+node TEXT_NPC 130,0,0,25
+text 114,1,0,5
+alttext 179,1,0,12
+connected to 130,0,0,26
+
+node BLOCK_STD 130,0,0,26
+
+node TEXT_HERO 130,0,0,30
+stdnode
+text 114,0,0,4
+alttext 179,0,0,13
+connected to 130,0,0,31
+
+node TEXT_NPC 130,0,0,31
+text 114,1,0,7
+alttext 179,1,0,13
+connected to 130,0,0,32
+
+node BLOCK_STD 130,0,0,32
+connected to 130,0,0,33
+
+node TEXT_HERO 130,0,0,33
+stdnode
+text 114,0,0,5
+alttext 179,0,0,14
+connected to 130,0,0,34
+
+node TEXT_NPC 130,0,0,34
+text 114,1,0,8
+
+node TEXT_HERO 130,0,0,35
+text 114,0,0,6
+alttext 179,0,0,3
+connected to 130,0,0,36
+
+node TEXT_HERO 130,0,0,37
+text 114,0,0,7
+alttext 179,0,0,5
+quest event 2
+connected to 130,0,0,38
+
+node TEXT_NPC 130,0,0,38
+text 114,1,0,10
+alttext 179,1,0,4
+
+node TEXT_HERO 130,0,0,39
+text 114,0,0,8
+alttext 179,0,0,6
+quest event 7
+connected to 130,0,0,40
+
+node TEXT_NPC 130,0,0,40
+text 114,1,0,11
+alttext 179,1,0,2
+
+node TEXT_HERO 130,0,0,41
+text 114,0,0,9
+alttext 179,0,0,1
+connected to 130,0,0,42
+
+node TEXT_NPC 130,0,0,42
+text 114,1,0,12
+alttext 179,1,0,0
+connected to 130,0,0,43
+connected to 130,0,0,45
+
+node TEXT_HERO 130,0,0,43
+text 114,0,0,10
+alttext 179,0,0,7
+quest event 3
+connected to 130,0,0,44
+
+node TEXT_NPC 130,0,0,44
+text 114,1,0,13
+alttext 179,1,0,5
+
+node TEXT_HERO 130,0,0,45
+text 114,0,0,11
+alttext 179,0,0,8
+quest event 5
+connected to 130,0,0,46
+
+node TEXT_NPC 130,0,0,46
+text 114,1,0,14
+alttext 179,1,0,6
+
+node TEXT_HERO 130,0,0,47
+text 114,0,0,12
+alttext 179,0,0,2
+quest event 4
+connected to 130,0,0,48
+
+node MONO 130,0,0,48
+mono 50 179,2,0,0 179,3,0,0
+mono 1 179,2,0,2 179,3,0,2
+mono 50 179,2,0,3 179,3,0,3
+
+node MONO 130,0,0,36
+mono 50 179,2,0,1 179,3,0,1
+mono 0 179,2,0,4 179,3,0,4
+mono 50 179,2,0,5 179,3,0,5
+mono 50 179,2,0,10 179,3,0,10
+mono 1 179,2,0,6 179,3,0,6
+mono 50 179,2,0,8 179,3,0,8
+mono 50 179,2,0,9 179,3,0,9
+connected to 130,0,0,37
+connected to 130,0,0,39
+
+node TEXT_HERO 130,0,0,49
+text 114,0,0,13
+alttext 179,0,0,4
+connected to 130,0,0,50
+
+node TEXT_NPC 130,0,0,50
+text 114,1,0,15
+alttext 179,1,0,7
+
+node TEXT_NPC 130,0,0,51
+text 114,1,0,16
+alttext 179,1,0,15
+connected to 130,0,0,52
+
+node BLOCK_QUEST_REFUSED 130,0,0,52
+connected to 130,0,0,53
+
+node TEXT_HERO 130,0,0,53
+text 114,0,0,14
+alttext 179,0,0,9
+connected to 130,0,0,54
+
+node TEXT_NPC 130,0,0,54
+text 114,1,0,17
+alttext 179,1,0,9
+connected to 130,0,0,55
+connected to 130,0,0,57
+
+node TEXT_HERO 130,0,0,55
+text 114,0,0,15
+alttext 179,0,0,10
+quest event 2
+connected to 130,0,0,56
+
+node TEXT_NPC 130,0,0,56
+text 114,1,0,18
+alttext 179,1,0,10
+
+node TEXT_HERO 130,0,0,57
+text 114,0,0,16
+alttext 179,0,0,11
+connected to 130,0,0,58
+
+node TEXT_NPC 130,0,0,58
+text 114,1,0,19
+alttext 179,1,0,11
+

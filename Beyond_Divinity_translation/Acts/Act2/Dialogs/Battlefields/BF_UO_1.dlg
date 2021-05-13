@@ -1,0 +1,109 @@
+version 11
+id 6,0,0,260
+name "BF_UO_1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 260,0,0,1
+
+node BLOCK_GREET_AVAILABLE 260,0,0,2
+connected to 260,0,0,12
+
+node BLOCK_GREET_ACTIVE 260,0,0,3
+connected to 260,0,0,20
+
+node BLOCK_GREET_SUCCESS 260,0,0,4
+connected to 260,0,0,22
+
+node BLOCK_GREET_COMPLETED 260,0,0,5
+connected to 260,0,0,30
+
+node BLOCK_GREET_FAILURE 260,0,0,6
+
+node BLOCK_GREET_FAILED 260,0,0,7
+
+node BLOCK_GREET_REFUSED 260,0,0,8
+
+node BLOCK_STD 260,0,0,9
+
+node BLOCK_SERV 260,0,0,10
+connected to 260,0,0,32
+connected to 260,0,0,34
+
+node BLOCK_EXIT 260,0,0,11
+connected to 260,0,0,36
+
+node TEXT_NPC 260,0,0,12
+text 197,1,0,0
+alttext 197,1,0,1
+connected to 260,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 260,0,0,13
+connected to 260,0,0,28
+
+node TEXT_NPC 260,0,0,20
+text 197,1,0,8
+alttext 197,1,0,9
+connected to 260,0,0,21
+
+node BLOCK_QUEST_ACTIVE 260,0,0,21
+
+node TEXT_NPC 260,0,0,22
+text 197,1,0,10
+alttext 197,1,0,11
+connected to 260,0,0,23
+
+node BLOCK_QUEST_SUCCESS 260,0,0,23
+connected to 260,0,0,26
+
+node TEXT_HERO 260,0,0,26
+text 197,0,0,8
+alttext 197,0,0,9
+quest event 4
+connected to 260,0,0,27
+
+node TEXT_NPC 260,0,0,27
+text 197,1,0,14
+alttext 197,1,0,15
+
+node TEXT_HERO 260,0,0,28
+text 197,0,0,10
+alttext 197,0,0,11
+quest event 2
+connected to 260,0,0,29
+
+node TEXT_NPC 260,0,0,29
+text 197,1,0,16
+alttext 197,1,0,17
+
+node TEXT_NPC 260,0,0,30
+text 197,1,0,18
+alttext 197,1,0,19
+connected to 260,0,0,31
+
+node BLOCK_QUEST_COMPLETED 260,0,0,31
+
+node TEXT_HERO 260,0,0,32
+servnode 2 1
+text 197,0,0,12
+alttext 197,0,0,13
+connected to 260,0,0,33
+
+node TEXT_NPC 260,0,0,33
+text 197,1,0,20
+alttext 197,1,0,21
+
+node TEXT_HERO 260,0,0,34
+servnode 3 1
+text 197,0,0,14
+alttext 197,0,0,15
+connected to 260,0,0,35
+
+node TEXT_NPC 260,0,0,35
+text 197,1,0,22
+alttext 197,1,0,23
+
+node TEXT_HERO 260,0,0,36
+text 197,0,0,16
+alttext 197,0,0,17
+

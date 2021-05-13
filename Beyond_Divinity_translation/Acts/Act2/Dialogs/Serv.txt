@@ -1,0 +1,6 @@
+"ATTACK"
+"HEAL"
+"TRADE"
+"LEARN"
+"REST"
+"RANK"

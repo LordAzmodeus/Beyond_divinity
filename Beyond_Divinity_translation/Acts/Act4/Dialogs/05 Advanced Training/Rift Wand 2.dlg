@@ -1,0 +1,55 @@
+version 11
+id 6,0,0,190
+name "Rift Wand 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 190,0,0,1
+
+node BLOCK_GREET_AVAILABLE 190,0,0,2
+connected to 190,0,0,12
+
+node BLOCK_GREET_ACTIVE 190,0,0,3
+connected to 190,0,0,16
+
+node BLOCK_GREET_SUCCESS 190,0,0,4
+
+node BLOCK_GREET_COMPLETED 190,0,0,5
+
+node BLOCK_GREET_FAILURE 190,0,0,6
+
+node BLOCK_GREET_FAILED 190,0,0,7
+
+node BLOCK_GREET_REFUSED 190,0,0,8
+
+node BLOCK_STD 190,0,0,9
+
+node BLOCK_SERV 190,0,0,10
+
+node BLOCK_EXIT 190,0,0,11
+
+node TEXT_NPC 190,0,0,12
+text 235,1,0,0
+alttext 235,1,0,3
+connected to 190,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 190,0,0,13
+connected to 190,0,0,14
+
+node TEXT_HERO 190,0,0,14
+text 235,0,0,0
+alttext 235,0,0,1
+quest event 2
+connected to 190,0,0,15
+
+node TEXT_NPC 190,0,0,15
+text 235,1,0,1
+alttext 235,1,0,4
+
+node TEXT_NPC 190,0,0,16
+text 235,1,0,2
+alttext 235,1,0,5
+connected to 190,0,0,17
+
+node BLOCK_QUEST_ACTIVE 190,0,0,17
+

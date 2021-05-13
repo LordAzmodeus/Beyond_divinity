@@ -1,0 +1,44 @@
+version 11
+id 6,1,0,123
+name "Infirmary Soldiers Monologue"
+face npc 0
+quest id -1
+
+node BLOCK_GREET_INACTIVE 123,0,0,1
+connected to 123,0,0,12
+
+node BLOCK_GREET_AVAILABLE 123,0,0,2
+
+node BLOCK_GREET_ACTIVE 123,0,0,3
+
+node BLOCK_GREET_SUCCESS 123,0,0,4
+
+node BLOCK_GREET_COMPLETED 123,0,0,5
+
+node BLOCK_GREET_FAILURE 123,0,0,6
+
+node BLOCK_GREET_FAILED 123,0,0,7
+
+node BLOCK_GREET_REFUSED 123,0,0,8
+
+node BLOCK_STD 123,0,0,9
+
+node BLOCK_SERV 123,0,0,10
+
+node BLOCK_EXIT 123,0,0,11
+
+node BLOCK_QUEST_INACTIVE 123,0,0,13
+
+node MONO 123,0,0,12
+mono 41 36,2,0,0 36,3,0,0
+mono 44 36,2,0,1 36,3,0,1
+mono 41 36,2,0,2 36,3,0,2
+mono 43 36,2,0,3 36,3,0,3
+mono 42 36,2,0,4 36,3,0,4
+mono 44 36,2,0,5 36,3,0,5
+mono 41 36,2,0,7 36,3,0,6
+mono 44 36,2,0,8 36,3,0,7
+mono 43 36,2,0,6 36,3,0,8
+mono 41 36,2,0,9 36,3,0,9
+connected to 123,0,0,13
+

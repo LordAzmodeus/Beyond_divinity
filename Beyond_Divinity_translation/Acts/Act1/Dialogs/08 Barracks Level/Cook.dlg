@@ -1,0 +1,195 @@
+version 11
+id 6,1,0,151
+name "Cook"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 151,0,0,1
+
+node BLOCK_GREET_AVAILABLE 151,0,0,2
+connected to 151,0,0,13
+
+node BLOCK_GREET_ACTIVE 151,0,0,3
+connected to 151,0,0,35
+
+node BLOCK_GREET_SUCCESS 151,0,0,4
+connected to 151,0,0,37
+
+node BLOCK_GREET_COMPLETED 151,0,0,5
+connected to 151,0,0,39
+
+node BLOCK_GREET_FAILURE 151,0,0,6
+
+node BLOCK_GREET_FAILED 151,0,0,7
+
+node BLOCK_GREET_REFUSED 151,0,0,8
+connected to 151,0,0,41
+
+node BLOCK_STD 151,0,0,9
+connected to 151,0,0,23
+connected to 151,0,0,26
+connected to 151,0,0,29
+connected to 151,0,0,32
+
+node BLOCK_SERV 151,0,0,10
+connected to 151,0,0,21
+
+node BLOCK_EXIT 151,0,0,11
+connected to 151,0,0,12
+
+node TEXT_HERO 151,0,0,12
+text 38,0,0,0
+
+node TEXT_NPC 151,0,0,13
+text 38,1,0,0
+connected to 151,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 151,0,0,14
+connected to 151,0,0,15
+
+node TEXT_HERO 151,0,0,15
+text 38,0,0,1
+connected to 151,0,0,16
+
+node TEXT_NPC 151,0,0,16
+text 38,1,0,1
+connected to 151,0,0,17
+connected to 151,0,0,19
+
+node TEXT_HERO 151,0,0,17
+text 38,0,0,2
+quest event 2
+connected to 151,0,0,18
+
+node TEXT_NPC 151,0,0,18
+text 38,1,0,2
+
+node TEXT_HERO 151,0,0,19
+text 38,0,0,3
+quest event 7
+connected to 151,0,0,20
+
+node TEXT_NPC 151,0,0,20
+text 38,1,0,3
+alttext 149,1,0,0
+
+node TEXT_HERO 151,0,0,21
+servnode 2 1
+text 38,0,0,4
+alttext 149,0,0,0
+connected to 151,0,0,22
+
+node TEXT_NPC 151,0,0,22
+text 38,1,0,4
+
+node TEXT_HERO 151,0,0,23
+stdnode
+text 38,0,0,5
+connected to 151,0,0,24
+
+node TEXT_NPC 151,0,0,24
+text 38,1,0,5
+connected to 151,0,0,25
+
+node BLOCK_STD 151,0,0,25
+
+node TEXT_HERO 151,0,0,26
+stdnode
+text 38,0,0,6
+connected to 151,0,0,27
+
+node TEXT_NPC 151,0,0,27
+text 38,1,0,6
+connected to 151,0,0,28
+
+node BLOCK_STD 151,0,0,28
+
+node TEXT_HERO 151,0,0,29
+stdnode
+text 38,0,0,7
+connected to 151,0,0,30
+
+node TEXT_NPC 151,0,0,30
+text 38,1,0,7
+connected to 151,0,0,31
+
+node BLOCK_STD 151,0,0,31
+
+node TEXT_HERO 151,0,0,32
+stdnode
+text 38,0,0,8
+connected to 151,0,0,33
+
+node TEXT_NPC 151,0,0,33
+text 38,1,0,8
+connected to 151,0,0,34
+
+node BLOCK_STD 151,0,0,34
+
+node TEXT_NPC 151,0,0,35
+text 38,1,0,9
+connected to 151,0,0,36
+
+node BLOCK_QUEST_ACTIVE 151,0,0,36
+connected to 151,0,0,49
+
+node TEXT_NPC 151,0,0,37
+text 38,1,0,10
+connected to 151,0,0,38
+
+node BLOCK_QUEST_SUCCESS 151,0,0,38
+connected to 151,0,0,51
+
+node TEXT_NPC 151,0,0,39
+text 38,1,0,11
+connected to 151,0,0,40
+
+node BLOCK_QUEST_COMPLETED 151,0,0,40
+
+node TEXT_NPC 151,0,0,41
+text 38,1,0,12
+connected to 151,0,0,42
+
+node BLOCK_QUEST_REFUSED 151,0,0,42
+connected to 151,0,0,43
+
+node TEXT_HERO 151,0,0,43
+text 38,0,0,9
+connected to 151,0,0,44
+
+node TEXT_NPC 151,0,0,44
+text 38,1,0,13
+connected to 151,0,0,45
+connected to 151,0,0,47
+
+node TEXT_HERO 151,0,0,45
+text 38,0,0,10
+quest event 2
+connected to 151,0,0,46
+
+node TEXT_NPC 151,0,0,46
+text 38,1,0,14
+
+node TEXT_HERO 151,0,0,47
+text 38,0,0,11
+connected to 151,0,0,48
+
+node TEXT_NPC 151,0,0,48
+text 38,1,0,15
+
+node TEXT_HERO 151,0,0,49
+text 38,0,0,12
+quest event 3
+connected to 151,0,0,50
+
+node TEXT_NPC 151,0,0,50
+text 38,1,0,16
+
+node TEXT_HERO 151,0,0,51
+text 38,0,0,13
+quest event 4
+connected to 151,0,0,52
+
+node TEXT_NPC 151,0,0,52
+text 38,1,0,17
+

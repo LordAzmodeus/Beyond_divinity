@@ -1,0 +1,55 @@
+version 11
+id 6,1,0,90
+name "Assassin_Talk2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 90,0,0,1
+connected to 90,0,0,12
+
+node BLOCK_GREET_AVAILABLE 90,0,0,2
+connected to 90,0,0,14
+
+node BLOCK_GREET_ACTIVE 90,0,0,3
+
+node BLOCK_GREET_SUCCESS 90,0,0,4
+
+node BLOCK_GREET_COMPLETED 90,0,0,5
+
+node BLOCK_GREET_FAILURE 90,0,0,6
+
+node BLOCK_GREET_FAILED 90,0,0,7
+
+node BLOCK_GREET_REFUSED 90,0,0,8
+
+node BLOCK_STD 90,0,0,9
+
+node BLOCK_SERV 90,0,0,10
+
+node BLOCK_EXIT 90,0,0,11
+
+node TEXT_NPC 90,0,0,12
+text 128,1,0,0
+alttext 128,1,0,1
+connected to 90,0,0,13
+
+node BLOCK_QUEST_INACTIVE 90,0,0,13
+connected to 90,0,0,16
+
+node TEXT_NPC 90,0,0,14
+text 128,1,0,2
+alttext 128,1,0,3
+connected to 90,0,0,15
+
+node BLOCK_QUEST_AVAILABLE 90,0,0,15
+
+node TEXT_HERO 90,0,0,16
+text 128,0,0,0
+alttext 128,0,0,1
+quest event 1
+connected to 90,0,0,17
+
+node TEXT_NPC 90,0,0,17
+text 128,1,0,4
+alttext 128,1,0,5
+

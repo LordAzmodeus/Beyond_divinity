@@ -1,0 +1,68 @@
+version 11
+id 6,1,0,99
+name "Instructor Summoning 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 99,0,0,1
+
+node BLOCK_GREET_AVAILABLE 99,0,0,2
+connected to 99,0,0,16
+
+node BLOCK_GREET_ACTIVE 99,0,0,3
+connected to 99,0,0,28
+
+node BLOCK_GREET_SUCCESS 99,0,0,4
+connected to 99,0,0,31
+
+node BLOCK_GREET_COMPLETED 99,0,0,5
+
+node BLOCK_GREET_FAILURE 99,0,0,6
+
+node BLOCK_GREET_FAILED 99,0,0,7
+
+node BLOCK_GREET_REFUSED 99,0,0,8
+
+node BLOCK_STD 99,0,0,9
+
+node BLOCK_SERV 99,0,0,10
+
+node BLOCK_EXIT 99,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 99,0,0,17
+connected to 99,0,0,26
+
+node MONO 99,0,0,16
+mono 41 166,2,0,3 166,3,0,0
+mono 1 166,2,0,6 166,3,0,3
+mono 41 166,2,0,7 166,3,0,4
+mono 41 166,2,0,8 166,3,0,5
+mono 41 166,2,0,9 166,3,0,6
+connected to 99,0,0,17
+
+node TEXT_HERO 99,0,0,26
+text 140,0,0,4
+alttext 166,0,0,0
+quest event 2
+connected to 99,0,0,27
+
+node TEXT_NPC 99,0,0,28
+text 140,1,0,0
+alttext 166,1,0,0
+connected to 99,0,0,29
+
+node BLOCK_QUEST_ACTIVE 99,0,0,29
+
+node BLOCK_QUEST_SUCCESS 99,0,0,32
+
+node MONO 99,0,0,31
+mono 41 166,2,0,4 166,3,0,1
+mono 41 166,2,0,11 166,3,0,8
+mono 41 166,2,0,12 166,3,0,9
+mono 41 166,2,0,13 166,3,0,10
+connected to 99,0,0,32
+
+node MONO 99,0,0,27
+mono 41 166,2,0,5 166,3,0,2
+mono 41 166,2,0,10 166,3,0,7
+

@@ -1,0 +1,48 @@
+version 11
+id 6,1,0,92
+name "Asmodheus_Commoner_Final"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 92,0,0,1
+
+node BLOCK_GREET_AVAILABLE 92,0,0,2
+connected to 92,0,0,12
+
+node BLOCK_GREET_ACTIVE 92,0,0,3
+
+node BLOCK_GREET_SUCCESS 92,0,0,4
+
+node BLOCK_GREET_COMPLETED 92,0,0,5
+
+node BLOCK_GREET_FAILURE 92,0,0,6
+
+node BLOCK_GREET_FAILED 92,0,0,7
+
+node BLOCK_GREET_REFUSED 92,0,0,8
+
+node BLOCK_STD 92,0,0,9
+
+node BLOCK_SERV 92,0,0,10
+
+node BLOCK_EXIT 92,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 92,0,0,13
+connected to 92,0,0,14
+
+node TEXT_HERO 92,0,0,14
+text 41,0,0,0
+alttext 90,0,0,0
+quest event 2
+connected to 92,0,0,15
+
+node TEXT_NPC 92,0,0,15
+text 41,1,0,1
+
+node MONO 92,0,0,12
+mono 36 41,2,0,0 41,3,0,0
+mono 0 41,2,0,1 41,3,0,1
+mono 1 41,2,0,2 41,3,0,2
+mono 36 41,2,0,3 41,3,0,3
+connected to 92,0,0,13
+

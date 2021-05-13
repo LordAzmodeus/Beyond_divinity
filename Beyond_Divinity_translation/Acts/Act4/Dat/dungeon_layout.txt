@@ -1,0 +1,12 @@
+//CREATE DUNGEON "dungeon" 64 576 464 976 => "Test"
+//
+//LABEL SECTION "Test" ( 0 0 ) "TestSec1"
+//LABEL SECTION "Test" ( 0 1 ) "TestSec2"
+//LABEL SECTION "Test" ( 0 2 ) "TestSec3"
+//LABEL SECTION "Test" ( 1 2 ) "TestSec4"
+//LABEL SECTION "Test" ( 2 2 ) "TestSec5"
+//
+//PASSAGE "Test" "TestSec1" "TestSec2" => "TestPass1"
+//PASSAGE "Test" "TestSec2" "TestSec3" => "TestPass2"
+//PASSAGE "Test" "TestSec3" "TestSec4" => "TestPass3"
+//PASSAGE "Test" "TestSec4" "TestSec5" => "TestPass4"

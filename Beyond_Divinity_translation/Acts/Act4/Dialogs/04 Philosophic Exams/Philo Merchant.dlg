@@ -1,0 +1,186 @@
+version 11
+id 6,1,0,170
+name "Philo Merchant"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 170,0,0,1
+
+node BLOCK_GREET_AVAILABLE 170,0,0,2
+connected to 170,0,0,12
+
+node BLOCK_GREET_ACTIVE 170,0,0,3
+connected to 170,0,0,23
+
+node BLOCK_GREET_SUCCESS 170,0,0,4
+connected to 170,0,0,25
+
+node BLOCK_GREET_COMPLETED 170,0,0,5
+connected to 170,0,0,27
+
+node BLOCK_GREET_FAILURE 170,0,0,6
+
+node BLOCK_GREET_FAILED 170,0,0,7
+
+node BLOCK_GREET_REFUSED 170,0,0,8
+connected to 170,0,0,29
+
+node BLOCK_STD 170,0,0,9
+connected to 170,0,0,31
+connected to 170,0,0,34
+
+node BLOCK_SERV 170,0,0,10
+connected to 170,0,0,20
+
+node BLOCK_EXIT 170,0,0,11
+connected to 170,0,0,22
+
+node BLOCK_QUEST_AVAILABLE 170,0,0,13
+connected to 170,0,0,14
+
+node TEXT_HERO 170,0,0,14
+text 181,0,0,0
+alttext 203,0,0,3
+connected to 170,0,0,15
+
+node TEXT_HERO 170,0,0,16
+text 181,0,0,1
+alttext 203,0,0,6
+quest event 2
+connected to 170,0,0,17
+
+node TEXT_NPC 170,0,0,17
+text 181,1,0,1
+alttext 203,1,0,6
+
+node TEXT_HERO 170,0,0,18
+text 181,0,0,2
+alttext 203,0,0,4
+quest event 7
+connected to 170,0,0,19
+
+node TEXT_NPC 170,0,0,19
+text 181,1,0,2
+alttext 203,1,0,2
+
+node TEXT_HERO 170,0,0,20
+servnode 2 1
+text 181,0,0,3
+alttext 203,0,0,9
+connected to 170,0,0,21
+
+node TEXT_NPC 170,0,0,21
+text 181,1,0,3
+alttext 203,1,0,14
+
+node TEXT_HERO 170,0,0,22
+text 181,0,0,4
+
+node TEXT_NPC 170,0,0,12
+text 181,1,0,4
+alttext 203,1,0,5
+connected to 170,0,0,13
+
+node TEXT_NPC 170,0,0,23
+text 181,1,0,5
+alttext 203,1,0,7
+connected to 170,0,0,24
+
+node BLOCK_QUEST_ACTIVE 170,0,0,24
+
+node TEXT_NPC 170,0,0,25
+text 181,1,0,6
+alttext 203,1,0,8
+connected to 170,0,0,26
+
+node BLOCK_QUEST_SUCCESS 170,0,0,26
+connected to 170,0,0,37
+
+node TEXT_NPC 170,0,0,27
+text 181,1,0,7
+alttext 203,1,0,9
+connected to 170,0,0,28
+
+node BLOCK_QUEST_COMPLETED 170,0,0,28
+
+node TEXT_NPC 170,0,0,29
+text 181,1,0,8
+alttext 203,1,0,4
+connected to 170,0,0,30
+
+node BLOCK_QUEST_REFUSED 170,0,0,30
+connected to 170,0,0,42
+
+node TEXT_HERO 170,0,0,31
+stdnode
+text 181,0,0,5
+alttext 203,0,0,5
+connected to 170,0,0,32
+
+node TEXT_NPC 170,0,0,32
+text 181,1,0,9
+alttext 203,1,0,13
+connected to 170,0,0,33
+
+node BLOCK_STD 170,0,0,33
+
+node TEXT_HERO 170,0,0,34
+stdnode
+text 181,0,0,6
+alttext 203,0,0,8
+connected to 170,0,0,35
+
+node TEXT_NPC 170,0,0,35
+text 181,1,0,10
+alttext 203,1,0,12
+connected to 170,0,0,36
+
+node BLOCK_STD 170,0,0,36
+
+node TEXT_HERO 170,0,0,37
+text 181,0,0,7
+alttext 203,0,0,0
+quest event 4
+connected to 170,0,0,38
+
+node TEXT_NPC 170,0,0,38
+text 181,1,0,11
+alttext 203,1,0,3
+
+node MONO 170,0,0,15
+mono 87 203,2,0,0 203,3,0,0
+mono 87 203,2,0,2 203,3,0,2
+mono 87 203,2,0,1 203,3,0,1
+connected to 170,0,0,16
+connected to 170,0,0,18
+
+node TEXT_HERO 170,0,0,42
+text 181,0,0,9
+alttext 203,0,0,7
+connected to 170,0,0,43
+
+node TEXT_NPC 170,0,0,43
+text 181,1,0,13
+alttext 203,1,0,10
+connected to 170,0,0,44
+connected to 170,0,0,46
+
+node TEXT_HERO 170,0,0,44
+text 181,0,0,10
+alttext 203,0,0,1
+quest event 2
+connected to 170,0,0,45
+
+node TEXT_NPC 170,0,0,45
+text 181,1,0,14
+alttext 203,1,0,11
+
+node TEXT_HERO 170,0,0,46
+text 181,0,0,11
+alttext 203,0,0,2
+connected to 170,0,0,47
+
+node TEXT_NPC 170,0,0,47
+text 181,1,0,15
+alttext 203,1,0,0
+

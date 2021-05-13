@@ -1,0 +1,47 @@
+version 11
+id 6,1,0,87
+name "Samuel_Ambush"
+face npc 0
+quest id -1
+
+node BLOCK_GREET_INACTIVE 87,0,0,1
+connected to 87,0,0,12
+
+node BLOCK_GREET_AVAILABLE 87,0,0,2
+
+node BLOCK_GREET_ACTIVE 87,0,0,3
+
+node BLOCK_GREET_SUCCESS 87,0,0,4
+
+node BLOCK_GREET_COMPLETED 87,0,0,5
+
+node BLOCK_GREET_FAILURE 87,0,0,6
+
+node BLOCK_GREET_FAILED 87,0,0,7
+
+node BLOCK_GREET_REFUSED 87,0,0,8
+
+node BLOCK_STD 87,0,0,9
+
+node BLOCK_SERV 87,0,0,10
+
+node BLOCK_EXIT 87,0,0,11
+
+node BLOCK_QUEST_INACTIVE 87,0,0,13
+
+node MONO 87,0,0,12
+mono 31 25,2,0,0 25,3,0,0
+mono 32 25,2,0,1 25,3,0,1
+mono 31 25,2,0,2 25,3,0,2
+mono 32 25,2,0,3 25,3,0,3
+mono 31 25,2,0,4 25,3,0,4
+mono 32 25,2,0,5 25,3,0,5
+mono 31 25,2,0,6 25,3,0,6
+mono 32 25,2,0,7 25,3,0,7
+mono 31 25,2,0,8 25,3,0,8
+mono 31 25,2,0,10 25,3,0,10
+mono 31 25,2,0,11 25,3,0,11
+mono 32 25,2,0,9 25,3,0,9
+mono 31 25,2,0,12 25,3,0,12
+connected to 87,0,0,13
+

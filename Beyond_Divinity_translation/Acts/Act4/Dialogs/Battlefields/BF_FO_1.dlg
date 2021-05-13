@@ -1,0 +1,120 @@
+version 11
+id 6,0,0,288
+name "BF_FO_1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 288,0,0,1
+
+node BLOCK_GREET_AVAILABLE 288,0,0,2
+connected to 288,0,0,12
+
+node BLOCK_GREET_ACTIVE 288,0,0,3
+connected to 288,0,0,16
+
+node BLOCK_GREET_SUCCESS 288,0,0,4
+connected to 288,0,0,20
+
+node BLOCK_GREET_COMPLETED 288,0,0,5
+connected to 288,0,0,24
+
+node BLOCK_GREET_FAILURE 288,0,0,6
+
+node BLOCK_GREET_FAILED 288,0,0,7
+
+node BLOCK_GREET_REFUSED 288,0,0,8
+
+node BLOCK_STD 288,0,0,9
+
+node BLOCK_SERV 288,0,0,10
+connected to 288,0,0,26
+connected to 288,0,0,29
+
+node BLOCK_EXIT 288,0,0,11
+connected to 288,0,0,28
+
+node TEXT_NPC 288,0,0,12
+text 188,1,0,0
+alttext 188,1,0,1
+connected to 288,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 288,0,0,13
+connected to 288,0,0,14
+
+node TEXT_HERO 288,0,0,14
+text 188,0,0,0
+alttext 188,0,0,1
+quest event 2
+connected to 288,0,0,15
+
+node TEXT_NPC 288,0,0,15
+text 188,1,0,2
+alttext 188,1,0,3
+
+node TEXT_NPC 288,0,0,16
+text 188,1,0,4
+alttext 188,1,0,5
+connected to 288,0,0,17
+
+node BLOCK_QUEST_ACTIVE 288,0,0,17
+connected to 288,0,0,18
+
+node TEXT_HERO 288,0,0,18
+text 188,0,0,2
+alttext 188,0,0,3
+quest event 3
+connected to 288,0,0,19
+
+node TEXT_NPC 288,0,0,19
+text 188,1,0,6
+alttext 188,1,0,7
+
+node TEXT_NPC 288,0,0,20
+text 188,1,0,8
+alttext 188,1,0,9
+connected to 288,0,0,21
+
+node BLOCK_QUEST_SUCCESS 288,0,0,21
+connected to 288,0,0,22
+
+node TEXT_HERO 288,0,0,22
+text 188,0,0,4
+alttext 188,0,0,5
+quest event 4
+connected to 288,0,0,23
+
+node TEXT_NPC 288,0,0,23
+text 188,1,0,10
+alttext 188,1,0,11
+
+node TEXT_NPC 288,0,0,24
+text 188,1,0,12
+alttext 188,1,0,13
+connected to 288,0,0,25
+
+node BLOCK_QUEST_COMPLETED 288,0,0,25
+
+node TEXT_HERO 288,0,0,26
+servnode 2 1
+text 188,0,0,6
+alttext 188,0,0,7
+connected to 288,0,0,27
+
+node TEXT_NPC 288,0,0,27
+text 188,1,0,14
+alttext 188,1,0,15
+
+node TEXT_HERO 288,0,0,28
+text 188,0,0,8
+alttext 188,0,0,9
+
+node TEXT_HERO 288,0,0,29
+servnode 3 1
+text 188,0,0,10
+alttext 188,0,0,11
+connected to 288,0,0,30
+
+node TEXT_NPC 288,0,0,30
+text 188,1,0,16
+alttext 188,1,0,17
+

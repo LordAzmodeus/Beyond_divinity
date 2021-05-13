@@ -1,0 +1,263 @@
+version 11
+id 6,1,0,129
+name "Summoning Training Ghost Strategies"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 129,0,0,1
+
+node BLOCK_GREET_AVAILABLE 129,0,0,2
+connected to 129,0,0,13
+
+node BLOCK_GREET_ACTIVE 129,0,0,3
+connected to 129,0,0,15
+
+node BLOCK_GREET_SUCCESS 129,0,0,4
+connected to 129,0,0,17
+
+node BLOCK_GREET_COMPLETED 129,0,0,5
+connected to 129,0,0,19
+
+node BLOCK_GREET_FAILURE 129,0,0,6
+
+node BLOCK_GREET_FAILED 129,0,0,7
+
+node BLOCK_GREET_REFUSED 129,0,0,8
+connected to 129,0,0,51
+
+node BLOCK_STD 129,0,0,9
+connected to 129,0,0,21
+connected to 129,0,0,24
+connected to 129,0,0,27
+connected to 129,0,0,30
+
+node BLOCK_SERV 129,0,0,10
+
+node BLOCK_EXIT 129,0,0,11
+connected to 129,0,0,12
+
+node TEXT_HERO 129,0,0,12
+text 294,0,0,0
+
+node TEXT_NPC 129,0,0,13
+text 294,1,0,0
+alttext 294,1,0,25
+connected to 129,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 129,0,0,14
+connected to 129,0,0,35
+
+node TEXT_NPC 129,0,0,15
+text 294,1,0,1
+alttext 294,1,0,24
+connected to 129,0,0,16
+
+node BLOCK_QUEST_ACTIVE 129,0,0,16
+connected to 129,0,0,41
+
+node TEXT_NPC 129,0,0,17
+text 294,1,0,2
+connected to 129,0,0,18
+
+node BLOCK_QUEST_SUCCESS 129,0,0,18
+connected to 129,0,0,47
+
+node TEXT_NPC 129,0,0,19
+text 294,1,0,3
+alttext 294,1,0,20
+connected to 129,0,0,20
+
+node BLOCK_QUEST_COMPLETED 129,0,0,20
+connected to 129,0,0,49
+
+node TEXT_HERO 129,0,0,21
+stdnode
+text 294,0,0,1
+alttext 294,0,0,31
+connected to 129,0,0,22
+
+node TEXT_NPC 129,0,0,22
+text 294,1,0,4
+alttext 294,1,0,32
+connected to 129,0,0,23
+
+node BLOCK_STD 129,0,0,23
+
+node TEXT_HERO 129,0,0,24
+stdnode
+text 294,0,0,2
+alttext 294,0,0,32
+connected to 129,0,0,25
+
+node TEXT_NPC 129,0,0,25
+text 294,1,0,5
+alttext 294,1,0,33
+connected to 129,0,0,26
+
+node BLOCK_STD 129,0,0,26
+
+node TEXT_HERO 129,0,0,27
+stdnode
+text 294,0,0,3
+alttext 294,0,0,22
+connected to 129,0,0,28
+
+node BLOCK_STD 129,0,0,29
+
+node TEXT_HERO 129,0,0,30
+stdnode
+text 294,0,0,4
+alttext 294,0,0,23
+connected to 129,0,0,31
+
+node TEXT_NPC 129,0,0,31
+text 294,1,0,7
+alttext 294,1,0,35
+connected to 129,0,0,32
+
+node BLOCK_STD 129,0,0,32
+connected to 129,0,0,33
+
+node MONO 129,0,0,28
+mono 50 294,2,0,16 294,3,0,0
+mono 1 294,2,0,19 294,3,0,3
+mono 50 294,2,0,20 294,3,0,4
+mono 1 294,2,0,21 294,3,0,5
+mono 50 294,2,0,22 294,3,0,6
+mono 1 294,2,0,23 294,3,0,7
+connected to 129,0,0,29
+
+node TEXT_HERO 129,0,0,33
+stdnode
+text 294,0,0,5
+alttext 294,0,0,19
+connected to 129,0,0,34
+
+node TEXT_NPC 129,0,0,34
+text 294,1,0,8
+alttext 294,1,0,34
+
+node TEXT_HERO 129,0,0,35
+text 294,0,0,6
+alttext 294,0,0,17
+connected to 129,0,0,36
+
+node TEXT_HERO 129,0,0,37
+text 294,0,0,7
+alttext 294,0,0,20
+quest event 2
+connected to 129,0,0,38
+
+node TEXT_NPC 129,0,0,38
+text 294,1,0,10
+alttext 294,1,0,26
+
+node TEXT_HERO 129,0,0,39
+text 294,0,0,8
+alttext 294,0,0,24
+quest event 7
+connected to 129,0,0,40
+
+node TEXT_NPC 129,0,0,40
+text 294,1,0,11
+alttext 294,1,0,27
+
+node TEXT_HERO 129,0,0,41
+text 294,0,0,9
+alttext 294,0,0,18
+connected to 129,0,0,42
+
+node TEXT_NPC 129,0,0,42
+text 294,1,0,12
+alttext 294,1,0,23
+connected to 129,0,0,43
+connected to 129,0,0,45
+
+node TEXT_HERO 129,0,0,43
+text 294,0,0,10
+alttext 294,0,0,25
+quest event 3
+connected to 129,0,0,44
+
+node TEXT_NPC 129,0,0,44
+text 294,1,0,13
+alttext 294,1,0,28
+
+node TEXT_HERO 129,0,0,45
+text 294,0,0,11
+alttext 294,0,0,26
+quest event 5
+connected to 129,0,0,46
+
+node TEXT_NPC 129,0,0,46
+text 294,1,0,14
+alttext 294,1,0,29
+
+node TEXT_HERO 129,0,0,47
+text 294,0,0,12
+alttext 294,0,0,27
+quest event 4
+connected to 129,0,0,48
+
+node MONO 129,0,0,48
+mono 50 294,2,0,17 294,3,0,1
+mono 1 294,2,0,24 294,3,0,8
+mono 50 294,2,0,25 294,3,0,9
+
+node MONO 129,0,0,36
+mono 50 294,2,0,18 294,3,0,2
+mono 0 294,2,0,26 294,3,0,10
+mono 50 294,2,0,27 294,3,0,11
+mono 50 294,2,0,32 294,3,0,16
+mono 1 294,2,0,28 294,3,0,12
+mono 50 294,2,0,29 294,3,0,13
+mono 50 294,2,0,30 294,3,0,14
+connected to 129,0,0,37
+connected to 129,0,0,39
+
+node TEXT_HERO 129,0,0,49
+text 294,0,0,13
+alttext 294,0,0,21
+connected to 129,0,0,50
+
+node TEXT_NPC 129,0,0,50
+text 294,1,0,15
+alttext 294,1,0,21
+
+node TEXT_NPC 129,0,0,51
+text 294,1,0,16
+connected to 129,0,0,52
+
+node BLOCK_QUEST_REFUSED 129,0,0,52
+connected to 129,0,0,53
+
+node TEXT_HERO 129,0,0,53
+text 294,0,0,14
+alttext 294,0,0,28
+connected to 129,0,0,54
+
+node TEXT_NPC 129,0,0,54
+text 294,1,0,17
+alttext 294,1,0,30
+connected to 129,0,0,55
+connected to 129,0,0,57
+
+node TEXT_HERO 129,0,0,55
+text 294,0,0,15
+alttext 294,0,0,29
+quest event 2
+connected to 129,0,0,56
+
+node TEXT_NPC 129,0,0,56
+text 294,1,0,18
+alttext 294,1,0,22
+
+node TEXT_HERO 129,0,0,57
+text 294,0,0,16
+alttext 294,0,0,30
+connected to 129,0,0,58
+
+node TEXT_NPC 129,0,0,58
+text 294,1,0,19
+alttext 294,1,0,31
+

@@ -1,0 +1,120 @@
+version 11
+id 6,1,0,171
+name "Philo Philosopher"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 171,0,0,1
+
+node BLOCK_GREET_AVAILABLE 171,0,0,2
+connected to 171,0,0,12
+
+node BLOCK_GREET_ACTIVE 171,0,0,3
+connected to 171,0,0,30
+
+node BLOCK_GREET_SUCCESS 171,0,0,4
+connected to 171,0,0,32
+
+node BLOCK_GREET_COMPLETED 171,0,0,5
+connected to 171,0,0,42
+
+node BLOCK_GREET_FAILURE 171,0,0,6
+
+node BLOCK_GREET_FAILED 171,0,0,7
+
+node BLOCK_GREET_REFUSED 171,0,0,8
+
+node BLOCK_STD 171,0,0,9
+connected to 171,0,0,18
+connected to 171,0,0,21
+
+node BLOCK_SERV 171,0,0,10
+connected to 171,0,0,45
+
+node BLOCK_EXIT 171,0,0,11
+connected to 171,0,0,44
+
+node BLOCK_QUEST_AVAILABLE 171,0,0,13
+
+node TEXT_HERO 171,0,0,18
+stdnode
+text 182,0,0,1
+alttext 204,0,0,2
+connected to 171,0,0,19
+
+node TEXT_NPC 171,0,0,19
+text 182,1,0,3
+alttext 204,1,0,5
+connected to 171,0,0,20
+
+node BLOCK_STD 171,0,0,20
+
+node TEXT_HERO 171,0,0,21
+stdnode
+text 182,0,0,2
+alttext 204,0,0,3
+connected to 171,0,0,22
+
+node TEXT_NPC 171,0,0,22
+text 182,1,0,4
+alttext 204,1,0,4
+connected to 171,0,0,23
+
+node BLOCK_STD 171,0,0,23
+
+node TEXT_NPC 171,0,0,30
+text 182,1,0,7
+alttext 204,1,0,3
+connected to 171,0,0,31
+
+node BLOCK_QUEST_ACTIVE 171,0,0,31
+
+node TEXT_NPC 171,0,0,32
+text 182,1,0,8
+alttext 204,1,0,2
+connected to 171,0,0,33
+
+node BLOCK_QUEST_SUCCESS 171,0,0,33
+connected to 171,0,0,34
+
+node TEXT_HERO 171,0,0,34
+text 182,0,0,5
+alttext 204,0,0,1
+quest event 4
+connected to 171,0,0,35
+
+node MONO 171,0,0,35
+mono 92 204,2,0,0 204,3,0,0
+mono 92 204,2,0,8 204,3,0,8
+mono 92 204,2,0,7 204,3,0,7
+mono 92 204,2,0,13 204,3,0,13
+mono 1 204,2,0,9 204,3,0,9
+mono 0 204,2,0,11 204,3,0,11
+
+node BLOCK_QUEST_COMPLETED 171,0,0,43
+
+node MONO 171,0,0,42
+mono 92 204,2,0,1 204,3,0,1
+mono 1 204,2,0,3 204,3,0,3
+connected to 171,0,0,43
+
+node MONO 171,0,0,12
+mono 92 204,2,0,2 204,3,0,2
+mono 92 204,2,0,5 204,3,0,5
+mono 1 204,2,0,4 204,3,0,4
+mono 92 204,2,0,6 204,3,0,6
+connected to 171,0,0,13
+
+node TEXT_HERO 171,0,0,44
+text 182,0,0,8
+
+node TEXT_HERO 171,0,0,45
+servnode 3 1
+text 204,0,0,4
+alttext 204,0,0,5
+connected to 171,0,0,46
+
+node TEXT_NPC 171,0,0,46
+text 204,1,0,6
+alttext 204,1,0,7
+

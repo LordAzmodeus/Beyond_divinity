@@ -1,0 +1,251 @@
+version 11
+id 6,1,0,27
+name "Imp_Spider_Rancher"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 27,0,0,1
+
+node BLOCK_GREET_AVAILABLE 27,0,0,2
+connected to 27,0,0,12
+
+node BLOCK_GREET_ACTIVE 27,0,0,3
+connected to 27,0,0,66
+
+node BLOCK_GREET_SUCCESS 27,0,0,4
+connected to 27,0,0,68
+
+node BLOCK_GREET_COMPLETED 27,0,0,5
+connected to 27,0,0,74
+
+node BLOCK_GREET_FAILURE 27,0,0,6
+connected to 27,0,0,70
+
+node BLOCK_GREET_FAILED 27,0,0,7
+connected to 27,0,0,76
+
+node BLOCK_GREET_REFUSED 27,0,0,8
+connected to 27,0,0,72
+
+node BLOCK_STD 27,0,0,9
+connected to 27,0,0,19
+connected to 27,0,0,22
+connected to 27,0,0,28
+connected to 27,0,0,31
+
+node BLOCK_SERV 27,0,0,10
+connected to 27,0,0,15
+
+node BLOCK_EXIT 27,0,0,11
+connected to 27,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 27,0,0,13
+connected to 27,0,0,60
+
+node TEXT_HERO 27,0,0,14
+text 42,0,0,0
+
+node TEXT_HERO 27,0,0,15
+servnode 2 1
+text 42,0,0,1
+alttext 42,0,0,32
+connected to 27,0,0,16
+
+node TEXT_NPC 27,0,0,16
+text 42,1,0,1
+alttext 27,1,0,0
+
+node TEXT_HERO 27,0,0,19
+stdnode
+text 42,0,0,3
+alttext 27,0,0,3
+connected to 27,0,0,20
+
+node TEXT_NPC 27,0,0,20
+text 42,1,0,3
+alttext 42,1,0,45
+connected to 27,0,0,21
+
+node BLOCK_STD 27,0,0,21
+
+node TEXT_HERO 27,0,0,22
+stdnode
+text 42,0,0,4
+alttext 27,0,0,4
+connected to 27,0,0,23
+
+node TEXT_NPC 27,0,0,23
+text 42,1,0,4
+alttext 42,1,0,46
+connected to 27,0,0,24
+
+node BLOCK_STD 27,0,0,24
+
+node TEXT_HERO 27,0,0,28
+stdnode
+text 42,0,0,6
+alttext 27,0,0,5
+connected to 27,0,0,29
+
+node BLOCK_STD 27,0,0,30
+
+node TEXT_HERO 27,0,0,31
+stdnode
+text 42,0,0,7
+alttext 27,0,0,6
+connected to 27,0,0,32
+
+node TEXT_NPC 27,0,0,32
+text 42,1,0,7
+alttext 42,1,0,47
+connected to 27,0,0,33
+
+node BLOCK_STD 27,0,0,33
+
+node MONO 27,0,0,12
+mono 23 42,2,0,0 42,3,0,0
+mono 0 42,2,0,1 42,3,0,1
+mono 23 42,2,0,2 42,3,0,2
+mono 1 42,2,0,3 42,3,0,3
+mono 23 42,2,0,4 42,3,0,4
+mono 0 42,2,0,5 42,3,0,5
+mono 23 42,2,0,6 42,3,0,6
+mono 1 42,2,0,7 42,3,0,7
+mono 23 42,2,0,8 42,3,0,8
+mono 0 42,2,0,9 42,3,0,9
+mono 23 42,2,0,10 42,3,0,10
+connected to 27,0,0,13
+
+node TEXT_HERO 27,0,0,60
+text 42,0,0,20
+alttext 42,0,0,28
+connected to 27,0,0,61
+
+node TEXT_HERO 27,0,0,62
+text 42,0,0,21
+alttext 42,0,0,29
+quest event 2
+connected to 27,0,0,63
+
+node TEXT_NPC 27,0,0,63
+text 42,1,0,22
+alttext 42,1,0,34
+
+node TEXT_HERO 27,0,0,64
+text 42,0,0,22
+alttext 27,0,0,0
+quest event 7
+connected to 27,0,0,65
+
+node TEXT_NPC 27,0,0,65
+text 42,1,0,23
+alttext 42,1,0,35
+
+node MONO 27,0,0,61
+mono 23 42,2,0,11 42,3,0,11
+mono 23 42,2,0,12 42,3,0,12
+mono 1 42,2,0,13 42,3,0,13
+mono 0 42,2,0,14 42,3,0,14
+mono 23 42,2,0,15 42,3,0,15
+mono 23 42,2,0,16 42,3,0,16
+mono 23 42,2,0,17 42,3,0,17
+mono 1 42,2,0,18 42,3,0,18
+connected to 27,0,0,62
+connected to 27,0,0,64
+
+node BLOCK_QUEST_ACTIVE 27,0,0,67
+
+node MONO 27,0,0,66
+mono 23 42,2,0,19 42,3,0,19
+mono 0 42,2,0,20 42,3,0,20
+mono 23 42,2,0,29 42,3,0,20
+connected to 27,0,0,67
+
+node TEXT_NPC 27,0,0,68
+text 42,1,0,24
+alttext 42,1,0,36
+connected to 27,0,0,69
+
+node BLOCK_QUEST_SUCCESS 27,0,0,69
+
+node TEXT_NPC 27,0,0,70
+text 42,1,0,25
+alttext 42,1,0,38
+connected to 27,0,0,71
+
+node BLOCK_QUEST_FAILURE 27,0,0,71
+connected to 27,0,0,80
+
+node TEXT_NPC 27,0,0,72
+text 42,1,0,26
+alttext 42,1,0,41
+connected to 27,0,0,73
+
+node BLOCK_QUEST_REFUSED 27,0,0,73
+connected to 27,0,0,82
+
+node TEXT_NPC 27,0,0,74
+text 42,1,0,27
+alttext 42,1,0,37
+connected to 27,0,0,75
+
+node BLOCK_QUEST_COMPLETED 27,0,0,75
+
+node TEXT_NPC 27,0,0,76
+text 42,1,0,28
+alttext 42,1,0,40
+connected to 27,0,0,77
+
+node BLOCK_QUEST_FAILED 27,0,0,77
+
+node TEXT_HERO 27,0,0,80
+text 42,0,0,24
+alttext 42,0,0,30
+quest event 6
+connected to 27,0,0,81
+
+node TEXT_NPC 27,0,0,81
+text 42,1,0,30
+alttext 42,1,0,39
+
+node TEXT_HERO 27,0,0,82
+text 42,0,0,25
+alttext 42,0,0,31
+connected to 27,0,0,83
+
+node TEXT_NPC 27,0,0,83
+text 42,1,0,31
+alttext 42,1,0,42
+connected to 27,0,0,84
+connected to 27,0,0,86
+
+node TEXT_HERO 27,0,0,84
+text 42,0,0,26
+alttext 27,0,0,1
+quest event 2
+connected to 27,0,0,85
+
+node TEXT_NPC 27,0,0,85
+text 42,1,0,32
+alttext 42,1,0,43
+
+node TEXT_HERO 27,0,0,86
+text 42,0,0,27
+alttext 27,0,0,2
+connected to 27,0,0,87
+
+node TEXT_NPC 27,0,0,87
+text 42,1,0,33
+alttext 42,1,0,44
+
+node MONO 27,0,0,29
+mono 23 42,2,0,21 42,3,0,21
+mono 23 42,2,0,22 42,3,0,22
+mono 23 42,2,0,24 42,3,0,24
+mono 1 42,2,0,31 42,3,0,30
+mono 23 42,2,0,26 42,3,0,26
+mono 0 42,2,0,27 42,3,0,27
+mono 23 42,2,0,28 42,3,0,28
+mono 1 42,2,0,30 42,3,0,29
+connected to 27,0,0,30
+

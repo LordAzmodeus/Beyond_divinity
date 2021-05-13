@@ -1,0 +1,213 @@
+version 11
+id 6,1,0,133
+name "Teacher_Basic_Training_Strategies"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 133,0,0,1
+
+node BLOCK_GREET_AVAILABLE 133,0,0,2
+connected to 133,0,0,24
+
+node BLOCK_GREET_ACTIVE 133,0,0,3
+connected to 133,0,0,28
+
+node BLOCK_GREET_SUCCESS 133,0,0,4
+connected to 133,0,0,30
+
+node BLOCK_GREET_COMPLETED 133,0,0,5
+connected to 133,0,0,32
+
+node BLOCK_GREET_FAILURE 133,0,0,6
+
+node BLOCK_GREET_FAILED 133,0,0,7
+
+node BLOCK_GREET_REFUSED 133,0,0,8
+
+node BLOCK_STD 133,0,0,9
+connected to 133,0,0,15
+connected to 133,0,0,18
+connected to 133,0,0,21
+connected to 133,0,0,34
+
+node BLOCK_SERV 133,0,0,10
+connected to 133,0,0,51
+
+node BLOCK_EXIT 133,0,0,11
+connected to 133,0,0,12
+
+node TEXT_HERO 133,0,0,12
+text 291,0,0,0
+
+node TEXT_HERO 133,0,0,15
+stdnode
+text 291,0,0,2
+alttext 291,0,0,14
+connected to 133,0,0,16
+
+node TEXT_NPC 133,0,0,16
+text 291,1,0,1
+connected to 133,0,0,17
+
+node BLOCK_STD 133,0,0,17
+
+node TEXT_HERO 133,0,0,18
+stdnode
+text 291,0,0,3
+alttext 291,0,0,15
+connected to 133,0,0,19
+
+node TEXT_NPC 133,0,0,19
+text 291,1,0,2
+alttext 291,1,0,23
+connected to 133,0,0,20
+
+node BLOCK_STD 133,0,0,20
+
+node TEXT_HERO 133,0,0,21
+stdnode
+text 291,0,0,4
+alttext 291,0,0,19
+connected to 133,0,0,22
+
+node TEXT_NPC 133,0,0,22
+text 291,1,0,3
+alttext 291,1,0,18
+connected to 133,0,0,23
+
+node BLOCK_STD 133,0,0,23
+
+node TEXT_NPC 133,0,0,24
+text 291,1,0,4
+alttext 291,1,0,17
+connected to 133,0,0,25
+
+node BLOCK_QUEST_AVAILABLE 133,0,0,25
+connected to 133,0,0,26
+
+node TEXT_HERO 133,0,0,26
+text 291,0,0,5
+alttext 291,0,0,17
+quest event 2
+connected to 133,0,0,27
+
+node TEXT_NPC 133,0,0,28
+text 291,1,0,6
+alttext 291,1,0,16
+connected to 133,0,0,29
+
+node BLOCK_QUEST_ACTIVE 133,0,0,29
+connected to 133,0,0,45
+
+node TEXT_NPC 133,0,0,30
+text 291,1,0,7
+alttext 291,1,0,22
+connected to 133,0,0,31
+
+node BLOCK_QUEST_SUCCESS 133,0,0,31
+connected to 133,0,0,47
+
+node TEXT_NPC 133,0,0,32
+text 291,1,0,8
+connected to 133,0,0,33
+
+node BLOCK_QUEST_COMPLETED 133,0,0,33
+
+node TEXT_HERO 133,0,0,34
+stdnode
+text 291,0,0,6
+alttext 291,0,0,13
+connected to 133,0,0,35
+
+node BLOCK_STD 133,0,0,36
+connected to 133,0,0,37
+connected to 133,0,0,39
+connected to 133,0,0,41
+connected to 133,0,0,43
+
+node TEXT_HERO 133,0,0,37
+stdnode
+text 291,0,0,7
+alttext 291,0,0,20
+connected to 133,0,0,38
+
+node TEXT_NPC 133,0,0,38
+text 291,1,0,10
+alttext 291,1,0,19
+
+node TEXT_HERO 133,0,0,39
+stdnode
+text 291,0,0,8
+alttext 291,0,0,21
+connected to 133,0,0,40
+
+node TEXT_NPC 133,0,0,40
+text 291,1,0,11
+alttext 291,1,0,20
+
+node TEXT_HERO 133,0,0,41
+stdnode
+text 291,0,0,9
+alttext 291,0,0,22
+connected to 133,0,0,42
+
+node TEXT_NPC 133,0,0,42
+text 291,1,0,12
+alttext 291,1,0,21
+
+node TEXT_HERO 133,0,0,43
+stdnode
+text 291,0,0,10
+alttext 291,0,0,23
+connected to 133,0,0,44
+
+node TEXT_NPC 133,0,0,44
+text 291,1,0,13
+
+node TEXT_HERO 133,0,0,45
+text 291,0,0,11
+alttext 291,0,0,18
+quest event 3
+connected to 133,0,0,46
+
+node TEXT_HERO 133,0,0,47
+text 291,0,0,12
+alttext 291,0,0,16
+quest event 4
+connected to 133,0,0,48
+
+node MONO 133,0,0,48
+mono 52 291,2,0,13 291,3,0,0
+mono 1 291,2,0,17 291,3,0,4
+mono 52 291,2,0,18 291,3,0,5
+mono 1 291,2,0,19 291,3,0,6
+mono 52 291,2,0,20 291,3,0,7
+mono 52 291,2,0,21 291,3,0,8
+
+node MONO 133,0,0,27
+mono 52 291,2,0,14 291,3,0,1
+mono 0 291,2,0,22 291,3,0,9
+mono 52 291,2,0,23 291,3,0,10
+mono 52 291,2,0,24 291,3,0,11
+mono 1 291,2,0,25 291,3,0,12
+mono 52 291,2,0,26 291,3,0,13
+
+node TEXT_NPC 133,0,0,46
+text 291,1,0,14
+alttext 291,1,0,15
+
+node MONO 133,0,0,35
+mono 52 291,2,0,15 291,3,0,2
+mono 52 291,2,0,16 291,3,0,3
+connected to 133,0,0,36
+
+node TEXT_HERO 133,0,0,51
+servnode 3 1
+text 291,0,0,26
+alttext 291,0,0,27
+connected to 133,0,0,52
+
+node TEXT_NPC 133,0,0,52
+text 291,1,0,26
+alttext 291,1,0,27
+

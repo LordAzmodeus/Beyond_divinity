@@ -1,0 +1,262 @@
+version 11
+id 6,1,0,125
+name "Medical Officer Quest"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 125,0,0,1
+
+node BLOCK_GREET_AVAILABLE 125,0,0,2
+connected to 125,0,0,12
+
+node BLOCK_GREET_ACTIVE 125,0,0,3
+connected to 125,0,0,55
+
+node BLOCK_GREET_SUCCESS 125,0,0,4
+connected to 125,0,0,57
+
+node BLOCK_GREET_COMPLETED 125,0,0,5
+connected to 125,0,0,59
+
+node BLOCK_GREET_FAILURE 125,0,0,6
+connected to 125,0,0,71
+
+node BLOCK_GREET_FAILED 125,0,0,7
+connected to 125,0,0,69
+
+node BLOCK_GREET_REFUSED 125,0,0,8
+
+node BLOCK_STD 125,0,0,9
+connected to 125,0,0,25
+connected to 125,0,0,28
+connected to 125,0,0,37
+
+node BLOCK_SERV 125,0,0,10
+connected to 125,0,0,20
+connected to 125,0,0,22
+
+node BLOCK_EXIT 125,0,0,11
+connected to 125,0,0,24
+
+node BLOCK_QUEST_AVAILABLE 125,0,0,13
+connected to 125,0,0,14
+
+node TEXT_HERO 125,0,0,14
+text 6,0,0,0
+connected to 125,0,0,15
+
+node TEXT_NPC 125,0,0,15
+text 6,1,0,1
+connected to 125,0,0,16
+connected to 125,0,0,18
+
+node TEXT_HERO 125,0,0,16
+text 6,0,0,1
+quest event 2
+connected to 125,0,0,17
+
+node TEXT_NPC 125,0,0,17
+text 6,1,0,2
+alttext 125,1,0,0
+
+node TEXT_HERO 125,0,0,18
+text 6,0,0,2
+quest event 7
+connected to 125,0,0,19
+
+node TEXT_NPC 125,0,0,19
+text 6,1,0,3
+
+node TEXT_HERO 125,0,0,20
+servnode 1 1
+text 6,0,0,3
+connected to 125,0,0,21
+
+node TEXT_NPC 125,0,0,21
+text 6,1,0,4
+
+node TEXT_HERO 125,0,0,22
+servnode 2 1
+text 6,0,0,4
+connected to 125,0,0,23
+
+node TEXT_NPC 125,0,0,23
+text 6,1,0,5
+
+node TEXT_HERO 125,0,0,24
+text 6,0,0,5
+
+node TEXT_HERO 125,0,0,25
+stdnode
+text 6,0,0,6
+connected to 125,0,0,26
+
+node TEXT_NPC 125,0,0,26
+text 6,1,0,6
+connected to 125,0,0,27
+
+node BLOCK_STD 125,0,0,27
+
+node TEXT_HERO 125,0,0,28
+stdnode
+text 6,0,0,7
+connected to 125,0,0,29
+
+node TEXT_NPC 125,0,0,29
+text 6,1,0,7
+connected to 125,0,0,30
+
+node BLOCK_STD 125,0,0,30
+connected to 125,0,0,31
+connected to 125,0,0,33
+connected to 125,0,0,35
+
+node TEXT_HERO 125,0,0,31
+stdnode
+text 6,0,0,8
+connected to 125,0,0,32
+
+node TEXT_NPC 125,0,0,32
+text 6,1,0,8
+
+node TEXT_HERO 125,0,0,33
+stdnode
+text 6,0,0,9
+connected to 125,0,0,34
+
+node TEXT_NPC 125,0,0,34
+text 6,1,0,9
+
+node TEXT_HERO 125,0,0,35
+stdnode
+text 6,0,0,10
+connected to 125,0,0,36
+
+node TEXT_NPC 125,0,0,36
+text 6,1,0,10
+
+node TEXT_HERO 125,0,0,37
+stdnode
+text 6,0,0,11
+connected to 125,0,0,38
+
+node TEXT_NPC 125,0,0,38
+text 6,1,0,11
+connected to 125,0,0,39
+
+node BLOCK_STD 125,0,0,39
+connected to 125,0,0,43
+connected to 125,0,0,45
+
+node TEXT_HERO 125,0,0,43
+stdnode
+text 6,0,0,13
+connected to 125,0,0,44
+
+node TEXT_NPC 125,0,0,44
+text 6,1,0,13
+
+node TEXT_HERO 125,0,0,45
+stdnode
+text 6,0,0,14
+connected to 125,0,0,46
+
+node TEXT_NPC 125,0,0,46
+text 6,1,0,14
+
+node TEXT_NPC 125,0,0,55
+text 6,1,0,19
+alttext 125,1,0,1
+connected to 125,0,0,56
+
+node BLOCK_QUEST_ACTIVE 125,0,0,56
+connected to 125,0,0,61
+
+node TEXT_NPC 125,0,0,57
+text 6,1,0,20
+alttext 125,1,0,2
+connected to 125,0,0,58
+
+node BLOCK_QUEST_SUCCESS 125,0,0,58
+connected to 125,0,0,85
+
+node TEXT_NPC 125,0,0,59
+text 6,1,0,21
+alttext 125,1,0,3
+connected to 125,0,0,60
+
+node BLOCK_QUEST_COMPLETED 125,0,0,60
+
+node TEXT_HERO 125,0,0,61
+text 6,0,0,18
+alttext 125,0,0,0
+quest event 3
+connected to 125,0,0,62
+
+node MONO 125,0,0,62
+mono 40 6,2,0,0 6,3,0,0
+mono 40 6,2,0,1 6,3,0,1
+mono 1 6,2,0,2 6,3,0,2
+mono 40 6,2,0,3 6,3,0,3
+mono 0 6,2,0,4 6,3,0,4
+mono 40 6,2,0,5 6,3,0,5
+mono 40 6,2,0,6 6,3,0,6
+
+node TEXT_NPC 125,0,0,69
+text 6,1,0,25
+connected to 125,0,0,70
+
+node BLOCK_QUEST_FAILED 125,0,0,70
+
+node TEXT_NPC 125,0,0,71
+text 6,1,0,26
+connected to 125,0,0,72
+
+node BLOCK_QUEST_FAILURE 125,0,0,72
+connected to 125,0,0,73
+
+node TEXT_HERO 125,0,0,73
+text 6,0,0,22
+quest event 6
+connected to 125,0,0,74
+
+node TEXT_NPC 125,0,0,74
+text 6,1,0,27
+
+node TEXT_HERO 125,0,0,85
+text 6,0,0,28
+alttext 125,0,0,1
+connected to 125,0,0,86
+
+node TEXT_HERO 125,0,0,87
+text 6,0,0,29
+alttext 125,0,0,2
+quest event 4
+connected to 125,0,0,88
+
+node TEXT_NPC 125,0,0,88
+text 6,1,0,32
+alttext 123,1,0,0
+
+node TEXT_HERO 125,0,0,89
+text 6,0,0,30
+alttext 125,0,0,3
+connected to 125,0,0,90
+
+node TEXT_NPC 125,0,0,90
+text 6,1,0,33
+
+node MONO 125,0,0,86
+mono 40 6,2,0,10 6,3,0,7
+mono 1 6,2,0,11 6,3,0,8
+mono 40 6,2,0,12 6,3,0,9
+mono 1 6,2,0,16 6,3,0,10
+connected to 125,0,0,87
+connected to 125,0,0,89
+
+node MONO 125,0,0,12
+mono 40 6,2,0,13 6,3,0,11
+mono 0 6,2,0,14 6,3,0,12
+mono 40 6,2,0,15 6,3,0,13
+connected to 125,0,0,13
+

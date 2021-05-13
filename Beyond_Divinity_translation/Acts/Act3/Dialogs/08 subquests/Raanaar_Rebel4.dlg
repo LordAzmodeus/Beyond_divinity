@@ -1,0 +1,149 @@
+version 11
+id 6,1,0,128
+name "Raanaar_Rebel4"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 128,0,0,1
+
+node BLOCK_GREET_AVAILABLE 128,0,0,2
+connected to 128,0,0,12
+
+node BLOCK_GREET_ACTIVE 128,0,0,3
+connected to 128,0,0,20
+
+node BLOCK_GREET_SUCCESS 128,0,0,4
+connected to 128,0,0,22
+
+node BLOCK_GREET_COMPLETED 128,0,0,5
+connected to 128,0,0,24
+
+node BLOCK_GREET_FAILURE 128,0,0,6
+connected to 128,0,0,36
+
+node BLOCK_GREET_FAILED 128,0,0,7
+connected to 128,0,0,34
+
+node BLOCK_GREET_REFUSED 128,0,0,8
+connected to 128,0,0,26
+
+node BLOCK_STD 128,0,0,9
+
+node BLOCK_SERV 128,0,0,10
+
+node BLOCK_EXIT 128,0,0,11
+
+node TEXT_NPC 128,0,0,12
+text 119,1,0,0
+alttext 119,1,0,1
+connected to 128,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 128,0,0,13
+connected to 128,0,0,14
+
+node TEXT_HERO 128,0,0,14
+text 119,0,0,0
+alttext 119,0,0,1
+connected to 128,0,0,15
+
+node TEXT_NPC 128,0,0,15
+text 119,1,0,2
+alttext 119,1,0,3
+connected to 128,0,0,16
+connected to 128,0,0,18
+
+node TEXT_HERO 128,0,0,16
+text 119,0,0,2
+alttext 119,0,0,3
+quest event 2
+connected to 128,0,0,17
+
+node TEXT_HERO 128,0,0,18
+text 119,0,0,4
+alttext 119,0,0,5
+quest event 7
+connected to 128,0,0,19
+
+node TEXT_NPC 128,0,0,19
+text 119,1,0,6
+alttext 119,1,0,7
+
+node MONO 128,0,0,17
+mono 102 119,2,0,0 119,3,0,0
+mono 102 119,2,0,1 119,3,0,1
+mono 102 119,2,0,2 119,3,0,2
+mono 102 119,2,0,3 119,3,0,3
+mono 102 119,2,0,4 119,3,0,4
+mono 1 119,2,0,5 119,3,0,5
+mono 102 119,2,0,6 119,3,0,6
+mono 1 119,2,0,7 119,3,0,7
+mono 102 119,2,0,8 119,3,0,8
+
+node TEXT_NPC 128,0,0,20
+text 119,1,0,8
+alttext 119,1,0,9
+connected to 128,0,0,21
+
+node BLOCK_QUEST_ACTIVE 128,0,0,21
+
+node TEXT_NPC 128,0,0,22
+text 119,1,0,10
+alttext 119,1,0,11
+connected to 128,0,0,23
+
+node BLOCK_QUEST_SUCCESS 128,0,0,23
+connected to 128,0,0,40
+
+node TEXT_NPC 128,0,0,24
+text 119,1,0,12
+alttext 119,1,0,13
+connected to 128,0,0,25
+
+node BLOCK_QUEST_COMPLETED 128,0,0,25
+
+node TEXT_NPC 128,0,0,26
+text 119,1,0,14
+alttext 119,1,0,15
+connected to 128,0,0,27
+
+node BLOCK_QUEST_REFUSED 128,0,0,27
+
+node TEXT_NPC 128,0,0,34
+text 119,1,0,22
+alttext 119,1,0,23
+connected to 128,0,0,35
+
+node BLOCK_QUEST_FAILED 128,0,0,35
+
+node TEXT_NPC 128,0,0,36
+text 119,1,0,24
+alttext 119,1,0,25
+connected to 128,0,0,37
+
+node BLOCK_QUEST_FAILURE 128,0,0,37
+connected to 128,0,0,38
+
+node TEXT_HERO 128,0,0,38
+text 119,0,0,12
+alttext 119,0,0,13
+quest event 6
+connected to 128,0,0,39
+
+node TEXT_NPC 128,0,0,39
+text 119,1,0,26
+alttext 119,1,0,27
+
+node TEXT_HERO 128,0,0,40
+text 119,0,0,14
+alttext 119,0,0,15
+quest event 4
+connected to 128,0,0,41
+
+node MONO 128,0,0,41
+mono 102 119,2,0,9 119,3,0,9
+mono 0 119,2,0,10 119,3,0,10
+mono 102 119,2,0,11 119,3,0,11
+mono 102 119,2,0,12 119,3,0,12
+mono 1 119,2,0,13 119,3,0,13
+mono 0 119,2,0,14 119,3,0,14
+

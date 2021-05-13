@@ -1,0 +1,52 @@
+version 11
+id 6,1,0,201
+name "Academy_female2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 201,0,0,1
+connected to 201,0,0,12
+
+node BLOCK_GREET_AVAILABLE 201,0,0,2
+
+node BLOCK_GREET_ACTIVE 201,0,0,3
+
+node BLOCK_GREET_SUCCESS 201,0,0,4
+
+node BLOCK_GREET_COMPLETED 201,0,0,5
+
+node BLOCK_GREET_FAILURE 201,0,0,6
+
+node BLOCK_GREET_FAILED 201,0,0,7
+
+node BLOCK_GREET_REFUSED 201,0,0,8
+
+node BLOCK_STD 201,0,0,9
+
+node BLOCK_SERV 201,0,0,10
+connected to 201,0,0,14
+
+node BLOCK_EXIT 201,0,0,11
+connected to 201,0,0,18
+
+node TEXT_NPC 201,0,0,12
+text 201,1,0,0
+alttext 201,1,0,1
+connected to 201,0,0,13
+
+node BLOCK_QUEST_INACTIVE 201,0,0,13
+
+node TEXT_HERO 201,0,0,14
+servnode 0 1
+text 201,0,0,0
+alttext 201,0,0,1
+connected to 201,0,0,15
+
+node TEXT_NPC 201,0,0,15
+text 201,1,0,2
+alttext 201,1,0,3
+
+node TEXT_HERO 201,0,0,18
+text 201,0,0,4
+alttext 201,0,0,5
+

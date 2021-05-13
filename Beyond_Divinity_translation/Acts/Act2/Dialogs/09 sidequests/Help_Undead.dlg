@@ -1,0 +1,88 @@
+version 11
+id 6,3,0,112
+name "Help_Undead"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 112,0,0,1
+
+node BLOCK_GREET_AVAILABLE 112,0,0,2
+connected to 112,0,0,12
+
+node BLOCK_GREET_ACTIVE 112,0,0,3
+connected to 112,0,0,14
+
+node BLOCK_GREET_SUCCESS 112,0,0,4
+connected to 112,0,0,16
+
+node BLOCK_GREET_COMPLETED 112,0,0,5
+
+node BLOCK_GREET_FAILURE 112,0,0,6
+
+node BLOCK_GREET_FAILED 112,0,0,7
+
+node BLOCK_GREET_REFUSED 112,0,0,8
+
+node BLOCK_STD 112,0,0,9
+
+node BLOCK_SERV 112,0,0,10
+
+node BLOCK_EXIT 112,0,0,11
+connected to 112,0,0,24
+
+node TEXT_NPC 112,0,0,12
+text 167,1,0,0
+alttext 167,1,0,1
+connected to 112,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 112,0,0,13
+
+node TEXT_NPC 112,0,0,14
+text 167,1,0,2
+alttext 167,1,0,3
+connected to 112,0,0,15
+
+node BLOCK_QUEST_ACTIVE 112,0,0,15
+
+node TEXT_NPC 112,0,0,16
+text 167,1,0,4
+alttext 167,1,0,5
+connected to 112,0,0,17
+
+node BLOCK_QUEST_SUCCESS 112,0,0,17
+connected to 112,0,0,18
+
+node TEXT_HERO 112,0,0,18
+text 167,0,0,0
+alttext 167,0,0,1
+connected to 112,0,0,19
+
+node TEXT_NPC 112,0,0,19
+text 167,1,0,6
+alttext 167,1,0,7
+connected to 112,0,0,20
+connected to 112,0,0,22
+
+node TEXT_HERO 112,0,0,20
+text 167,0,0,2
+alttext 167,0,0,3
+quest event 4
+connected to 112,0,0,21
+
+node TEXT_NPC 112,0,0,21
+text 167,1,0,8
+alttext 167,1,0,9
+
+node TEXT_HERO 112,0,0,22
+text 167,0,0,4
+alttext 167,0,0,5
+connected to 112,0,0,23
+
+node TEXT_NPC 112,0,0,23
+text 167,1,0,10
+alttext 167,1,0,11
+
+node TEXT_HERO 112,0,0,24
+text 167,0,0,6
+alttext 167,0,0,7
+

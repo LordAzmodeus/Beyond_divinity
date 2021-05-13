@@ -1,0 +1,75 @@
+version 11
+id 6,1,0,69
+name "Necromancer Fifth Summon"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 69,0,0,1
+
+node BLOCK_GREET_AVAILABLE 69,0,0,2
+connected to 69,0,0,12
+
+node BLOCK_GREET_ACTIVE 69,0,0,3
+
+node BLOCK_GREET_SUCCESS 69,0,0,4
+
+node BLOCK_GREET_COMPLETED 69,0,0,5
+connected to 69,0,0,14
+
+node BLOCK_GREET_FAILURE 69,0,0,6
+
+node BLOCK_GREET_FAILED 69,0,0,7
+
+node BLOCK_GREET_REFUSED 69,0,0,8
+
+node BLOCK_STD 69,0,0,9
+
+node BLOCK_SERV 69,0,0,10
+connected to 69,0,0,16
+connected to 69,0,0,18
+
+node BLOCK_EXIT 69,0,0,11
+connected to 69,0,0,20
+
+node BLOCK_QUEST_AVAILABLE 69,0,0,13
+
+node MONO 69,0,0,12
+mono 26 44,2,0,0 44,3,0,0
+mono 0 44,2,0,2 44,3,0,2
+mono 26 44,2,0,3 44,3,0,3
+mono 26 44,2,0,1 44,3,0,1
+connected to 69,0,0,13
+
+node BLOCK_QUEST_COMPLETED 69,0,0,15
+
+node MONO 69,0,0,14
+mono 26 44,2,0,4 44,3,0,4
+mono 26 44,2,0,5 44,3,0,5
+mono 26 44,2,0,6 44,3,0,6
+mono 1 44,2,0,7 44,3,0,7
+connected to 69,0,0,15
+
+node TEXT_HERO 69,0,0,16
+servnode 2 1
+text 60,0,0,0
+alttext 60,0,0,1
+connected to 69,0,0,17
+
+node TEXT_NPC 69,0,0,17
+text 60,1,0,0
+alttext 60,1,0,1
+
+node TEXT_HERO 69,0,0,18
+servnode 3 1
+text 60,0,0,2
+alttext 60,0,0,3
+connected to 69,0,0,19
+
+node TEXT_NPC 69,0,0,19
+text 60,1,0,2
+alttext 60,1,0,3
+
+node TEXT_HERO 69,0,0,20
+text 69,0,0,0
+alttext 69,0,0,1
+

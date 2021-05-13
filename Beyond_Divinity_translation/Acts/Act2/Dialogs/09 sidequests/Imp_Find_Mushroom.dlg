@@ -1,0 +1,166 @@
+version 11
+id 6,3,0,118
+name "Imp_Find_Mushroom"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 118,0,0,1
+connected to 118,0,0,14
+
+node BLOCK_GREET_AVAILABLE 118,0,0,2
+connected to 118,0,0,12
+
+node BLOCK_GREET_ACTIVE 118,0,0,3
+connected to 118,0,0,31
+
+node BLOCK_GREET_SUCCESS 118,0,0,4
+connected to 118,0,0,33
+
+node BLOCK_GREET_COMPLETED 118,0,0,5
+connected to 118,0,0,39
+
+node BLOCK_GREET_FAILURE 118,0,0,6
+
+node BLOCK_GREET_FAILED 118,0,0,7
+
+node BLOCK_GREET_REFUSED 118,0,0,8
+connected to 118,0,0,23
+
+node BLOCK_STD 118,0,0,9
+
+node BLOCK_SERV 118,0,0,10
+
+node BLOCK_EXIT 118,0,0,11
+connected to 118,0,0,22
+
+node TEXT_NPC 118,0,0,12
+text 130,1,0,0
+alttext 130,1,0,1
+connected to 118,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 118,0,0,13
+connected to 118,0,0,16
+
+node TEXT_NPC 118,0,0,14
+text 130,1,0,2
+alttext 130,1,0,3
+connected to 118,0,0,15
+
+node BLOCK_QUEST_INACTIVE 118,0,0,15
+
+node TEXT_HERO 118,0,0,16
+text 130,0,0,0
+alttext 130,0,0,1
+connected to 118,0,0,17
+
+node TEXT_NPC 118,0,0,17
+text 130,1,0,4
+alttext 130,1,0,5
+connected to 118,0,0,18
+connected to 118,0,0,20
+
+node TEXT_HERO 118,0,0,18
+text 130,0,0,2
+alttext 130,0,0,3
+quest event 2
+connected to 118,0,0,19
+
+node TEXT_NPC 118,0,0,19
+text 130,1,0,6
+alttext 130,1,0,7
+
+node TEXT_HERO 118,0,0,20
+text 130,0,0,4
+alttext 130,0,0,5
+quest event 7
+connected to 118,0,0,21
+
+node TEXT_NPC 118,0,0,21
+text 130,1,0,8
+alttext 130,1,0,9
+
+node TEXT_HERO 118,0,0,22
+text 130,0,0,6
+alttext 130,0,0,7
+
+node TEXT_NPC 118,0,0,23
+text 130,1,0,10
+alttext 130,1,0,11
+connected to 118,0,0,24
+
+node BLOCK_QUEST_REFUSED 118,0,0,24
+connected to 118,0,0,25
+
+node TEXT_HERO 118,0,0,25
+text 130,0,0,8
+alttext 130,0,0,9
+connected to 118,0,0,26
+
+node TEXT_NPC 118,0,0,26
+text 130,1,0,12
+alttext 130,1,0,13
+connected to 118,0,0,27
+connected to 118,0,0,29
+
+node TEXT_HERO 118,0,0,27
+text 130,0,0,10
+alttext 130,0,0,11
+quest event 2
+connected to 118,0,0,28
+
+node TEXT_NPC 118,0,0,28
+text 130,1,0,14
+alttext 130,1,0,15
+
+node TEXT_HERO 118,0,0,29
+text 130,0,0,12
+alttext 130,0,0,13
+connected to 118,0,0,30
+
+node TEXT_NPC 118,0,0,30
+text 130,1,0,16
+alttext 130,1,0,17
+
+node TEXT_NPC 118,0,0,31
+text 130,1,0,18
+alttext 130,1,0,19
+connected to 118,0,0,32
+
+node BLOCK_QUEST_ACTIVE 118,0,0,32
+connected to 118,0,0,35
+
+node TEXT_NPC 118,0,0,33
+text 130,1,0,20
+alttext 130,1,0,21
+connected to 118,0,0,34
+
+node BLOCK_QUEST_SUCCESS 118,0,0,34
+connected to 118,0,0,37
+
+node TEXT_HERO 118,0,0,35
+text 130,0,0,14
+alttext 130,0,0,15
+quest event 3
+connected to 118,0,0,36
+
+node TEXT_NPC 118,0,0,36
+text 130,1,0,22
+alttext 130,1,0,23
+
+node TEXT_HERO 118,0,0,37
+text 130,0,0,16
+alttext 130,0,0,17
+quest event 4
+connected to 118,0,0,38
+
+node TEXT_NPC 118,0,0,38
+text 130,1,0,24
+alttext 130,1,0,25
+
+node TEXT_NPC 118,0,0,39
+text 130,1,0,26
+alttext 130,1,0,27
+connected to 118,0,0,40
+
+node BLOCK_QUEST_COMPLETED 118,0,0,40
+

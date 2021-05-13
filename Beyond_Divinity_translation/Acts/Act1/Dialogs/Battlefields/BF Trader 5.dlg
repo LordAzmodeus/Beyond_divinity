@@ -1,0 +1,63 @@
+version 11
+id 6,0,0,271
+name "BF Trader 5"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 271,0,0,1
+connected to 271,0,0,12
+
+node BLOCK_GREET_AVAILABLE 271,0,0,2
+
+node BLOCK_GREET_ACTIVE 271,0,0,3
+
+node BLOCK_GREET_SUCCESS 271,0,0,4
+
+node BLOCK_GREET_COMPLETED 271,0,0,5
+
+node BLOCK_GREET_FAILURE 271,0,0,6
+
+node BLOCK_GREET_FAILED 271,0,0,7
+
+node BLOCK_GREET_REFUSED 271,0,0,8
+
+node BLOCK_STD 271,0,0,9
+
+node BLOCK_SERV 271,0,0,10
+connected to 271,0,0,14
+connected to 271,0,0,17
+
+node BLOCK_EXIT 271,0,0,11
+connected to 271,0,0,16
+
+node TEXT_NPC 271,0,0,12
+text 180,1,0,0
+alttext 180,1,0,1
+connected to 271,0,0,13
+
+node BLOCK_QUEST_INACTIVE 271,0,0,13
+
+node TEXT_HERO 271,0,0,14
+servnode 2 1
+text 180,0,0,0
+alttext 180,0,0,1
+connected to 271,0,0,15
+
+node TEXT_NPC 271,0,0,15
+text 180,1,0,2
+alttext 180,1,0,3
+
+node TEXT_HERO 271,0,0,16
+text 180,0,0,2
+alttext 180,0,0,3
+
+node TEXT_HERO 271,0,0,17
+servnode 3 1
+text 180,0,0,4
+alttext 180,0,0,5
+connected to 271,0,0,18
+
+node TEXT_NPC 271,0,0,18
+text 180,1,0,4
+alttext 180,1,0,5
+

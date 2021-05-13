@@ -1,0 +1,36 @@
+version 11
+id 6,3,0,167
+name "Spider_Old_Tomb_Deathknight"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 167,0,0,1
+
+node BLOCK_GREET_AVAILABLE 167,0,0,2
+
+node BLOCK_GREET_ACTIVE 167,0,0,3
+connected to 167,0,0,12
+
+node BLOCK_GREET_SUCCESS 167,0,0,4
+
+node BLOCK_GREET_COMPLETED 167,0,0,5
+
+node BLOCK_GREET_FAILURE 167,0,0,6
+
+node BLOCK_GREET_FAILED 167,0,0,7
+
+node BLOCK_GREET_REFUSED 167,0,0,8
+
+node BLOCK_STD 167,0,0,9
+
+node BLOCK_SERV 167,0,0,10
+
+node BLOCK_EXIT 167,0,0,11
+
+node TEXT_NPC 167,0,0,12
+text 175,1,0,0
+alttext 175,1,0,1
+connected to 167,0,0,13
+
+node BLOCK_QUEST_ACTIVE 167,0,0,13
+

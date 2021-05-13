@@ -1,0 +1,110 @@
+version 11
+id 6,1,0,24
+name "Prisoner_Teacher"
+face npc 1
+quest id 4
+
+node BLOCK_GREET_INACTIVE 24,0,0,1
+
+node BLOCK_GREET_AVAILABLE 24,0,0,2
+connected to 24,0,0,36
+
+node BLOCK_GREET_ACTIVE 24,0,0,3
+connected to 24,0,0,28
+
+node BLOCK_GREET_SUCCESS 24,0,0,4
+
+node BLOCK_GREET_COMPLETED 24,0,0,5
+
+node BLOCK_GREET_FAILURE 24,0,0,6
+
+node BLOCK_GREET_FAILED 24,0,0,7
+
+node BLOCK_GREET_REFUSED 24,0,0,8
+
+node BLOCK_STD 24,0,0,9
+
+node BLOCK_SERV 24,0,0,10
+
+node BLOCK_EXIT 24,0,0,11
+
+node BLOCK_QUEST_ACTIVE 24,0,0,29
+connected to 24,0,0,30
+
+node TEXT_HERO 24,0,0,30
+text 210,0,0,6
+connected to 24,0,0,31
+
+node TEXT_NPC 24,0,0,31
+text 210,1,0,10
+connected to 24,0,0,32
+connected to 24,0,0,34
+
+node TEXT_HERO 24,0,0,32
+text 210,0,0,7
+alttext 23,0,0,0
+quest event 3
+connected to 24,0,0,33
+
+node TEXT_HERO 24,0,0,34
+text 210,0,0,8
+alttext 24,0,0,6
+quest event 5
+connected to 24,0,0,35
+
+node TEXT_NPC 24,0,0,35
+text 210,1,0,12
+alttext 24,1,0,6
+
+node MONO 24,0,0,28
+mono 114 210,2,0,3 210,3,0,0
+mono 1 210,2,0,4 210,3,0,1
+mono 114 210,2,0,5 210,3,0,2
+connected to 24,0,0,29
+
+node MONO 24,0,0,33
+mono 114 210,2,0,6 210,3,0,3
+mono 0 210,2,0,7 210,3,0,4
+mono 114 210,2,0,8 210,3,0,5
+mono 1 210,2,0,9 210,3,0,6
+
+node BLOCK_QUEST_AVAILABLE 24,0,0,37
+connected to 24,0,0,38
+
+node MONO 24,0,0,36
+mono 114 24,2,0,0 24,3,0,0
+mono 1 24,2,0,1 24,3,0,1
+mono 114 24,2,0,2 24,3,0,2
+connected to 24,0,0,37
+
+node TEXT_HERO 24,0,0,38
+text 24,0,0,0
+alttext 24,0,0,1
+connected to 24,0,0,39
+
+node TEXT_NPC 24,0,0,39
+text 24,1,0,0
+alttext 24,1,0,1
+connected to 24,0,0,40
+connected to 24,0,0,42
+
+node TEXT_HERO 24,0,0,40
+text 24,0,0,2
+alttext 24,0,0,3
+quest event 2
+connected to 24,0,0,41
+
+node TEXT_NPC 24,0,0,41
+text 24,1,0,2
+alttext 24,1,0,3
+
+node TEXT_HERO 24,0,0,42
+text 24,0,0,4
+alttext 24,0,0,5
+quest event 7
+connected to 24,0,0,43
+
+node TEXT_NPC 24,0,0,43
+text 24,1,0,4
+alttext 24,1,0,5
+

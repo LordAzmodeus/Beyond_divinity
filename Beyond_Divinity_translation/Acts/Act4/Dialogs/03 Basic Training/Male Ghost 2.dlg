@@ -1,0 +1,128 @@
+version 11
+id 6,1,0,108
+name "Male Ghost 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 108,0,0,1
+connected to 108,0,0,12
+
+node BLOCK_GREET_AVAILABLE 108,0,0,2
+connected to 108,0,0,34
+
+node BLOCK_GREET_ACTIVE 108,0,0,3
+
+node BLOCK_GREET_SUCCESS 108,0,0,4
+
+node BLOCK_GREET_COMPLETED 108,0,0,5
+
+node BLOCK_GREET_FAILURE 108,0,0,6
+
+node BLOCK_GREET_FAILED 108,0,0,7
+
+node BLOCK_GREET_REFUSED 108,0,0,8
+
+node BLOCK_STD 108,0,0,9
+connected to 108,0,0,15
+connected to 108,0,0,18
+connected to 108,0,0,21
+connected to 108,0,0,27
+
+node BLOCK_SERV 108,0,0,10
+
+node BLOCK_EXIT 108,0,0,11
+connected to 108,0,0,14
+
+node TEXT_NPC 108,0,0,12
+text 131,1,0,0
+alttext 171,1,0,2
+connected to 108,0,0,13
+
+node BLOCK_QUEST_INACTIVE 108,0,0,13
+
+node TEXT_HERO 108,0,0,14
+text 131,0,0,0
+
+node TEXT_HERO 108,0,0,15
+stdnode
+text 131,0,0,1
+alttext 171,0,0,2
+connected to 108,0,0,16
+
+node TEXT_NPC 108,0,0,16
+text 131,1,0,1
+alttext 171,1,0,6
+connected to 108,0,0,17
+
+node BLOCK_STD 108,0,0,17
+
+node TEXT_HERO 108,0,0,18
+stdnode
+text 131,0,0,2
+alttext 171,0,0,3
+connected to 108,0,0,19
+
+node TEXT_NPC 108,0,0,19
+text 131,1,0,2
+alttext 171,1,0,4
+connected to 108,0,0,20
+
+node BLOCK_STD 108,0,0,20
+
+node TEXT_HERO 108,0,0,21
+stdnode
+text 131,0,0,3
+alttext 171,0,0,4
+connected to 108,0,0,22
+
+node TEXT_NPC 108,0,0,22
+text 131,1,0,3
+alttext 171,1,0,1
+connected to 108,0,0,23
+
+node BLOCK_STD 108,0,0,23
+connected to 108,0,0,30
+
+node TEXT_HERO 108,0,0,27
+stdnode
+text 131,0,0,5
+alttext 171,0,0,6
+connected to 108,0,0,28
+
+node TEXT_NPC 108,0,0,28
+text 131,1,0,5
+connected to 108,0,0,29
+
+node BLOCK_STD 108,0,0,29
+
+node TEXT_HERO 108,0,0,30
+stdnode
+text 131,0,0,6
+alttext 171,0,0,5
+connected to 108,0,0,31
+
+node TEXT_NPC 108,0,0,31
+text 131,1,0,6
+alttext 171,1,0,5
+
+node TEXT_NPC 108,0,0,34
+text 171,1,0,0
+alttext 171,1,0,3
+connected to 108,0,0,35
+
+node BLOCK_QUEST_AVAILABLE 108,0,0,35
+connected to 108,0,0,36
+
+node TEXT_HERO 108,0,0,36
+text 171,0,0,0
+alttext 171,0,0,1
+quest event 2
+connected to 108,0,0,37
+
+node MONO 108,0,0,37
+mono 46 171,2,0,5 171,3,0,0
+mono 0 171,2,0,6 171,3,0,1
+mono 46 171,2,0,7 171,3,0,2
+mono 46 171,2,0,8 171,3,0,3
+mono 1 171,2,0,9 171,3,0,4
+

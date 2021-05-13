@@ -1,0 +1,101 @@
+version 11
+id 6,3,0,139
+name "Imp_Love_Affair_Parrixa"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 139,0,0,1
+connected to 139,0,0,12
+
+node BLOCK_GREET_AVAILABLE 139,0,0,2
+connected to 139,0,0,23
+
+node BLOCK_GREET_ACTIVE 139,0,0,3
+connected to 139,0,0,15
+
+node BLOCK_GREET_SUCCESS 139,0,0,4
+connected to 139,0,0,19
+
+node BLOCK_GREET_COMPLETED 139,0,0,5
+
+node BLOCK_GREET_FAILURE 139,0,0,6
+
+node BLOCK_GREET_FAILED 139,0,0,7
+
+node BLOCK_GREET_REFUSED 139,0,0,8
+
+node BLOCK_STD 139,0,0,9
+
+node BLOCK_SERV 139,0,0,10
+
+node BLOCK_EXIT 139,0,0,11
+connected to 139,0,0,14
+
+node TEXT_NPC 139,0,0,12
+text 180,1,0,0
+alttext 180,1,0,1
+connected to 139,0,0,13
+
+node BLOCK_QUEST_INACTIVE 139,0,0,13
+
+node TEXT_HERO 139,0,0,14
+text 180,0,0,0
+alttext 180,0,0,1
+
+node TEXT_NPC 139,0,0,15
+text 180,1,0,2
+alttext 180,1,0,3
+connected to 139,0,0,16
+
+node BLOCK_QUEST_ACTIVE 139,0,0,16
+connected to 139,0,0,17
+
+node TEXT_HERO 139,0,0,17
+text 180,0,0,2
+alttext 180,0,0,3
+quest event 3
+connected to 139,0,0,18
+
+node TEXT_NPC 139,0,0,18
+text 180,1,0,4
+alttext 180,1,0,5
+
+node TEXT_NPC 139,0,0,19
+text 180,1,0,6
+alttext 180,1,0,7
+connected to 139,0,0,20
+
+node BLOCK_QUEST_SUCCESS 139,0,0,20
+connected to 139,0,0,21
+
+node TEXT_HERO 139,0,0,21
+text 180,0,0,4
+alttext 180,0,0,5
+quest event 4
+connected to 139,0,0,22
+
+node TEXT_NPC 139,0,0,23
+text 180,1,0,10
+alttext 180,1,0,11
+connected to 139,0,0,24
+
+node BLOCK_QUEST_AVAILABLE 139,0,0,24
+connected to 139,0,0,25
+
+node TEXT_HERO 139,0,0,25
+text 180,0,0,6
+alttext 180,0,0,7
+quest event 2
+connected to 139,0,0,26
+
+node MONO 139,0,0,26
+mono 118 180,2,0,0 180,3,0,0
+mono 0 180,2,0,1 180,3,0,1
+mono 118 180,2,0,2 180,3,0,2
+mono 0 180,2,0,3 180,3,0,3
+mono 118 180,2,0,4 180,3,0,4
+
+node MONO 139,0,0,22
+mono 118 180,2,0,5 180,3,0,5
+mono 118 180,2,0,6 180,3,0,6
+

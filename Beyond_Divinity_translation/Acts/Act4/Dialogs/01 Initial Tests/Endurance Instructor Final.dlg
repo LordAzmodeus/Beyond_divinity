@@ -1,0 +1,46 @@
+version 11
+id 6,1,0,24
+name "Endurance Instructor Final"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 24,0,0,1
+
+node BLOCK_GREET_AVAILABLE 24,0,0,2
+
+node BLOCK_GREET_ACTIVE 24,0,0,3
+
+node BLOCK_GREET_SUCCESS 24,0,0,4
+connected to 24,0,0,12
+
+node BLOCK_GREET_COMPLETED 24,0,0,5
+
+node BLOCK_GREET_FAILURE 24,0,0,6
+connected to 24,0,0,14
+
+node BLOCK_GREET_FAILED 24,0,0,7
+
+node BLOCK_GREET_REFUSED 24,0,0,8
+
+node BLOCK_STD 24,0,0,9
+
+node BLOCK_SERV 24,0,0,10
+
+node BLOCK_EXIT 24,0,0,11
+
+node BLOCK_QUEST_SUCCESS 24,0,0,13
+
+node MONO 24,0,0,12
+mono 23 84,2,0,0 84,3,0,0
+mono 23 84,2,0,1 84,3,0,1
+mono 23 84,2,0,2 84,3,0,2
+connected to 24,0,0,13
+
+node BLOCK_QUEST_FAILURE 24,0,0,15
+
+node MONO 24,0,0,14
+mono 23 84,2,0,3 84,3,0,3
+mono 23 84,2,0,4 84,3,0,4
+mono 1 84,2,0,5 84,3,0,5
+connected to 24,0,0,15
+

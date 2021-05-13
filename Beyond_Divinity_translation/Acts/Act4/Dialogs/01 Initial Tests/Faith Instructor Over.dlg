@@ -1,0 +1,39 @@
+version 11
+id 6,1,0,28
+name "Faith Instructor Over"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 28,0,0,1
+
+node BLOCK_GREET_AVAILABLE 28,0,0,2
+
+node BLOCK_GREET_ACTIVE 28,0,0,3
+connected to 28,0,0,33
+
+node BLOCK_GREET_SUCCESS 28,0,0,4
+
+node BLOCK_GREET_COMPLETED 28,0,0,5
+
+node BLOCK_GREET_FAILURE 28,0,0,6
+
+node BLOCK_GREET_FAILED 28,0,0,7
+
+node BLOCK_GREET_REFUSED 28,0,0,8
+
+node BLOCK_STD 28,0,0,9
+
+node BLOCK_SERV 28,0,0,10
+
+node BLOCK_EXIT 28,0,0,11
+connected to 28,0,0,22
+
+node TEXT_HERO 28,0,0,22
+text 239,0,0,3
+
+node TEXT_NPC 28,0,0,33
+text 239,1,0,10
+connected to 28,0,0,34
+
+node BLOCK_QUEST_ACTIVE 28,0,0,34
+

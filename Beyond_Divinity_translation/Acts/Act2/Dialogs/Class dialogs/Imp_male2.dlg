@@ -1,0 +1,52 @@
+version 11
+id 6,1,0,182
+name "Imp_male2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 182,0,0,1
+connected to 182,0,0,17
+
+node BLOCK_GREET_AVAILABLE 182,0,0,2
+
+node BLOCK_GREET_ACTIVE 182,0,0,3
+
+node BLOCK_GREET_SUCCESS 182,0,0,4
+
+node BLOCK_GREET_COMPLETED 182,0,0,5
+
+node BLOCK_GREET_FAILURE 182,0,0,6
+
+node BLOCK_GREET_FAILED 182,0,0,7
+
+node BLOCK_GREET_REFUSED 182,0,0,8
+
+node BLOCK_STD 182,0,0,9
+
+node BLOCK_SERV 182,0,0,10
+connected to 182,0,0,13
+
+node BLOCK_EXIT 182,0,0,11
+connected to 182,0,0,12
+
+node TEXT_HERO 182,0,0,12
+text 182,0,0,0
+alttext 182,0,0,1
+
+node TEXT_HERO 182,0,0,13
+servnode 0 1
+text 182,0,0,2
+alttext 182,0,0,3
+connected to 182,0,0,14
+
+node TEXT_NPC 182,0,0,14
+text 182,1,0,0
+alttext 182,1,0,1
+
+node TEXT_NPC 182,0,0,17
+text 182,1,0,4
+alttext 182,1,0,5
+connected to 182,0,0,18
+
+node BLOCK_QUEST_INACTIVE 182,0,0,18
+

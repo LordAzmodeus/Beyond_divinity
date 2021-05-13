@@ -1,0 +1,126 @@
+version 11
+id 6,1,0,21
+name "Black Bishop"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 21,0,0,1
+
+node BLOCK_GREET_AVAILABLE 21,0,0,2
+connected to 21,0,0,12
+
+node BLOCK_GREET_ACTIVE 21,0,0,3
+connected to 21,0,0,19
+
+node BLOCK_GREET_SUCCESS 21,0,0,4
+connected to 21,0,0,21
+
+node BLOCK_GREET_COMPLETED 21,0,0,5
+
+node BLOCK_GREET_FAILURE 21,0,0,6
+
+node BLOCK_GREET_FAILED 21,0,0,7
+
+node BLOCK_GREET_REFUSED 21,0,0,8
+
+node BLOCK_STD 21,0,0,9
+connected to 21,0,0,23
+connected to 21,0,0,26
+
+node BLOCK_SERV 21,0,0,10
+connected to 21,0,0,29
+connected to 21,0,0,31
+
+node BLOCK_EXIT 21,0,0,11
+connected to 21,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 21,0,0,13
+connected to 21,0,0,15
+
+node TEXT_HERO 21,0,0,14
+text 12,0,0,0
+
+node TEXT_HERO 21,0,0,15
+text 12,0,0,1
+alttext 12,0,0,5
+quest event 2
+connected to 21,0,0,16
+
+node TEXT_NPC 21,0,0,19
+text 12,1,0,3
+alttext 12,1,0,8
+connected to 21,0,0,20
+
+node BLOCK_QUEST_ACTIVE 21,0,0,20
+
+node BLOCK_QUEST_SUCCESS 21,0,0,22
+
+node TEXT_HERO 21,0,0,23
+stdnode
+text 12,0,0,3
+alttext 19,0,0,4
+connected to 21,0,0,24
+
+node TEXT_NPC 21,0,0,24
+text 12,1,0,5
+alttext 12,1,0,9
+connected to 21,0,0,25
+
+node BLOCK_STD 21,0,0,25
+
+node TEXT_HERO 21,0,0,26
+stdnode
+text 12,0,0,4
+alttext 19,0,0,5
+connected to 21,0,0,27
+
+node TEXT_NPC 21,0,0,27
+text 12,1,0,6
+alttext 12,1,0,10
+connected to 21,0,0,28
+
+node BLOCK_STD 21,0,0,28
+
+node MONO 21,0,0,21
+mono 10 12,2,0,0 12,3,0,0
+mono 10 12,2,0,1 12,3,0,1
+mono 10 12,2,0,6 12,3,0,6
+connected to 21,0,0,22
+
+node MONO 21,0,0,12
+mono 10 12,2,0,3 12,3,0,3
+mono 1 12,2,0,7 12,3,0,7
+mono 0 12,2,0,13 12,3,0,8
+mono 10 12,2,0,8 12,3,0,8
+mono 10 12,2,0,9 12,3,0,9
+mono 10 12,2,0,11 12,3,0,11
+mono 10 12,2,0,12 12,3,0,12
+connected to 21,0,0,13
+
+node MONO 21,0,0,16
+mono 10 12,2,0,14 12,3,0,13
+mono 0 12,2,0,15 12,3,0,14
+mono 10 12,2,0,16 12,3,0,15
+mono 10 12,2,0,17 12,3,0,16
+mono 10 12,2,0,18 12,3,0,17
+
+node TEXT_HERO 21,0,0,29
+servnode 1 1
+text 19,0,0,0
+alttext 19,0,0,1
+connected to 21,0,0,30
+
+node TEXT_NPC 21,0,0,30
+text 19,1,0,0
+alttext 19,1,0,1
+
+node TEXT_HERO 21,0,0,31
+servnode 2 1
+text 19,0,0,2
+alttext 19,0,0,3
+connected to 21,0,0,32
+
+node TEXT_NPC 21,0,0,32
+text 19,1,0,2
+alttext 19,1,0,3
+

@@ -1,0 +1,35 @@
+version 11
+id 6,1,0,41
+name "Deathknigh_Crypt_Crystal"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 41,0,0,1
+connected to 41,0,0,12
+
+node BLOCK_GREET_AVAILABLE 41,0,0,2
+
+node BLOCK_GREET_ACTIVE 41,0,0,3
+
+node BLOCK_GREET_SUCCESS 41,0,0,4
+
+node BLOCK_GREET_COMPLETED 41,0,0,5
+
+node BLOCK_GREET_FAILURE 41,0,0,6
+
+node BLOCK_GREET_FAILED 41,0,0,7
+
+node BLOCK_GREET_REFUSED 41,0,0,8
+
+node BLOCK_STD 41,0,0,9
+
+node BLOCK_SERV 41,0,0,10
+
+node BLOCK_EXIT 41,0,0,11
+
+node TEXT_NPC 41,0,0,12
+text 77,1,0,0
+connected to 41,0,0,13
+
+node BLOCK_QUEST_INACTIVE 41,0,0,13
+

@@ -1,0 +1,104 @@
+version 11
+id 6,1,0,87
+name "Female Ghost 2 Strategies"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 87,0,0,1
+connected to 87,0,0,12
+
+node BLOCK_GREET_AVAILABLE 87,0,0,2
+connected to 87,0,0,32
+
+node BLOCK_GREET_ACTIVE 87,0,0,3
+
+node BLOCK_GREET_SUCCESS 87,0,0,4
+
+node BLOCK_GREET_COMPLETED 87,0,0,5
+
+node BLOCK_GREET_FAILURE 87,0,0,6
+
+node BLOCK_GREET_FAILED 87,0,0,7
+
+node BLOCK_GREET_REFUSED 87,0,0,8
+
+node BLOCK_STD 87,0,0,9
+connected to 87,0,0,15
+connected to 87,0,0,18
+connected to 87,0,0,24
+connected to 87,0,0,27
+
+node BLOCK_SERV 87,0,0,10
+
+node BLOCK_EXIT 87,0,0,11
+connected to 87,0,0,14
+
+node TEXT_NPC 87,0,0,12
+text 288,1,0,0
+alttext 288,1,0,6
+connected to 87,0,0,13
+
+node BLOCK_QUEST_INACTIVE 87,0,0,13
+
+node TEXT_HERO 87,0,0,14
+text 288,0,0,0
+
+node TEXT_HERO 87,0,0,15
+stdnode
+text 288,0,0,1
+alttext 288,0,0,6
+connected to 87,0,0,16
+
+node TEXT_NPC 87,0,0,16
+text 288,1,0,1
+alttext 288,1,0,10
+connected to 87,0,0,17
+
+node BLOCK_STD 87,0,0,17
+
+node TEXT_HERO 87,0,0,18
+stdnode
+text 288,0,0,2
+alttext 288,0,0,7
+connected to 87,0,0,19
+
+node TEXT_NPC 87,0,0,19
+text 288,1,0,2
+alttext 288,1,0,8
+connected to 87,0,0,20
+
+node BLOCK_STD 87,0,0,20
+
+node TEXT_HERO 87,0,0,24
+stdnode
+text 288,0,0,4
+alttext 288,0,0,8
+connected to 87,0,0,25
+
+node TEXT_NPC 87,0,0,25
+text 288,1,0,4
+alttext 288,1,0,9
+connected to 87,0,0,26
+
+node BLOCK_STD 87,0,0,26
+
+node TEXT_HERO 87,0,0,27
+stdnode
+text 288,0,0,5
+alttext 288,0,0,9
+connected to 87,0,0,28
+
+node TEXT_NPC 87,0,0,28
+text 288,1,0,5
+alttext 87,1,0,0
+connected to 87,0,0,29
+
+node BLOCK_STD 87,0,0,29
+
+node TEXT_NPC 87,0,0,32
+text 288,1,0,0
+alttext 288,1,0,7
+connected to 87,0,0,33
+
+node BLOCK_QUEST_AVAILABLE 87,0,0,33
+

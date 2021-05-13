@@ -1,0 +1,40 @@
+version 11
+id 6,1,0,61
+name "Raanaar_Goddess_Appears"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 61,0,0,1
+connected to 61,0,0,12
+
+node BLOCK_GREET_AVAILABLE 61,0,0,2
+
+node BLOCK_GREET_ACTIVE 61,0,0,3
+
+node BLOCK_GREET_SUCCESS 61,0,0,4
+
+node BLOCK_GREET_COMPLETED 61,0,0,5
+
+node BLOCK_GREET_FAILURE 61,0,0,6
+
+node BLOCK_GREET_FAILED 61,0,0,7
+
+node BLOCK_GREET_REFUSED 61,0,0,8
+
+node BLOCK_STD 61,0,0,9
+
+node BLOCK_SERV 61,0,0,10
+
+node BLOCK_EXIT 61,0,0,11
+
+node BLOCK_QUEST_INACTIVE 61,0,0,13
+
+node MONO 61,0,0,12
+mono 208 210,2,0,0 210,3,0,0
+mono 208 210,2,0,1 210,3,0,1
+mono 208 210,2,0,2 210,3,0,2
+mono 0 210,2,0,3 210,3,0,3
+mono 208 210,2,0,4 210,3,0,4
+mono 208 210,2,0,5 210,3,0,5
+connected to 61,0,0,13
+

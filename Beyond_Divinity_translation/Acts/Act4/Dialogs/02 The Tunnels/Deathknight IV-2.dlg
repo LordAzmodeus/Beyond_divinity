@@ -1,0 +1,143 @@
+version 11
+id 6,1,0,57
+name "Deathknight IV-2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 57,0,0,1
+connected to 57,0,0,54
+
+node BLOCK_GREET_AVAILABLE 57,0,0,2
+
+node BLOCK_GREET_ACTIVE 57,0,0,3
+
+node BLOCK_GREET_SUCCESS 57,0,0,4
+
+node BLOCK_GREET_COMPLETED 57,0,0,5
+
+node BLOCK_GREET_FAILURE 57,0,0,6
+
+node BLOCK_GREET_FAILED 57,0,0,7
+
+node BLOCK_GREET_REFUSED 57,0,0,8
+
+node BLOCK_STD 57,0,0,9
+connected to 57,0,0,12
+connected to 57,0,0,15
+connected to 57,0,0,18
+connected to 57,0,0,21
+connected to 57,0,0,32
+
+node BLOCK_SERV 57,0,0,10
+
+node BLOCK_EXIT 57,0,0,11
+connected to 57,0,0,47
+
+node TEXT_HERO 57,0,0,12
+stdnode
+text 93,0,0,0
+alttext 147,0,0,1
+connected to 57,0,0,13
+
+node TEXT_NPC 57,0,0,13
+text 93,1,0,0
+alttext 147,1,0,1
+connected to 57,0,0,14
+
+node BLOCK_STD 57,0,0,14
+connected to 57,0,0,37
+connected to 57,0,0,39
+
+node TEXT_HERO 57,0,0,15
+stdnode
+text 93,0,0,1
+alttext 147,0,0,4
+connected to 57,0,0,16
+
+node TEXT_NPC 57,0,0,16
+text 93,1,0,1
+alttext 147,1,0,4
+connected to 57,0,0,17
+
+node BLOCK_STD 57,0,0,17
+
+node TEXT_HERO 57,0,0,18
+stdnode
+text 93,0,0,2
+alttext 147,0,0,5
+connected to 57,0,0,19
+
+node TEXT_NPC 57,0,0,19
+text 93,1,0,2
+alttext 147,1,0,5
+connected to 57,0,0,20
+
+node BLOCK_STD 57,0,0,20
+connected to 57,0,0,35
+
+node TEXT_HERO 57,0,0,21
+stdnode
+text 93,0,0,3
+alttext 147,0,0,7
+connected to 57,0,0,22
+
+node TEXT_NPC 57,0,0,22
+text 93,1,0,3
+alttext 147,1,0,7
+connected to 57,0,0,23
+
+node BLOCK_STD 57,0,0,23
+
+node TEXT_HERO 57,0,0,32
+stdnode
+text 93,0,0,7
+alttext 147,0,0,0
+connected to 57,0,0,33
+
+node BLOCK_STD 57,0,0,34
+
+node TEXT_HERO 57,0,0,35
+stdnode
+text 93,0,0,8
+alttext 147,0,0,6
+connected to 57,0,0,36
+
+node TEXT_NPC 57,0,0,36
+text 93,1,0,9
+alttext 147,1,0,6
+
+node TEXT_HERO 57,0,0,37
+stdnode
+text 93,0,0,9
+alttext 147,0,0,2
+connected to 57,0,0,38
+
+node TEXT_NPC 57,0,0,38
+text 93,1,0,10
+alttext 147,1,0,2
+
+node TEXT_HERO 57,0,0,39
+stdnode
+text 93,0,0,10
+alttext 147,0,0,3
+connected to 57,0,0,40
+
+node TEXT_NPC 57,0,0,40
+text 93,1,0,11
+alttext 147,1,0,3
+
+node TEXT_HERO 57,0,0,47
+text 93,0,0,11
+
+node MONO 57,0,0,33
+mono 1 93,2,0,5 93,3,0,5
+mono 1 93,2,0,6 93,3,0,6
+connected to 57,0,0,34
+
+node TEXT_NPC 57,0,0,54
+text 93,1,0,16
+alttext 147,1,0,0
+connected to 57,0,0,55
+
+node BLOCK_QUEST_INACTIVE 57,0,0,55
+

@@ -1,0 +1,60 @@
+version 11
+id 6,1,0,246
+name "Church_Entrance_Guard2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 246,0,0,1
+
+node BLOCK_GREET_AVAILABLE 246,0,0,2
+connected to 246,0,0,12
+
+node BLOCK_GREET_ACTIVE 246,0,0,3
+connected to 246,0,0,14
+
+node BLOCK_GREET_SUCCESS 246,0,0,4
+connected to 246,0,0,18
+
+node BLOCK_GREET_COMPLETED 246,0,0,5
+connected to 246,0,0,16
+
+node BLOCK_GREET_FAILURE 246,0,0,6
+
+node BLOCK_GREET_FAILED 246,0,0,7
+
+node BLOCK_GREET_REFUSED 246,0,0,8
+
+node BLOCK_STD 246,0,0,9
+
+node BLOCK_SERV 246,0,0,10
+
+node BLOCK_EXIT 246,0,0,11
+
+node TEXT_NPC 246,0,0,12
+text 246,1,0,0
+alttext 246,1,0,1
+connected to 246,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 246,0,0,13
+
+node TEXT_NPC 246,0,0,14
+text 246,1,0,2
+alttext 246,1,0,3
+connected to 246,0,0,15
+
+node BLOCK_QUEST_ACTIVE 246,0,0,15
+
+node TEXT_NPC 246,0,0,16
+text 246,1,0,4
+alttext 246,1,0,5
+connected to 246,0,0,17
+
+node BLOCK_QUEST_COMPLETED 246,0,0,17
+
+node TEXT_NPC 246,0,0,18
+text 246,1,0,6
+alttext 246,1,0,7
+connected to 246,0,0,19
+
+node BLOCK_QUEST_SUCCESS 246,0,0,19
+

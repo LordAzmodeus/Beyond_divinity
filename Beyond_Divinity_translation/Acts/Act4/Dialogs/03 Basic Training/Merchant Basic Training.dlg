@@ -1,0 +1,221 @@
+version 11
+id 6,1,0,110
+name "Merchant Basic Training"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 110,0,0,1
+
+node BLOCK_GREET_AVAILABLE 110,0,0,2
+connected to 110,0,0,24
+
+node BLOCK_GREET_ACTIVE 110,0,0,3
+connected to 110,0,0,52
+
+node BLOCK_GREET_SUCCESS 110,0,0,4
+connected to 110,0,0,32
+
+node BLOCK_GREET_COMPLETED 110,0,0,5
+connected to 110,0,0,34
+
+node BLOCK_GREET_FAILURE 110,0,0,6
+
+node BLOCK_GREET_FAILED 110,0,0,7
+
+node BLOCK_GREET_REFUSED 110,0,0,8
+connected to 110,0,0,36
+
+node BLOCK_STD 110,0,0,9
+connected to 110,0,0,15
+connected to 110,0,0,21
+
+node BLOCK_SERV 110,0,0,10
+connected to 110,0,0,61
+
+node BLOCK_EXIT 110,0,0,11
+connected to 110,0,0,60
+
+node TEXT_HERO 110,0,0,15
+stdnode
+text 293,0,0,2
+alttext 293,0,0,25
+connected to 110,0,0,16
+
+node TEXT_NPC 110,0,0,16
+text 293,1,0,1
+alttext 293,1,0,23
+connected to 110,0,0,17
+
+node BLOCK_STD 110,0,0,17
+
+node TEXT_HERO 110,0,0,21
+stdnode
+text 293,0,0,4
+alttext 293,0,0,26
+connected to 110,0,0,22
+
+node TEXT_NPC 110,0,0,22
+text 293,1,0,3
+alttext 293,1,0,29
+connected to 110,0,0,23
+
+node BLOCK_STD 110,0,0,23
+connected to 110,0,0,44
+connected to 110,0,0,46
+
+node TEXT_NPC 110,0,0,24
+text 293,1,0,4
+alttext 293,1,0,25
+connected to 110,0,0,25
+
+node BLOCK_QUEST_AVAILABLE 110,0,0,25
+connected to 110,0,0,26
+
+node TEXT_HERO 110,0,0,26
+text 293,0,0,5
+alttext 293,0,0,21
+connected to 110,0,0,27
+
+node TEXT_NPC 110,0,0,27
+text 293,1,0,5
+alttext 293,1,0,26
+connected to 110,0,0,28
+connected to 110,0,0,30
+
+node TEXT_HERO 110,0,0,28
+text 293,0,0,6
+alttext 293,0,0,20
+quest event 2
+connected to 110,0,0,29
+
+node TEXT_HERO 110,0,0,30
+text 293,0,0,7
+alttext 293,0,0,22
+quest event 7
+connected to 110,0,0,31
+
+node TEXT_NPC 110,0,0,31
+text 293,1,0,7
+alttext 293,1,0,33
+
+node TEXT_NPC 110,0,0,32
+text 293,1,0,8
+alttext 293,1,0,19
+connected to 110,0,0,33
+
+node BLOCK_QUEST_SUCCESS 110,0,0,33
+connected to 110,0,0,56
+
+node TEXT_NPC 110,0,0,34
+text 293,1,0,9
+alttext 293,1,0,20
+connected to 110,0,0,35
+
+node BLOCK_QUEST_COMPLETED 110,0,0,35
+
+node TEXT_NPC 110,0,0,36
+text 293,1,0,10
+alttext 293,1,0,22
+connected to 110,0,0,37
+
+node BLOCK_QUEST_REFUSED 110,0,0,37
+connected to 110,0,0,38
+
+node TEXT_HERO 110,0,0,38
+text 293,0,0,8
+alttext 293,0,0,24
+connected to 110,0,0,39
+
+node TEXT_NPC 110,0,0,39
+text 293,1,0,11
+alttext 293,1,0,28
+connected to 110,0,0,40
+connected to 110,0,0,42
+
+node TEXT_HERO 110,0,0,40
+text 293,0,0,9
+alttext 293,0,0,23
+quest event 2
+connected to 110,0,0,41
+
+node TEXT_HERO 110,0,0,42
+text 293,0,0,10
+alttext 293,0,0,19
+connected to 110,0,0,43
+
+node TEXT_NPC 110,0,0,43
+text 293,1,0,13
+alttext 293,1,0,32
+
+node TEXT_HERO 110,0,0,44
+stdnode
+text 293,0,0,11
+alttext 293,0,0,17
+connected to 110,0,0,45
+
+node TEXT_NPC 110,0,0,45
+text 293,1,0,14
+alttext 293,1,0,30
+
+node TEXT_HERO 110,0,0,46
+stdnode
+text 293,0,0,12
+alttext 293,0,0,27
+connected to 110,0,0,47
+
+node TEXT_NPC 110,0,0,47
+text 293,1,0,15
+alttext 293,1,0,31
+
+node TEXT_NPC 110,0,0,52
+text 293,1,0,18
+alttext 293,1,0,27
+connected to 110,0,0,53
+
+node BLOCK_QUEST_ACTIVE 110,0,0,53
+connected to 110,0,0,54
+
+node TEXT_HERO 110,0,0,54
+text 293,0,0,15
+alttext 293,0,0,18
+quest event 3
+connected to 110,0,0,55
+
+node MONO 110,0,0,55
+mono 47 293,2,0,13 293,3,0,0
+mono 47 293,2,0,18 293,3,0,5
+
+node MONO 110,0,0,29
+mono 47 293,2,0,14 293,3,0,1
+mono 47 293,2,0,16 293,3,0,3
+mono 47 293,2,0,17 293,3,0,4
+
+node MONO 110,0,0,41
+mono 47 293,2,0,15 293,3,0,2
+mono 47 293,2,0,21 293,3,0,8
+mono 47 293,2,0,20 293,3,0,7
+
+node TEXT_HERO 110,0,0,56
+text 293,0,0,28
+alttext 293,0,0,29
+quest event 4
+connected to 110,0,0,57
+
+node TEXT_NPC 110,0,0,57
+text 293,1,0,34
+alttext 293,1,0,35
+
+node TEXT_HERO 110,0,0,60
+text 293,0,0,32
+alttext 293,0,0,33
+
+node TEXT_HERO 110,0,0,61
+servnode 2 1
+text 110,0,0,0
+alttext 110,0,0,1
+connected to 110,0,0,62
+
+node TEXT_NPC 110,0,0,62
+text 110,1,0,0
+alttext 110,1,0,1
+

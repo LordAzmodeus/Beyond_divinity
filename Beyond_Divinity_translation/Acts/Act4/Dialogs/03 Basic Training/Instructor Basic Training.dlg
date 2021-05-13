@@ -1,0 +1,147 @@
+version 11
+id 6,1,0,97
+name "Instructor Basic Training"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 97,0,0,1
+
+node BLOCK_GREET_AVAILABLE 97,0,0,2
+connected to 97,0,0,38
+
+node BLOCK_GREET_ACTIVE 97,0,0,3
+connected to 97,0,0,40
+
+node BLOCK_GREET_SUCCESS 97,0,0,4
+
+node BLOCK_GREET_COMPLETED 97,0,0,5
+connected to 97,0,0,36
+
+node BLOCK_GREET_FAILURE 97,0,0,6
+
+node BLOCK_GREET_FAILED 97,0,0,7
+
+node BLOCK_GREET_REFUSED 97,0,0,8
+
+node BLOCK_STD 97,0,0,9
+connected to 97,0,0,17
+connected to 97,0,0,20
+connected to 97,0,0,26
+connected to 97,0,0,31
+
+node BLOCK_SERV 97,0,0,10
+
+node BLOCK_EXIT 97,0,0,11
+connected to 97,0,0,25
+
+node TEXT_HERO 97,0,0,17
+stdnode
+text 97,0,0,1
+alttext 164,0,0,1
+connected to 97,0,0,18
+
+node BLOCK_STD 97,0,0,19
+
+node TEXT_HERO 97,0,0,20
+stdnode
+text 97,0,0,2
+alttext 164,0,0,3
+connected to 97,0,0,21
+
+node TEXT_NPC 97,0,0,21
+text 97,1,0,2
+alttext 164,1,0,5
+connected to 97,0,0,22
+
+node BLOCK_STD 97,0,0,22
+
+node MONO 97,0,0,18
+mono 39 164,2,0,14 164,3,0,0
+mono 0 164,2,0,16 164,3,0,2
+mono 39 164,2,0,17 164,3,0,3
+mono 0 164,2,0,18 164,3,0,4
+mono 39 164,2,0,19 164,3,0,5
+mono 1 164,2,0,20 164,3,0,6
+mono 39 164,2,0,30 164,3,0,16
+connected to 97,0,0,19
+
+node TEXT_HERO 97,0,0,25
+text 97,0,0,4
+
+node TEXT_HERO 97,0,0,26
+stdnode
+text 97,0,0,5
+alttext 164,0,0,0
+connected to 97,0,0,27
+
+node TEXT_NPC 97,0,0,27
+text 97,1,0,3
+alttext 164,1,0,4
+connected to 97,0,0,28
+
+node BLOCK_STD 97,0,0,28
+connected to 97,0,0,29
+connected to 97,0,0,34
+
+node TEXT_HERO 97,0,0,29
+stdnode
+text 97,0,0,6
+alttext 164,0,0,2
+connected to 97,0,0,30
+
+node TEXT_NPC 97,0,0,30
+text 97,1,0,4
+alttext 164,1,0,7
+
+node TEXT_HERO 97,0,0,31
+stdnode
+text 97,0,0,7
+alttext 164,0,0,5
+connected to 97,0,0,32
+
+node TEXT_NPC 97,0,0,32
+text 97,1,0,5
+alttext 164,1,0,9
+connected to 97,0,0,33
+
+node BLOCK_STD 97,0,0,33
+
+node TEXT_HERO 97,0,0,34
+stdnode
+text 97,0,0,8
+alttext 164,0,0,4
+connected to 97,0,0,35
+
+node TEXT_NPC 97,0,0,35
+text 97,1,0,6
+alttext 164,1,0,8
+
+node TEXT_NPC 97,0,0,36
+text 164,1,0,0
+alttext 164,1,0,3
+connected to 97,0,0,37
+
+node BLOCK_QUEST_COMPLETED 97,0,0,37
+
+node BLOCK_QUEST_AVAILABLE 97,0,0,39
+
+node TEXT_NPC 97,0,0,40
+text 164,1,0,2
+alttext 164,1,0,6
+connected to 97,0,0,41
+
+node BLOCK_QUEST_ACTIVE 97,0,0,41
+
+node MONO 97,0,0,38
+mono 39 164,2,0,15 164,3,0,1
+mono 0 164,2,0,21 164,3,0,7
+mono 39 164,2,0,22 164,3,0,8
+mono 1 164,2,0,23 164,3,0,9
+mono 39 164,2,0,24 164,3,0,10
+mono 1 164,2,0,25 164,3,0,11
+mono 39 164,2,0,26 164,3,0,12
+mono 39 164,2,0,27 164,3,0,13
+mono 0 164,2,0,28 164,3,0,14
+mono 39 164,2,0,29 164,3,0,15
+connected to 97,0,0,39
+

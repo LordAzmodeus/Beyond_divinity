@@ -1,0 +1,44 @@
+version 11
+id 6,3,0,130
+name "Imp_Hero_Villager1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 130,0,0,1
+connected to 130,0,0,14
+
+node BLOCK_GREET_AVAILABLE 130,0,0,2
+connected to 130,0,0,16
+
+node BLOCK_GREET_ACTIVE 130,0,0,3
+
+node BLOCK_GREET_SUCCESS 130,0,0,4
+
+node BLOCK_GREET_COMPLETED 130,0,0,5
+
+node BLOCK_GREET_FAILURE 130,0,0,6
+
+node BLOCK_GREET_FAILED 130,0,0,7
+
+node BLOCK_GREET_REFUSED 130,0,0,8
+
+node BLOCK_STD 130,0,0,9
+
+node BLOCK_SERV 130,0,0,10
+
+node BLOCK_EXIT 130,0,0,11
+
+node TEXT_NPC 130,0,0,14
+text 193,1,0,2
+alttext 193,1,0,3
+connected to 130,0,0,15
+
+node BLOCK_QUEST_INACTIVE 130,0,0,15
+
+node TEXT_NPC 130,0,0,16
+text 193,1,0,4
+alttext 193,1,0,5
+connected to 130,0,0,17
+
+node BLOCK_QUEST_AVAILABLE 130,0,0,17
+

@@ -1,0 +1,52 @@
+version 11
+id 6,0,0,174
+name "Rat"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 174,0,0,1
+connected to 174,0,0,12
+
+node BLOCK_GREET_AVAILABLE 174,0,0,2
+
+node BLOCK_GREET_ACTIVE 174,0,0,3
+
+node BLOCK_GREET_SUCCESS 174,0,0,4
+
+node BLOCK_GREET_COMPLETED 174,0,0,5
+
+node BLOCK_GREET_FAILURE 174,0,0,6
+
+node BLOCK_GREET_FAILED 174,0,0,7
+
+node BLOCK_GREET_REFUSED 174,0,0,8
+
+node BLOCK_STD 174,0,0,9
+
+node BLOCK_SERV 174,0,0,10
+connected to 174,0,0,14
+
+node BLOCK_EXIT 174,0,0,11
+connected to 174,0,0,16
+
+node TEXT_NPC 174,0,0,12
+text 174,1,0,0
+alttext 174,1,0,1
+connected to 174,0,0,13
+
+node BLOCK_QUEST_INACTIVE 174,0,0,13
+
+node TEXT_HERO 174,0,0,14
+servnode 0 1
+text 174,0,0,0
+alttext 174,0,0,1
+connected to 174,0,0,15
+
+node TEXT_NPC 174,0,0,15
+text 174,1,0,2
+alttext 174,1,0,3
+
+node TEXT_HERO 174,0,0,16
+text 174,0,0,2
+alttext 174,0,0,3
+

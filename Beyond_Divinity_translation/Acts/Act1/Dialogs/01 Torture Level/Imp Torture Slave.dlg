@@ -1,0 +1,66 @@
+version 11
+id 6,1,0,19
+name "Imp Torture Slave"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 19,0,0,1
+
+node BLOCK_GREET_AVAILABLE 19,0,0,2
+connected to 19,0,0,14
+
+node BLOCK_GREET_ACTIVE 19,0,0,3
+
+node BLOCK_GREET_SUCCESS 19,0,0,4
+
+node BLOCK_GREET_COMPLETED 19,0,0,5
+
+node BLOCK_GREET_FAILURE 19,0,0,6
+
+node BLOCK_GREET_FAILED 19,0,0,7
+
+node BLOCK_GREET_REFUSED 19,0,0,8
+
+node BLOCK_STD 19,0,0,9
+
+node BLOCK_SERV 19,0,0,10
+
+node BLOCK_EXIT 19,0,0,11
+
+node TEXT_NPC 19,0,0,14
+text 5,1,0,0
+alttext 18,1,0,0
+connected to 19,0,0,15
+
+node BLOCK_QUEST_AVAILABLE 19,0,0,15
+connected to 19,0,0,16
+
+node TEXT_HERO 19,0,0,16
+text 5,0,0,0
+alttext 18,0,0,0
+connected to 19,0,0,17
+
+node TEXT_HERO 19,0,0,18
+text 5,0,0,1
+quest event 2
+connected to 19,0,0,19
+
+node TEXT_NPC 19,0,0,19
+text 5,1,0,2
+
+node TEXT_HERO 19,0,0,20
+text 5,0,0,2
+quest event 7
+connected to 19,0,0,21
+
+node MONO 19,0,0,17
+mono 5 5,2,0,1 5,3,0,0
+mono 1 5,2,0,2 5,3,0,1
+connected to 19,0,0,18
+connected to 19,0,0,20
+
+node MONO 19,0,0,21
+mono 5 5,2,0,3 5,3,0,2
+mono 5 5,2,0,5 5,3,0,3
+mono 1 5,2,0,4 5,3,0,4
+

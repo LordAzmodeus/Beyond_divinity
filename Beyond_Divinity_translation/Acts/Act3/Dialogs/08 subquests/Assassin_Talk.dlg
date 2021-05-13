@@ -1,0 +1,58 @@
+version 11
+id 6,1,0,88
+name "Assassin_Talk"
+face npc 0
+quest id -1
+
+node BLOCK_GREET_INACTIVE 88,0,0,1
+connected to 88,0,0,18
+
+node BLOCK_GREET_AVAILABLE 88,0,0,2
+connected to 88,0,0,14
+
+node BLOCK_GREET_ACTIVE 88,0,0,3
+connected to 88,0,0,16
+
+node BLOCK_GREET_SUCCESS 88,0,0,4
+
+node BLOCK_GREET_COMPLETED 88,0,0,5
+
+node BLOCK_GREET_FAILURE 88,0,0,6
+
+node BLOCK_GREET_FAILED 88,0,0,7
+
+node BLOCK_GREET_REFUSED 88,0,0,8
+
+node BLOCK_STD 88,0,0,9
+
+node BLOCK_SERV 88,0,0,10
+
+node BLOCK_EXIT 88,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 88,0,0,15
+
+node MONO 88,0,0,14
+mono 109 126,2,0,0 126,3,0,0
+mono 110 126,2,0,4 126,3,0,4
+mono 109 126,2,0,3 126,3,0,3
+mono 110 126,2,0,5 126,3,0,5
+connected to 88,0,0,15
+
+node BLOCK_QUEST_ACTIVE 88,0,0,17
+
+node BLOCK_QUEST_INACTIVE 88,0,0,19
+
+node MONO 88,0,0,18
+mono 109 126,2,0,1 126,3,0,1
+mono 110 126,2,0,9 126,3,0,9
+mono 110 126,2,0,10 126,3,0,10
+mono 109 126,2,0,11 126,3,0,11
+connected to 88,0,0,19
+
+node MONO 88,0,0,16
+mono 109 126,2,0,2 126,3,0,2
+mono 110 126,2,0,6 126,3,0,6
+mono 109 126,2,0,7 126,3,0,7
+mono 110 126,2,0,8 126,3,0,8
+connected to 88,0,0,17
+

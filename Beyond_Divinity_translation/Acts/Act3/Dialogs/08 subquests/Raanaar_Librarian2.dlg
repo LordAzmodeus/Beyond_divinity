@@ -1,0 +1,114 @@
+version 11
+id 6,1,0,118
+name "Raanaar_Librarian2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 118,0,0,1
+
+node BLOCK_GREET_AVAILABLE 118,0,0,2
+connected to 118,0,0,27
+
+node BLOCK_GREET_ACTIVE 118,0,0,3
+connected to 118,0,0,29
+
+node BLOCK_GREET_SUCCESS 118,0,0,4
+
+node BLOCK_GREET_COMPLETED 118,0,0,5
+
+node BLOCK_GREET_FAILURE 118,0,0,6
+
+node BLOCK_GREET_FAILED 118,0,0,7
+
+node BLOCK_GREET_REFUSED 118,0,0,8
+
+node BLOCK_STD 118,0,0,9
+
+node BLOCK_SERV 118,0,0,10
+
+node BLOCK_EXIT 118,0,0,11
+connected to 118,0,0,14
+
+node TEXT_HERO 118,0,0,14
+text 201,0,0,0
+alttext 201,0,0,1
+
+node TEXT_NPC 118,0,0,27
+text 201,1,0,14
+alttext 201,1,0,15
+connected to 118,0,0,28
+
+node BLOCK_QUEST_AVAILABLE 118,0,0,28
+connected to 118,0,0,31
+
+node TEXT_NPC 118,0,0,29
+text 201,1,0,16
+alttext 201,1,0,17
+connected to 118,0,0,30
+
+node BLOCK_QUEST_ACTIVE 118,0,0,30
+
+node TEXT_HERO 118,0,0,31
+text 201,0,0,14
+alttext 201,0,0,15
+connected to 118,0,0,32
+
+node TEXT_NPC 118,0,0,32
+text 201,1,0,18
+alttext 201,1,0,19
+connected to 118,0,0,33
+connected to 118,0,0,35
+connected to 118,0,0,37
+connected to 118,0,0,39
+connected to 118,0,0,41
+
+node TEXT_HERO 118,0,0,33
+text 201,0,0,16
+alttext 201,0,0,17
+quest event 2
+connected to 118,0,0,34
+
+node TEXT_NPC 118,0,0,34
+text 201,1,0,20
+alttext 201,1,0,21
+
+node TEXT_HERO 118,0,0,35
+text 201,0,0,18
+alttext 201,0,0,19
+quest event 7
+connected to 118,0,0,36
+
+node TEXT_NPC 118,0,0,36
+text 201,1,0,22
+alttext 201,1,0,23
+
+node TEXT_HERO 118,0,0,37
+text 201,0,0,20
+alttext 201,0,0,21
+quest event 7
+connected to 118,0,0,38
+
+node TEXT_NPC 118,0,0,38
+text 201,1,0,24
+alttext 201,1,0,25
+
+node TEXT_HERO 118,0,0,39
+text 201,0,0,22
+alttext 201,0,0,23
+quest event 7
+connected to 118,0,0,40
+
+node TEXT_NPC 118,0,0,40
+text 201,1,0,26
+alttext 201,1,0,27
+
+node TEXT_HERO 118,0,0,41
+text 201,0,0,24
+alttext 201,0,0,25
+quest event 7
+connected to 118,0,0,42
+
+node TEXT_NPC 118,0,0,42
+text 201,1,0,28
+alttext 201,1,0,29
+

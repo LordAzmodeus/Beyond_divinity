@@ -1,0 +1,66 @@
+version 11
+id 6,1,0,91
+name "Asmodheus_Commoner3"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 91,0,0,1
+
+node BLOCK_GREET_AVAILABLE 91,0,0,2
+connected to 91,0,0,12
+
+node BLOCK_GREET_ACTIVE 91,0,0,3
+
+node BLOCK_GREET_SUCCESS 91,0,0,4
+
+node BLOCK_GREET_COMPLETED 91,0,0,5
+
+node BLOCK_GREET_FAILURE 91,0,0,6
+
+node BLOCK_GREET_FAILED 91,0,0,7
+
+node BLOCK_GREET_REFUSED 91,0,0,8
+
+node BLOCK_STD 91,0,0,9
+
+node BLOCK_SERV 91,0,0,10
+
+node BLOCK_EXIT 91,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 91,0,0,13
+connected to 91,0,0,14
+
+node MONO 91,0,0,12
+mono 35 85,2,0,0 85,3,0,0
+mono 0 85,2,0,1 85,3,0,1
+mono 1 85,2,0,2 85,3,0,2
+connected to 91,0,0,13
+
+node TEXT_HERO 91,0,0,14
+text 85,0,0,0
+alttext 89,0,0,0
+connected to 91,0,0,15
+
+node TEXT_NPC 91,0,0,15
+text 85,1,0,0
+connected to 91,0,0,16
+connected to 91,0,0,18
+
+node TEXT_HERO 91,0,0,16
+text 85,0,0,1
+alttext 89,0,0,1
+quest event 2
+connected to 91,0,0,17
+
+node TEXT_NPC 91,0,0,17
+text 85,1,0,1
+
+node TEXT_HERO 91,0,0,18
+text 85,0,0,2
+alttext 89,0,0,2
+quest event 7
+connected to 91,0,0,19
+
+node TEXT_NPC 91,0,0,19
+text 85,1,0,2
+

@@ -1,0 +1,57 @@
+version 11
+id 6,1,0,51
+name "Registration Ghost Final"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 51,0,0,1
+
+node BLOCK_GREET_AVAILABLE 51,0,0,2
+
+node BLOCK_GREET_ACTIVE 51,0,0,3
+
+node BLOCK_GREET_SUCCESS 51,0,0,4
+connected to 51,0,0,50
+
+node BLOCK_GREET_COMPLETED 51,0,0,5
+
+node BLOCK_GREET_FAILURE 51,0,0,6
+connected to 51,0,0,52
+
+node BLOCK_GREET_FAILED 51,0,0,7
+
+node BLOCK_GREET_REFUSED 51,0,0,8
+
+node BLOCK_STD 51,0,0,9
+
+node BLOCK_SERV 51,0,0,10
+
+node BLOCK_EXIT 51,0,0,11
+connected to 51,0,0,54
+
+node BLOCK_QUEST_SUCCESS 51,0,0,51
+
+node BLOCK_QUEST_FAILURE 51,0,0,53
+
+node TEXT_HERO 51,0,0,54
+text 237,0,0,14
+
+node MONO 51,0,0,52
+mono 2 237,2,0,23 237,3,0,23
+mono 0 237,2,0,24 237,3,0,24
+mono 2 237,2,0,25 237,3,0,25
+mono 2 237,2,0,27 237,3,0,27
+mono 1 237,2,0,28 237,3,0,28
+mono 1 237,2,0,35 237,3,0,35
+mono 2 237,2,0,29 237,3,0,29
+mono 1 237,2,0,44 237,3,0,44
+connected to 51,0,0,53
+
+node MONO 51,0,0,50
+mono 2 237,2,0,30 237,3,0,30
+mono 2 237,2,0,31 237,3,0,31
+mono 2 237,2,0,32 237,3,0,32
+mono 1 237,2,0,33 237,3,0,33
+mono 1 237,2,0,34 237,3,0,34
+connected to 51,0,0,51
+

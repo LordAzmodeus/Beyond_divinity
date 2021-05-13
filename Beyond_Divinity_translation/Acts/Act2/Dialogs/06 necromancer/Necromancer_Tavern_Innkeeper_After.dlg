@@ -1,0 +1,99 @@
+version 11
+id 6,1,0,77
+name "Necromancer_Tavern_Innkeeper_After"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 77,0,0,1
+
+node BLOCK_GREET_AVAILABLE 77,0,0,2
+connected to 77,0,0,12
+
+node BLOCK_GREET_ACTIVE 77,0,0,3
+connected to 77,0,0,14
+
+node BLOCK_GREET_SUCCESS 77,0,0,4
+
+node BLOCK_GREET_COMPLETED 77,0,0,5
+
+node BLOCK_GREET_FAILURE 77,0,0,6
+
+node BLOCK_GREET_FAILED 77,0,0,7
+
+node BLOCK_GREET_REFUSED 77,0,0,8
+
+node BLOCK_STD 77,0,0,9
+connected to 77,0,0,21
+connected to 77,0,0,24
+
+node BLOCK_SERV 77,0,0,10
+connected to 77,0,0,19
+
+node BLOCK_EXIT 77,0,0,11
+connected to 77,0,0,16
+
+node BLOCK_QUEST_AVAILABLE 77,0,0,13
+connected to 77,0,0,30
+
+node TEXT_NPC 77,0,0,14
+text 107,1,0,1
+alttext 107,1,0,5
+connected to 77,0,0,15
+
+node BLOCK_QUEST_ACTIVE 77,0,0,15
+
+node TEXT_HERO 77,0,0,16
+text 107,0,0,0
+
+node TEXT_HERO 77,0,0,19
+servnode 2 1
+text 107,0,0,2
+alttext 75,0,0,2
+connected to 77,0,0,20
+
+node TEXT_NPC 77,0,0,20
+text 107,1,0,3
+
+node TEXT_HERO 77,0,0,21
+stdnode
+text 107,0,0,3
+alttext 75,0,0,0
+connected to 77,0,0,22
+
+node TEXT_NPC 77,0,0,22
+text 107,1,0,4
+alttext 75,1,0,0
+connected to 77,0,0,23
+
+node BLOCK_STD 77,0,0,23
+
+node TEXT_HERO 77,0,0,24
+stdnode
+text 107,0,0,4
+alttext 75,0,0,1
+connected to 77,0,0,25
+
+node BLOCK_STD 77,0,0,26
+
+node TEXT_HERO 77,0,0,30
+text 107,0,0,6
+alttext 107,0,0,7
+quest event 2
+connected to 77,0,0,31
+
+node MONO 77,0,0,12
+mono 44 107,2,0,3 107,3,0,3
+mono 0 107,2,0,4 107,3,0,4
+mono 44 107,2,0,5 107,3,0,5
+mono 44 107,2,0,9 107,3,0,9
+connected to 77,0,0,13
+
+node MONO 77,0,0,25
+mono 44 107,2,0,6 107,3,0,6
+mono 44 107,2,0,7 107,3,0,7
+connected to 77,0,0,26
+
+node MONO 77,0,0,31
+mono 44 107,2,0,10 107,3,0,10
+mono 44 107,2,0,11 107,3,0,11
+

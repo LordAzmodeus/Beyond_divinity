@@ -1,0 +1,76 @@
+version 11
+id 6,1,0,179
+name "Academy Advanced Hourglass"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 179,0,0,1
+connected to 179,0,0,20
+
+node BLOCK_GREET_AVAILABLE 179,0,0,2
+connected to 179,0,0,12
+
+node BLOCK_GREET_ACTIVE 179,0,0,3
+
+node BLOCK_GREET_SUCCESS 179,0,0,4
+
+node BLOCK_GREET_COMPLETED 179,0,0,5
+
+node BLOCK_GREET_FAILURE 179,0,0,6
+
+node BLOCK_GREET_FAILED 179,0,0,7
+
+node BLOCK_GREET_REFUSED 179,0,0,8
+
+node BLOCK_STD 179,0,0,9
+
+node BLOCK_SERV 179,0,0,10
+
+node BLOCK_EXIT 179,0,0,11
+
+node TEXT_NPC 179,0,0,12
+text 316,1,0,0
+alttext 316,1,0,1
+connected to 179,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 179,0,0,13
+connected to 179,0,0,14
+
+node TEXT_HERO 179,0,0,14
+text 316,0,0,0
+alttext 316,0,0,1
+connected to 179,0,0,15
+
+node TEXT_NPC 179,0,0,15
+text 316,1,0,2
+alttext 316,1,0,3
+connected to 179,0,0,16
+connected to 179,0,0,18
+
+node TEXT_HERO 179,0,0,16
+text 316,0,0,2
+alttext 316,0,0,3
+quest event 2
+connected to 179,0,0,17
+
+node TEXT_NPC 179,0,0,17
+text 316,1,0,4
+alttext 316,1,0,5
+
+node TEXT_HERO 179,0,0,18
+text 316,0,0,4
+alttext 316,0,0,5
+quest event 7
+connected to 179,0,0,19
+
+node TEXT_NPC 179,0,0,19
+text 316,1,0,6
+alttext 316,1,0,7
+
+node TEXT_NPC 179,0,0,20
+text 316,1,0,8
+alttext 316,1,0,9
+connected to 179,0,0,21
+
+node BLOCK_QUEST_INACTIVE 179,0,0,21
+

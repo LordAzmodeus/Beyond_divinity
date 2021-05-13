@@ -1,0 +1,100 @@
+version 11
+id 6,1,0,80
+name "Necromancer_Village_Grown_Up"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 80,0,0,1
+
+node BLOCK_GREET_AVAILABLE 80,0,0,2
+connected to 80,0,0,21
+
+node BLOCK_GREET_ACTIVE 80,0,0,3
+connected to 80,0,0,29
+
+node BLOCK_GREET_SUCCESS 80,0,0,4
+connected to 80,0,0,31
+
+node BLOCK_GREET_COMPLETED 80,0,0,5
+
+node BLOCK_GREET_FAILURE 80,0,0,6
+
+node BLOCK_GREET_FAILED 80,0,0,7
+
+node BLOCK_GREET_REFUSED 80,0,0,8
+
+node BLOCK_STD 80,0,0,9
+connected to 80,0,0,15
+connected to 80,0,0,18
+
+node BLOCK_SERV 80,0,0,10
+
+node BLOCK_EXIT 80,0,0,11
+connected to 80,0,0,14
+
+node TEXT_HERO 80,0,0,14
+text 92,0,0,0
+
+node TEXT_HERO 80,0,0,15
+stdnode
+text 92,0,0,1
+alttext 78,0,0,0
+connected to 80,0,0,16
+
+node TEXT_NPC 80,0,0,16
+text 92,1,0,1
+alttext 78,1,0,2
+connected to 80,0,0,17
+
+node BLOCK_STD 80,0,0,17
+
+node TEXT_HERO 80,0,0,18
+stdnode
+text 92,0,0,2
+alttext 78,0,0,1
+connected to 80,0,0,19
+
+node BLOCK_STD 80,0,0,20
+
+node TEXT_NPC 80,0,0,21
+text 92,1,0,3
+alttext 78,1,0,0
+connected to 80,0,0,22
+
+node BLOCK_QUEST_AVAILABLE 80,0,0,22
+connected to 80,0,0,33
+
+node TEXT_NPC 80,0,0,29
+text 92,1,0,7
+alttext 78,1,0,1
+connected to 80,0,0,30
+
+node BLOCK_QUEST_ACTIVE 80,0,0,30
+
+node BLOCK_QUEST_SUCCESS 80,0,0,32
+
+node MONO 80,0,0,19
+mono 49 92,2,0,0 92,3,0,0
+mono 49 92,2,0,1 92,3,0,1
+mono 49 92,2,0,3 92,3,0,3
+mono 49 92,2,0,5 92,3,0,5
+mono 49 92,2,0,4 92,3,0,4
+mono 49 92,2,0,10 92,3,0,10
+mono 49 92,2,0,11 92,3,0,11
+connected to 80,0,0,20
+
+node TEXT_HERO 80,0,0,33
+text 92,0,0,3
+alttext 92,0,0,4
+quest event 2
+connected to 80,0,0,34
+
+node MONO 80,0,0,34
+mono 49 92,2,0,6 92,3,0,6
+mono 49 92,2,0,7 92,3,0,7
+
+node MONO 80,0,0,31
+mono 49 92,2,0,8 92,3,0,8
+mono 1 92,2,0,9 92,3,0,9
+connected to 80,0,0,32
+

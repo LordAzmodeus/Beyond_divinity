@@ -1,0 +1,36 @@
+version 11
+id 6,1,0,50
+name "Raanaar Test of Knowledge Talk"
+face npc 0
+quest id -1
+
+node BLOCK_GREET_INACTIVE 50,0,0,1
+connected to 50,0,0,12
+
+node BLOCK_GREET_AVAILABLE 50,0,0,2
+
+node BLOCK_GREET_ACTIVE 50,0,0,3
+
+node BLOCK_GREET_SUCCESS 50,0,0,4
+
+node BLOCK_GREET_COMPLETED 50,0,0,5
+
+node BLOCK_GREET_FAILURE 50,0,0,6
+
+node BLOCK_GREET_FAILED 50,0,0,7
+
+node BLOCK_GREET_REFUSED 50,0,0,8
+
+node BLOCK_STD 50,0,0,9
+
+node BLOCK_SERV 50,0,0,10
+
+node BLOCK_EXIT 50,0,0,11
+
+node BLOCK_QUEST_INACTIVE 50,0,0,13
+
+node MONO 50,0,0,12
+mono 124 247,2,0,0 247,3,0,0
+mono 125 247,2,0,1 247,3,0,1
+connected to 50,0,0,13
+

@@ -1,0 +1,79 @@
+version 11
+id 6,1,0,41
+name "Imp 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 41,0,0,1
+
+node BLOCK_GREET_AVAILABLE 41,0,0,2
+connected to 41,0,0,14
+
+node BLOCK_GREET_ACTIVE 41,0,0,3
+connected to 41,0,0,16
+
+node BLOCK_GREET_SUCCESS 41,0,0,4
+connected to 41,0,0,18
+
+node BLOCK_GREET_COMPLETED 41,0,0,5
+connected to 41,0,0,20
+
+node BLOCK_GREET_FAILURE 41,0,0,6
+
+node BLOCK_GREET_FAILED 41,0,0,7
+
+node BLOCK_GREET_REFUSED 41,0,0,8
+connected to 41,0,0,22
+
+node BLOCK_STD 41,0,0,9
+
+node BLOCK_SERV 41,0,0,10
+connected to 41,0,0,25
+
+node BLOCK_EXIT 41,0,0,11
+connected to 41,0,0,24
+
+node TEXT_NPC 41,0,0,14
+text 11,1,0,1
+connected to 41,0,0,15
+
+node BLOCK_QUEST_AVAILABLE 41,0,0,15
+
+node TEXT_NPC 41,0,0,16
+text 11,1,0,2
+connected to 41,0,0,17
+
+node BLOCK_QUEST_ACTIVE 41,0,0,17
+
+node TEXT_NPC 41,0,0,18
+text 11,1,0,3
+connected to 41,0,0,19
+
+node BLOCK_QUEST_SUCCESS 41,0,0,19
+
+node TEXT_NPC 41,0,0,20
+text 11,1,0,4
+connected to 41,0,0,21
+
+node BLOCK_QUEST_COMPLETED 41,0,0,21
+
+node TEXT_NPC 41,0,0,22
+text 11,1,0,5
+connected to 41,0,0,23
+
+node BLOCK_QUEST_REFUSED 41,0,0,23
+
+node TEXT_HERO 41,0,0,24
+text 40,0,0,0
+alttext 40,0,0,1
+
+node TEXT_HERO 41,0,0,25
+servnode 3 1
+text 40,0,0,2
+alttext 40,0,0,3
+connected to 41,0,0,26
+
+node TEXT_NPC 41,0,0,26
+text 40,1,0,0
+alttext 40,1,0,1
+

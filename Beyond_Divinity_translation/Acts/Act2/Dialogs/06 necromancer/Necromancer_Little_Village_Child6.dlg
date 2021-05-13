@@ -1,0 +1,97 @@
+version 11
+id 6,1,0,68
+name "Necromancer_Little_Village_Child6"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 68,0,0,1
+connected to 68,0,0,12
+
+node BLOCK_GREET_AVAILABLE 68,0,0,2
+
+node BLOCK_GREET_ACTIVE 68,0,0,3
+connected to 68,0,0,24
+
+node BLOCK_GREET_SUCCESS 68,0,0,4
+
+node BLOCK_GREET_COMPLETED 68,0,0,5
+connected to 68,0,0,26
+
+node BLOCK_GREET_FAILURE 68,0,0,6
+
+node BLOCK_GREET_FAILED 68,0,0,7
+
+node BLOCK_GREET_REFUSED 68,0,0,8
+
+node BLOCK_STD 68,0,0,9
+connected to 68,0,0,15
+connected to 68,0,0,18
+connected to 68,0,0,21
+
+node BLOCK_SERV 68,0,0,10
+
+node BLOCK_EXIT 68,0,0,11
+connected to 68,0,0,14
+
+node BLOCK_QUEST_INACTIVE 68,0,0,13
+
+node TEXT_HERO 68,0,0,14
+text 67,0,0,0
+
+node TEXT_HERO 68,0,0,15
+stdnode
+text 67,0,0,1
+alttext 66,0,0,0
+connected to 68,0,0,16
+
+node TEXT_NPC 68,0,0,16
+text 67,1,0,0
+alttext 66,1,0,2
+connected to 68,0,0,17
+
+node BLOCK_STD 68,0,0,17
+
+node TEXT_HERO 68,0,0,18
+stdnode
+text 67,0,0,2
+alttext 66,0,0,1
+connected to 68,0,0,19
+
+node TEXT_NPC 68,0,0,19
+text 67,1,0,1
+alttext 66,1,0,3
+connected to 68,0,0,20
+
+node BLOCK_STD 68,0,0,20
+
+node TEXT_HERO 68,0,0,21
+stdnode
+text 67,0,0,3
+connected to 68,0,0,22
+
+node TEXT_NPC 68,0,0,22
+text 67,1,0,2
+alttext 66,1,0,1
+connected to 68,0,0,23
+
+node BLOCK_STD 68,0,0,23
+
+node TEXT_NPC 68,0,0,12
+text 67,1,0,3
+alttext 66,1,0,0
+connected to 68,0,0,13
+
+node TEXT_NPC 68,0,0,24
+text 67,1,0,4
+alttext 67,1,0,5
+connected to 68,0,0,25
+
+node BLOCK_QUEST_ACTIVE 68,0,0,25
+
+node BLOCK_QUEST_COMPLETED 68,0,0,27
+
+node MONO 68,0,0,26
+mono 1 67,2,0,0 67,3,0,0
+mono 54 67,2,0,1 67,3,0,1
+connected to 68,0,0,27
+

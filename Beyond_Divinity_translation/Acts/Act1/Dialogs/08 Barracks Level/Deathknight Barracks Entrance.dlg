@@ -1,0 +1,130 @@
+version 11
+id 6,1,0,158
+name "Deathknight Barracks Entrance"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 158,0,0,1
+connected to 158,0,0,12
+
+node BLOCK_GREET_AVAILABLE 158,0,0,2
+
+node BLOCK_GREET_ACTIVE 158,0,0,3
+
+node BLOCK_GREET_SUCCESS 158,0,0,4
+
+node BLOCK_GREET_COMPLETED 158,0,0,5
+
+node BLOCK_GREET_FAILURE 158,0,0,6
+
+node BLOCK_GREET_FAILED 158,0,0,7
+
+node BLOCK_GREET_REFUSED 158,0,0,8
+
+node BLOCK_STD 158,0,0,9
+connected to 158,0,0,14
+connected to 158,0,0,18
+connected to 158,0,0,33
+connected to 158,0,0,36
+connected to 158,0,0,39
+
+node BLOCK_SERV 158,0,0,10
+
+node BLOCK_EXIT 158,0,0,11
+connected to 158,0,0,17
+
+node BLOCK_QUEST_INACTIVE 158,0,0,13
+
+node TEXT_HERO 158,0,0,14
+stdnode
+text 279,0,0,0
+connected to 158,0,0,15
+
+node TEXT_NPC 158,0,0,15
+text 279,1,0,1
+connected to 158,0,0,16
+
+node BLOCK_STD 158,0,0,16
+connected to 158,0,0,27
+connected to 158,0,0,29
+connected to 158,0,0,31
+
+node TEXT_HERO 158,0,0,17
+text 279,0,0,1
+
+node MONO 158,0,0,12
+mono 1 279,2,0,0 279,3,0,0
+mono 0 279,2,0,1 279,3,0,1
+mono 1 279,2,0,4 279,3,0,2
+mono 1 279,2,0,2 279,3,0,3
+mono 1 279,2,0,3 279,3,0,4
+connected to 158,0,0,13
+
+node TEXT_HERO 158,0,0,18
+stdnode
+text 279,0,0,2
+connected to 158,0,0,19
+
+node TEXT_NPC 158,0,0,19
+text 279,1,0,2
+connected to 158,0,0,20
+
+node BLOCK_STD 158,0,0,20
+
+node TEXT_HERO 158,0,0,27
+stdnode
+text 279,0,0,5
+connected to 158,0,0,28
+
+node TEXT_NPC 158,0,0,28
+text 279,1,0,5
+
+node TEXT_HERO 158,0,0,29
+stdnode
+text 279,0,0,6
+connected to 158,0,0,30
+
+node TEXT_NPC 158,0,0,30
+text 279,1,0,6
+
+node TEXT_HERO 158,0,0,31
+stdnode
+text 279,0,0,7
+connected to 158,0,0,32
+
+node TEXT_NPC 158,0,0,32
+text 279,1,0,7
+
+node TEXT_HERO 158,0,0,33
+stdnode
+text 279,0,0,8
+connected to 158,0,0,34
+
+node TEXT_NPC 158,0,0,34
+text 279,1,0,8
+connected to 158,0,0,35
+
+node BLOCK_STD 158,0,0,35
+
+node TEXT_HERO 158,0,0,36
+stdnode
+text 279,0,0,9
+connected to 158,0,0,37
+
+node TEXT_NPC 158,0,0,37
+text 279,1,0,9
+connected to 158,0,0,38
+
+node BLOCK_STD 158,0,0,38
+
+node TEXT_HERO 158,0,0,39
+stdnode
+text 279,0,0,10
+connected to 158,0,0,40
+
+node TEXT_NPC 158,0,0,40
+text 279,1,0,10
+connected to 158,0,0,41
+
+node BLOCK_STD 158,0,0,41
+

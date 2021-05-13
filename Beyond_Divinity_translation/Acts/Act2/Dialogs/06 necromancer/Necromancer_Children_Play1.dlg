@@ -1,0 +1,40 @@
+version 11
+id 6,1,0,60
+name "Necromancer_Children_Play1"
+face npc 0
+quest id -1
+
+node BLOCK_GREET_INACTIVE 60,0,0,1
+connected to 60,0,0,12
+
+node BLOCK_GREET_AVAILABLE 60,0,0,2
+
+node BLOCK_GREET_ACTIVE 60,0,0,3
+
+node BLOCK_GREET_SUCCESS 60,0,0,4
+
+node BLOCK_GREET_COMPLETED 60,0,0,5
+
+node BLOCK_GREET_FAILURE 60,0,0,6
+
+node BLOCK_GREET_FAILED 60,0,0,7
+
+node BLOCK_GREET_REFUSED 60,0,0,8
+
+node BLOCK_STD 60,0,0,9
+
+node BLOCK_SERV 60,0,0,10
+
+node BLOCK_EXIT 60,0,0,11
+
+node BLOCK_QUEST_INACTIVE 60,0,0,13
+
+node MONO 60,0,0,12
+mono 49 93,2,0,0 93,3,0,0
+mono 50 93,2,0,1 93,3,0,1
+mono 49 93,2,0,2 93,3,0,2
+mono 50 93,2,0,3 93,3,0,3
+mono 49 93,2,0,4 93,3,0,4
+mono 50 93,2,0,5 93,3,0,5
+connected to 60,0,0,13
+

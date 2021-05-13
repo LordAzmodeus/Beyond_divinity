@@ -1,0 +1,43 @@
+version 11
+id 6,1,0,152
+name "Instructor Conquering"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 152,0,0,1
+connected to 152,0,0,14
+
+node BLOCK_GREET_AVAILABLE 152,0,0,2
+
+node BLOCK_GREET_ACTIVE 152,0,0,3
+
+node BLOCK_GREET_SUCCESS 152,0,0,4
+
+node BLOCK_GREET_COMPLETED 152,0,0,5
+
+node BLOCK_GREET_FAILURE 152,0,0,6
+
+node BLOCK_GREET_FAILED 152,0,0,7
+
+node BLOCK_GREET_REFUSED 152,0,0,8
+
+node BLOCK_STD 152,0,0,9
+
+node BLOCK_SERV 152,0,0,10
+
+node BLOCK_EXIT 152,0,0,11
+
+node BLOCK_QUEST_INACTIVE 152,0,0,15
+
+node MONO 152,0,0,14
+mono 77 187,2,0,9 187,3,0,9
+mono 0 187,2,0,10 187,3,0,10
+mono 77 187,2,0,11 187,3,0,11
+mono 1 187,2,0,12 187,3,0,12
+mono 77 187,2,0,13 187,3,0,13
+mono 77 187,2,0,14 187,3,0,14
+mono 77 187,2,0,15 187,3,0,15
+mono 77 187,2,0,16 187,3,0,16
+mono 77 187,2,0,17 187,3,0,17
+connected to 152,0,0,15
+

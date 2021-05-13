@@ -1,0 +1,36 @@
+version 11
+id 6,1,0,135
+name "Sacrifice_Scroll_1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 135,0,0,1
+connected to 135,0,0,14
+
+node BLOCK_GREET_AVAILABLE 135,0,0,2
+
+node BLOCK_GREET_ACTIVE 135,0,0,3
+
+node BLOCK_GREET_SUCCESS 135,0,0,4
+
+node BLOCK_GREET_COMPLETED 135,0,0,5
+
+node BLOCK_GREET_FAILURE 135,0,0,6
+
+node BLOCK_GREET_FAILED 135,0,0,7
+
+node BLOCK_GREET_REFUSED 135,0,0,8
+
+node BLOCK_STD 135,0,0,9
+
+node BLOCK_SERV 135,0,0,10
+
+node BLOCK_EXIT 135,0,0,11
+
+node BLOCK_QUEST_INACTIVE 135,0,0,15
+
+node MONO 135,0,0,14
+mono 0 248,2,0,2 248,3,0,0
+mono 1 248,2,0,3 248,3,0,1
+connected to 135,0,0,15
+

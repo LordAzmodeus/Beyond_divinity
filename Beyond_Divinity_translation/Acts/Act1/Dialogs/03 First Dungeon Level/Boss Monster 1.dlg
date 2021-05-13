@@ -1,0 +1,36 @@
+version 11
+id 6,1,0,43
+name "Boss Monster 1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 43,0,0,1
+connected to 43,0,0,12
+
+node BLOCK_GREET_AVAILABLE 43,0,0,2
+
+node BLOCK_GREET_ACTIVE 43,0,0,3
+
+node BLOCK_GREET_SUCCESS 43,0,0,4
+
+node BLOCK_GREET_COMPLETED 43,0,0,5
+
+node BLOCK_GREET_FAILURE 43,0,0,6
+
+node BLOCK_GREET_FAILED 43,0,0,7
+
+node BLOCK_GREET_REFUSED 43,0,0,8
+
+node BLOCK_STD 43,0,0,9
+
+node BLOCK_SERV 43,0,0,10
+
+node BLOCK_EXIT 43,0,0,11
+
+node BLOCK_QUEST_INACTIVE 43,0,0,13
+
+node TEXT_NPC 43,0,0,12
+text 5,1,0,0
+alttext 42,1,0,0
+connected to 43,0,0,13
+

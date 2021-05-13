@@ -1,0 +1,52 @@
+version 11
+id 6,1,0,188
+name "Imp_female2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 188,0,0,1
+connected to 188,0,0,12
+
+node BLOCK_GREET_AVAILABLE 188,0,0,2
+
+node BLOCK_GREET_ACTIVE 188,0,0,3
+
+node BLOCK_GREET_SUCCESS 188,0,0,4
+
+node BLOCK_GREET_COMPLETED 188,0,0,5
+
+node BLOCK_GREET_FAILURE 188,0,0,6
+
+node BLOCK_GREET_FAILED 188,0,0,7
+
+node BLOCK_GREET_REFUSED 188,0,0,8
+
+node BLOCK_STD 188,0,0,9
+
+node BLOCK_SERV 188,0,0,10
+connected to 188,0,0,15
+
+node BLOCK_EXIT 188,0,0,11
+connected to 188,0,0,14
+
+node TEXT_NPC 188,0,0,12
+text 188,1,0,0
+alttext 188,1,0,1
+connected to 188,0,0,13
+
+node BLOCK_QUEST_INACTIVE 188,0,0,13
+
+node TEXT_HERO 188,0,0,14
+text 188,0,0,0
+alttext 188,0,0,1
+
+node TEXT_HERO 188,0,0,15
+servnode 0 1
+text 188,0,0,2
+alttext 188,0,0,3
+connected to 188,0,0,16
+
+node TEXT_NPC 188,0,0,16
+text 188,1,0,2
+alttext 188,1,0,3
+

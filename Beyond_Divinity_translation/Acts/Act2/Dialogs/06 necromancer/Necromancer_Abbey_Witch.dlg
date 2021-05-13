@@ -1,0 +1,81 @@
+version 11
+id 6,1,0,59
+name "Necromancer_Abbey_Witch"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 59,0,0,1
+
+node BLOCK_GREET_AVAILABLE 59,0,0,2
+connected to 59,0,0,14
+
+node BLOCK_GREET_ACTIVE 59,0,0,3
+connected to 59,0,0,16
+
+node BLOCK_GREET_SUCCESS 59,0,0,4
+connected to 59,0,0,18
+
+node BLOCK_GREET_COMPLETED 59,0,0,5
+
+node BLOCK_GREET_FAILURE 59,0,0,6
+
+node BLOCK_GREET_FAILED 59,0,0,7
+
+node BLOCK_GREET_REFUSED 59,0,0,8
+
+node BLOCK_STD 59,0,0,9
+
+node BLOCK_SERV 59,0,0,10
+connected to 59,0,0,21
+
+node BLOCK_EXIT 59,0,0,11
+connected to 59,0,0,20
+
+node BLOCK_QUEST_AVAILABLE 59,0,0,15
+
+node MONO 59,0,0,14
+mono 38 51,2,0,15 51,3,0,15
+mono 1 51,2,0,16 51,3,0,16
+mono 0 51,2,0,17 51,3,0,17
+mono 38 51,2,0,19 51,3,0,19
+mono 0 51,2,0,20 51,3,0,20
+mono 38 51,2,0,21 51,3,0,21
+mono 1 51,2,0,22 51,3,0,22
+mono 38 51,2,0,23 51,3,0,23
+mono 0 51,2,0,28 51,3,0,28
+mono 38 51,2,0,29 51,3,0,29
+mono 1 51,2,0,30 51,3,0,30
+mono 0 51,2,0,32 51,3,0,32
+mono 1 51,2,0,33 51,3,0,33
+mono 38 51,2,0,35 51,3,0,35
+mono 38 51,2,0,38 51,3,0,38
+connected to 59,0,0,15
+
+node BLOCK_QUEST_ACTIVE 59,0,0,17
+
+node TEXT_NPC 59,0,0,18
+text 51,1,0,0
+alttext 51,1,0,2
+connected to 59,0,0,19
+
+node BLOCK_QUEST_SUCCESS 59,0,0,19
+
+node TEXT_NPC 59,0,0,16
+text 51,1,0,1
+alttext 51,1,0,3
+connected to 59,0,0,17
+
+node TEXT_HERO 59,0,0,20
+text 57,0,0,0
+alttext 57,0,0,1
+
+node TEXT_HERO 59,0,0,21
+servnode 3 1
+text 57,0,0,2
+alttext 57,0,0,3
+connected to 59,0,0,22
+
+node TEXT_NPC 59,0,0,22
+text 57,1,0,0
+alttext 57,1,0,1
+

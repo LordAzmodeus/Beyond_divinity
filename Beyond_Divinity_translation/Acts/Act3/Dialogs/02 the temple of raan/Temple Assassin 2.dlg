@@ -1,0 +1,120 @@
+version 11
+id 6,1,0,33
+name "Temple Assassin 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 33,0,0,1
+
+node BLOCK_GREET_AVAILABLE 33,0,0,2
+connected to 33,0,0,12
+
+node BLOCK_GREET_ACTIVE 33,0,0,3
+connected to 33,0,0,14
+
+node BLOCK_GREET_SUCCESS 33,0,0,4
+connected to 33,0,0,16
+
+node BLOCK_GREET_COMPLETED 33,0,0,5
+
+node BLOCK_GREET_FAILURE 33,0,0,6
+
+node BLOCK_GREET_FAILED 33,0,0,7
+
+node BLOCK_GREET_REFUSED 33,0,0,8
+
+node BLOCK_STD 33,0,0,9
+connected to 33,0,0,27
+connected to 33,0,0,30
+
+node BLOCK_SERV 33,0,0,10
+
+node BLOCK_EXIT 33,0,0,11
+connected to 33,0,0,20
+
+node BLOCK_QUEST_AVAILABLE 33,0,0,13
+connected to 33,0,0,21
+
+node TEXT_NPC 33,0,0,14
+text 24,1,0,1
+alttext 24,1,0,11
+connected to 33,0,0,15
+
+node BLOCK_QUEST_ACTIVE 33,0,0,15
+
+node BLOCK_QUEST_SUCCESS 33,0,0,17
+
+node TEXT_HERO 33,0,0,20
+text 24,0,0,0
+
+node MONO 33,0,0,12
+mono 17 24,2,0,0 24,3,0,0
+mono 17 24,2,0,1 24,3,0,1
+mono 17 24,2,0,2 24,3,0,2
+connected to 33,0,0,13
+
+node TEXT_HERO 33,0,0,21
+text 24,0,0,1
+alttext 24,0,0,6
+connected to 33,0,0,22
+
+node TEXT_HERO 33,0,0,23
+text 24,0,0,2
+alttext 24,0,0,7
+quest event 2
+connected to 33,0,0,24
+
+node TEXT_NPC 33,0,0,24
+text 24,1,0,5
+alttext 24,1,0,10
+
+node TEXT_HERO 33,0,0,25
+text 24,0,0,3
+alttext 31,0,0,0
+quest event 7
+connected to 33,0,0,26
+
+node TEXT_NPC 33,0,0,26
+text 24,1,0,6
+alttext 24,1,0,9
+
+node MONO 33,0,0,16
+mono 17 24,2,0,3 24,3,0,3
+mono 17 24,2,0,4 24,3,0,4
+connected to 33,0,0,17
+
+node TEXT_HERO 33,0,0,27
+stdnode
+text 24,0,0,4
+alttext 31,0,0,1
+connected to 33,0,0,28
+
+node TEXT_NPC 33,0,0,28
+text 24,1,0,7
+alttext 24,1,0,12
+connected to 33,0,0,29
+
+node BLOCK_STD 33,0,0,29
+
+node TEXT_HERO 33,0,0,30
+stdnode
+text 24,0,0,5
+alttext 31,0,0,2
+connected to 33,0,0,31
+
+node TEXT_NPC 33,0,0,31
+text 24,1,0,8
+alttext 24,1,0,13
+connected to 33,0,0,32
+
+node BLOCK_STD 33,0,0,32
+
+node MONO 33,0,0,22
+mono 17 24,2,0,5 24,3,0,2
+mono 1 24,2,0,7 24,3,0,4
+mono 0 24,2,0,6 24,3,0,3
+mono 17 24,2,0,8 24,3,0,5
+mono 17 24,2,0,9 24,3,0,6
+connected to 33,0,0,23
+connected to 33,0,0,25
+

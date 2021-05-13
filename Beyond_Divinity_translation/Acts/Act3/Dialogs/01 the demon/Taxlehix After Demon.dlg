@@ -1,0 +1,58 @@
+version 11
+id 6,1,0,19
+name "Taxlehix After Demon"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 19,0,0,1
+connected to 19,0,0,23
+
+node BLOCK_GREET_AVAILABLE 19,0,0,2
+
+node BLOCK_GREET_ACTIVE 19,0,0,3
+
+node BLOCK_GREET_SUCCESS 19,0,0,4
+
+node BLOCK_GREET_COMPLETED 19,0,0,5
+
+node BLOCK_GREET_FAILURE 19,0,0,6
+
+node BLOCK_GREET_FAILED 19,0,0,7
+
+node BLOCK_GREET_REFUSED 19,0,0,8
+
+node BLOCK_STD 19,0,0,9
+
+node BLOCK_SERV 19,0,0,10
+connected to 19,0,0,19
+
+node BLOCK_EXIT 19,0,0,11
+connected to 19,0,0,16
+
+node TEXT_HERO 19,0,0,16
+text 17,0,0,0
+alttext 17,0,0,1
+
+node TEXT_HERO 19,0,0,19
+servnode 3 1
+text 17,0,0,4
+alttext 17,0,0,5
+connected to 19,0,0,20
+
+node TEXT_NPC 19,0,0,20
+text 17,1,0,2
+alttext 17,1,0,3
+
+node BLOCK_QUEST_INACTIVE 19,0,0,24
+
+node MONO 19,0,0,23
+mono 8 17,2,0,8 17,3,0,8
+mono 1 17,2,0,9 17,3,0,9
+mono 0 17,2,0,10 17,3,0,10
+mono 8 17,2,0,12 17,3,0,12
+mono 0 17,2,0,11 17,3,0,11
+mono 8 17,2,0,13 17,3,0,13
+mono 8 17,2,0,14 17,3,0,14
+mono 8 17,2,0,16 17,3,0,16
+connected to 19,0,0,24
+

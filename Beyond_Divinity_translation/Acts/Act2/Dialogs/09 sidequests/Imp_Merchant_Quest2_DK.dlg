@@ -1,0 +1,99 @@
+version 11
+id 6,3,0,141
+name "Imp_Merchant_Quest2_DK"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 141,0,0,1
+
+node BLOCK_GREET_AVAILABLE 141,0,0,2
+connected to 141,0,0,19
+
+node BLOCK_GREET_ACTIVE 141,0,0,3
+connected to 141,0,0,14
+
+node BLOCK_GREET_SUCCESS 141,0,0,4
+connected to 141,0,0,25
+
+node BLOCK_GREET_COMPLETED 141,0,0,5
+connected to 141,0,0,27
+
+node BLOCK_GREET_FAILURE 141,0,0,6
+
+node BLOCK_GREET_FAILED 141,0,0,7
+
+node BLOCK_GREET_REFUSED 141,0,0,8
+
+node BLOCK_STD 141,0,0,9
+
+node BLOCK_SERV 141,0,0,10
+connected to 141,0,0,16
+
+node BLOCK_EXIT 141,0,0,11
+connected to 141,0,0,18
+
+node TEXT_NPC 141,0,0,14
+text 127,1,0,0
+alttext 127,1,0,1
+connected to 141,0,0,15
+
+node BLOCK_QUEST_ACTIVE 141,0,0,15
+connected to 141,0,0,23
+
+node TEXT_HERO 141,0,0,16
+servnode 2 1
+text 127,0,0,0
+alttext 127,0,0,1
+connected to 141,0,0,17
+
+node TEXT_NPC 141,0,0,17
+text 127,1,0,2
+alttext 127,1,0,3
+
+node TEXT_HERO 141,0,0,18
+text 127,0,0,2
+alttext 127,0,0,3
+
+node BLOCK_QUEST_AVAILABLE 141,0,0,20
+connected to 141,0,0,21
+
+node MONO 141,0,0,19
+mono 10 127,2,0,0 127,3,0,0
+mono 10 127,2,0,1 127,3,0,1
+mono 10 127,2,0,2 127,3,0,2
+connected to 141,0,0,20
+
+node TEXT_HERO 141,0,0,21
+text 127,0,0,4
+alttext 127,0,0,5
+quest event 2
+connected to 141,0,0,22
+
+node TEXT_NPC 141,0,0,22
+text 127,1,0,4
+alttext 127,1,0,5
+
+node TEXT_HERO 141,0,0,23
+text 127,0,0,6
+alttext 127,0,0,7
+quest event 3
+connected to 141,0,0,24
+
+node TEXT_NPC 141,0,0,24
+text 127,1,0,6
+alttext 127,1,0,7
+
+node BLOCK_QUEST_SUCCESS 141,0,0,26
+
+node BLOCK_QUEST_COMPLETED 141,0,0,28
+
+node MONO 141,0,0,25
+mono 10 127,2,0,3 127,3,0,3
+mono 10 127,2,0,4 127,3,0,4
+connected to 141,0,0,26
+
+node MONO 141,0,0,27
+mono 10 127,2,0,5 127,3,0,5
+mono 10 127,2,0,6 127,3,0,6
+connected to 141,0,0,28
+

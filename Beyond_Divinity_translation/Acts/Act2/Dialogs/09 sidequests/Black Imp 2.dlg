@@ -1,0 +1,144 @@
+version 11
+id 6,1,0,94
+name "Black Imp 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 94,0,0,1
+
+node BLOCK_GREET_AVAILABLE 94,0,0,2
+
+node BLOCK_GREET_ACTIVE 94,0,0,3
+connected to 94,0,0,12
+
+node BLOCK_GREET_SUCCESS 94,0,0,4
+connected to 94,0,0,14
+
+node BLOCK_GREET_COMPLETED 94,0,0,5
+connected to 94,0,0,16
+
+node BLOCK_GREET_FAILURE 94,0,0,6
+connected to 94,0,0,27
+
+node BLOCK_GREET_FAILED 94,0,0,7
+connected to 94,0,0,29
+
+node BLOCK_GREET_REFUSED 94,0,0,8
+
+node BLOCK_STD 94,0,0,9
+connected to 94,0,0,31
+connected to 94,0,0,34
+
+node BLOCK_SERV 94,0,0,10
+connected to 94,0,0,25
+
+node BLOCK_EXIT 94,0,0,11
+connected to 94,0,0,24
+
+node TEXT_NPC 94,0,0,12
+text 173,1,0,0
+alttext 173,1,0,1
+connected to 94,0,0,13
+
+node BLOCK_QUEST_ACTIVE 94,0,0,13
+connected to 94,0,0,18
+
+node TEXT_NPC 94,0,0,14
+text 173,1,0,2
+alttext 173,1,0,3
+connected to 94,0,0,15
+
+node BLOCK_QUEST_SUCCESS 94,0,0,15
+
+node TEXT_NPC 94,0,0,16
+text 173,1,0,4
+alttext 173,1,0,5
+connected to 94,0,0,17
+
+node BLOCK_QUEST_COMPLETED 94,0,0,17
+
+node TEXT_HERO 94,0,0,18
+text 173,0,0,0
+alttext 173,0,0,1
+connected to 94,0,0,19
+
+node TEXT_NPC 94,0,0,19
+text 173,1,0,6
+alttext 173,1,0,7
+connected to 94,0,0,20
+connected to 94,0,0,22
+
+node TEXT_HERO 94,0,0,20
+text 173,0,0,2
+alttext 173,0,0,3
+quest event 3
+connected to 94,0,0,21
+
+node TEXT_NPC 94,0,0,21
+text 173,1,0,8
+alttext 173,1,0,9
+
+node TEXT_HERO 94,0,0,22
+text 173,0,0,4
+alttext 173,0,0,5
+quest event 5
+connected to 94,0,0,23
+
+node TEXT_NPC 94,0,0,23
+text 173,1,0,10
+alttext 173,1,0,11
+
+node TEXT_HERO 94,0,0,24
+text 173,0,0,6
+alttext 173,0,0,7
+
+node TEXT_HERO 94,0,0,25
+servnode 2 1
+text 173,0,0,8
+alttext 173,0,0,9
+connected to 94,0,0,26
+
+node TEXT_NPC 94,0,0,26
+text 173,1,0,12
+alttext 173,1,0,13
+
+node TEXT_NPC 94,0,0,27
+text 101,1,0,0
+alttext 101,1,0,1
+connected to 94,0,0,28
+
+node BLOCK_QUEST_FAILURE 94,0,0,28
+
+node TEXT_NPC 94,0,0,29
+text 101,1,0,2
+alttext 101,1,0,3
+connected to 94,0,0,30
+
+node BLOCK_QUEST_FAILED 94,0,0,30
+
+node TEXT_HERO 94,0,0,31
+stdnode
+text 101,0,0,0
+alttext 101,0,0,1
+connected to 94,0,0,32
+
+node TEXT_NPC 94,0,0,32
+text 101,1,0,4
+alttext 101,1,0,5
+connected to 94,0,0,33
+
+node BLOCK_STD 94,0,0,33
+
+node TEXT_HERO 94,0,0,34
+stdnode
+text 101,0,0,2
+alttext 101,0,0,3
+connected to 94,0,0,35
+
+node TEXT_NPC 94,0,0,35
+text 101,1,0,6
+alttext 101,1,0,7
+connected to 94,0,0,36
+
+node BLOCK_STD 94,0,0,36
+

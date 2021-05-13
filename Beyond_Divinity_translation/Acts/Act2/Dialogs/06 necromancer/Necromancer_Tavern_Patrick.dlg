@@ -1,0 +1,68 @@
+version 11
+id 6,1,0,78
+name "Necromancer_Tavern_Patrick"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 78,0,0,1
+
+node BLOCK_GREET_AVAILABLE 78,0,0,2
+connected to 78,0,0,13
+
+node BLOCK_GREET_ACTIVE 78,0,0,3
+
+node BLOCK_GREET_SUCCESS 78,0,0,4
+
+node BLOCK_GREET_COMPLETED 78,0,0,5
+
+node BLOCK_GREET_FAILURE 78,0,0,6
+
+node BLOCK_GREET_FAILED 78,0,0,7
+
+node BLOCK_GREET_REFUSED 78,0,0,8
+
+node BLOCK_STD 78,0,0,9
+
+node BLOCK_SERV 78,0,0,10
+
+node BLOCK_EXIT 78,0,0,11
+
+node TEXT_NPC 78,0,0,13
+text 102,1,0,0
+alttext 102,1,0,4
+connected to 78,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 78,0,0,14
+connected to 78,0,0,15
+
+node TEXT_HERO 78,0,0,15
+text 102,0,0,1
+alttext 102,0,0,4
+connected to 78,0,0,16
+
+node TEXT_NPC 78,0,0,16
+text 102,1,0,1
+alttext 102,1,0,5
+connected to 78,0,0,17
+connected to 78,0,0,19
+
+node TEXT_HERO 78,0,0,17
+text 102,0,0,2
+alttext 76,0,0,0
+quest event 2
+connected to 78,0,0,18
+
+node TEXT_NPC 78,0,0,18
+text 102,1,0,2
+alttext 102,1,0,6
+
+node TEXT_HERO 78,0,0,19
+text 102,0,0,3
+alttext 102,0,0,5
+quest event 7
+connected to 78,0,0,20
+
+node TEXT_NPC 78,0,0,20
+text 102,1,0,3
+alttext 102,1,0,7
+

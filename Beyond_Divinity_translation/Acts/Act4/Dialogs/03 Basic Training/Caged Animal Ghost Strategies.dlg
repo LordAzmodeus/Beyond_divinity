@@ -1,0 +1,175 @@
+version 11
+id 6,1,0,77
+name "Caged Animal Ghost Strategies"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 77,0,0,1
+connected to 77,0,0,17
+
+node BLOCK_GREET_AVAILABLE 77,0,0,2
+connected to 77,0,0,12
+
+node BLOCK_GREET_ACTIVE 77,0,0,3
+
+node BLOCK_GREET_SUCCESS 77,0,0,4
+
+node BLOCK_GREET_COMPLETED 77,0,0,5
+connected to 77,0,0,44
+
+node BLOCK_GREET_FAILURE 77,0,0,6
+
+node BLOCK_GREET_FAILED 77,0,0,7
+
+node BLOCK_GREET_REFUSED 77,0,0,8
+connected to 77,0,0,36
+
+node BLOCK_STD 77,0,0,9
+connected to 77,0,0,21
+connected to 77,0,0,24
+connected to 77,0,0,27
+
+node BLOCK_SERV 77,0,0,10
+
+node BLOCK_EXIT 77,0,0,11
+connected to 77,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 77,0,0,13
+connected to 77,0,0,30
+
+node TEXT_HERO 77,0,0,14
+text 290,0,0,0
+
+node BLOCK_QUEST_INACTIVE 77,0,0,18
+
+node TEXT_HERO 77,0,0,21
+stdnode
+text 290,0,0,3
+alttext 290,0,0,19
+connected to 77,0,0,22
+
+node TEXT_NPC 77,0,0,22
+text 290,1,0,3
+alttext 290,1,0,14
+connected to 77,0,0,23
+
+node BLOCK_STD 77,0,0,23
+
+node TEXT_HERO 77,0,0,24
+stdnode
+text 290,0,0,4
+alttext 290,0,0,14
+connected to 77,0,0,25
+
+node TEXT_NPC 77,0,0,25
+text 290,1,0,4
+alttext 290,1,0,22
+connected to 77,0,0,26
+
+node BLOCK_STD 77,0,0,26
+
+node TEXT_HERO 77,0,0,27
+stdnode
+text 290,0,0,5
+alttext 290,0,0,12
+connected to 77,0,0,28
+
+node BLOCK_STD 77,0,0,29
+
+node MONO 77,0,0,28
+mono 30 290,2,0,19 290,3,0,0
+mono 1 290,2,0,22 290,3,0,3
+connected to 77,0,0,29
+
+node MONO 77,0,0,12
+mono 30 290,2,0,25 290,3,0,6
+mono 0 290,2,0,26 290,3,0,7
+mono 30 290,2,0,28 290,3,0,9
+mono 30 290,2,0,27 290,3,0,8
+mono 1 290,2,0,29 290,3,0,10
+mono 30 290,2,0,30 290,3,0,11
+mono 1 290,2,0,31 290,3,0,12
+mono 30 290,2,0,32 290,3,0,13
+connected to 77,0,0,13
+
+node TEXT_HERO 77,0,0,30
+text 290,0,0,6
+connected to 77,0,0,31
+
+node TEXT_NPC 77,0,0,31
+text 290,1,0,5
+alttext 290,1,0,16
+connected to 77,0,0,32
+connected to 77,0,0,34
+
+node TEXT_HERO 77,0,0,32
+text 290,0,0,7
+alttext 290,0,0,13
+quest event 2
+connected to 77,0,0,33
+
+node TEXT_NPC 77,0,0,33
+text 290,1,0,6
+alttext 290,1,0,15
+
+node TEXT_HERO 77,0,0,34
+text 290,0,0,8
+alttext 290,0,0,15
+quest event 7
+connected to 77,0,0,35
+
+node TEXT_NPC 77,0,0,35
+text 290,1,0,7
+alttext 290,1,0,13
+
+node TEXT_NPC 77,0,0,36
+text 290,1,0,8
+alttext 290,1,0,18
+connected to 77,0,0,37
+
+node BLOCK_QUEST_REFUSED 77,0,0,37
+connected to 77,0,0,38
+
+node TEXT_HERO 77,0,0,38
+text 290,0,0,9
+alttext 290,0,0,16
+connected to 77,0,0,39
+
+node TEXT_NPC 77,0,0,39
+text 290,1,0,9
+alttext 290,1,0,19
+connected to 77,0,0,40
+connected to 77,0,0,42
+
+node TEXT_HERO 77,0,0,40
+text 290,0,0,10
+alttext 290,0,0,17
+quest event 2
+connected to 77,0,0,41
+
+node TEXT_NPC 77,0,0,41
+text 290,1,0,10
+alttext 290,1,0,20
+
+node TEXT_HERO 77,0,0,42
+text 290,0,0,11
+alttext 290,0,0,18
+connected to 77,0,0,43
+
+node TEXT_NPC 77,0,0,43
+text 290,1,0,11
+alttext 290,1,0,21
+
+node TEXT_NPC 77,0,0,44
+text 290,1,0,12
+alttext 290,1,0,17
+connected to 77,0,0,45
+
+node BLOCK_QUEST_COMPLETED 77,0,0,45
+
+node MONO 77,0,0,17
+mono 30 290,2,0,21 290,3,0,2
+mono 0 290,2,0,23 290,3,0,4
+mono 30 290,2,0,24 290,3,0,5
+connected to 77,0,0,18
+

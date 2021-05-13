@@ -1,0 +1,68 @@
+version 11
+id 6,1,0,32
+name "Faith3 Demon"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 32,0,0,1
+
+node BLOCK_GREET_AVAILABLE 32,0,0,2
+connected to 32,0,0,12
+
+node BLOCK_GREET_ACTIVE 32,0,0,3
+
+node BLOCK_GREET_SUCCESS 32,0,0,4
+
+node BLOCK_GREET_COMPLETED 32,0,0,5
+
+node BLOCK_GREET_FAILURE 32,0,0,6
+
+node BLOCK_GREET_FAILED 32,0,0,7
+
+node BLOCK_GREET_REFUSED 32,0,0,8
+
+node BLOCK_STD 32,0,0,9
+
+node BLOCK_SERV 32,0,0,10
+
+node BLOCK_EXIT 32,0,0,11
+
+node TEXT_NPC 32,0,0,12
+text 76,1,0,0
+alttext 138,1,0,0
+connected to 32,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 32,0,0,13
+connected to 32,0,0,14
+
+node TEXT_HERO 32,0,0,14
+text 76,0,0,0
+alttext 138,0,0,0
+connected to 32,0,0,15
+
+node TEXT_HERO 32,0,0,16
+text 76,0,0,1
+alttext 138,0,0,1
+quest event 2
+connected to 32,0,0,17
+
+node TEXT_NPC 32,0,0,17
+text 76,1,0,2
+alttext 138,1,0,1
+
+node TEXT_HERO 32,0,0,18
+text 76,0,0,2
+alttext 138,0,0,2
+quest event 7
+connected to 32,0,0,19
+
+node TEXT_NPC 32,0,0,19
+text 76,1,0,3
+
+node MONO 32,0,0,15
+mono 15 76,2,0,0 76,3,0,0
+mono 15 76,2,0,1 76,3,0,1
+mono 15 76,2,0,2 76,3,0,2
+connected to 32,0,0,16
+connected to 32,0,0,18
+

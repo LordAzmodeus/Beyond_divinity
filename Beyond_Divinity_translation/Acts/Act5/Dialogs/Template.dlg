@@ -1,0 +1,297 @@
+version 4
+template dialogfile
+id 6,-1,-1,-1
+name "Template"
+
+
+
+node BLOCK_PREDEFTEMPLATE 1,0,0,0
+connected to 1,0,0,1
+
+node TEXT_NPC 1,0,0,1
+connected to 1,0,0,2
+
+node BLOCK_QUEST_INACTIVE 1,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 2,0,0,0
+connected to 2,0,0,1
+
+node TEXT_NPC 2,0,0,1
+connected to 2,0,0,2
+
+node BLOCK_QUEST_AVAILABLE 2,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 3,0,0,0
+connected to 3,0,0,1
+
+node TEXT_NPC 3,0,0,1
+connected to 3,0,0,2
+
+node BLOCK_QUEST_ACTIVE 3,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 4,0,0,0
+connected to 4,0,0,1
+
+node TEXT_NPC 4,0,0,1
+connected to 4,0,0,2
+
+node BLOCK_QUEST_SUCCESS 4,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 5,0,0,0
+connected to 5,0,0,1
+
+node TEXT_NPC 5,0,0,1
+connected to 5,0,0,2
+
+node BLOCK_QUEST_COMPLETED 5,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 6,0,0,0
+connected to 6,0,0,1
+
+node TEXT_NPC 6,0,0,1
+connected to 6,0,0,2
+
+node BLOCK_QUEST_FAILURE 6,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 7,0,0,0
+connected to 7,0,0,1
+
+node TEXT_NPC 7,0,0,1
+connected to 7,0,0,2
+
+node BLOCK_QUEST_FAILED 7,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 8,0,0,0
+connected to 8,0,0,1
+
+node TEXT_NPC 8,0,0,1
+connected to 8,0,0,2
+
+node BLOCK_QUEST_REFUSED 8,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 9,0,0,0
+connected to 9,0,0,1
+
+node TEXT_HERO 9,0,0,1
+stdnode
+connected to 9,0,0,2
+
+node TEXT_NPC 9,0,0,2
+connected to 9,0,0,3
+
+node BLOCK_STD 9,0,0,3
+
+
+
+node BLOCK_PREDEFTEMPLATE 10,0,0,0
+connected to 10,0,0,1
+
+node TEXT_HERO 10,0,0,1
+stdnode
+connected to 10,0,0,2
+
+node TEXT_NPC 10,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 11,0,0,0
+connected to 11,0,0,1
+
+node TEXT_HERO 11,0,0,1
+
+
+
+node BLOCK_PREDEFTEMPLATE 12,0,0,0
+connected to 12,0,0,1
+
+node TEXT_HERO 12,0,0,1
+connected to 12,0,0,2
+
+node TEXT_NPC 12,0,0,2
+
+
+
+node BLOCK_PREDEFTEMPLATE 13,0,0,0
+connected to 13,0,0,1
+
+node TEXT_HERO 13,0,0,1
+connected to 13,0,0,2
+
+node TEXT_NPC 13,0,0,2
+connected to 13,0,0,3
+connected to 13,0,0,4
+
+node TEXT_HERO 13,0,0,3
+connected to 13,0,0,5
+
+node TEXT_NPC 13,0,0,5
+
+node TEXT_HERO 13,0,0,4
+connected to 13,0,0,6
+
+node TEXT_NPC 13,0,0,6
+
+
+
+node BLOCK_TEMPLATE 0,1,0,0
+connected to 0,1,0,1
+
+node TEXT_HERO 0,1,0,1
+quest event -3
+connected to 0,1,0,2
+
+node TEXT_NPC 0,1,0,2
+
+
+
+node BLOCK_TEMPLATE 0,2,0,0
+connected to 0,2,0,1
+
+node TEXT_HERO 0,2,0,1
+connected to 0,2,0,2
+
+node TEXT_NPC 0,2,0,2
+connected to 0,2,0,3
+connected to 0,2,0,4
+
+node TEXT_HERO 0,2,0,3
+quest event -3
+connected to 0,2,0,5
+
+node TEXT_NPC 0,2,0,5
+
+node TEXT_HERO 0,2,0,4
+quest event -2
+connected to 0,2,0,6
+
+node TEXT_NPC 0,2,0,6
+
+
+
+node BLOCK_TEMPLATE 0,3,0,0
+connected to 0,3,0,1
+
+node TEXT_HERO 0,3,0,1
+connected to 0,3,0,2
+
+node TEXT_NPC 0,3,0,2
+connected to 0,3,0,3
+connected to 0,3,0,4
+connected to 0,3,0,5
+
+node TEXT_HERO 0,3,0,3
+quest event -3
+connected to 0,3,0,6
+
+node TEXT_NPC 0,3,0,6
+
+node TEXT_HERO 0,3,0,4
+quest event -2
+connected to 0,3,0,7
+
+node TEXT_NPC 0,3,0,7
+
+node TEXT_HERO 0,3,0,5
+quest event -2
+connected to 0,3,0,8
+
+node TEXT_NPC 0,3,0,8
+
+
+
+node BLOCK_TEMPLATE 0,4,0,0
+connected to 0,4,0,1
+
+node TEXT_HERO 0,4,0,1
+connected to 0,4,0,2
+
+node TEXT_NPC 0,4,0,2
+connected to 0,4,0,3
+connected to 0,4,0,4
+connected to 0,4,0,5
+connected to 0,4,0,6
+
+node TEXT_HERO 0,4,0,3
+quest event -3
+connected to 0,4,0,7
+
+node TEXT_NPC 0,4,0,7
+
+node TEXT_HERO 0,4,0,4
+quest event -2
+connected to 0,4,0,8
+
+node TEXT_NPC 0,4,0,8
+
+node TEXT_HERO 0,4,0,5
+quest event -2
+connected to 0,4,0,9
+
+node TEXT_NPC 0,4,0,9
+
+node TEXT_HERO 0,4,0,6
+quest event -2
+connected to 0,4,0,10
+
+node TEXT_NPC 0,4,0,10
+
+
+
+node BLOCK_TEMPLATE 0,5,0,0
+connected to 0,5,0,1
+
+node TEXT_HERO 0,5,0,1
+connected to 0,5,0,2
+
+node TEXT_NPC 0,5,0,2
+connected to 0,5,0,3
+connected to 0,5,0,4
+connected to 0,5,0,5
+connected to 0,5,0,6
+connected to 0,5,0,7
+
+node TEXT_HERO 0,5,0,3
+quest event -3
+connected to 0,5,0,8
+
+node TEXT_NPC 0,5,0,8
+
+node TEXT_HERO 0,5,0,4
+quest event -2
+connected to 0,5,0,9
+
+node TEXT_NPC 0,5,0,9
+
+node TEXT_HERO 0,5,0,5
+quest event -2
+connected to 0,5,0,10
+
+node TEXT_NPC 0,5,0,10
+
+node TEXT_HERO 0,5,0,6
+quest event -2
+connected to 0,5,0,11
+
+node TEXT_NPC 0,5,0,11
+
+node TEXT_HERO 0,5,0,7
+quest event -2
+connected to 0,5,0,12
+
+node TEXT_NPC 0,5,0,12

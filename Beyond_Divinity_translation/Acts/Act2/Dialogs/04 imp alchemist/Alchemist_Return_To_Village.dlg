@@ -1,0 +1,127 @@
+version 11
+id 6,1,0,41
+name "Alchemist_Return_To_Village"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 41,0,0,1
+
+node BLOCK_GREET_AVAILABLE 41,0,0,2
+connected to 41,0,0,12
+
+node BLOCK_GREET_ACTIVE 41,0,0,3
+connected to 41,0,0,14
+
+node BLOCK_GREET_SUCCESS 41,0,0,4
+
+node BLOCK_GREET_COMPLETED 41,0,0,5
+
+node BLOCK_GREET_FAILURE 41,0,0,6
+
+node BLOCK_GREET_FAILED 41,0,0,7
+
+node BLOCK_GREET_REFUSED 41,0,0,8
+connected to 41,0,0,22
+
+node BLOCK_STD 41,0,0,9
+
+node BLOCK_SERV 41,0,0,10
+
+node BLOCK_EXIT 41,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 41,0,0,13
+connected to 41,0,0,16
+
+node MONO 41,0,0,12
+mono 27 31,2,0,0 31,3,0,0
+mono 0 31,2,0,1 31,3,0,1
+mono 27 31,2,0,2 31,3,0,2
+mono 1 31,2,0,3 31,3,0,3
+mono 0 31,2,0,13 31,3,0,4
+mono 27 31,2,0,4 31,3,0,4
+mono 1 31,2,0,6 31,3,0,6
+mono 0 31,2,0,14 31,3,0,7
+mono 27 31,2,0,7 31,3,0,7
+mono 1 31,2,0,8 31,3,0,8
+mono 1 31,2,0,10 31,3,0,10
+mono 0 31,2,0,15 31,3,0,12
+mono 27 31,2,0,11 31,3,0,11
+mono 27 31,2,0,12 31,3,0,12
+connected to 41,0,0,13
+
+node BLOCK_QUEST_ACTIVE 41,0,0,15
+
+node TEXT_NPC 41,0,0,14
+text 31,1,0,0
+alttext 31,1,0,8
+connected to 41,0,0,15
+
+node TEXT_HERO 41,0,0,16
+text 31,0,0,0
+alttext 31,0,0,7
+connected to 41,0,0,17
+
+node TEXT_NPC 41,0,0,17
+text 31,1,0,1
+alttext 41,1,0,3
+connected to 41,0,0,18
+connected to 41,0,0,20
+
+node TEXT_HERO 41,0,0,18
+text 31,0,0,1
+alttext 31,0,0,8
+quest event 2
+connected to 41,0,0,19
+
+node TEXT_NPC 41,0,0,19
+text 31,1,0,2
+alttext 31,1,0,9
+
+node TEXT_HERO 41,0,0,20
+text 31,0,0,2
+alttext 31,0,0,6
+quest event 7
+connected to 41,0,0,21
+
+node TEXT_NPC 41,0,0,21
+text 31,1,0,3
+alttext 31,1,0,10
+
+node TEXT_NPC 41,0,0,22
+text 31,1,0,4
+alttext 31,1,0,11
+connected to 41,0,0,23
+
+node BLOCK_QUEST_REFUSED 41,0,0,23
+connected to 41,0,0,24
+
+node TEXT_HERO 41,0,0,24
+text 31,0,0,3
+alttext 41,0,0,0
+connected to 41,0,0,25
+
+node TEXT_NPC 41,0,0,25
+text 31,1,0,5
+alttext 41,1,0,0
+connected to 41,0,0,26
+connected to 41,0,0,28
+
+node TEXT_HERO 41,0,0,26
+text 31,0,0,4
+alttext 41,0,0,1
+quest event 2
+connected to 41,0,0,27
+
+node TEXT_NPC 41,0,0,27
+text 31,1,0,6
+alttext 41,1,0,1
+
+node TEXT_HERO 41,0,0,28
+text 31,0,0,5
+alttext 41,0,0,2
+connected to 41,0,0,29
+
+node TEXT_NPC 41,0,0,29
+text 31,1,0,7
+alttext 41,1,0,2
+

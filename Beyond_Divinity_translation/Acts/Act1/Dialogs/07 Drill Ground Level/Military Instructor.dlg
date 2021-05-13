@@ -1,0 +1,134 @@
+version 11
+id 6,1,0,130
+name "Military Instructor"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 130,0,0,1
+connected to 130,0,0,12
+
+node BLOCK_GREET_AVAILABLE 130,0,0,2
+
+node BLOCK_GREET_ACTIVE 130,0,0,3
+
+node BLOCK_GREET_SUCCESS 130,0,0,4
+
+node BLOCK_GREET_COMPLETED 130,0,0,5
+
+node BLOCK_GREET_FAILURE 130,0,0,6
+
+node BLOCK_GREET_FAILED 130,0,0,7
+
+node BLOCK_GREET_REFUSED 130,0,0,8
+
+node BLOCK_STD 130,0,0,9
+connected to 130,0,0,17
+connected to 130,0,0,20
+connected to 130,0,0,23
+
+node BLOCK_SERV 130,0,0,10
+connected to 130,0,0,15
+
+node BLOCK_EXIT 130,0,0,11
+connected to 130,0,0,14
+
+node TEXT_NPC 130,0,0,12
+text 32,1,0,0
+connected to 130,0,0,13
+
+node BLOCK_QUEST_INACTIVE 130,0,0,13
+
+node TEXT_HERO 130,0,0,14
+text 32,0,0,0
+
+node TEXT_HERO 130,0,0,15
+servnode 3 1
+text 32,0,0,1
+alttext 128,0,0,0
+connected to 130,0,0,16
+
+node TEXT_NPC 130,0,0,16
+text 32,1,0,1
+
+node TEXT_HERO 130,0,0,17
+stdnode
+text 32,0,0,2
+connected to 130,0,0,18
+
+node TEXT_NPC 130,0,0,18
+text 32,1,0,2
+connected to 130,0,0,19
+
+node BLOCK_STD 130,0,0,19
+
+node TEXT_HERO 130,0,0,20
+stdnode
+text 32,0,0,3
+connected to 130,0,0,21
+
+node TEXT_NPC 130,0,0,21
+text 32,1,0,3
+connected to 130,0,0,22
+
+node BLOCK_STD 130,0,0,22
+
+node TEXT_HERO 130,0,0,23
+stdnode
+text 32,0,0,4
+connected to 130,0,0,24
+
+node TEXT_NPC 130,0,0,24
+text 32,1,0,4
+connected to 130,0,0,25
+
+node BLOCK_STD 130,0,0,25
+connected to 130,0,0,26
+connected to 130,0,0,28
+connected to 130,0,0,30
+connected to 130,0,0,32
+connected to 130,0,0,34
+
+node TEXT_HERO 130,0,0,26
+stdnode
+text 32,0,0,5
+connected to 130,0,0,27
+
+node TEXT_NPC 130,0,0,27
+text 32,1,0,5
+
+node TEXT_HERO 130,0,0,28
+stdnode
+text 32,0,0,6
+connected to 130,0,0,29
+
+node TEXT_NPC 130,0,0,29
+text 32,1,0,6
+
+node TEXT_HERO 130,0,0,30
+stdnode
+text 32,0,0,7
+connected to 130,0,0,31
+
+node TEXT_NPC 130,0,0,31
+text 32,1,0,7
+
+node TEXT_HERO 130,0,0,32
+stdnode
+text 32,0,0,8
+connected to 130,0,0,33
+
+node TEXT_HERO 130,0,0,34
+stdnode
+text 32,0,0,9
+connected to 130,0,0,35
+
+node TEXT_NPC 130,0,0,35
+text 32,1,0,9
+
+node MONO 130,0,0,33
+mono 90 32,2,0,0 32,3,0,0
+mono 90 32,2,0,1 32,3,0,1
+mono 91 32,2,0,2 32,3,0,2
+mono 90 32,2,0,3 32,3,0,3
+mono 90 32,2,0,4 32,3,0,4
+

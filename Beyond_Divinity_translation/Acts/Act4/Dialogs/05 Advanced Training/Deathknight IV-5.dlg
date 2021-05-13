@@ -1,0 +1,143 @@
+version 11
+id 6,1,0,184
+name "Deathknight IV-5"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 184,0,0,1
+connected to 184,0,0,54
+
+node BLOCK_GREET_AVAILABLE 184,0,0,2
+
+node BLOCK_GREET_ACTIVE 184,0,0,3
+
+node BLOCK_GREET_SUCCESS 184,0,0,4
+
+node BLOCK_GREET_COMPLETED 184,0,0,5
+
+node BLOCK_GREET_FAILURE 184,0,0,6
+
+node BLOCK_GREET_FAILED 184,0,0,7
+
+node BLOCK_GREET_REFUSED 184,0,0,8
+
+node BLOCK_STD 184,0,0,9
+connected to 184,0,0,12
+connected to 184,0,0,15
+connected to 184,0,0,18
+connected to 184,0,0,21
+connected to 184,0,0,32
+
+node BLOCK_SERV 184,0,0,10
+
+node BLOCK_EXIT 184,0,0,11
+connected to 184,0,0,47
+
+node TEXT_HERO 184,0,0,12
+stdnode
+text 122,0,0,0
+alttext 215,0,0,0
+connected to 184,0,0,13
+
+node TEXT_NPC 184,0,0,13
+text 122,1,0,0
+alttext 215,1,0,1
+connected to 184,0,0,14
+
+node BLOCK_STD 184,0,0,14
+connected to 184,0,0,37
+connected to 184,0,0,39
+
+node TEXT_HERO 184,0,0,15
+stdnode
+text 122,0,0,1
+alttext 215,0,0,3
+connected to 184,0,0,16
+
+node TEXT_NPC 184,0,0,16
+text 122,1,0,1
+alttext 215,1,0,4
+connected to 184,0,0,17
+
+node BLOCK_STD 184,0,0,17
+
+node TEXT_HERO 184,0,0,18
+stdnode
+text 122,0,0,2
+alttext 215,0,0,4
+connected to 184,0,0,19
+
+node TEXT_NPC 184,0,0,19
+text 122,1,0,2
+alttext 215,1,0,5
+connected to 184,0,0,20
+
+node BLOCK_STD 184,0,0,20
+connected to 184,0,0,35
+
+node TEXT_HERO 184,0,0,21
+stdnode
+text 122,0,0,3
+alttext 215,0,0,6
+connected to 184,0,0,22
+
+node TEXT_NPC 184,0,0,22
+text 122,1,0,3
+alttext 215,1,0,7
+connected to 184,0,0,23
+
+node BLOCK_STD 184,0,0,23
+
+node TEXT_HERO 184,0,0,32
+stdnode
+text 122,0,0,7
+alttext 215,0,0,7
+connected to 184,0,0,33
+
+node BLOCK_STD 184,0,0,34
+
+node TEXT_HERO 184,0,0,35
+stdnode
+text 122,0,0,8
+alttext 215,0,0,5
+connected to 184,0,0,36
+
+node TEXT_NPC 184,0,0,36
+text 122,1,0,9
+alttext 215,1,0,6
+
+node TEXT_HERO 184,0,0,37
+stdnode
+text 122,0,0,9
+alttext 215,0,0,1
+connected to 184,0,0,38
+
+node TEXT_NPC 184,0,0,38
+text 122,1,0,10
+alttext 215,1,0,2
+
+node TEXT_HERO 184,0,0,39
+stdnode
+text 122,0,0,10
+alttext 215,0,0,2
+connected to 184,0,0,40
+
+node TEXT_NPC 184,0,0,40
+text 122,1,0,11
+alttext 215,1,0,3
+
+node TEXT_HERO 184,0,0,47
+text 122,0,0,11
+
+node MONO 184,0,0,33
+mono 1 215,2,0,0 215,3,0,0
+mono 1 215,2,0,1 215,3,0,1
+connected to 184,0,0,34
+
+node TEXT_NPC 184,0,0,54
+text 122,1,0,16
+alttext 215,1,0,0
+connected to 184,0,0,55
+
+node BLOCK_QUEST_INACTIVE 184,0,0,55
+

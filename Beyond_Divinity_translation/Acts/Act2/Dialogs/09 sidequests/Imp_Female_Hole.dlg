@@ -1,0 +1,113 @@
+version 11
+id 6,3,0,117
+name "Imp_Female_Hole"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 117,0,0,1
+
+node BLOCK_GREET_AVAILABLE 117,0,0,2
+connected to 117,0,0,12
+
+node BLOCK_GREET_ACTIVE 117,0,0,3
+connected to 117,0,0,20
+
+node BLOCK_GREET_SUCCESS 117,0,0,4
+connected to 117,0,0,22
+
+node BLOCK_GREET_COMPLETED 117,0,0,5
+connected to 117,0,0,25
+
+node BLOCK_GREET_FAILURE 117,0,0,6
+
+node BLOCK_GREET_FAILED 117,0,0,7
+
+node BLOCK_GREET_REFUSED 117,0,0,8
+connected to 117,0,0,27
+
+node BLOCK_STD 117,0,0,9
+
+node BLOCK_SERV 117,0,0,10
+
+node BLOCK_EXIT 117,0,0,11
+connected to 117,0,0,24
+
+node BLOCK_QUEST_AVAILABLE 117,0,0,13
+connected to 117,0,0,14
+
+node TEXT_HERO 117,0,0,14
+text 139,0,0,0
+alttext 139,0,0,1
+connected to 117,0,0,15
+
+node TEXT_HERO 117,0,0,16
+text 139,0,0,2
+alttext 139,0,0,3
+quest event 2
+connected to 117,0,0,17
+
+node TEXT_NPC 117,0,0,17
+text 139,1,0,4
+alttext 139,1,0,5
+
+node TEXT_HERO 117,0,0,18
+text 139,0,0,4
+alttext 139,0,0,5
+quest event 7
+connected to 117,0,0,19
+
+node TEXT_NPC 117,0,0,19
+text 139,1,0,6
+alttext 139,1,0,7
+
+node TEXT_NPC 117,0,0,20
+text 139,1,0,8
+alttext 139,1,0,9
+connected to 117,0,0,21
+
+node BLOCK_QUEST_ACTIVE 117,0,0,21
+
+node BLOCK_QUEST_SUCCESS 117,0,0,23
+
+node MONO 117,0,0,22
+mono 72 139,2,0,0 139,3,0,0
+mono 1 139,2,0,1 139,3,0,1
+mono 72 139,2,0,2 139,3,0,2
+mono 1 139,2,0,3 139,3,0,3
+mono 72 139,2,0,4 139,3,0,4
+mono 1 139,2,0,5 139,3,0,5
+connected to 117,0,0,23
+
+node TEXT_HERO 117,0,0,24
+text 139,0,0,6
+alttext 139,0,0,7
+
+node TEXT_NPC 117,0,0,25
+text 139,1,0,10
+alttext 139,1,0,11
+connected to 117,0,0,26
+
+node BLOCK_QUEST_COMPLETED 117,0,0,26
+
+node TEXT_NPC 117,0,0,27
+text 139,1,0,12
+alttext 139,1,0,13
+connected to 117,0,0,28
+
+node BLOCK_QUEST_REFUSED 117,0,0,28
+
+node MONO 117,0,0,12
+mono 72 115,2,0,0 115,3,0,0
+mono 1 115,2,0,1 115,3,0,1
+connected to 117,0,0,13
+
+node MONO 117,0,0,15
+mono 72 115,2,0,2 115,3,0,2
+mono 0 115,2,0,3 115,3,0,3
+mono 1 115,2,0,4 115,3,0,4
+mono 72 115,2,0,5 115,3,0,5
+mono 72 115,2,0,7 115,3,0,7
+mono 72 115,2,0,6 115,3,0,6
+connected to 117,0,0,16
+connected to 117,0,0,18
+

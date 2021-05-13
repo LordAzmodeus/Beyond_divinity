@@ -1,0 +1,75 @@
+version 11
+id 6,1,0,98
+name "Instructor Summoning 1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 98,0,0,1
+connected to 98,0,0,33
+
+node BLOCK_GREET_AVAILABLE 98,0,0,2
+connected to 98,0,0,16
+
+node BLOCK_GREET_ACTIVE 98,0,0,3
+connected to 98,0,0,28
+
+node BLOCK_GREET_SUCCESS 98,0,0,4
+connected to 98,0,0,31
+
+node BLOCK_GREET_COMPLETED 98,0,0,5
+
+node BLOCK_GREET_FAILURE 98,0,0,6
+
+node BLOCK_GREET_FAILED 98,0,0,7
+
+node BLOCK_GREET_REFUSED 98,0,0,8
+
+node BLOCK_STD 98,0,0,9
+
+node BLOCK_SERV 98,0,0,10
+
+node BLOCK_EXIT 98,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 98,0,0,17
+connected to 98,0,0,26
+
+node MONO 98,0,0,16
+mono 40 165,2,0,3 165,3,0,0
+mono 1 165,2,0,6 165,3,0,3
+mono 40 165,2,0,7 165,3,0,4
+mono 0 165,2,0,12 165,3,0,9
+mono 40 165,2,0,8 165,3,0,5
+connected to 98,0,0,17
+
+node TEXT_HERO 98,0,0,26
+text 99,0,0,4
+alttext 165,0,0,0
+quest event 2
+connected to 98,0,0,27
+
+node MONO 98,0,0,27
+mono 40 165,2,0,4 165,3,0,1
+mono 40 165,2,0,10 165,3,0,7
+mono 40 165,2,0,9 165,3,0,6
+
+node TEXT_NPC 98,0,0,28
+text 99,1,0,0
+alttext 165,1,0,2
+connected to 98,0,0,29
+
+node BLOCK_QUEST_ACTIVE 98,0,0,29
+
+node BLOCK_QUEST_SUCCESS 98,0,0,32
+
+node TEXT_NPC 98,0,0,33
+text 165,1,0,0
+alttext 165,1,0,1
+connected to 98,0,0,34
+
+node BLOCK_QUEST_INACTIVE 98,0,0,34
+
+node MONO 98,0,0,31
+mono 40 165,2,0,5 165,3,0,2
+mono 40 165,2,0,11 165,3,0,8
+connected to 98,0,0,32
+

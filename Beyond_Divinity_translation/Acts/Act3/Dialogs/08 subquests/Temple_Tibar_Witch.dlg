@@ -1,0 +1,194 @@
+version 11
+id 6,1,0,211
+name "Temple_Tibar_Witch"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 211,0,0,1
+connected to 211,0,0,12
+
+node BLOCK_GREET_AVAILABLE 211,0,0,2
+connected to 211,0,0,14
+
+node BLOCK_GREET_ACTIVE 211,0,0,3
+connected to 211,0,0,49
+
+node BLOCK_GREET_SUCCESS 211,0,0,4
+connected to 211,0,0,37
+
+node BLOCK_GREET_COMPLETED 211,0,0,5
+connected to 211,0,0,26
+
+node BLOCK_GREET_FAILURE 211,0,0,6
+
+node BLOCK_GREET_FAILED 211,0,0,7
+
+node BLOCK_GREET_REFUSED 211,0,0,8
+connected to 211,0,0,39
+
+node BLOCK_STD 211,0,0,9
+
+node BLOCK_SERV 211,0,0,10
+connected to 211,0,0,59
+
+node BLOCK_EXIT 211,0,0,11
+connected to 211,0,0,28
+
+node TEXT_NPC 211,0,0,12
+text 193,1,0,0
+alttext 193,1,0,1
+connected to 211,0,0,13
+
+node BLOCK_QUEST_INACTIVE 211,0,0,13
+connected to 211,0,0,18
+
+node BLOCK_QUEST_AVAILABLE 211,0,0,15
+connected to 211,0,0,57
+
+node TEXT_HERO 211,0,0,18
+text 193,0,0,0
+alttext 193,0,0,1
+quest event 1
+connected to 211,0,0,19
+
+node TEXT_NPC 211,0,0,19
+text 193,1,0,6
+alttext 193,1,0,7
+
+node BLOCK_QUEST_COMPLETED 211,0,0,27
+
+node TEXT_HERO 211,0,0,28
+text 193,0,0,6
+alttext 193,0,0,7
+
+node TEXT_NPC 211,0,0,14
+text 193,1,0,18
+alttext 193,1,0,19
+connected to 211,0,0,15
+
+node TEXT_NPC 211,0,0,37
+text 193,1,0,20
+alttext 193,1,0,21
+connected to 211,0,0,38
+
+node BLOCK_QUEST_SUCCESS 211,0,0,38
+connected to 211,0,0,47
+
+node TEXT_NPC 211,0,0,39
+text 193,1,0,22
+alttext 193,1,0,23
+connected to 211,0,0,40
+
+node BLOCK_QUEST_REFUSED 211,0,0,40
+connected to 211,0,0,41
+
+node TEXT_HERO 211,0,0,41
+text 193,0,0,16
+alttext 193,0,0,17
+connected to 211,0,0,42
+
+node TEXT_HERO 211,0,0,43
+text 193,0,0,18
+alttext 193,0,0,19
+quest event 2
+connected to 211,0,0,44
+
+node TEXT_NPC 211,0,0,44
+text 193,1,0,26
+alttext 193,1,0,27
+
+node TEXT_HERO 211,0,0,45
+text 193,0,0,20
+alttext 193,0,0,21
+connected to 211,0,0,46
+
+node TEXT_NPC 211,0,0,46
+text 193,1,0,28
+alttext 193,1,0,29
+
+node MONO 211,0,0,42
+mono 177 193,2,0,28 193,3,0,28
+mono 1 193,2,0,29 193,3,0,29
+connected to 211,0,0,43
+connected to 211,0,0,45
+
+node MONO 211,0,0,26
+mono 177 193,2,0,30 193,3,0,30
+mono 0 193,2,0,31 193,3,0,31
+mono 177 193,2,0,32 193,3,0,32
+connected to 211,0,0,27
+
+node TEXT_HERO 211,0,0,47
+text 193,0,0,22
+alttext 193,0,0,23
+quest event 4
+connected to 211,0,0,48
+
+node MONO 211,0,0,48
+mono 177 193,2,0,33 193,3,0,33
+mono 1 193,2,0,35 193,3,0,35
+mono 0 193,2,0,36 193,3,0,36
+mono 177 193,2,0,34 193,3,0,34
+
+node TEXT_NPC 211,0,0,49
+text 193,1,0,30
+alttext 193,1,0,31
+connected to 211,0,0,50
+
+node BLOCK_QUEST_ACTIVE 211,0,0,50
+connected to 211,0,0,51
+
+node TEXT_HERO 211,0,0,51
+text 193,0,0,24
+alttext 193,0,0,25
+connected to 211,0,0,52
+
+node TEXT_HERO 211,0,0,53
+text 193,0,0,26
+alttext 193,0,0,27
+quest event 3
+connected to 211,0,0,54
+
+node TEXT_NPC 211,0,0,54
+text 193,1,0,34
+alttext 193,1,0,35
+
+node TEXT_HERO 211,0,0,55
+text 193,0,0,28
+alttext 193,0,0,29
+quest event 5
+connected to 211,0,0,56
+
+node TEXT_NPC 211,0,0,56
+text 193,1,0,36
+alttext 193,1,0,37
+
+node MONO 211,0,0,52
+mono 177 193,2,0,37 193,3,0,37
+mono 177 193,2,0,38 193,3,0,38
+mono 177 193,2,0,39 193,3,0,39
+mono 177 193,2,0,41 193,3,0,41
+mono 1 193,2,0,40 193,3,0,40
+connected to 211,0,0,53
+connected to 211,0,0,55
+
+node TEXT_HERO 211,0,0,57
+text 193,0,0,30
+alttext 193,0,0,31
+quest event 2
+connected to 211,0,0,58
+
+node MONO 211,0,0,58
+mono 177 193,2,0,42 193,3,0,42
+mono 1 193,2,0,43 193,3,0,43
+
+node TEXT_HERO 211,0,0,59
+servnode 3 1
+text 200,0,0,0
+alttext 200,0,0,1
+connected to 211,0,0,60
+
+node TEXT_NPC 211,0,0,60
+text 200,1,0,0
+alttext 200,1,0,1
+

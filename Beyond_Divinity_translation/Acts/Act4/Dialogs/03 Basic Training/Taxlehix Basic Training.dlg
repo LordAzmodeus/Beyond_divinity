@@ -1,0 +1,164 @@
+version 11
+id 6,1,0,131
+name "Taxlehix Basic Training"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 131,0,0,1
+
+node BLOCK_GREET_AVAILABLE 131,0,0,2
+connected to 131,0,0,12
+
+node BLOCK_GREET_ACTIVE 131,0,0,3
+
+node BLOCK_GREET_SUCCESS 131,0,0,4
+
+node BLOCK_GREET_COMPLETED 131,0,0,5
+
+node BLOCK_GREET_FAILURE 131,0,0,6
+
+node BLOCK_GREET_FAILED 131,0,0,7
+
+node BLOCK_GREET_REFUSED 131,0,0,8
+
+node BLOCK_STD 131,0,0,9
+connected to 131,0,0,16
+connected to 131,0,0,21
+connected to 131,0,0,24
+
+node BLOCK_SERV 131,0,0,10
+connected to 131,0,0,31
+connected to 131,0,0,40
+
+node BLOCK_EXIT 131,0,0,11
+connected to 131,0,0,33
+
+node BLOCK_QUEST_AVAILABLE 131,0,0,13
+connected to 131,0,0,38
+
+node TEXT_HERO 131,0,0,16
+stdnode
+text 139,0,0,1
+alttext 180,0,0,3
+connected to 131,0,0,17
+
+node TEXT_NPC 131,0,0,17
+text 139,1,0,0
+alttext 180,1,0,2
+connected to 131,0,0,18
+
+node BLOCK_STD 131,0,0,18
+connected to 131,0,0,19
+
+node TEXT_HERO 131,0,0,19
+stdnode
+text 139,0,0,2
+alttext 180,0,0,2
+connected to 131,0,0,20
+
+node TEXT_NPC 131,0,0,20
+text 139,1,0,1
+alttext 180,1,0,3
+
+node TEXT_HERO 131,0,0,21
+stdnode
+text 139,0,0,3
+alttext 180,0,0,4
+connected to 131,0,0,22
+
+node TEXT_NPC 131,0,0,22
+text 139,1,0,2
+alttext 180,1,0,4
+connected to 131,0,0,23
+
+node BLOCK_STD 131,0,0,23
+connected to 131,0,0,27
+connected to 131,0,0,29
+
+node TEXT_HERO 131,0,0,24
+stdnode
+text 139,0,0,4
+alttext 180,0,0,6
+connected to 131,0,0,25
+
+node TEXT_NPC 131,0,0,25
+text 139,1,0,3
+alttext 180,1,0,6
+connected to 131,0,0,26
+
+node BLOCK_STD 131,0,0,26
+connected to 131,0,0,36
+
+node TEXT_HERO 131,0,0,27
+stdnode
+text 139,0,0,5
+alttext 180,0,0,0
+connected to 131,0,0,28
+
+node TEXT_NPC 131,0,0,28
+text 139,1,0,4
+alttext 180,1,0,5
+
+node TEXT_HERO 131,0,0,29
+stdnode
+text 139,0,0,6
+alttext 180,0,0,5
+connected to 131,0,0,30
+
+node TEXT_NPC 131,0,0,30
+text 139,1,0,5
+alttext 180,1,0,0
+
+node TEXT_HERO 131,0,0,31
+servnode 2 1
+text 139,0,0,7
+alttext 180,0,0,7
+connected to 131,0,0,32
+
+node TEXT_NPC 131,0,0,32
+text 139,1,0,6
+
+node TEXT_HERO 131,0,0,33
+text 139,0,0,8
+
+node TEXT_HERO 131,0,0,36
+stdnode
+text 139,0,0,10
+alttext 139,0,0,11
+connected to 131,0,0,37
+
+node TEXT_NPC 131,0,0,37
+text 139,1,0,8
+alttext 180,1,0,7
+
+node TEXT_NPC 131,0,0,12
+text 139,1,0,17
+alttext 180,1,0,1
+connected to 131,0,0,13
+
+node TEXT_HERO 131,0,0,38
+text 139,0,0,13
+alttext 180,0,0,1
+quest event 2
+connected to 131,0,0,39
+
+node MONO 131,0,0,39
+mono 51 180,2,0,1 180,3,0,0
+mono 51 180,2,0,2 180,3,0,1
+mono 1 180,2,0,3 180,3,0,2
+mono 51 180,2,0,4 180,3,0,3
+mono 1 180,2,0,5 180,3,0,4
+mono 51 180,2,0,6 180,3,0,5
+mono 1 180,2,0,8 180,3,0,7
+mono 51 180,2,0,7 180,3,0,6
+
+node TEXT_HERO 131,0,0,40
+servnode 3 1
+text 180,0,0,8
+alttext 180,0,0,9
+connected to 131,0,0,41
+
+node TEXT_NPC 131,0,0,41
+text 180,1,0,8
+alttext 180,1,0,9
+

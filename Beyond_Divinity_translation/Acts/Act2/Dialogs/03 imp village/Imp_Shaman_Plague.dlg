@@ -1,0 +1,114 @@
+version 11
+id 6,1,0,25
+name "Imp_Shaman_Plague"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 25,0,0,1
+connected to 25,0,0,18
+
+node BLOCK_GREET_AVAILABLE 25,0,0,2
+
+node BLOCK_GREET_ACTIVE 25,0,0,3
+
+node BLOCK_GREET_SUCCESS 25,0,0,4
+
+node BLOCK_GREET_COMPLETED 25,0,0,5
+
+node BLOCK_GREET_FAILURE 25,0,0,6
+
+node BLOCK_GREET_FAILED 25,0,0,7
+
+node BLOCK_GREET_REFUSED 25,0,0,8
+
+node BLOCK_STD 25,0,0,9
+connected to 25,0,0,36
+connected to 25,0,0,41
+
+node BLOCK_SERV 25,0,0,10
+connected to 25,0,0,50
+
+node BLOCK_EXIT 25,0,0,11
+connected to 25,0,0,20
+
+node BLOCK_QUEST_INACTIVE 25,0,0,19
+
+node TEXT_HERO 25,0,0,20
+text 16,0,0,0
+alttext 25,0,0,2
+
+node MONO 25,0,0,18
+mono 14 16,2,0,0 16,3,0,0
+mono 0 16,2,0,1 16,3,0,1
+mono 14 16,2,0,2 16,3,0,2
+connected to 25,0,0,19
+
+node TEXT_HERO 25,0,0,36
+stdnode
+text 16,0,0,6
+alttext 16,0,0,12
+connected to 25,0,0,37
+
+node TEXT_NPC 25,0,0,37
+text 16,1,0,5
+alttext 16,1,0,11
+connected to 25,0,0,38
+
+node BLOCK_STD 25,0,0,38
+
+node TEXT_HERO 25,0,0,41
+stdnode
+text 16,0,0,8
+alttext 16,0,0,13
+connected to 25,0,0,42
+
+node TEXT_NPC 25,0,0,42
+text 16,1,0,7
+alttext 16,1,0,12
+connected to 25,0,0,43
+
+node BLOCK_STD 25,0,0,43
+connected to 25,0,0,44
+connected to 25,0,0,46
+connected to 25,0,0,48
+
+node TEXT_HERO 25,0,0,44
+stdnode
+text 16,0,0,9
+alttext 16,0,0,14
+connected to 25,0,0,45
+
+node TEXT_NPC 25,0,0,45
+text 16,1,0,8
+alttext 16,1,0,13
+
+node TEXT_HERO 25,0,0,46
+stdnode
+text 16,0,0,10
+alttext 25,0,0,0
+connected to 25,0,0,47
+
+node TEXT_NPC 25,0,0,47
+text 16,1,0,9
+alttext 16,1,0,14
+
+node TEXT_HERO 25,0,0,48
+stdnode
+text 16,0,0,11
+alttext 25,0,0,1
+connected to 25,0,0,49
+
+node TEXT_NPC 25,0,0,49
+text 16,1,0,10
+alttext 25,1,0,0
+
+node TEXT_HERO 25,0,0,50
+servnode 1 1
+text 25,0,0,3
+alttext 25,0,0,4
+connected to 25,0,0,51
+
+node TEXT_NPC 25,0,0,51
+text 25,1,0,1
+alttext 25,1,0,2
+

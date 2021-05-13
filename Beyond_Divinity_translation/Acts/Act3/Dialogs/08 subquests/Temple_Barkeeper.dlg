@@ -1,0 +1,177 @@
+version 11
+id 6,1,0,162
+name "Temple_Barkeeper"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 162,0,0,1
+connected to 162,0,0,12
+
+node BLOCK_GREET_AVAILABLE 162,0,0,2
+connected to 162,0,0,24
+
+node BLOCK_GREET_ACTIVE 162,0,0,3
+
+node BLOCK_GREET_SUCCESS 162,0,0,4
+
+node BLOCK_GREET_COMPLETED 162,0,0,5
+
+node BLOCK_GREET_FAILURE 162,0,0,6
+
+node BLOCK_GREET_FAILED 162,0,0,7
+
+node BLOCK_GREET_REFUSED 162,0,0,8
+
+node BLOCK_STD 162,0,0,9
+
+node BLOCK_SERV 162,0,0,10
+connected to 162,0,0,36
+connected to 162,0,0,39
+
+node BLOCK_EXIT 162,0,0,11
+connected to 162,0,0,38
+
+node TEXT_NPC 162,0,0,12
+text 129,1,0,0
+alttext 129,1,0,1
+connected to 162,0,0,13
+
+node BLOCK_QUEST_INACTIVE 162,0,0,13
+connected to 162,0,0,16
+
+node TEXT_HERO 162,0,0,16
+text 129,0,0,2
+alttext 129,0,0,3
+connected to 162,0,0,17
+
+node TEXT_NPC 162,0,0,17
+text 129,1,0,4
+alttext 129,1,0,5
+connected to 162,0,0,18
+connected to 162,0,0,20
+connected to 162,0,0,22
+
+node TEXT_HERO 162,0,0,18
+text 129,0,0,4
+alttext 129,0,0,5
+quest event 1
+connected to 162,0,0,19
+
+node TEXT_HERO 162,0,0,20
+text 129,0,0,6
+alttext 129,0,0,7
+connected to 162,0,0,21
+
+node TEXT_HERO 162,0,0,22
+text 129,0,0,8
+alttext 129,0,0,9
+connected to 162,0,0,23
+
+node MONO 162,0,0,19
+mono 111 129,2,0,0 129,3,0,0
+mono 111 129,2,0,1 129,3,0,1
+mono 111 129,2,0,2 129,3,0,2
+
+node MONO 162,0,0,21
+mono 111 129,2,0,3 129,3,0,3
+mono 111 129,2,0,6 129,3,0,6
+mono 0 129,2,0,11 129,3,0,11
+mono 111 129,2,0,4 129,3,0,4
+mono 111 129,2,0,12 129,3,0,12
+
+node MONO 162,0,0,23
+mono 111 129,2,0,7 129,3,0,7
+mono 111 129,2,0,10 129,3,0,10
+mono 111 129,2,0,8 129,3,0,8
+
+node TEXT_NPC 162,0,0,24
+text 129,1,0,6
+alttext 129,1,0,7
+connected to 162,0,0,25
+
+node BLOCK_QUEST_AVAILABLE 162,0,0,25
+connected to 162,0,0,26
+
+node TEXT_HERO 162,0,0,26
+text 129,0,0,10
+alttext 129,0,0,11
+connected to 162,0,0,27
+
+node TEXT_NPC 162,0,0,27
+text 129,1,0,8
+alttext 129,1,0,9
+connected to 162,0,0,28
+connected to 162,0,0,30
+connected to 162,0,0,32
+connected to 162,0,0,34
+
+node TEXT_HERO 162,0,0,28
+text 129,0,0,12
+alttext 129,0,0,13
+quest event 2
+connected to 162,0,0,29
+
+node TEXT_HERO 162,0,0,30
+text 129,0,0,14
+alttext 129,0,0,15
+quest event 7
+connected to 162,0,0,31
+
+node TEXT_HERO 162,0,0,32
+text 129,0,0,16
+alttext 129,0,0,17
+quest event 7
+connected to 162,0,0,33
+
+node TEXT_HERO 162,0,0,34
+text 129,0,0,18
+alttext 129,0,0,19
+quest event 7
+connected to 162,0,0,35
+
+node MONO 162,0,0,29
+mono 111 129,2,0,13 129,3,0,13
+mono 111 129,2,0,17 129,3,0,17
+mono 111 129,2,0,18 129,3,0,18
+
+node MONO 162,0,0,31
+mono 111 129,2,0,14 129,3,0,14
+mono 111 129,2,0,19 129,3,0,19
+mono 0 129,2,0,20 129,3,0,20
+mono 111 129,2,0,21 129,3,0,21
+mono 111 129,2,0,22 129,3,0,22
+
+node MONO 162,0,0,33
+mono 111 129,2,0,15 129,3,0,15
+mono 111 129,2,0,25 129,3,0,25
+mono 111 129,2,0,26 129,3,0,26
+
+node MONO 162,0,0,35
+mono 111 129,2,0,16 129,3,0,16
+mono 111 129,2,0,23 129,3,0,23
+mono 111 129,2,0,24 129,3,0,24
+
+node TEXT_HERO 162,0,0,36
+servnode 4 1
+text 144,0,0,0
+alttext 144,0,0,1
+connected to 162,0,0,37
+
+node TEXT_NPC 162,0,0,37
+text 144,1,0,0
+alttext 144,1,0,1
+
+node TEXT_HERO 162,0,0,38
+text 151,0,0,0
+alttext 151,0,0,1
+
+node TEXT_HERO 162,0,0,39
+servnode 2 1
+text 151,0,0,2
+alttext 151,0,0,3
+connected to 162,0,0,40
+
+node TEXT_NPC 162,0,0,40
+text 151,1,0,0
+alttext 151,1,0,1
+

@@ -1,0 +1,72 @@
+version 11
+id 6,1,0,172
+name "Philo Rat"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 172,0,0,1
+
+node BLOCK_GREET_AVAILABLE 172,0,0,2
+connected to 172,0,0,39
+
+node BLOCK_GREET_ACTIVE 172,0,0,3
+connected to 172,0,0,43
+
+node BLOCK_GREET_SUCCESS 172,0,0,4
+
+node BLOCK_GREET_COMPLETED 172,0,0,5
+
+node BLOCK_GREET_FAILURE 172,0,0,6
+
+node BLOCK_GREET_FAILED 172,0,0,7
+
+node BLOCK_GREET_REFUSED 172,0,0,8
+
+node BLOCK_STD 172,0,0,9
+connected to 172,0,0,23
+
+node BLOCK_SERV 172,0,0,10
+
+node BLOCK_EXIT 172,0,0,11
+
+node TEXT_HERO 172,0,0,23
+stdnode
+text 183,0,0,2
+alttext 205,0,0,7
+connected to 172,0,0,24
+
+node TEXT_NPC 172,0,0,24
+text 183,1,0,3
+alttext 205,1,0,10
+connected to 172,0,0,25
+
+node BLOCK_STD 172,0,0,25
+
+node TEXT_NPC 172,0,0,39
+text 205,1,0,6
+alttext 205,1,0,7
+connected to 172,0,0,40
+
+node BLOCK_QUEST_AVAILABLE 172,0,0,40
+connected to 172,0,0,41
+
+node TEXT_HERO 172,0,0,41
+text 205,0,0,5
+alttext 205,0,0,6
+quest event 2
+connected to 172,0,0,42
+
+node MONO 172,0,0,42
+mono 93 205,2,0,10 205,3,0,10
+mono 1 205,2,0,11 205,3,0,11
+mono 0 205,2,0,12 205,3,0,12
+mono 93 205,2,0,13 205,3,0,13
+mono 1 205,2,0,14 205,3,0,14
+
+node TEXT_NPC 172,0,0,43
+text 205,1,0,8
+alttext 205,1,0,9
+connected to 172,0,0,44
+
+node BLOCK_QUEST_ACTIVE 172,0,0,44
+

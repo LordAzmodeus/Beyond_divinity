@@ -1,0 +1,36 @@
+version 11
+id 6,1,0,148
+name "Focus Samuel Cut3"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 148,0,0,1
+connected to 148,0,0,12
+
+node BLOCK_GREET_AVAILABLE 148,0,0,2
+
+node BLOCK_GREET_ACTIVE 148,0,0,3
+
+node BLOCK_GREET_SUCCESS 148,0,0,4
+
+node BLOCK_GREET_COMPLETED 148,0,0,5
+
+node BLOCK_GREET_FAILURE 148,0,0,6
+
+node BLOCK_GREET_FAILED 148,0,0,7
+
+node BLOCK_GREET_REFUSED 148,0,0,8
+
+node BLOCK_STD 148,0,0,9
+
+node BLOCK_SERV 148,0,0,10
+
+node BLOCK_EXIT 148,0,0,11
+
+node BLOCK_QUEST_INACTIVE 148,0,0,13
+
+node MONO 148,0,0,12
+mono 73 303,2,0,0 303,3,0,0
+mono 73 303,2,0,1 303,3,0,1
+connected to 148,0,0,13
+

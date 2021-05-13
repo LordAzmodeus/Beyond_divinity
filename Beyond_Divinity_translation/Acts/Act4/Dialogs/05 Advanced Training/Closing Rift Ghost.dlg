@@ -1,0 +1,100 @@
+version 11
+id 6,1,0,212
+name "Closing Rift Ghost"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 212,0,0,1
+
+node BLOCK_GREET_AVAILABLE 212,0,0,2
+connected to 212,0,0,16
+
+node BLOCK_GREET_ACTIVE 212,0,0,3
+connected to 212,0,0,18
+
+node BLOCK_GREET_SUCCESS 212,0,0,4
+
+node BLOCK_GREET_COMPLETED 212,0,0,5
+
+node BLOCK_GREET_FAILURE 212,0,0,6
+
+node BLOCK_GREET_FAILED 212,0,0,7
+
+node BLOCK_GREET_REFUSED 212,0,0,8
+
+node BLOCK_STD 212,0,0,9
+connected to 212,0,0,22
+connected to 212,0,0,25
+connected to 212,0,0,29
+
+node BLOCK_SERV 212,0,0,10
+
+node BLOCK_EXIT 212,0,0,11
+connected to 212,0,0,28
+
+node BLOCK_QUEST_AVAILABLE 212,0,0,17
+connected to 212,0,0,20
+
+node TEXT_NPC 212,0,0,18
+text 144,1,0,3
+connected to 212,0,0,19
+
+node BLOCK_QUEST_ACTIVE 212,0,0,19
+
+node TEXT_HERO 212,0,0,20
+text 144,0,0,0
+quest event 2
+connected to 212,0,0,21
+
+node MONO 212,0,0,21
+mono 55 144,2,0,8 144,3,0,8
+mono 1 144,2,0,16 144,3,0,16
+mono 55 144,2,0,17 144,3,0,17
+mono 55 144,2,0,18 144,3,0,18
+mono 1 144,2,0,19 144,3,0,19
+mono 55 144,2,0,20 144,3,0,20
+
+node TEXT_HERO 212,0,0,22
+stdnode
+text 144,0,0,1
+connected to 212,0,0,23
+
+node BLOCK_STD 212,0,0,24
+
+node TEXT_HERO 212,0,0,25
+stdnode
+text 144,0,0,2
+connected to 212,0,0,26
+
+node TEXT_NPC 212,0,0,26
+text 144,1,0,5
+connected to 212,0,0,27
+
+node BLOCK_STD 212,0,0,27
+
+node MONO 212,0,0,16
+mono 55 144,2,0,11 144,3,0,11
+mono 55 144,2,0,12 144,3,0,12
+mono 0 144,2,0,13 144,3,0,13
+mono 55 144,2,0,14 144,3,0,14
+mono 1 144,2,0,15 144,3,0,15
+connected to 212,0,0,17
+
+node TEXT_NPC 212,0,0,23
+text 144,1,0,6
+connected to 212,0,0,24
+
+node TEXT_HERO 212,0,0,28
+text 144,0,0,3
+
+node TEXT_HERO 212,0,0,29
+stdnode
+text 144,0,0,4
+connected to 212,0,0,30
+
+node TEXT_NPC 212,0,0,30
+text 144,1,0,7
+connected to 212,0,0,31
+
+node BLOCK_STD 212,0,0,31
+

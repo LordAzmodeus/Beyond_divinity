@@ -1,0 +1,72 @@
+version 11
+id 6,1,0,156
+name "Interfer Kingtalk"
+face npc 0
+quest id -1
+
+node BLOCK_GREET_INACTIVE 156,0,0,1
+
+node BLOCK_GREET_AVAILABLE 156,0,0,2
+connected to 156,0,0,12
+
+node BLOCK_GREET_ACTIVE 156,0,0,3
+
+node BLOCK_GREET_SUCCESS 156,0,0,4
+
+node BLOCK_GREET_COMPLETED 156,0,0,5
+
+node BLOCK_GREET_FAILURE 156,0,0,6
+
+node BLOCK_GREET_FAILED 156,0,0,7
+
+node BLOCK_GREET_REFUSED 156,0,0,8
+
+node BLOCK_STD 156,0,0,9
+
+node BLOCK_SERV 156,0,0,10
+
+node BLOCK_EXIT 156,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 156,0,0,13
+connected to 156,0,0,14
+
+node MONO 156,0,0,12
+mono 66 191,2,0,0 191,3,0,0
+mono 67 191,2,0,1 191,3,0,1
+mono 66 191,2,0,2 191,3,0,2
+mono 67 191,2,0,3 191,3,0,3
+mono 66 191,2,0,4 191,3,0,4
+mono 67 191,2,0,5 191,3,0,5
+connected to 156,0,0,13
+
+node TEXT_HERO 156,0,0,14
+text 185,0,0,0
+alttext 191,0,0,0
+connected to 156,0,0,15
+
+node TEXT_HERO 156,0,0,16
+text 185,0,0,1
+alttext 191,0,0,1
+quest event 2
+connected to 156,0,0,17
+
+node TEXT_HERO 156,0,0,18
+text 185,0,0,2
+alttext 191,0,0,2
+quest event 7
+connected to 156,0,0,19
+
+node TEXT_NPC 156,0,0,15
+text 191,1,0,0
+alttext 191,1,0,3
+connected to 156,0,0,16
+connected to 156,0,0,18
+
+node TEXT_NPC 156,0,0,17
+text 191,1,0,1
+alttext 191,1,0,5
+
+node TEXT_NPC 156,0,0,19
+text 191,1,0,2
+alttext 191,1,0,4
+

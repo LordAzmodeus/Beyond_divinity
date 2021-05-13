@@ -1,0 +1,74 @@
+version 11
+id 6,1,0,27
+name "Prisoner_Guard"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 27,0,0,1
+connected to 27,0,0,12
+
+node BLOCK_GREET_AVAILABLE 27,0,0,2
+connected to 27,0,0,14
+
+node BLOCK_GREET_ACTIVE 27,0,0,3
+connected to 27,0,0,18
+
+node BLOCK_GREET_SUCCESS 27,0,0,4
+
+node BLOCK_GREET_COMPLETED 27,0,0,5
+
+node BLOCK_GREET_FAILURE 27,0,0,6
+
+node BLOCK_GREET_FAILED 27,0,0,7
+
+node BLOCK_GREET_REFUSED 27,0,0,8
+
+node BLOCK_STD 27,0,0,9
+
+node BLOCK_SERV 27,0,0,10
+
+node BLOCK_EXIT 27,0,0,11
+
+node TEXT_NPC 27,0,0,12
+text 200,1,0,0
+alttext 200,1,0,1
+connected to 27,0,0,13
+
+node BLOCK_QUEST_INACTIVE 27,0,0,13
+
+node TEXT_NPC 27,0,0,14
+text 200,1,0,2
+alttext 200,1,0,3
+connected to 27,0,0,15
+
+node BLOCK_QUEST_AVAILABLE 27,0,0,15
+connected to 27,0,0,16
+
+node TEXT_HERO 27,0,0,16
+text 200,0,0,0
+alttext 200,0,0,1
+quest event 2
+connected to 27,0,0,17
+
+node TEXT_NPC 27,0,0,17
+text 200,1,0,4
+alttext 200,1,0,5
+
+node TEXT_NPC 27,0,0,18
+text 200,1,0,6
+alttext 200,1,0,7
+connected to 27,0,0,19
+
+node BLOCK_QUEST_ACTIVE 27,0,0,19
+connected to 27,0,0,20
+
+node TEXT_HERO 27,0,0,20
+text 200,0,0,2
+alttext 200,0,0,3
+quest event 3
+connected to 27,0,0,21
+
+node TEXT_NPC 27,0,0,21
+text 200,1,0,8
+alttext 200,1,0,9
+

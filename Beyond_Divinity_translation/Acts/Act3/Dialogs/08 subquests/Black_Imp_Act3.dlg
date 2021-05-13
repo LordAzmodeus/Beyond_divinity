@@ -1,0 +1,143 @@
+version 11
+id 6,1,0,92
+name "Black_Imp_Act3"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 92,0,0,1
+connected to 92,0,0,25
+
+node BLOCK_GREET_AVAILABLE 92,0,0,2
+connected to 92,0,0,12
+
+node BLOCK_GREET_ACTIVE 92,0,0,3
+connected to 92,0,0,36
+
+node BLOCK_GREET_SUCCESS 92,0,0,4
+
+node BLOCK_GREET_COMPLETED 92,0,0,5
+
+node BLOCK_GREET_FAILURE 92,0,0,6
+
+node BLOCK_GREET_FAILED 92,0,0,7
+
+node BLOCK_GREET_REFUSED 92,0,0,8
+
+node BLOCK_STD 92,0,0,9
+connected to 92,0,0,18
+connected to 92,0,0,32
+
+node BLOCK_SERV 92,0,0,10
+connected to 92,0,0,30
+connected to 92,0,0,38
+connected to 92,0,0,40
+connected to 92,0,0,42
+
+node BLOCK_EXIT 92,0,0,11
+connected to 92,0,0,35
+
+node TEXT_NPC 92,0,0,12
+text 191,1,0,0
+alttext 191,1,0,1
+connected to 92,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 92,0,0,13
+connected to 92,0,0,14
+
+node TEXT_HERO 92,0,0,14
+text 191,0,0,0
+alttext 191,0,0,1
+quest event 2
+connected to 92,0,0,15
+
+node MONO 92,0,0,15
+mono 181 191,2,0,0 191,3,0,0
+mono 0 191,2,0,1 191,3,0,1
+mono 181 191,2,0,2 191,3,0,2
+mono 181 191,2,0,3 191,3,0,3
+mono 0 191,2,0,4 191,3,0,4
+
+node TEXT_HERO 92,0,0,18
+stdnode
+text 191,0,0,4
+alttext 191,0,0,5
+connected to 92,0,0,19
+
+node BLOCK_STD 92,0,0,20
+
+node TEXT_NPC 92,0,0,25
+text 81,1,0,0
+alttext 81,1,0,1
+connected to 92,0,0,26
+
+node BLOCK_QUEST_INACTIVE 92,0,0,26
+
+node TEXT_NPC 92,0,0,19
+text 81,1,0,2
+alttext 81,1,0,3
+connected to 92,0,0,20
+
+node TEXT_HERO 92,0,0,30
+servnode 2 1
+text 81,0,0,2
+alttext 81,0,0,3
+connected to 92,0,0,31
+
+node TEXT_NPC 92,0,0,31
+text 81,1,0,6
+alttext 81,1,0,7
+
+node TEXT_HERO 92,0,0,32
+stdnode
+text 81,0,0,4
+alttext 81,0,0,5
+connected to 92,0,0,33
+
+node TEXT_NPC 92,0,0,33
+text 81,1,0,8
+alttext 81,1,0,9
+connected to 92,0,0,34
+
+node BLOCK_STD 92,0,0,34
+
+node TEXT_HERO 92,0,0,35
+text 81,0,0,6
+alttext 81,0,0,7
+
+node TEXT_NPC 92,0,0,36
+text 81,1,0,10
+alttext 81,1,0,11
+connected to 92,0,0,37
+
+node BLOCK_QUEST_ACTIVE 92,0,0,37
+
+node TEXT_HERO 92,0,0,38
+servnode 4 1
+text 83,0,0,0
+alttext 83,0,0,1
+connected to 92,0,0,39
+
+node TEXT_NPC 92,0,0,39
+text 83,1,0,0
+alttext 83,1,0,1
+
+node TEXT_HERO 92,0,0,40
+servnode 1 1
+text 83,0,0,2
+alttext 83,0,0,3
+connected to 92,0,0,41
+
+node TEXT_NPC 92,0,0,41
+text 83,1,0,2
+alttext 83,1,0,3
+
+node TEXT_HERO 92,0,0,42
+servnode 3 1
+text 83,0,0,4
+alttext 83,0,0,5
+connected to 92,0,0,43
+
+node TEXT_NPC 92,0,0,43
+text 83,1,0,4
+alttext 83,1,0,5
+

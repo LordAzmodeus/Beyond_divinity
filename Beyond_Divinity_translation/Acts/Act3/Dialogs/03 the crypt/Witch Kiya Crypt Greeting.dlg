@@ -1,0 +1,38 @@
+version 11
+id 6,1,0,45
+name "Witch Kiya Crypt Greeting"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 45,0,0,1
+connected to 45,0,0,12
+
+node BLOCK_GREET_AVAILABLE 45,0,0,2
+
+node BLOCK_GREET_ACTIVE 45,0,0,3
+
+node BLOCK_GREET_SUCCESS 45,0,0,4
+
+node BLOCK_GREET_COMPLETED 45,0,0,5
+
+node BLOCK_GREET_FAILURE 45,0,0,6
+
+node BLOCK_GREET_FAILED 45,0,0,7
+
+node BLOCK_GREET_REFUSED 45,0,0,8
+
+node BLOCK_STD 45,0,0,9
+
+node BLOCK_SERV 45,0,0,10
+
+node BLOCK_EXIT 45,0,0,11
+
+node BLOCK_QUEST_INACTIVE 45,0,0,13
+
+node MONO 45,0,0,12
+mono 13 217,2,0,0 217,3,0,0
+mono 1 217,2,0,1 217,3,0,1
+mono 13 217,2,0,2 217,3,0,2
+mono 13 217,2,0,3 217,3,0,3
+connected to 45,0,0,13
+

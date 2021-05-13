@@ -1,0 +1,42 @@
+// RIFTRUNNER
+// TRAPS.DAT
+
+trap 100
+2 frames
+frame 0
+unlock door 7
+unlock door 8
+frame 1
+lock door 7
+lock door 8
+
+trap 101
+2 frames
+frame 0
+unlock door 9
+frame 1
+lock door 9
+
+trap 102
+2 frames
+frame 0
+unlock door 27
+frame 1
+lock door 27
+
+trap 103
+1 frames
+frame 0
+teleport to "CTrapWizardWnd::CreateLocation_0070"
+
+trap 104
+1 frames
+frame 0
+teleport to "CTrapWizardWnd::CreateLocation_0069"
+
+trap 105
+1 frames
+frame 0
+teleport to "shaman_house_exit"
+
+// END OF FILE

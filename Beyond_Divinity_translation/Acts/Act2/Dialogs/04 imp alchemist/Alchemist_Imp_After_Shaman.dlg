@@ -1,0 +1,188 @@
+version 11
+id 6,1,0,37
+name "Alchemist_Imp_After_Shaman"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 37,0,0,1
+
+node BLOCK_GREET_AVAILABLE 37,0,0,2
+
+node BLOCK_GREET_ACTIVE 37,0,0,3
+connected to 37,0,0,49
+
+node BLOCK_GREET_SUCCESS 37,0,0,4
+connected to 37,0,0,51
+
+node BLOCK_GREET_COMPLETED 37,0,0,5
+
+node BLOCK_GREET_FAILURE 37,0,0,6
+
+node BLOCK_GREET_FAILED 37,0,0,7
+
+node BLOCK_GREET_REFUSED 37,0,0,8
+
+node BLOCK_STD 37,0,0,9
+connected to 37,0,0,29
+connected to 37,0,0,32
+connected to 37,0,0,35
+connected to 37,0,0,38
+
+node BLOCK_SERV 37,0,0,10
+connected to 37,0,0,23
+connected to 37,0,0,25
+connected to 37,0,0,27
+
+node BLOCK_EXIT 37,0,0,11
+connected to 37,0,0,16
+
+node TEXT_HERO 37,0,0,16
+text 89,0,0,1
+
+node TEXT_HERO 37,0,0,23
+servnode 2 1
+text 89,0,0,3
+alttext 37,0,0,4
+connected to 37,0,0,24
+
+node TEXT_NPC 37,0,0,24
+text 89,1,0,4
+alttext 47,1,0,2
+
+node TEXT_HERO 37,0,0,25
+servnode 4 1
+text 89,0,0,4
+alttext 37,0,0,5
+connected to 37,0,0,26
+
+node TEXT_NPC 37,0,0,26
+text 89,1,0,5
+alttext 47,1,0,3
+
+node TEXT_HERO 37,0,0,27
+servnode 3 1
+text 89,0,0,5
+alttext 37,0,0,6
+connected to 37,0,0,28
+
+node TEXT_NPC 37,0,0,28
+text 89,1,0,6
+alttext 37,1,0,0
+
+node TEXT_HERO 37,0,0,29
+stdnode
+text 89,0,0,6
+alttext 47,0,0,1
+connected to 37,0,0,30
+
+node TEXT_NPC 37,0,0,30
+text 89,1,0,7
+alttext 47,1,0,0
+connected to 37,0,0,31
+
+node BLOCK_STD 37,0,0,31
+
+node TEXT_HERO 37,0,0,32
+stdnode
+text 89,0,0,7
+alttext 47,0,0,0
+connected to 37,0,0,33
+
+node TEXT_NPC 37,0,0,33
+text 89,1,0,8
+alttext 47,1,0,1
+connected to 37,0,0,34
+
+node BLOCK_STD 37,0,0,34
+connected to 37,0,0,41
+connected to 37,0,0,43
+connected to 37,0,0,45
+
+node TEXT_HERO 37,0,0,35
+stdnode
+text 89,0,0,8
+alttext 37,0,0,2
+connected to 37,0,0,36
+
+node BLOCK_STD 37,0,0,37
+
+node TEXT_HERO 37,0,0,38
+stdnode
+text 89,0,0,9
+alttext 37,0,0,3
+connected to 37,0,0,39
+
+node TEXT_NPC 37,0,0,39
+text 89,1,0,10
+alttext 89,1,0,14
+connected to 37,0,0,40
+
+node BLOCK_STD 37,0,0,40
+
+node TEXT_HERO 37,0,0,41
+stdnode
+text 89,0,0,10
+alttext 37,0,0,0
+connected to 37,0,0,42
+
+node TEXT_HERO 37,0,0,43
+stdnode
+text 89,0,0,11
+alttext 47,0,0,2
+connected to 37,0,0,44
+
+node TEXT_NPC 37,0,0,44
+text 89,1,0,12
+alttext 89,1,0,13
+
+node TEXT_HERO 37,0,0,45
+stdnode
+text 89,0,0,12
+alttext 37,0,0,1
+connected to 37,0,0,46
+
+node MONO 37,0,0,36
+mono 27 89,2,0,25 89,3,0,25
+mono 27 89,2,0,26 89,3,0,26
+mono 27 89,2,0,27 89,3,0,27
+connected to 37,0,0,37
+
+node MONO 37,0,0,42
+mono 27 89,2,0,28 89,3,0,28
+mono 0 89,2,0,29 89,3,0,29
+mono 27 89,2,0,30 89,3,0,30
+mono 27 89,2,0,31 89,3,0,31
+mono 27 89,2,0,32 89,3,0,32
+mono 27 89,2,0,33 89,3,0,33
+
+node MONO 37,0,0,46
+mono 27 89,2,0,34 89,3,0,34
+mono 27 89,2,0,35 89,3,0,35
+mono 27 89,2,0,36 89,3,0,36
+mono 27 89,2,0,37 89,3,0,37
+
+node BLOCK_QUEST_ACTIVE 37,0,0,50
+
+node MONO 37,0,0,49
+mono 1 89,2,0,38 89,3,0,38
+mono 27 89,2,0,40 89,3,0,40
+mono 0 89,2,0,41 89,3,0,41
+mono 27 89,2,0,42 89,3,0,42
+mono 0 89,2,0,43 89,3,0,43
+mono 27 89,2,0,44 89,3,0,44
+mono 1 89,2,0,45 89,3,0,45
+mono 1 89,2,0,47 89,3,0,47
+mono 0 89,2,0,53 89,3,0,49
+mono 27 89,2,0,48 89,3,0,48
+mono 27 89,2,0,49 89,3,0,49
+mono 1 89,2,0,50 89,3,0,50
+connected to 37,0,0,50
+
+node BLOCK_QUEST_SUCCESS 37,0,0,52
+
+node MONO 37,0,0,51
+mono 27 89,2,0,39 89,3,0,39
+mono 0 89,2,0,51 89,3,0,51
+mono 27 89,2,0,52 89,3,0,52
+connected to 37,0,0,52
+

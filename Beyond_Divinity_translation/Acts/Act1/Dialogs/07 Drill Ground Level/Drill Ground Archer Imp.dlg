@@ -1,0 +1,124 @@
+version 11
+id 6,1,0,98
+name "Drill Ground Archer Imp"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 98,0,0,1
+connected to 98,0,0,12
+
+node BLOCK_GREET_AVAILABLE 98,0,0,2
+
+node BLOCK_GREET_ACTIVE 98,0,0,3
+connected to 98,0,0,25
+
+node BLOCK_GREET_SUCCESS 98,0,0,4
+
+node BLOCK_GREET_COMPLETED 98,0,0,5
+connected to 98,0,0,39
+
+node BLOCK_GREET_FAILURE 98,0,0,6
+
+node BLOCK_GREET_FAILED 98,0,0,7
+
+node BLOCK_GREET_REFUSED 98,0,0,8
+
+node BLOCK_STD 98,0,0,9
+connected to 98,0,0,19
+connected to 98,0,0,22
+
+node BLOCK_SERV 98,0,0,10
+
+node BLOCK_EXIT 98,0,0,11
+connected to 98,0,0,18
+
+node TEXT_NPC 98,0,0,12
+text 276,1,0,0
+alttext 96,1,0,0
+connected to 98,0,0,13
+
+node BLOCK_QUEST_INACTIVE 98,0,0,13
+
+node TEXT_HERO 98,0,0,18
+text 276,0,0,0
+
+node TEXT_HERO 98,0,0,19
+stdnode
+text 276,0,0,1
+connected to 98,0,0,20
+
+node TEXT_NPC 98,0,0,20
+text 276,1,0,3
+connected to 98,0,0,21
+
+node BLOCK_STD 98,0,0,21
+
+node TEXT_HERO 98,0,0,22
+stdnode
+text 276,0,0,2
+connected to 98,0,0,23
+
+node TEXT_NPC 98,0,0,23
+text 276,1,0,4
+connected to 98,0,0,24
+
+node BLOCK_STD 98,0,0,24
+
+node BLOCK_QUEST_ACTIVE 98,0,0,26
+connected to 98,0,0,29
+
+node TEXT_HERO 98,0,0,29
+text 276,0,0,3
+connected to 98,0,0,30
+
+node TEXT_NPC 98,0,0,30
+text 276,1,0,7
+connected to 98,0,0,31
+connected to 98,0,0,33
+connected to 98,0,0,35
+connected to 98,0,0,37
+
+node TEXT_HERO 98,0,0,31
+text 276,0,0,4
+quest event 3
+connected to 98,0,0,32
+
+node TEXT_NPC 98,0,0,32
+text 276,1,0,8
+
+node TEXT_HERO 98,0,0,33
+text 276,0,0,5
+quest event 5
+connected to 98,0,0,34
+
+node TEXT_NPC 98,0,0,34
+text 276,1,0,9
+
+node TEXT_HERO 98,0,0,35
+text 276,0,0,6
+quest event 5
+connected to 98,0,0,36
+
+node TEXT_NPC 98,0,0,36
+text 276,1,0,10
+
+node TEXT_HERO 98,0,0,37
+text 276,0,0,7
+quest event 5
+connected to 98,0,0,38
+
+node TEXT_NPC 98,0,0,38
+text 276,1,0,11
+
+node MONO 98,0,0,25
+mono 183 276,2,0,0 276,3,0,0
+mono 1 276,2,0,1 276,3,0,1
+mono 183 276,2,0,2 276,3,0,2
+connected to 98,0,0,26
+
+node TEXT_NPC 98,0,0,39
+text 276,1,0,12
+connected to 98,0,0,40
+
+node BLOCK_QUEST_COMPLETED 98,0,0,40
+

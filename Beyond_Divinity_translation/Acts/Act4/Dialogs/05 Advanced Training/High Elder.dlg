@@ -1,0 +1,121 @@
+version 11
+id 6,1,0,187
+name "High Elder"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 187,0,0,1
+connected to 187,0,0,12
+
+node BLOCK_GREET_AVAILABLE 187,0,0,2
+
+node BLOCK_GREET_ACTIVE 187,0,0,3
+
+node BLOCK_GREET_SUCCESS 187,0,0,4
+
+node BLOCK_GREET_COMPLETED 187,0,0,5
+
+node BLOCK_GREET_FAILURE 187,0,0,6
+
+node BLOCK_GREET_FAILED 187,0,0,7
+
+node BLOCK_GREET_REFUSED 187,0,0,8
+
+node BLOCK_STD 187,0,0,9
+connected to 187,0,0,14
+connected to 187,0,0,17
+connected to 187,0,0,26
+
+node BLOCK_SERV 187,0,0,10
+
+node BLOCK_EXIT 187,0,0,11
+connected to 187,0,0,29
+
+node BLOCK_QUEST_INACTIVE 187,0,0,13
+
+node TEXT_HERO 187,0,0,14
+stdnode
+text 143,0,0,0
+alttext 219,0,0,4
+connected to 187,0,0,15
+
+node TEXT_NPC 187,0,0,15
+text 143,1,0,1
+alttext 219,1,0,1
+connected to 187,0,0,16
+
+node BLOCK_STD 187,0,0,16
+
+node TEXT_HERO 187,0,0,17
+stdnode
+text 143,0,0,1
+alttext 219,0,0,5
+connected to 187,0,0,18
+
+node TEXT_NPC 187,0,0,18
+text 143,1,0,2
+alttext 219,1,0,2
+connected to 187,0,0,19
+
+node BLOCK_STD 187,0,0,19
+connected to 187,0,0,20
+connected to 187,0,0,22
+connected to 187,0,0,24
+
+node TEXT_HERO 187,0,0,20
+stdnode
+text 143,0,0,2
+alttext 219,0,0,1
+connected to 187,0,0,21
+
+node TEXT_NPC 187,0,0,21
+text 143,1,0,3
+alttext 219,1,0,3
+
+node TEXT_HERO 187,0,0,22
+stdnode
+text 143,0,0,3
+alttext 219,0,0,2
+connected to 187,0,0,23
+
+node TEXT_NPC 187,0,0,23
+text 143,1,0,4
+alttext 219,1,0,5
+
+node TEXT_HERO 187,0,0,24
+stdnode
+text 143,0,0,4
+alttext 219,0,0,3
+connected to 187,0,0,25
+
+node TEXT_NPC 187,0,0,25
+text 143,1,0,5
+alttext 219,1,0,4
+
+node MONO 187,0,0,12
+mono 54 219,2,0,0 219,3,0,0
+mono 0 219,2,0,1 219,3,0,1
+mono 54 219,2,0,3 219,3,0,3
+mono 1 219,2,0,4 219,3,0,4
+mono 54 219,2,0,5 219,3,0,5
+mono 54 219,2,0,6 219,3,0,6
+mono 54 219,2,0,7 219,3,0,7
+mono 54 219,2,0,8 219,3,0,8
+connected to 187,0,0,13
+
+node TEXT_HERO 187,0,0,26
+stdnode
+text 143,0,0,5
+alttext 219,0,0,0
+connected to 187,0,0,27
+
+node TEXT_NPC 187,0,0,27
+text 143,1,0,6
+alttext 219,1,0,0
+connected to 187,0,0,28
+
+node BLOCK_STD 187,0,0,28
+
+node TEXT_HERO 187,0,0,29
+text 143,0,0,6
+

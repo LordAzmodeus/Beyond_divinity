@@ -1,0 +1,35 @@
+version 11
+id 6,1,0,216
+name "Deathknight Shrinking"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 216,0,0,1
+connected to 216,0,0,12
+
+node BLOCK_GREET_AVAILABLE 216,0,0,2
+
+node BLOCK_GREET_ACTIVE 216,0,0,3
+
+node BLOCK_GREET_SUCCESS 216,0,0,4
+
+node BLOCK_GREET_COMPLETED 216,0,0,5
+
+node BLOCK_GREET_FAILURE 216,0,0,6
+
+node BLOCK_GREET_FAILED 216,0,0,7
+
+node BLOCK_GREET_REFUSED 216,0,0,8
+
+node BLOCK_STD 216,0,0,9
+
+node BLOCK_SERV 216,0,0,10
+
+node BLOCK_EXIT 216,0,0,11
+
+node TEXT_NPC 216,0,0,12
+text 147,1,0,0
+connected to 216,0,0,13
+
+node BLOCK_QUEST_INACTIVE 216,0,0,13
+

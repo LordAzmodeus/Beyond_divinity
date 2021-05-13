@@ -1,0 +1,92 @@
+version 11
+id 6,1,0,130
+name "Raanaar_Rebel_Elder"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 130,0,0,1
+
+node BLOCK_GREET_AVAILABLE 130,0,0,2
+connected to 130,0,0,12
+
+node BLOCK_GREET_ACTIVE 130,0,0,3
+connected to 130,0,0,14
+
+node BLOCK_GREET_SUCCESS 130,0,0,4
+connected to 130,0,0,16
+
+node BLOCK_GREET_COMPLETED 130,0,0,5
+connected to 130,0,0,18
+
+node BLOCK_GREET_FAILURE 130,0,0,6
+
+node BLOCK_GREET_FAILED 130,0,0,7
+
+node BLOCK_GREET_REFUSED 130,0,0,8
+
+node BLOCK_STD 130,0,0,9
+
+node BLOCK_SERV 130,0,0,10
+
+node BLOCK_EXIT 130,0,0,11
+connected to 130,0,0,24
+
+node TEXT_NPC 130,0,0,12
+text 102,1,0,0
+alttext 102,1,0,1
+connected to 130,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 130,0,0,13
+connected to 130,0,0,20
+
+node TEXT_NPC 130,0,0,14
+text 102,1,0,2
+alttext 102,1,0,3
+connected to 130,0,0,15
+
+node BLOCK_QUEST_ACTIVE 130,0,0,15
+
+node TEXT_NPC 130,0,0,16
+text 102,1,0,4
+alttext 102,1,0,5
+connected to 130,0,0,17
+
+node BLOCK_QUEST_SUCCESS 130,0,0,17
+connected to 130,0,0,22
+
+node TEXT_NPC 130,0,0,18
+text 102,1,0,6
+alttext 102,1,0,7
+connected to 130,0,0,19
+
+node BLOCK_QUEST_COMPLETED 130,0,0,19
+
+node TEXT_HERO 130,0,0,20
+text 102,0,0,0
+alttext 102,0,0,1
+quest event 2
+connected to 130,0,0,21
+
+node MONO 130,0,0,21
+mono 81 102,2,0,0 102,3,0,0
+mono 81 102,2,0,1 102,3,0,1
+mono 81 102,2,0,2 102,3,0,2
+mono 81 102,2,0,3 102,3,0,3
+mono 81 102,2,0,4 102,3,0,4
+mono 81 102,2,0,5 102,3,0,5
+mono 81 102,2,0,6 102,3,0,6
+
+node TEXT_HERO 130,0,0,22
+text 102,0,0,2
+alttext 102,0,0,3
+quest event 4
+connected to 130,0,0,23
+
+node MONO 130,0,0,23
+mono 81 102,2,0,8 102,3,0,8
+mono 81 102,2,0,9 102,3,0,9
+
+node TEXT_HERO 130,0,0,24
+text 120,0,0,0
+alttext 120,0,0,1
+

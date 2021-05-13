@@ -1,0 +1,70 @@
+version 11
+id 6,1,0,188
+name "Temple_Mage_Merchant"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 188,0,0,1
+connected to 188,0,0,12
+
+node BLOCK_GREET_AVAILABLE 188,0,0,2
+
+node BLOCK_GREET_ACTIVE 188,0,0,3
+
+node BLOCK_GREET_SUCCESS 188,0,0,4
+
+node BLOCK_GREET_COMPLETED 188,0,0,5
+
+node BLOCK_GREET_FAILURE 188,0,0,6
+
+node BLOCK_GREET_FAILED 188,0,0,7
+
+node BLOCK_GREET_REFUSED 188,0,0,8
+
+node BLOCK_STD 188,0,0,9
+
+node BLOCK_SERV 188,0,0,10
+connected to 188,0,0,20
+connected to 188,0,0,22
+
+node BLOCK_EXIT 188,0,0,11
+
+node TEXT_NPC 188,0,0,12
+text 148,1,0,0
+alttext 148,1,0,1
+connected to 188,0,0,13
+
+node BLOCK_QUEST_INACTIVE 188,0,0,13
+connected to 188,0,0,18
+
+node TEXT_HERO 188,0,0,18
+text 148,0,0,4
+alttext 148,0,0,5
+quest event 1
+connected to 188,0,0,19
+
+node TEXT_NPC 188,0,0,19
+text 148,1,0,6
+alttext 148,1,0,7
+
+node TEXT_HERO 188,0,0,20
+servnode 3 1
+text 170,0,0,0
+alttext 170,0,0,1
+connected to 188,0,0,21
+
+node TEXT_HERO 188,0,0,22
+servnode 2 1
+text 170,0,0,2
+alttext 170,0,0,3
+connected to 188,0,0,23
+
+node TEXT_NPC 188,0,0,23
+text 170,1,0,2
+alttext 170,1,0,3
+
+node MONO 188,0,0,21
+mono 129 170,2,0,0 170,3,0,0
+mono 129 170,2,0,1 170,3,0,1
+mono 129 170,2,0,2 170,3,0,2
+

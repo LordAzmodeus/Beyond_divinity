@@ -1,0 +1,51 @@
+version 11
+id 6,1,0,127
+name "Summoned Imp Talk"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 127,0,0,1
+connected to 127,0,0,12
+
+node BLOCK_GREET_AVAILABLE 127,0,0,2
+
+node BLOCK_GREET_ACTIVE 127,0,0,3
+
+node BLOCK_GREET_SUCCESS 127,0,0,4
+
+node BLOCK_GREET_COMPLETED 127,0,0,5
+
+node BLOCK_GREET_FAILURE 127,0,0,6
+
+node BLOCK_GREET_FAILED 127,0,0,7
+
+node BLOCK_GREET_REFUSED 127,0,0,8
+
+node BLOCK_STD 127,0,0,9
+
+node BLOCK_SERV 127,0,0,10
+
+node BLOCK_EXIT 127,0,0,11
+
+node BLOCK_QUEST_INACTIVE 127,0,0,13
+
+node MONO 127,0,0,12
+mono 38 178,2,0,0 178,3,0,0
+mono 0 178,2,0,1 178,3,0,1
+mono 38 178,2,0,2 178,3,0,2
+mono 0 178,2,0,4 178,3,0,4
+mono 38 178,2,0,5 178,3,0,5
+mono 0 178,2,0,6 178,3,0,6
+mono 38 178,2,0,7 178,3,0,7
+mono 0 178,2,0,9 178,3,0,9
+mono 38 178,2,0,11 178,3,0,11
+mono 0 178,2,0,12 178,3,0,12
+mono 38 178,2,0,16 178,3,0,16
+mono 0 178,2,0,17 178,3,0,17
+mono 38 178,2,0,15 178,3,0,15
+mono 0 178,2,0,13 178,3,0,13
+mono 1 178,2,0,14 178,3,0,14
+mono 40 178,2,0,10 178,3,0,10
+mono 40 178,2,0,8 178,3,0,8
+connected to 127,0,0,13
+

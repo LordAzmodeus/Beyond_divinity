@@ -1,0 +1,108 @@
+version 11
+id 6,1,0,154
+name "Instructor Interfere"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 154,0,0,1
+
+node BLOCK_GREET_AVAILABLE 154,0,0,2
+connected to 154,0,0,12
+
+node BLOCK_GREET_ACTIVE 154,0,0,3
+connected to 154,0,0,32
+
+node BLOCK_GREET_SUCCESS 154,0,0,4
+connected to 154,0,0,34
+
+node BLOCK_GREET_COMPLETED 154,0,0,5
+
+node BLOCK_GREET_FAILURE 154,0,0,6
+
+node BLOCK_GREET_FAILED 154,0,0,7
+
+node BLOCK_GREET_REFUSED 154,0,0,8
+
+node BLOCK_STD 154,0,0,9
+connected to 154,0,0,21
+connected to 154,0,0,27
+
+node BLOCK_SERV 154,0,0,10
+
+node BLOCK_EXIT 154,0,0,11
+connected to 154,0,0,14
+
+node BLOCK_QUEST_AVAILABLE 154,0,0,13
+connected to 154,0,0,30
+
+node TEXT_HERO 154,0,0,14
+text 191,0,0,0
+
+node TEXT_HERO 154,0,0,21
+stdnode
+text 191,0,0,4
+alttext 189,0,0,3
+connected to 154,0,0,22
+
+node TEXT_NPC 154,0,0,22
+text 191,1,0,4
+alttext 189,1,0,6
+connected to 154,0,0,23
+
+node BLOCK_STD 154,0,0,23
+
+node TEXT_HERO 154,0,0,27
+stdnode
+text 191,0,0,6
+alttext 189,0,0,4
+connected to 154,0,0,28
+
+node TEXT_NPC 154,0,0,28
+text 191,1,0,6
+alttext 189,1,0,5
+connected to 154,0,0,29
+
+node BLOCK_STD 154,0,0,29
+
+node MONO 154,0,0,12
+mono 61 189,2,0,0 189,3,0,0
+mono 61 189,2,0,2 189,3,0,2
+connected to 154,0,0,13
+
+node TEXT_HERO 154,0,0,30
+text 191,0,0,7
+alttext 189,0,0,2
+quest event 2
+connected to 154,0,0,31
+
+node TEXT_NPC 154,0,0,31
+text 191,1,0,7
+alttext 189,1,0,3
+
+node BLOCK_QUEST_ACTIVE 154,0,0,33
+connected to 154,0,0,36
+
+node MONO 154,0,0,32
+mono 61 189,2,0,1 189,3,0,1
+mono 61 189,2,0,3 189,3,0,3
+mono 61 189,2,0,4 189,3,0,4
+mono 61 189,2,0,5 189,3,0,5
+connected to 154,0,0,33
+
+node TEXT_NPC 154,0,0,34
+text 189,1,0,0
+alttext 189,1,0,4
+connected to 154,0,0,35
+
+node BLOCK_QUEST_SUCCESS 154,0,0,35
+
+node TEXT_HERO 154,0,0,36
+text 189,0,0,0
+alttext 189,0,0,1
+quest event 3
+connected to 154,0,0,37
+
+node TEXT_NPC 154,0,0,37
+text 189,1,0,1
+alttext 189,1,0,2
+

@@ -1,0 +1,121 @@
+version 11
+id 6,3,0,108
+name "Giant_Web_Spider"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 108,0,0,1
+
+node BLOCK_GREET_AVAILABLE 108,0,0,2
+connected to 108,0,0,12
+
+node BLOCK_GREET_ACTIVE 108,0,0,3
+connected to 108,0,0,20
+
+node BLOCK_GREET_SUCCESS 108,0,0,4
+connected to 108,0,0,22
+
+node BLOCK_GREET_COMPLETED 108,0,0,5
+connected to 108,0,0,25
+
+node BLOCK_GREET_FAILURE 108,0,0,6
+
+node BLOCK_GREET_FAILED 108,0,0,7
+
+node BLOCK_GREET_REFUSED 108,0,0,8
+connected to 108,0,0,27
+
+node BLOCK_STD 108,0,0,9
+connected to 108,0,0,29
+
+node BLOCK_SERV 108,0,0,10
+
+node BLOCK_EXIT 108,0,0,11
+connected to 108,0,0,24
+
+node BLOCK_QUEST_AVAILABLE 108,0,0,13
+connected to 108,0,0,14
+
+node TEXT_HERO 108,0,0,14
+text 198,0,0,0
+alttext 198,0,0,1
+connected to 108,0,0,15
+
+node TEXT_HERO 108,0,0,16
+text 198,0,0,2
+alttext 198,0,0,3
+quest event 2
+connected to 108,0,0,17
+
+node TEXT_NPC 108,0,0,17
+text 198,1,0,4
+alttext 198,1,0,5
+
+node TEXT_HERO 108,0,0,18
+text 198,0,0,4
+alttext 198,0,0,5
+quest event 7
+connected to 108,0,0,19
+
+node TEXT_NPC 108,0,0,19
+text 198,1,0,6
+alttext 198,1,0,7
+
+node TEXT_NPC 108,0,0,20
+text 198,1,0,8
+alttext 198,1,0,9
+connected to 108,0,0,21
+
+node BLOCK_QUEST_ACTIVE 108,0,0,21
+
+node TEXT_NPC 108,0,0,22
+text 198,1,0,10
+alttext 198,1,0,11
+connected to 108,0,0,23
+
+node BLOCK_QUEST_SUCCESS 108,0,0,23
+
+node TEXT_HERO 108,0,0,24
+text 198,0,0,6
+alttext 198,0,0,7
+
+node TEXT_NPC 108,0,0,25
+text 198,1,0,12
+alttext 198,1,0,13
+connected to 108,0,0,26
+
+node BLOCK_QUEST_COMPLETED 108,0,0,26
+
+node TEXT_NPC 108,0,0,27
+text 198,1,0,14
+alttext 198,1,0,15
+connected to 108,0,0,28
+
+node BLOCK_QUEST_REFUSED 108,0,0,28
+
+node MONO 108,0,0,12
+mono 122 198,2,0,0 198,3,0,0
+mono 122 198,2,0,1 198,3,0,1
+mono 122 198,2,0,2 198,3,0,2
+mono 122 198,2,0,3 198,3,0,3
+connected to 108,0,0,13
+
+node MONO 108,0,0,15
+mono 122 198,2,0,4 198,3,0,4
+mono 122 198,2,0,5 198,3,0,5
+connected to 108,0,0,16
+connected to 108,0,0,18
+
+node TEXT_HERO 108,0,0,29
+stdnode
+text 106,0,0,0
+alttext 106,0,0,1
+connected to 108,0,0,30
+
+node TEXT_NPC 108,0,0,30
+text 106,1,0,0
+alttext 106,1,0,1
+connected to 108,0,0,31
+
+node BLOCK_STD 108,0,0,31
+

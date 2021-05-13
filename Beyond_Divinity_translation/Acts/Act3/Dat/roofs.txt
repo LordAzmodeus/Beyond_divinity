@@ -1,0 +1,78 @@
+index 1 list 11 offsetx 2324 offsety 826 worldx 25642 worldy 54698 worldheight 200 map 0
+0
+0
+index 20 list 11 offsetx 1162 offsety 864 worldx 15394 worldy 7908 worldheight 200 map 0
+0
+0
+index 18 list 11 offsetx 2827 offsety 1846 worldx 6177 worldy 6948 worldheight 200 map 0
+0
+0
+index 16 list 11 offsetx 1168 offsety 878 worldx 18146 worldy 5413 worldheight 200 map 0
+0
+0
+index 19 list 11 offsetx 2635 offsety 1184 worldx 6114 worldy 8740 worldheight 200 map 0
+0
+0
+index 12 list 11 offsetx 1162 offsety 864 worldx 10402 worldy 6884 worldheight 200 map 0
+0
+0
+index 12 list 11 offsetx 1162 offsety 864 worldx 11618 worldy 6885 worldheight 200 map 0
+0
+0
+index 12 list 11 offsetx 1162 offsety 864 worldx 15394 worldy 6884 worldheight 200 map 0
+0
+0
+index 12 list 11 offsetx 1162 offsety 864 worldx 16610 worldy 6884 worldheight 200 map 0
+0
+0
+index 13 list 11 offsetx 2827 offsety 1824 worldx 18082 worldy 6948 worldheight 200 map 0
+0
+0
+index 15 list 11 offsetx 4712 offsety 2555 worldx 13316 worldy 4329 worldheight 200 map 0
+0
+0
+index 16 list 11 offsetx 1168 offsety 878 worldx 11746 worldy 5412 worldheight 200 map 0
+0
+0
+index 17 list 11 offsetx 2571 offsety 1828 worldx 9058 worldy 4836 worldheight 200 map 0
+0
+0
+index 19 list 11 offsetx 2635 offsety 1184 worldx 15138 worldy 8740 worldheight 200 map 0
+0
+0
+index 20 list 11 offsetx 1162 offsety 864 worldx 14178 worldy 7909 worldheight 200 map 0
+0
+0
+index 20 list 11 offsetx 1162 offsety 864 worldx 10594 worldy 7908 worldheight 200 map 0
+0
+0
+index 20 list 11 offsetx 1162 offsety 864 worldx 9378 worldy 7908 worldheight 200 map 0
+0
+0
+index 21 list 11 offsetx 1192 offsety 864 worldx 10884 worldy 8548 worldheight 200 map 0
+0
+0
+index 21 list 11 offsetx 1192 offsety 864 worldx 12804 worldy 8548 worldheight 200 map 0
+0
+0
+index 22 list 11 offsetx 2275 offsety 1337 worldx 20177 worldy 16111 worldheight 200 map 0
+0
+0
+index 14 list 11 offsetx 2571 offsety 1824 worldx 19618 worldy 4836 worldheight 200 map 0
+0
+0
+index 1 list 11 offsetx 2324 offsety 826 worldx 28783 worldy 61417 worldheight 200 map 0
+0
+0
+index 8 list 11 offsetx 1212 offsety 575 worldx 29654 worldy 55848 worldheight 200 map 0
+0
+0
+index 9 list 11 offsetx 1535 offsety 565 worldx 28375 worldy 55216 worldheight 200 map 0
+0
+0
+index 10 list 11 offsetx 1084 offsety 575 worldx 26839 worldy 55849 worldheight 200 map 0
+0
+0
+index 11 list 11 offsetx 1081 offsety 568 worldx 26464 worldy 56686 worldheight 200 map 0
+0
+0

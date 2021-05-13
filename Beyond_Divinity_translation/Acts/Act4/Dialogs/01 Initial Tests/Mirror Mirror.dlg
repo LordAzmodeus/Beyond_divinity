@@ -1,0 +1,64 @@
+version 11
+id 6,1,0,44
+name "Mirror Mirror"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 44,0,0,1
+
+node BLOCK_GREET_AVAILABLE 44,0,0,2
+connected to 44,0,0,30
+
+node BLOCK_GREET_ACTIVE 44,0,0,3
+
+node BLOCK_GREET_SUCCESS 44,0,0,4
+
+node BLOCK_GREET_COMPLETED 44,0,0,5
+
+node BLOCK_GREET_FAILURE 44,0,0,6
+
+node BLOCK_GREET_FAILED 44,0,0,7
+
+node BLOCK_GREET_REFUSED 44,0,0,8
+
+node BLOCK_STD 44,0,0,9
+
+node BLOCK_SERV 44,0,0,10
+
+node BLOCK_EXIT 44,0,0,11
+
+node TEXT_NPC 44,0,0,30
+text 250,1,0,10
+alttext 250,1,0,14
+connected to 44,0,0,31
+
+node BLOCK_QUEST_AVAILABLE 44,0,0,31
+connected to 44,0,0,32
+
+node TEXT_HERO 44,0,0,32
+text 250,0,0,3
+connected to 44,0,0,33
+
+node TEXT_NPC 44,0,0,33
+text 250,1,0,11
+connected to 44,0,0,34
+connected to 44,0,0,36
+
+node TEXT_HERO 44,0,0,34
+text 250,0,0,4
+alttext 250,0,0,6
+quest event 2
+connected to 44,0,0,35
+
+node TEXT_NPC 44,0,0,35
+text 250,1,0,12
+alttext 250,1,0,15
+
+node TEXT_HERO 44,0,0,36
+text 250,0,0,5
+quest event 7
+connected to 44,0,0,37
+
+node TEXT_NPC 44,0,0,37
+text 250,1,0,13
+

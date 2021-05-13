@@ -1,0 +1,87 @@
+version 11
+id 6,1,0,74
+name "Academy Library DK Test"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 74,0,0,1
+
+node BLOCK_GREET_AVAILABLE 74,0,0,2
+connected to 74,0,0,12
+
+node BLOCK_GREET_ACTIVE 74,0,0,3
+
+node BLOCK_GREET_SUCCESS 74,0,0,4
+
+node BLOCK_GREET_COMPLETED 74,0,0,5
+
+node BLOCK_GREET_FAILURE 74,0,0,6
+
+node BLOCK_GREET_FAILED 74,0,0,7
+
+node BLOCK_GREET_REFUSED 74,0,0,8
+
+node BLOCK_STD 74,0,0,9
+
+node BLOCK_SERV 74,0,0,10
+
+node BLOCK_EXIT 74,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 74,0,0,13
+connected to 74,0,0,14
+
+node MONO 74,0,0,12
+mono 1 298,2,0,14 298,3,0,0
+mono 1 298,2,0,19 298,3,0,5
+connected to 74,0,0,13
+
+node TEXT_HERO 74,0,0,14
+text 298,0,0,0
+connected to 74,0,0,15
+
+node TEXT_NPC 74,0,0,15
+text 298,1,0,0
+connected to 74,0,0,16
+connected to 74,0,0,18
+connected to 74,0,0,20
+connected to 74,0,0,22
+
+node TEXT_HERO 74,0,0,16
+text 298,0,0,1
+alttext 298,0,0,5
+quest event 2
+connected to 74,0,0,17
+
+node TEXT_HERO 74,0,0,18
+text 298,0,0,2
+alttext 298,0,0,6
+quest event 7
+connected to 74,0,0,19
+
+node TEXT_HERO 74,0,0,20
+text 298,0,0,3
+alttext 298,0,0,7
+quest event 7
+connected to 74,0,0,21
+
+node TEXT_HERO 74,0,0,22
+text 298,0,0,4
+alttext 298,0,0,8
+quest event 7
+connected to 74,0,0,23
+
+node MONO 74,0,0,23
+mono 1 298,2,0,15 298,3,0,1
+mono 1 298,2,0,20 298,3,0,6
+
+node MONO 74,0,0,21
+mono 1 298,2,0,16 298,3,0,2
+mono 1 298,2,0,22 298,3,0,8
+
+node MONO 74,0,0,19
+mono 1 298,2,0,17 298,3,0,3
+mono 1 298,2,0,26 298,3,0,12
+
+node MONO 74,0,0,17
+mono 1 298,2,0,18 298,3,0,4
+

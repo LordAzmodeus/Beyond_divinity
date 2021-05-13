@@ -1,0 +1,125 @@
+version 11
+id 6,1,0,19
+name "Imp_Mushroom_Farmer"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 19,0,0,1
+connected to 19,0,0,35
+
+node BLOCK_GREET_AVAILABLE 19,0,0,2
+
+node BLOCK_GREET_ACTIVE 19,0,0,3
+
+node BLOCK_GREET_SUCCESS 19,0,0,4
+
+node BLOCK_GREET_COMPLETED 19,0,0,5
+
+node BLOCK_GREET_FAILURE 19,0,0,6
+
+node BLOCK_GREET_FAILED 19,0,0,7
+
+node BLOCK_GREET_REFUSED 19,0,0,8
+
+node BLOCK_STD 19,0,0,9
+connected to 19,0,0,14
+connected to 19,0,0,20
+connected to 19,0,0,23
+connected to 19,0,0,28
+
+node BLOCK_SERV 19,0,0,10
+connected to 19,0,0,37
+
+node BLOCK_EXIT 19,0,0,11
+connected to 19,0,0,19
+
+node TEXT_HERO 19,0,0,14
+stdnode
+text 46,0,0,0
+alttext 46,0,0,8
+connected to 19,0,0,15
+
+node TEXT_NPC 19,0,0,15
+text 46,1,0,1
+alttext 46,1,0,11
+connected to 19,0,0,16
+
+node BLOCK_STD 19,0,0,16
+connected to 19,0,0,26
+
+node TEXT_HERO 19,0,0,19
+text 46,0,0,2
+alttext 19,0,0,1
+
+node TEXT_HERO 19,0,0,20
+stdnode
+text 46,0,0,3
+alttext 19,0,0,0
+connected to 19,0,0,21
+
+node TEXT_NPC 19,0,0,21
+text 46,1,0,3
+alttext 46,1,0,12
+connected to 19,0,0,22
+
+node BLOCK_STD 19,0,0,22
+
+node TEXT_HERO 19,0,0,23
+stdnode
+text 46,0,0,4
+alttext 46,0,0,12
+connected to 19,0,0,24
+
+node TEXT_NPC 19,0,0,24
+text 46,1,0,4
+alttext 46,1,0,13
+connected to 19,0,0,25
+
+node BLOCK_STD 19,0,0,25
+
+node TEXT_HERO 19,0,0,26
+stdnode
+text 46,0,0,5
+alttext 46,0,0,9
+connected to 19,0,0,27
+
+node TEXT_HERO 19,0,0,28
+stdnode
+text 46,0,0,6
+alttext 46,0,0,10
+connected to 19,0,0,29
+
+node BLOCK_STD 19,0,0,30
+
+node MONO 19,0,0,29
+mono 26 46,2,0,0 46,3,0,0
+mono 26 46,2,0,2 46,3,0,2
+mono 26 46,2,0,3 46,3,0,3
+mono 0 46,2,0,4 46,3,0,4
+mono 26 46,2,0,5 46,3,0,5
+mono 1 46,2,0,6 46,3,0,6
+mono 0 46,2,0,10 46,3,0,10
+mono 26 46,2,0,7 46,3,0,7
+connected to 19,0,0,30
+
+node TEXT_NPC 19,0,0,35
+text 46,1,0,8
+alttext 46,1,0,10
+connected to 19,0,0,36
+
+node BLOCK_QUEST_INACTIVE 19,0,0,36
+
+node MONO 19,0,0,27
+mono 26 46,2,0,8 46,3,0,8
+mono 26 46,2,0,9 46,3,0,9
+
+node TEXT_HERO 19,0,0,37
+servnode 2 1
+text 46,0,0,7
+alttext 46,0,0,11
+connected to 19,0,0,38
+
+node TEXT_NPC 19,0,0,38
+text 46,1,0,9
+alttext 46,1,0,14
+

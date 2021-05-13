@@ -1,0 +1,36 @@
+version 11
+id 6,1,0,139
+name "Academy_Dream_Witch"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 139,0,0,1
+connected to 139,0,0,12
+
+node BLOCK_GREET_AVAILABLE 139,0,0,2
+
+node BLOCK_GREET_ACTIVE 139,0,0,3
+
+node BLOCK_GREET_SUCCESS 139,0,0,4
+
+node BLOCK_GREET_COMPLETED 139,0,0,5
+
+node BLOCK_GREET_FAILURE 139,0,0,6
+
+node BLOCK_GREET_FAILED 139,0,0,7
+
+node BLOCK_GREET_REFUSED 139,0,0,8
+
+node BLOCK_STD 139,0,0,9
+
+node BLOCK_SERV 139,0,0,10
+
+node BLOCK_EXIT 139,0,0,11
+
+node TEXT_NPC 139,0,0,12
+text 307,1,0,0
+alttext 307,1,0,1
+connected to 139,0,0,13
+
+node BLOCK_QUEST_INACTIVE 139,0,0,13
+

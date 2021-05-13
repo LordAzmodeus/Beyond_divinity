@@ -1,0 +1,210 @@
+version 11
+id 6,1,0,113
+name "Nixfix Basic Training"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 113,0,0,1
+
+node BLOCK_GREET_AVAILABLE 113,0,0,2
+connected to 113,0,0,13
+
+node BLOCK_GREET_ACTIVE 113,0,0,3
+connected to 113,0,0,55
+
+node BLOCK_GREET_SUCCESS 113,0,0,4
+connected to 113,0,0,20
+
+node BLOCK_GREET_COMPLETED 113,0,0,5
+connected to 113,0,0,22
+
+node BLOCK_GREET_FAILURE 113,0,0,6
+
+node BLOCK_GREET_FAILED 113,0,0,7
+
+node BLOCK_GREET_REFUSED 113,0,0,8
+
+node BLOCK_STD 113,0,0,9
+connected to 113,0,0,17
+connected to 113,0,0,24
+connected to 113,0,0,27
+connected to 113,0,0,50
+
+node BLOCK_SERV 113,0,0,10
+connected to 113,0,0,36
+connected to 113,0,0,59
+
+node BLOCK_EXIT 113,0,0,11
+connected to 113,0,0,12
+
+node TEXT_HERO 113,0,0,12
+text 138,0,0,0
+
+node BLOCK_QUEST_AVAILABLE 113,0,0,14
+connected to 113,0,0,15
+
+node TEXT_HERO 113,0,0,15
+text 138,0,0,1
+alttext 174,0,0,0
+quest event 2
+connected to 113,0,0,16
+
+node TEXT_HERO 113,0,0,17
+stdnode
+text 138,0,0,2
+alttext 174,0,0,3
+connected to 113,0,0,18
+
+node TEXT_NPC 113,0,0,18
+text 138,1,0,2
+connected to 113,0,0,19
+
+node BLOCK_STD 113,0,0,19
+
+node BLOCK_QUEST_SUCCESS 113,0,0,21
+connected to 113,0,0,53
+
+node BLOCK_QUEST_COMPLETED 113,0,0,23
+
+node TEXT_HERO 113,0,0,24
+stdnode
+text 138,0,0,3
+alttext 174,0,0,4
+connected to 113,0,0,25
+
+node TEXT_NPC 113,0,0,25
+text 138,1,0,5
+alttext 174,1,0,4
+connected to 113,0,0,26
+
+node BLOCK_STD 113,0,0,26
+
+node TEXT_HERO 113,0,0,27
+stdnode
+text 138,0,0,4
+alttext 174,0,0,5
+connected to 113,0,0,28
+
+node TEXT_NPC 113,0,0,28
+text 138,1,0,6
+alttext 174,1,0,5
+connected to 113,0,0,29
+
+node BLOCK_STD 113,0,0,29
+connected to 113,0,0,38
+connected to 113,0,0,40
+
+node TEXT_HERO 113,0,0,36
+servnode 2 1
+text 138,0,0,7
+connected to 113,0,0,37
+
+node TEXT_NPC 113,0,0,37
+text 138,1,0,9
+
+node TEXT_HERO 113,0,0,38
+stdnode
+text 138,0,0,8
+alttext 174,0,0,6
+connected to 113,0,0,39
+
+node TEXT_NPC 113,0,0,39
+text 138,1,0,10
+alttext 174,1,0,6
+
+node TEXT_HERO 113,0,0,40
+stdnode
+text 138,0,0,9
+alttext 174,0,0,7
+connected to 113,0,0,41
+
+node TEXT_NPC 113,0,0,41
+text 138,1,0,11
+alttext 174,1,0,3
+
+node MONO 113,0,0,16
+mono 26 174,2,0,5 174,3,0,0
+mono 0 174,2,0,12 174,3,0,7
+mono 1 174,2,0,13 174,3,0,8
+mono 26 174,2,0,14 174,3,0,9
+mono 0 174,2,0,15 174,3,0,10
+mono 26 174,2,0,16 174,3,0,11
+mono 1 174,2,0,17 174,3,0,12
+mono 26 174,2,0,18 174,3,0,13
+mono 1 174,2,0,19 174,3,0,14
+
+node MONO 113,0,0,20
+mono 26 174,2,0,6 174,3,0,1
+mono 1 174,2,0,23 174,3,0,18
+connected to 113,0,0,21
+
+node TEXT_HERO 113,0,0,50
+stdnode
+text 138,0,0,13
+alttext 174,0,0,8
+connected to 113,0,0,51
+
+node BLOCK_STD 113,0,0,52
+
+node MONO 113,0,0,13
+mono 26 174,2,0,7 174,3,0,2
+mono 1 174,2,0,10 174,3,0,5
+mono 26 174,2,0,11 174,3,0,6
+connected to 113,0,0,14
+
+node MONO 113,0,0,51
+mono 26 174,2,0,8 174,3,0,3
+mono 1 174,2,0,20 174,3,0,15
+mono 26 174,2,0,21 174,3,0,16
+mono 1 174,2,0,22 174,3,0,17
+connected to 113,0,0,52
+
+node TEXT_HERO 113,0,0,53
+text 138,0,0,14
+alttext 174,0,0,2
+quest event 4
+connected to 113,0,0,54
+
+node MONO 113,0,0,54
+mono 26 174,2,0,9 174,3,0,4
+mono 0 174,2,0,24 174,3,0,19
+mono 26 174,2,0,25 174,3,0,20
+mono 1 174,2,0,26 174,3,0,21
+mono 26 174,2,0,27 174,3,0,22
+mono 0 174,2,0,28 174,3,0,23
+mono 26 174,2,0,29 174,3,0,24
+mono 26 174,2,0,30 174,3,0,25
+
+node TEXT_NPC 113,0,0,22
+text 138,1,0,12
+alttext 174,1,0,2
+connected to 113,0,0,23
+
+node TEXT_NPC 113,0,0,55
+text 138,1,0,13
+alttext 174,1,0,0
+connected to 113,0,0,56
+
+node BLOCK_QUEST_ACTIVE 113,0,0,56
+connected to 113,0,0,57
+
+node TEXT_HERO 113,0,0,57
+text 138,0,0,15
+alttext 174,0,0,1
+quest event 3
+connected to 113,0,0,58
+
+node TEXT_NPC 113,0,0,58
+text 138,1,0,14
+alttext 174,1,0,1
+
+node TEXT_HERO 113,0,0,59
+servnode 4 1
+text 174,0,0,9
+alttext 174,0,0,10
+connected to 113,0,0,60
+
+node TEXT_NPC 113,0,0,60
+text 174,1,0,7
+alttext 174,1,0,8
+

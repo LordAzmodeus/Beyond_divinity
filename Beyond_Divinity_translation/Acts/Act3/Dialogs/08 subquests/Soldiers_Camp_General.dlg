@@ -1,0 +1,122 @@
+version 11
+id 6,1,0,145
+name "Soldiers_Camp_General"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 145,0,0,1
+
+node BLOCK_GREET_AVAILABLE 145,0,0,2
+connected to 145,0,0,12
+
+node BLOCK_GREET_ACTIVE 145,0,0,3
+connected to 145,0,0,16
+
+node BLOCK_GREET_SUCCESS 145,0,0,4
+connected to 145,0,0,20
+
+node BLOCK_GREET_COMPLETED 145,0,0,5
+connected to 145,0,0,24
+
+node BLOCK_GREET_FAILURE 145,0,0,6
+connected to 145,0,0,26
+
+node BLOCK_GREET_FAILED 145,0,0,7
+connected to 145,0,0,30
+
+node BLOCK_GREET_REFUSED 145,0,0,8
+
+node BLOCK_STD 145,0,0,9
+
+node BLOCK_SERV 145,0,0,10
+
+node BLOCK_EXIT 145,0,0,11
+
+node TEXT_NPC 145,0,0,12
+text 81,1,0,0
+alttext 81,1,0,1
+connected to 145,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 145,0,0,13
+connected to 145,0,0,14
+
+node TEXT_HERO 145,0,0,14
+text 81,0,0,0
+alttext 81,0,0,1
+quest event 2
+connected to 145,0,0,15
+
+node MONO 145,0,0,15
+mono 43 81,2,0,0 81,3,0,0
+mono 43 81,2,0,1 81,3,0,1
+mono 43 81,2,0,2 81,3,0,2
+
+node TEXT_NPC 145,0,0,16
+text 81,1,0,2
+alttext 81,1,0,3
+connected to 145,0,0,17
+
+node BLOCK_QUEST_ACTIVE 145,0,0,17
+connected to 145,0,0,18
+
+node TEXT_HERO 145,0,0,18
+text 81,0,0,2
+alttext 81,0,0,3
+quest event 3
+connected to 145,0,0,19
+
+node TEXT_NPC 145,0,0,19
+text 81,1,0,4
+alttext 81,1,0,5
+
+node TEXT_NPC 145,0,0,20
+text 81,1,0,6
+alttext 81,1,0,7
+connected to 145,0,0,21
+
+node BLOCK_QUEST_SUCCESS 145,0,0,21
+connected to 145,0,0,22
+
+node TEXT_HERO 145,0,0,22
+text 81,0,0,4
+alttext 81,0,0,5
+quest event 4
+connected to 145,0,0,23
+
+node TEXT_NPC 145,0,0,23
+text 81,1,0,8
+alttext 81,1,0,9
+
+node TEXT_NPC 145,0,0,24
+text 81,1,0,10
+alttext 81,1,0,11
+connected to 145,0,0,25
+
+node BLOCK_QUEST_COMPLETED 145,0,0,25
+
+node TEXT_NPC 145,0,0,26
+text 81,1,0,12
+alttext 81,1,0,13
+connected to 145,0,0,27
+
+node BLOCK_QUEST_FAILURE 145,0,0,27
+connected to 145,0,0,28
+
+node TEXT_HERO 145,0,0,28
+text 81,0,0,6
+alttext 81,0,0,7
+quest event 6
+connected to 145,0,0,29
+
+node MONO 145,0,0,29
+mono 43 81,2,0,3 81,3,0,3
+mono 0 81,2,0,6 81,3,0,6
+mono 43 81,2,0,5 81,3,0,5
+
+node TEXT_NPC 145,0,0,30
+text 81,1,0,14
+alttext 81,1,0,15
+connected to 145,0,0,31
+
+node BLOCK_QUEST_FAILED 145,0,0,31
+

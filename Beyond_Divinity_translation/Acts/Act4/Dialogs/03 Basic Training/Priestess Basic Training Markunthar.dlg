@@ -1,0 +1,121 @@
+version 11
+id 6,1,0,115
+name "Priestess Basic Training Markunthar"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 115,0,0,1
+
+node BLOCK_GREET_AVAILABLE 115,0,0,2
+
+node BLOCK_GREET_ACTIVE 115,0,0,3
+
+node BLOCK_GREET_SUCCESS 115,0,0,4
+
+node BLOCK_GREET_COMPLETED 115,0,0,5
+connected to 115,0,0,39
+
+node BLOCK_GREET_FAILURE 115,0,0,6
+
+node BLOCK_GREET_FAILED 115,0,0,7
+
+node BLOCK_GREET_REFUSED 115,0,0,8
+
+node BLOCK_STD 115,0,0,9
+connected to 115,0,0,13
+connected to 115,0,0,16
+connected to 115,0,0,25
+connected to 115,0,0,28
+
+node BLOCK_SERV 115,0,0,10
+connected to 115,0,0,46
+
+node BLOCK_EXIT 115,0,0,11
+connected to 115,0,0,12
+
+node TEXT_HERO 115,0,0,12
+text 284,0,0,0
+
+node TEXT_HERO 115,0,0,13
+stdnode
+text 284,0,0,1
+alttext 284,0,0,11
+connected to 115,0,0,14
+
+node TEXT_NPC 115,0,0,14
+text 284,1,0,0
+alttext 284,1,0,17
+connected to 115,0,0,15
+
+node BLOCK_STD 115,0,0,15
+
+node TEXT_HERO 115,0,0,16
+stdnode
+text 284,0,0,2
+alttext 284,0,0,12
+connected to 115,0,0,17
+
+node BLOCK_STD 115,0,0,18
+
+node TEXT_HERO 115,0,0,25
+stdnode
+text 284,0,0,5
+alttext 284,0,0,13
+connected to 115,0,0,26
+
+node TEXT_NPC 115,0,0,26
+text 284,1,0,4
+alttext 284,1,0,14
+connected to 115,0,0,27
+
+node BLOCK_STD 115,0,0,27
+
+node TEXT_HERO 115,0,0,28
+stdnode
+text 284,0,0,6
+alttext 284,0,0,14
+connected to 115,0,0,29
+
+node TEXT_NPC 115,0,0,29
+text 284,1,0,5
+connected to 115,0,0,30
+
+node BLOCK_STD 115,0,0,30
+connected to 115,0,0,31
+
+node TEXT_HERO 115,0,0,31
+stdnode
+text 284,0,0,7
+alttext 284,0,0,15
+connected to 115,0,0,32
+
+node TEXT_NPC 115,0,0,32
+text 284,1,0,6
+alttext 284,1,0,15
+
+node TEXT_NPC 115,0,0,39
+text 284,1,0,10
+alttext 284,1,0,16
+connected to 115,0,0,40
+
+node BLOCK_QUEST_COMPLETED 115,0,0,40
+
+node TEXT_HERO 115,0,0,46
+servnode 1 1
+text 284,0,0,10
+alttext 284,0,0,16
+connected to 115,0,0,47
+
+node TEXT_NPC 115,0,0,47
+text 284,1,0,13
+alttext 284,1,0,18
+
+node MONO 115,0,0,17
+mono 48 284,2,0,6 284,3,0,0
+mono 0 284,2,0,7 284,3,0,1
+mono 1 284,2,0,12 284,3,0,6
+mono 48 284,2,0,8 284,3,0,2
+mono 0 284,2,0,10 284,3,0,4
+mono 48 284,2,0,11 284,3,0,5
+connected to 115,0,0,18
+

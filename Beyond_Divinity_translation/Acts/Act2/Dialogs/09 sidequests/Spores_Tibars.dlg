@@ -1,0 +1,39 @@
+version 11
+id 6,3,0,178
+name "Spores_Tibars"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 178,0,0,1
+connected to 178,0,0,14
+
+node BLOCK_GREET_AVAILABLE 178,0,0,2
+
+node BLOCK_GREET_ACTIVE 178,0,0,3
+
+node BLOCK_GREET_SUCCESS 178,0,0,4
+
+node BLOCK_GREET_COMPLETED 178,0,0,5
+
+node BLOCK_GREET_FAILURE 178,0,0,6
+
+node BLOCK_GREET_FAILED 178,0,0,7
+
+node BLOCK_GREET_REFUSED 178,0,0,8
+
+node BLOCK_STD 178,0,0,9
+
+node BLOCK_SERV 178,0,0,10
+
+node BLOCK_EXIT 178,0,0,11
+
+node BLOCK_QUEST_INACTIVE 178,0,0,15
+
+node MONO 178,0,0,14
+mono 68 153,2,0,0 153,3,0,0
+mono 67 153,2,0,2 153,3,0,2
+mono 68 153,2,0,1 153,3,0,1
+mono 67 153,2,0,3 153,3,0,3
+mono 68 153,2,0,4 153,3,0,4
+connected to 178,0,0,15
+

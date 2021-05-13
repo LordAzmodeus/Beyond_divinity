@@ -1,0 +1,190 @@
+version 11
+id 6,1,0,14
+name "Imp_Alchemist_House_Guard"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 14,0,0,1
+
+node BLOCK_GREET_AVAILABLE 14,0,0,2
+connected to 14,0,0,55
+
+node BLOCK_GREET_ACTIVE 14,0,0,3
+connected to 14,0,0,39
+
+node BLOCK_GREET_SUCCESS 14,0,0,4
+connected to 14,0,0,41
+
+node BLOCK_GREET_COMPLETED 14,0,0,5
+
+node BLOCK_GREET_FAILURE 14,0,0,6
+
+node BLOCK_GREET_FAILED 14,0,0,7
+
+node BLOCK_GREET_REFUSED 14,0,0,8
+
+node BLOCK_STD 14,0,0,9
+
+node BLOCK_SERV 14,0,0,10
+
+node BLOCK_EXIT 14,0,0,11
+connected to 14,0,0,14
+
+node TEXT_HERO 14,0,0,14
+text 43,0,0,0
+
+node BLOCK_QUEST_ACTIVE 14,0,0,40
+connected to 14,0,0,43
+
+node TEXT_NPC 14,0,0,41
+text 19,1,0,0
+alttext 19,1,0,1
+connected to 14,0,0,42
+
+node BLOCK_QUEST_SUCCESS 14,0,0,42
+
+node TEXT_HERO 14,0,0,43
+text 19,0,0,3
+alttext 19,0,0,4
+connected to 14,0,0,44
+
+node TEXT_NPC 14,0,0,44
+text 19,1,0,2
+alttext 19,1,0,3
+connected to 14,0,0,45
+connected to 14,0,0,47
+connected to 14,0,0,49
+connected to 14,0,0,51
+connected to 14,0,0,53
+
+node TEXT_HERO 14,0,0,45
+text 19,0,0,5
+alttext 19,0,0,6
+quest event 3
+connected to 14,0,0,46
+
+node TEXT_HERO 14,0,0,47
+text 19,0,0,7
+alttext 19,0,0,8
+quest event 5
+connected to 14,0,0,48
+
+node TEXT_NPC 14,0,0,48
+text 19,1,0,6
+alttext 19,1,0,7
+
+node TEXT_HERO 14,0,0,49
+text 19,0,0,9
+alttext 19,0,0,10
+quest event 5
+connected to 14,0,0,50
+
+node TEXT_NPC 14,0,0,50
+text 19,1,0,8
+alttext 19,1,0,9
+
+node TEXT_HERO 14,0,0,51
+text 19,0,0,11
+alttext 19,0,0,12
+quest event 5
+connected to 14,0,0,52
+
+node TEXT_NPC 14,0,0,52
+text 19,1,0,10
+alttext 19,1,0,11
+
+node TEXT_HERO 14,0,0,53
+text 19,0,0,13
+alttext 19,0,0,14
+quest event 5
+connected to 14,0,0,54
+
+node TEXT_NPC 14,0,0,54
+text 19,1,0,12
+alttext 19,1,0,13
+
+node MONO 14,0,0,46
+mono 24 19,2,0,0 19,3,0,0
+mono 1 19,2,0,6 19,3,0,6
+mono 0 19,2,0,9 19,3,0,9
+mono 24 19,2,0,8 19,3,0,8
+mono 24 19,2,0,7 19,3,0,7
+
+node MONO 14,0,0,39
+mono 24 19,2,0,1 19,3,0,1
+mono 24 19,2,0,2 19,3,0,2
+mono 1 19,2,0,3 19,3,0,3
+mono 0 19,2,0,4 19,3,0,4
+mono 24 19,2,0,5 19,3,0,5
+connected to 14,0,0,40
+
+node BLOCK_QUEST_AVAILABLE 14,0,0,56
+connected to 14,0,0,57
+
+node TEXT_HERO 14,0,0,57
+text 19,0,0,15
+alttext 19,0,0,16
+connected to 14,0,0,58
+
+node TEXT_NPC 14,0,0,58
+text 19,1,0,21
+alttext 19,1,0,22
+connected to 14,0,0,59
+connected to 14,0,0,61
+connected to 14,0,0,63
+connected to 14,0,0,65
+
+node TEXT_HERO 14,0,0,59
+text 19,0,0,17
+alttext 19,0,0,18
+quest event 2
+connected to 14,0,0,60
+
+node TEXT_HERO 14,0,0,61
+text 19,0,0,19
+alttext 19,0,0,20
+quest event 7
+connected to 14,0,0,62
+
+node TEXT_NPC 14,0,0,62
+text 19,1,0,25
+alttext 19,1,0,26
+
+node TEXT_HERO 14,0,0,63
+text 19,0,0,21
+alttext 19,0,0,22
+quest event 7
+connected to 14,0,0,64
+
+node TEXT_NPC 14,0,0,64
+text 19,1,0,27
+alttext 19,1,0,28
+
+node TEXT_HERO 14,0,0,65
+text 19,0,0,23
+alttext 19,0,0,24
+quest event 7
+connected to 14,0,0,66
+
+node TEXT_NPC 14,0,0,66
+text 19,1,0,29
+alttext 19,1,0,30
+
+node MONO 14,0,0,55
+mono 24 19,2,0,10 19,3,0,10
+mono 24 19,2,0,12 19,3,0,12
+mono 0 19,2,0,16 19,3,0,16
+mono 24 19,2,0,14 19,3,0,14
+mono 0 19,2,0,18 19,3,0,18
+mono 24 19,2,0,17 19,3,0,17
+mono 1 19,2,0,15 19,3,0,15
+mono 24 19,2,0,13 19,3,0,13
+connected to 14,0,0,56
+
+node MONO 14,0,0,60
+mono 24 19,2,0,11 19,3,0,11
+mono 24 19,2,0,19 19,3,0,19
+mono 0 19,2,0,20 19,3,0,20
+mono 24 19,2,0,21 19,3,0,21
+mono 24 19,2,0,22 19,3,0,22
+

@@ -1,0 +1,38 @@
+version 11
+id 6,1,0,142
+name "Barracks_Ghosts"
+face npc 0
+quest id -1
+
+node BLOCK_GREET_INACTIVE 142,0,0,1
+connected to 142,0,0,12
+
+node BLOCK_GREET_AVAILABLE 142,0,0,2
+
+node BLOCK_GREET_ACTIVE 142,0,0,3
+
+node BLOCK_GREET_SUCCESS 142,0,0,4
+
+node BLOCK_GREET_COMPLETED 142,0,0,5
+
+node BLOCK_GREET_FAILURE 142,0,0,6
+
+node BLOCK_GREET_FAILED 142,0,0,7
+
+node BLOCK_GREET_REFUSED 142,0,0,8
+
+node BLOCK_STD 142,0,0,9
+
+node BLOCK_SERV 142,0,0,10
+
+node BLOCK_EXIT 142,0,0,11
+
+node BLOCK_QUEST_INACTIVE 142,0,0,13
+
+node MONO 142,0,0,12
+mono 188 284,2,0,0 284,3,0,0
+mono 189 284,2,0,1 284,3,0,1
+mono 190 284,2,0,2 284,3,0,2
+mono 1 284,2,0,3 284,3,0,3
+connected to 142,0,0,13
+

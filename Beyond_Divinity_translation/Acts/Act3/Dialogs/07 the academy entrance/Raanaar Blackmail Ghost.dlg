@@ -1,0 +1,76 @@
+version 11
+id 6,1,0,86
+name "Raanaar Blackmail Ghost"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 86,0,0,1
+
+node BLOCK_GREET_AVAILABLE 86,0,0,2
+connected to 86,0,0,12
+
+node BLOCK_GREET_ACTIVE 86,0,0,3
+
+node BLOCK_GREET_SUCCESS 86,0,0,4
+
+node BLOCK_GREET_COMPLETED 86,0,0,5
+
+node BLOCK_GREET_FAILURE 86,0,0,6
+
+node BLOCK_GREET_FAILED 86,0,0,7
+
+node BLOCK_GREET_REFUSED 86,0,0,8
+
+node BLOCK_STD 86,0,0,9
+
+node BLOCK_SERV 86,0,0,10
+
+node BLOCK_EXIT 86,0,0,11
+
+node BLOCK_QUEST_AVAILABLE 86,0,0,13
+connected to 86,0,0,20
+
+node TEXT_HERO 86,0,0,20
+text 39,0,0,2
+alttext 39,0,0,5
+connected to 86,0,0,21
+
+node TEXT_HERO 86,0,0,22
+text 39,0,0,3
+alttext 39,0,0,6
+quest event 2
+connected to 86,0,0,23
+
+node TEXT_NPC 86,0,0,23
+text 39,1,0,4
+alttext 39,1,0,6
+
+node TEXT_HERO 86,0,0,24
+text 39,0,0,4
+alttext 39,0,0,7
+quest event 7
+connected to 86,0,0,25
+
+node TEXT_NPC 86,0,0,25
+text 39,1,0,5
+alttext 39,1,0,7
+
+node MONO 86,0,0,21
+mono 24 39,2,0,0 39,3,0,0
+mono 0 39,2,0,1 39,3,0,1
+mono 24 39,2,0,2 39,3,0,2
+mono 24 39,2,0,5 39,3,0,5
+mono 0 39,2,0,6 39,3,0,6
+mono 24 39,2,0,7 39,3,0,7
+mono 1 39,2,0,8 39,3,0,8
+mono 24 39,2,0,9 39,3,0,9
+mono 1 39,2,0,10 39,3,0,10
+mono 24 39,2,0,11 39,3,0,11
+connected to 86,0,0,22
+connected to 86,0,0,24
+
+node MONO 86,0,0,12
+mono 24 39,2,0,3 39,3,0,3
+mono 1 39,2,0,4 39,3,0,4
+connected to 86,0,0,13
+

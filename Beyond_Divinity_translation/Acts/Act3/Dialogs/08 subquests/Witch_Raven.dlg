@@ -1,0 +1,115 @@
+version 11
+id 6,1,0,217
+name "Witch_Raven"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 217,0,0,1
+
+node BLOCK_GREET_AVAILABLE 217,0,0,2
+connected to 217,0,0,12
+
+node BLOCK_GREET_ACTIVE 217,0,0,3
+connected to 217,0,0,16
+
+node BLOCK_GREET_SUCCESS 217,0,0,4
+connected to 217,0,0,18
+
+node BLOCK_GREET_COMPLETED 217,0,0,5
+connected to 217,0,0,22
+
+node BLOCK_GREET_FAILURE 217,0,0,6
+
+node BLOCK_GREET_FAILED 217,0,0,7
+
+node BLOCK_GREET_REFUSED 217,0,0,8
+
+node BLOCK_STD 217,0,0,9
+
+node BLOCK_SERV 217,0,0,10
+connected to 217,0,0,25
+connected to 217,0,0,27
+
+node BLOCK_EXIT 217,0,0,11
+connected to 217,0,0,24
+
+node TEXT_NPC 217,0,0,12
+text 192,1,0,0
+alttext 192,1,0,1
+connected to 217,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 217,0,0,13
+connected to 217,0,0,14
+
+node TEXT_HERO 217,0,0,14
+text 192,0,0,0
+alttext 192,0,0,1
+quest event 2
+connected to 217,0,0,15
+
+node MONO 217,0,0,15
+mono 182 192,2,0,0 192,3,0,0
+mono 182 192,2,0,1 192,3,0,1
+mono 182 192,2,0,3 192,3,0,3
+mono 0 192,2,0,2 192,3,0,2
+mono 182 192,2,0,4 192,3,0,4
+mono 182 192,2,0,5 192,3,0,5
+mono 0 192,2,0,6 192,3,0,6
+
+node TEXT_NPC 217,0,0,16
+text 192,1,0,2
+alttext 192,1,0,3
+connected to 217,0,0,17
+
+node BLOCK_QUEST_ACTIVE 217,0,0,17
+
+node TEXT_NPC 217,0,0,18
+text 192,1,0,4
+alttext 192,1,0,5
+connected to 217,0,0,19
+
+node BLOCK_QUEST_SUCCESS 217,0,0,19
+connected to 217,0,0,20
+
+node TEXT_HERO 217,0,0,20
+text 192,0,0,2
+alttext 192,0,0,3
+quest event 4
+connected to 217,0,0,21
+
+node MONO 217,0,0,21
+mono 1 192,2,0,7 192,3,0,7
+mono 182 192,2,0,8 192,3,0,8
+mono 182 192,2,0,9 192,3,0,9
+
+node TEXT_NPC 217,0,0,22
+text 192,1,0,6
+alttext 192,1,0,7
+connected to 217,0,0,23
+
+node BLOCK_QUEST_COMPLETED 217,0,0,23
+
+node TEXT_HERO 217,0,0,24
+text 204,0,0,0
+alttext 204,0,0,1
+
+node TEXT_HERO 217,0,0,25
+servnode 2 1
+text 204,0,0,2
+alttext 204,0,0,3
+connected to 217,0,0,26
+
+node TEXT_NPC 217,0,0,26
+text 204,1,0,0
+alttext 204,1,0,1
+
+node TEXT_HERO 217,0,0,27
+servnode 3 1
+text 204,0,0,4
+alttext 204,0,0,5
+connected to 217,0,0,28
+
+node TEXT_NPC 217,0,0,28
+text 204,1,0,2
+alttext 204,1,0,3
+

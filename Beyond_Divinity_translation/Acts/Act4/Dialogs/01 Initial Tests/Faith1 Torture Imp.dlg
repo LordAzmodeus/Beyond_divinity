@@ -1,0 +1,68 @@
+version 11
+id 6,1,0,30
+name "Faith1 Torture Imp"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 30,0,0,1
+
+node BLOCK_GREET_AVAILABLE 30,0,0,2
+connected to 30,0,0,12
+
+node BLOCK_GREET_ACTIVE 30,0,0,3
+
+node BLOCK_GREET_SUCCESS 30,0,0,4
+
+node BLOCK_GREET_COMPLETED 30,0,0,5
+
+node BLOCK_GREET_FAILURE 30,0,0,6
+
+node BLOCK_GREET_FAILED 30,0,0,7
+
+node BLOCK_GREET_REFUSED 30,0,0,8
+
+node BLOCK_STD 30,0,0,9
+
+node BLOCK_SERV 30,0,0,10
+
+node BLOCK_EXIT 30,0,0,11
+
+node TEXT_NPC 30,0,0,12
+text 74,1,0,0
+alttext 136,1,0,0
+connected to 30,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 30,0,0,13
+connected to 30,0,0,14
+
+node TEXT_HERO 30,0,0,14
+text 74,0,0,0
+alttext 136,0,0,0
+connected to 30,0,0,15
+
+node TEXT_NPC 30,0,0,15
+text 74,1,0,1
+alttext 136,1,0,1
+connected to 30,0,0,16
+connected to 30,0,0,18
+
+node TEXT_HERO 30,0,0,16
+text 74,0,0,1
+alttext 136,0,0,1
+quest event 2
+connected to 30,0,0,17
+
+node TEXT_NPC 30,0,0,17
+text 74,1,0,2
+alttext 136,1,0,2
+
+node TEXT_HERO 30,0,0,18
+text 74,0,0,2
+alttext 136,0,0,2
+quest event 7
+connected to 30,0,0,19
+
+node TEXT_NPC 30,0,0,19
+text 74,1,0,3
+alttext 136,1,0,3
+

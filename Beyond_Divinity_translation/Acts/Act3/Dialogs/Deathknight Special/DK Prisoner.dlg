@@ -1,0 +1,38 @@
+version 11
+id 6,1,0,244
+name "DK Prisoner"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 244,0,0,1
+connected to 244,0,0,12
+
+node BLOCK_GREET_AVAILABLE 244,0,0,2
+
+node BLOCK_GREET_ACTIVE 244,0,0,3
+
+node BLOCK_GREET_SUCCESS 244,0,0,4
+
+node BLOCK_GREET_COMPLETED 244,0,0,5
+
+node BLOCK_GREET_FAILURE 244,0,0,6
+
+node BLOCK_GREET_FAILED 244,0,0,7
+
+node BLOCK_GREET_REFUSED 244,0,0,8
+
+node BLOCK_STD 244,0,0,9
+
+node BLOCK_SERV 244,0,0,10
+
+node BLOCK_EXIT 244,0,0,11
+
+node BLOCK_QUEST_INACTIVE 244,0,0,13
+
+node MONO 244,0,0,12
+mono 1 244,2,0,0 244,3,0,0
+mono 0 244,2,0,1 244,3,0,1
+mono 1 244,2,0,2 244,3,0,2
+mono 1 244,2,0,3 244,3,0,3
+connected to 244,0,0,13
+

@@ -1,0 +1,60 @@
+version 11
+id 6,1,0,139
+name "Serrick_Entrance_Guard"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 139,0,0,1
+connected to 139,0,0,12
+
+node BLOCK_GREET_AVAILABLE 139,0,0,2
+
+node BLOCK_GREET_ACTIVE 139,0,0,3
+connected to 139,0,0,14
+
+node BLOCK_GREET_SUCCESS 139,0,0,4
+
+node BLOCK_GREET_COMPLETED 139,0,0,5
+
+node BLOCK_GREET_FAILURE 139,0,0,6
+
+node BLOCK_GREET_FAILED 139,0,0,7
+
+node BLOCK_GREET_REFUSED 139,0,0,8
+
+node BLOCK_STD 139,0,0,9
+
+node BLOCK_SERV 139,0,0,10
+
+node BLOCK_EXIT 139,0,0,11
+connected to 139,0,0,18
+
+node TEXT_NPC 139,0,0,12
+text 121,1,0,0
+alttext 121,1,0,1
+connected to 139,0,0,13
+
+node BLOCK_QUEST_INACTIVE 139,0,0,13
+
+node TEXT_NPC 139,0,0,14
+text 121,1,0,2
+alttext 121,1,0,3
+connected to 139,0,0,15
+
+node BLOCK_QUEST_ACTIVE 139,0,0,15
+connected to 139,0,0,16
+
+node TEXT_HERO 139,0,0,16
+text 121,0,0,0
+alttext 121,0,0,1
+quest event 3
+connected to 139,0,0,17
+
+node TEXT_NPC 139,0,0,17
+text 121,1,0,4
+alttext 121,1,0,5
+
+node TEXT_HERO 139,0,0,18
+text 121,0,0,2
+alttext 121,0,0,3
+

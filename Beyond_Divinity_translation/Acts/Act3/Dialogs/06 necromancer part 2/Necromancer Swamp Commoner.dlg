@@ -1,0 +1,145 @@
+version 11
+id 6,1,0,75
+name "Necromancer Swamp Commoner"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 75,0,0,1
+
+node BLOCK_GREET_AVAILABLE 75,0,0,2
+connected to 75,0,0,24
+
+node BLOCK_GREET_ACTIVE 75,0,0,3
+connected to 75,0,0,34
+
+node BLOCK_GREET_SUCCESS 75,0,0,4
+
+node BLOCK_GREET_COMPLETED 75,0,0,5
+
+node BLOCK_GREET_FAILURE 75,0,0,6
+
+node BLOCK_GREET_FAILED 75,0,0,7
+
+node BLOCK_GREET_REFUSED 75,0,0,8
+
+node BLOCK_STD 75,0,0,9
+connected to 75,0,0,15
+connected to 75,0,0,18
+
+node BLOCK_SERV 75,0,0,10
+connected to 75,0,0,36
+connected to 75,0,0,38
+connected to 75,0,0,40
+
+node BLOCK_EXIT 75,0,0,11
+connected to 75,0,0,14
+
+node TEXT_HERO 75,0,0,14
+text 38,0,0,0
+alttext 66,0,0,8
+
+node TEXT_HERO 75,0,0,15
+stdnode
+text 38,0,0,1
+alttext 66,0,0,4
+connected to 75,0,0,16
+
+node TEXT_NPC 75,0,0,16
+text 38,1,0,1
+alttext 38,1,0,11
+connected to 75,0,0,17
+
+node BLOCK_STD 75,0,0,17
+
+node TEXT_HERO 75,0,0,18
+stdnode
+text 38,0,0,2
+alttext 66,0,0,5
+connected to 75,0,0,19
+
+node TEXT_NPC 75,0,0,19
+text 38,1,0,2
+alttext 38,1,0,12
+connected to 75,0,0,20
+
+node BLOCK_STD 75,0,0,20
+connected to 75,0,0,28
+connected to 75,0,0,30
+
+node BLOCK_QUEST_AVAILABLE 75,0,0,25
+connected to 75,0,0,26
+
+node TEXT_HERO 75,0,0,26
+text 38,0,0,4
+alttext 38,0,0,8
+quest event 2
+connected to 75,0,0,27
+
+node MONO 75,0,0,24
+mono 30 38,2,0,1 38,3,0,1
+mono 0 38,2,0,2 38,3,0,2
+mono 30 38,2,0,3 38,3,0,3
+mono 30 38,2,0,4 38,3,0,4
+connected to 75,0,0,25
+
+node TEXT_NPC 75,0,0,27
+text 38,1,0,4
+alttext 38,1,0,9
+
+node TEXT_HERO 75,0,0,28
+stdnode
+text 38,0,0,5
+alttext 66,0,0,7
+connected to 75,0,0,29
+
+node TEXT_NPC 75,0,0,29
+text 38,1,0,5
+alttext 38,1,0,13
+
+node TEXT_HERO 75,0,0,30
+stdnode
+text 38,0,0,6
+alttext 66,0,0,6
+connected to 75,0,0,31
+
+node TEXT_NPC 75,0,0,31
+text 38,1,0,6
+alttext 38,1,0,14
+
+node TEXT_NPC 75,0,0,34
+text 38,1,0,8
+alttext 38,1,0,10
+connected to 75,0,0,35
+
+node BLOCK_QUEST_ACTIVE 75,0,0,35
+
+node TEXT_HERO 75,0,0,36
+servnode 4 1
+text 64,0,0,0
+alttext 64,0,0,1
+connected to 75,0,0,37
+
+node TEXT_NPC 75,0,0,37
+text 64,1,0,0
+alttext 64,1,0,1
+
+node TEXT_HERO 75,0,0,38
+servnode 2 1
+text 66,0,0,0
+alttext 66,0,0,1
+connected to 75,0,0,39
+
+node TEXT_NPC 75,0,0,39
+text 66,1,0,0
+alttext 66,1,0,1
+
+node TEXT_HERO 75,0,0,40
+servnode 3 1
+text 66,0,0,2
+alttext 66,0,0,3
+connected to 75,0,0,41
+
+node TEXT_NPC 75,0,0,41
+text 66,1,0,2
+alttext 66,1,0,3
+

@@ -1,0 +1,52 @@
+version 11
+id 6,1,0,195
+name "Academy_male2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 195,0,0,1
+connected to 195,0,0,12
+
+node BLOCK_GREET_AVAILABLE 195,0,0,2
+
+node BLOCK_GREET_ACTIVE 195,0,0,3
+
+node BLOCK_GREET_SUCCESS 195,0,0,4
+
+node BLOCK_GREET_COMPLETED 195,0,0,5
+
+node BLOCK_GREET_FAILURE 195,0,0,6
+
+node BLOCK_GREET_FAILED 195,0,0,7
+
+node BLOCK_GREET_REFUSED 195,0,0,8
+
+node BLOCK_STD 195,0,0,9
+
+node BLOCK_SERV 195,0,0,10
+connected to 195,0,0,14
+
+node BLOCK_EXIT 195,0,0,11
+connected to 195,0,0,18
+
+node TEXT_NPC 195,0,0,12
+text 195,1,0,0
+alttext 195,1,0,1
+connected to 195,0,0,13
+
+node BLOCK_QUEST_INACTIVE 195,0,0,13
+
+node TEXT_HERO 195,0,0,14
+servnode 0 1
+text 195,0,0,0
+alttext 195,0,0,1
+connected to 195,0,0,15
+
+node TEXT_NPC 195,0,0,15
+text 195,1,0,2
+alttext 195,1,0,3
+
+node TEXT_HERO 195,0,0,18
+text 195,0,0,4
+alttext 195,0,0,5
+

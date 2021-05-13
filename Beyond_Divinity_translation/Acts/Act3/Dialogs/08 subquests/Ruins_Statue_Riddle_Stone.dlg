@@ -1,0 +1,90 @@
+version 11
+id 6,1,0,136
+name "Ruins_Statue_Riddle_Stone"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 136,0,0,1
+
+node BLOCK_GREET_AVAILABLE 136,0,0,2
+
+node BLOCK_GREET_ACTIVE 136,0,0,3
+connected to 136,0,0,12
+
+node BLOCK_GREET_SUCCESS 136,0,0,4
+
+node BLOCK_GREET_COMPLETED 136,0,0,5
+
+node BLOCK_GREET_FAILURE 136,0,0,6
+
+node BLOCK_GREET_FAILED 136,0,0,7
+
+node BLOCK_GREET_REFUSED 136,0,0,8
+
+node BLOCK_STD 136,0,0,9
+
+node BLOCK_SERV 136,0,0,10
+
+node BLOCK_EXIT 136,0,0,11
+
+node TEXT_NPC 136,0,0,12
+text 104,1,0,0
+alttext 104,1,0,1
+connected to 136,0,0,13
+
+node BLOCK_QUEST_ACTIVE 136,0,0,13
+connected to 136,0,0,14
+
+node TEXT_HERO 136,0,0,14
+text 119,0,0,0
+alttext 119,0,0,1
+connected to 136,0,0,15
+
+node TEXT_NPC 136,0,0,15
+text 119,1,0,0
+alttext 119,1,0,1
+connected to 136,0,0,16
+connected to 136,0,0,18
+connected to 136,0,0,20
+connected to 136,0,0,22
+
+node TEXT_HERO 136,0,0,16
+text 119,0,0,2
+alttext 119,0,0,3
+quest event 3
+connected to 136,0,0,17
+
+node TEXT_NPC 136,0,0,17
+text 119,1,0,2
+alttext 119,1,0,3
+
+node TEXT_HERO 136,0,0,18
+text 119,0,0,4
+alttext 119,0,0,5
+quest event 5
+connected to 136,0,0,19
+
+node TEXT_NPC 136,0,0,19
+text 119,1,0,4
+alttext 119,1,0,5
+
+node TEXT_HERO 136,0,0,20
+text 119,0,0,6
+alttext 119,0,0,7
+quest event 5
+connected to 136,0,0,21
+
+node TEXT_NPC 136,0,0,21
+text 119,1,0,6
+alttext 119,1,0,7
+
+node TEXT_HERO 136,0,0,22
+text 119,0,0,8
+alttext 119,0,0,9
+quest event 5
+connected to 136,0,0,23
+
+node TEXT_NPC 136,0,0,23
+text 119,1,0,8
+alttext 119,1,0,9
+

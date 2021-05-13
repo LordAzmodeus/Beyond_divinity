@@ -1,0 +1,58 @@
+version 11
+id 6,1,0,36
+name "Inside Mirror"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 36,0,0,1
+
+node BLOCK_GREET_AVAILABLE 36,0,0,2
+connected to 36,0,0,12
+
+node BLOCK_GREET_ACTIVE 36,0,0,3
+
+node BLOCK_GREET_SUCCESS 36,0,0,4
+connected to 36,0,0,16
+
+node BLOCK_GREET_COMPLETED 36,0,0,5
+
+node BLOCK_GREET_FAILURE 36,0,0,6
+
+node BLOCK_GREET_FAILED 36,0,0,7
+
+node BLOCK_GREET_REFUSED 36,0,0,8
+
+node BLOCK_STD 36,0,0,9
+
+node BLOCK_SERV 36,0,0,10
+
+node BLOCK_EXIT 36,0,0,11
+
+node TEXT_NPC 36,0,0,12
+text 251,1,0,0
+alttext 251,1,0,2
+connected to 36,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 36,0,0,13
+connected to 36,0,0,14
+
+node TEXT_HERO 36,0,0,14
+text 251,0,0,0
+alttext 251,0,0,1
+quest event 2
+connected to 36,0,0,15
+
+node TEXT_NPC 36,0,0,15
+text 251,1,0,1
+alttext 251,1,0,3
+
+node BLOCK_QUEST_SUCCESS 36,0,0,17
+
+node MONO 36,0,0,16
+mono 128 251,2,0,0 251,3,0,0
+mono 0 251,2,0,1 251,3,0,1
+mono 128 251,2,0,3 251,3,0,3
+mono 128 251,2,0,2 251,3,0,2
+mono 1 251,2,0,4 251,3,0,4
+connected to 36,0,0,17
+

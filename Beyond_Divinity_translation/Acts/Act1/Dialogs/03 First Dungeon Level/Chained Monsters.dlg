@@ -1,0 +1,42 @@
+version 11
+id 6,1,0,45
+name "Chained Monsters"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 45,0,0,1
+connected to 45,0,0,12
+
+node BLOCK_GREET_AVAILABLE 45,0,0,2
+
+node BLOCK_GREET_ACTIVE 45,0,0,3
+
+node BLOCK_GREET_SUCCESS 45,0,0,4
+
+node BLOCK_GREET_COMPLETED 45,0,0,5
+
+node BLOCK_GREET_FAILURE 45,0,0,6
+
+node BLOCK_GREET_FAILED 45,0,0,7
+
+node BLOCK_GREET_REFUSED 45,0,0,8
+
+node BLOCK_STD 45,0,0,9
+
+node BLOCK_SERV 45,0,0,10
+
+node BLOCK_EXIT 45,0,0,11
+
+node BLOCK_QUEST_INACTIVE 45,0,0,13
+
+node MONO 45,0,0,12
+mono 85 16,2,0,0 16,3,0,0
+mono 86 16,2,0,1 16,3,0,1
+mono 87 16,2,0,2 16,3,0,2
+mono 86 16,2,0,3 16,3,0,3
+mono 88 16,2,0,4 16,3,0,4
+mono 85 16,2,0,5 16,3,0,5
+mono 89 16,2,0,6 16,3,0,6
+mono 87 16,2,0,7 16,3,0,7
+connected to 45,0,0,13
+

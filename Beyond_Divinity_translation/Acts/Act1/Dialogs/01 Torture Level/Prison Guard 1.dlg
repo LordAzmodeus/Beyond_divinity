@@ -1,0 +1,63 @@
+version 11
+id 6,1,0,23
+name "Prison Guard 1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 23,0,0,1
+connected to 23,0,0,12
+
+node BLOCK_GREET_AVAILABLE 23,0,0,2
+
+node BLOCK_GREET_ACTIVE 23,0,0,3
+
+node BLOCK_GREET_SUCCESS 23,0,0,4
+
+node BLOCK_GREET_COMPLETED 23,0,0,5
+
+node BLOCK_GREET_FAILURE 23,0,0,6
+
+node BLOCK_GREET_FAILED 23,0,0,7
+
+node BLOCK_GREET_REFUSED 23,0,0,8
+
+node BLOCK_STD 23,0,0,9
+
+node BLOCK_SERV 23,0,0,10
+
+node BLOCK_EXIT 23,0,0,11
+
+node BLOCK_QUEST_INACTIVE 23,0,0,13
+connected to 23,0,0,14
+
+node TEXT_NPC 23,0,0,12
+text 197,1,0,0
+alttext 22,1,0,0
+connected to 23,0,0,13
+
+node TEXT_HERO 23,0,0,14
+text 197,0,0,0
+connected to 23,0,0,15
+
+node TEXT_NPC 23,0,0,15
+text 197,1,0,1
+connected to 23,0,0,16
+connected to 23,0,0,18
+
+node TEXT_HERO 23,0,0,16
+text 197,0,0,1
+quest event 1
+connected to 23,0,0,17
+
+node TEXT_NPC 23,0,0,17
+text 197,1,0,2
+alttext 22,1,0,1
+
+node TEXT_HERO 23,0,0,18
+text 197,0,0,2
+connected to 23,0,0,19
+
+node TEXT_NPC 23,0,0,19
+text 197,1,0,3
+alttext 22,1,0,2
+

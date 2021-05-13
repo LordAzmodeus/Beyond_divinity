@@ -1,0 +1,99 @@
+version 11
+id 6,1,0,80
+name "Clerk Basic Training"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 80,0,0,1
+connected to 80,0,0,27
+
+node BLOCK_GREET_AVAILABLE 80,0,0,2
+connected to 80,0,0,25
+
+node BLOCK_GREET_ACTIVE 80,0,0,3
+
+node BLOCK_GREET_SUCCESS 80,0,0,4
+
+node BLOCK_GREET_COMPLETED 80,0,0,5
+
+node BLOCK_GREET_FAILURE 80,0,0,6
+
+node BLOCK_GREET_FAILED 80,0,0,7
+
+node BLOCK_GREET_REFUSED 80,0,0,8
+
+node BLOCK_STD 80,0,0,9
+connected to 80,0,0,12
+connected to 80,0,0,15
+connected to 80,0,0,22
+
+node BLOCK_SERV 80,0,0,10
+
+node BLOCK_EXIT 80,0,0,11
+connected to 80,0,0,21
+
+node TEXT_HERO 80,0,0,12
+stdnode
+text 103,0,0,0
+alttext 152,0,0,0
+connected to 80,0,0,13
+
+node TEXT_NPC 80,0,0,13
+text 103,1,0,0
+alttext 152,1,0,0
+connected to 80,0,0,14
+
+node BLOCK_STD 80,0,0,14
+
+node TEXT_HERO 80,0,0,15
+stdnode
+text 103,0,0,1
+alttext 152,0,0,1
+connected to 80,0,0,16
+
+node BLOCK_STD 80,0,0,17
+
+node TEXT_HERO 80,0,0,21
+text 103,0,0,3
+
+node MONO 80,0,0,16
+mono 31 152,2,0,14 152,3,0,0
+mono 0 152,2,0,17 152,3,0,3
+mono 31 152,2,0,18 152,3,0,4
+connected to 80,0,0,17
+
+node TEXT_HERO 80,0,0,22
+stdnode
+text 103,0,0,4
+connected to 80,0,0,23
+
+node TEXT_NPC 80,0,0,23
+text 103,1,0,3
+connected to 80,0,0,24
+
+node BLOCK_STD 80,0,0,24
+
+node BLOCK_QUEST_AVAILABLE 80,0,0,26
+
+node BLOCK_QUEST_INACTIVE 80,0,0,28
+
+node MONO 80,0,0,25
+mono 31 152,2,0,15 152,3,0,1
+mono 0 152,2,0,23 152,3,0,9
+mono 31 152,2,0,24 152,3,0,10
+mono 0 152,2,0,25 152,3,0,11
+mono 31 152,2,0,26 152,3,0,12
+mono 0 152,2,0,27 152,3,0,13
+mono 31 152,2,0,28 152,3,0,14
+mono 1 152,2,0,29 152,3,0,15
+mono 1 152,2,0,30 152,3,0,16
+mono 0 152,2,0,31 152,3,0,17
+mono 31 152,2,0,32 152,3,0,18
+mono 31 152,2,0,33 152,3,0,19
+connected to 80,0,0,26
+
+node TEXT_NPC 80,0,0,27
+text 80,1,0,0
+alttext 80,1,0,1
+connected to 80,0,0,28
+

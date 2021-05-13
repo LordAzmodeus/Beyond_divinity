@@ -1,0 +1,82 @@
+version 11
+id 6,3,0,115
+name "Imp_Crazy_Mushroom"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 115,0,0,1
+
+node BLOCK_GREET_AVAILABLE 115,0,0,2
+
+node BLOCK_GREET_ACTIVE 115,0,0,3
+connected to 115,0,0,12
+
+node BLOCK_GREET_SUCCESS 115,0,0,4
+
+node BLOCK_GREET_COMPLETED 115,0,0,5
+
+node BLOCK_GREET_FAILURE 115,0,0,6
+
+node BLOCK_GREET_FAILED 115,0,0,7
+
+node BLOCK_GREET_REFUSED 115,0,0,8
+
+node BLOCK_STD 115,0,0,9
+
+node BLOCK_SERV 115,0,0,10
+connected to 115,0,0,20
+
+node BLOCK_EXIT 115,0,0,11
+
+node BLOCK_QUEST_ACTIVE 115,0,0,13
+connected to 115,0,0,14
+
+node MONO 115,0,0,12
+mono 178 131,2,0,0 131,3,0,0
+mono 1 131,2,0,10 131,3,0,10
+mono 178 131,2,0,11 131,3,0,11
+mono 0 131,2,0,8 131,3,0,8
+mono 178 131,2,0,2 131,3,0,2
+connected to 115,0,0,13
+
+node TEXT_HERO 115,0,0,14
+text 131,0,0,0
+alttext 131,0,0,1
+connected to 115,0,0,15
+
+node TEXT_NPC 115,0,0,15
+text 131,1,0,0
+alttext 131,1,0,1
+connected to 115,0,0,16
+connected to 115,0,0,18
+
+node TEXT_HERO 115,0,0,16
+text 131,0,0,2
+alttext 131,0,0,3
+quest event 3
+connected to 115,0,0,17
+
+node TEXT_NPC 115,0,0,17
+text 131,1,0,2
+alttext 131,1,0,3
+
+node TEXT_HERO 115,0,0,18
+text 131,0,0,4
+alttext 131,0,0,5
+quest event 5
+connected to 115,0,0,19
+
+node TEXT_NPC 115,0,0,19
+text 131,1,0,4
+alttext 131,1,0,5
+
+node TEXT_HERO 115,0,0,20
+servnode 3 1
+text 113,0,0,0
+alttext 113,0,0,1
+connected to 115,0,0,21
+
+node TEXT_NPC 115,0,0,21
+text 113,1,0,0
+alttext 113,1,0,1
+

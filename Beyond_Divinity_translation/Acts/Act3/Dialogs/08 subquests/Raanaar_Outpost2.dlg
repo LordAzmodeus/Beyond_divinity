@@ -1,0 +1,64 @@
+version 11
+id 6,1,0,124
+name "Raanaar_Outpost2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 124,0,0,1
+connected to 124,0,0,12
+
+node BLOCK_GREET_AVAILABLE 124,0,0,2
+
+node BLOCK_GREET_ACTIVE 124,0,0,3
+
+node BLOCK_GREET_SUCCESS 124,0,0,4
+
+node BLOCK_GREET_COMPLETED 124,0,0,5
+
+node BLOCK_GREET_FAILURE 124,0,0,6
+
+node BLOCK_GREET_FAILED 124,0,0,7
+
+node BLOCK_GREET_REFUSED 124,0,0,8
+
+node BLOCK_STD 124,0,0,9
+
+node BLOCK_SERV 124,0,0,10
+connected to 124,0,0,17
+
+node BLOCK_EXIT 124,0,0,11
+connected to 124,0,0,16
+
+node BLOCK_QUEST_INACTIVE 124,0,0,13
+connected to 124,0,0,14
+
+node MONO 124,0,0,12
+mono 59 96,2,0,10 96,3,0,10
+mono 1 96,2,0,11 96,3,0,11
+connected to 124,0,0,13
+
+node TEXT_HERO 124,0,0,14
+text 96,0,0,0
+alttext 96,0,0,1
+quest event 1
+connected to 124,0,0,15
+
+node MONO 124,0,0,15
+mono 59 96,2,0,16 96,3,0,16
+mono 59 96,2,0,18 96,3,0,18
+mono 59 96,2,0,19 96,3,0,19
+
+node TEXT_HERO 124,0,0,16
+text 114,0,0,0
+alttext 114,0,0,1
+
+node TEXT_HERO 124,0,0,17
+servnode 4 1
+text 114,0,0,2
+alttext 114,0,0,3
+connected to 124,0,0,18
+
+node TEXT_NPC 124,0,0,18
+text 114,1,0,0
+alttext 114,1,0,1
+

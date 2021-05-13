@@ -1,0 +1,43 @@
+version 11
+id 6,1,0,58
+name "Raan Avatar 3"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 58,0,0,1
+
+node BLOCK_GREET_AVAILABLE 58,0,0,2
+connected to 58,0,0,12
+
+node BLOCK_GREET_ACTIVE 58,0,0,3
+
+node BLOCK_GREET_SUCCESS 58,0,0,4
+connected to 58,0,0,14
+
+node BLOCK_GREET_COMPLETED 58,0,0,5
+
+node BLOCK_GREET_FAILURE 58,0,0,6
+
+node BLOCK_GREET_FAILED 58,0,0,7
+
+node BLOCK_GREET_REFUSED 58,0,0,8
+
+node BLOCK_STD 58,0,0,9
+
+node BLOCK_SERV 58,0,0,10
+
+node BLOCK_EXIT 58,0,0,11
+
+node TEXT_NPC 58,0,0,12
+text 32,1,0,0
+alttext 32,1,0,2
+connected to 58,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 58,0,0,13
+
+node TEXT_NPC 58,0,0,14
+text 32,1,0,1
+connected to 58,0,0,15
+
+node BLOCK_QUEST_SUCCESS 58,0,0,15
+

@@ -1,0 +1,112 @@
+version 11
+id 6,1,0,24
+name "Imp_Plague_Victim5"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 24,0,0,1
+
+node BLOCK_GREET_AVAILABLE 24,0,0,2
+connected to 24,0,0,22
+
+node BLOCK_GREET_ACTIVE 24,0,0,3
+
+node BLOCK_GREET_SUCCESS 24,0,0,4
+
+node BLOCK_GREET_COMPLETED 24,0,0,5
+
+node BLOCK_GREET_FAILURE 24,0,0,6
+
+node BLOCK_GREET_FAILED 24,0,0,7
+
+node BLOCK_GREET_REFUSED 24,0,0,8
+
+node BLOCK_STD 24,0,0,9
+connected to 24,0,0,15
+connected to 24,0,0,18
+connected to 24,0,0,28
+connected to 24,0,0,31
+connected to 24,0,0,34
+
+node BLOCK_SERV 24,0,0,10
+
+node BLOCK_EXIT 24,0,0,11
+connected to 24,0,0,21
+
+node TEXT_HERO 24,0,0,15
+stdnode
+text 74,0,0,1
+alttext 24,0,0,2
+connected to 24,0,0,16
+
+node TEXT_NPC 24,0,0,16
+text 74,1,0,1
+alttext 74,1,0,9
+connected to 24,0,0,17
+
+node BLOCK_STD 24,0,0,17
+
+node TEXT_HERO 24,0,0,18
+stdnode
+text 74,0,0,2
+alttext 24,0,0,3
+connected to 24,0,0,19
+
+node TEXT_NPC 24,0,0,19
+text 74,1,0,2
+alttext 74,1,0,10
+connected to 24,0,0,20
+
+node BLOCK_STD 24,0,0,20
+
+node TEXT_HERO 24,0,0,21
+text 74,0,0,3
+
+node TEXT_NPC 24,0,0,22
+text 74,1,0,3
+alttext 74,1,0,8
+connected to 24,0,0,23
+
+node BLOCK_QUEST_AVAILABLE 24,0,0,23
+
+node TEXT_HERO 24,0,0,28
+stdnode
+text 74,0,0,5
+alttext 24,0,0,4
+connected to 24,0,0,29
+
+node TEXT_NPC 24,0,0,29
+text 74,1,0,6
+alttext 74,1,0,11
+connected to 24,0,0,30
+
+node BLOCK_STD 24,0,0,30
+
+node TEXT_HERO 24,0,0,31
+stdnode
+text 74,0,0,6
+alttext 74,0,0,7
+connected to 24,0,0,32
+
+node BLOCK_STD 24,0,0,33
+
+node MONO 24,0,0,32
+mono 21 74,2,0,0 74,3,0,0
+mono 21 74,2,0,1 74,3,0,1
+connected to 24,0,0,33
+
+node TEXT_HERO 24,0,0,34
+stdnode
+text 24,0,0,0
+alttext 24,0,0,1
+connected to 24,0,0,35
+
+node BLOCK_STD 24,0,0,36
+
+node MONO 24,0,0,35
+mono 21 24,2,0,0 24,3,0,0
+mono 1 24,2,0,1 24,3,0,1
+mono 0 24,2,0,2 24,3,0,2
+mono 21 24,2,0,3 24,3,0,3
+connected to 24,0,0,36
+

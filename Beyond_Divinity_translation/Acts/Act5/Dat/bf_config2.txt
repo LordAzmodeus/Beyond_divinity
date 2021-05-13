@@ -1,0 +1,5 @@
+CREATE TEMPLATE "bf template"
+	SET MAP battlefield2.sav
+	SET LAYOUT dat\bf_dgen_layout2.txt
+	SET STORY dat\bf_story.txt
+	SET STARTPOS 2200 3500

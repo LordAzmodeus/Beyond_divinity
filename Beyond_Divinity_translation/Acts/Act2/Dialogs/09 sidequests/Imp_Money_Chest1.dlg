@@ -1,0 +1,38 @@
+version 11
+id 6,3,0,144
+name "Imp_Money_Chest1"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 144,0,0,1
+connected to 144,0,0,14
+
+node BLOCK_GREET_AVAILABLE 144,0,0,2
+
+node BLOCK_GREET_ACTIVE 144,0,0,3
+
+node BLOCK_GREET_SUCCESS 144,0,0,4
+
+node BLOCK_GREET_COMPLETED 144,0,0,5
+
+node BLOCK_GREET_FAILURE 144,0,0,6
+
+node BLOCK_GREET_FAILED 144,0,0,7
+
+node BLOCK_GREET_REFUSED 144,0,0,8
+
+node BLOCK_STD 144,0,0,9
+
+node BLOCK_SERV 144,0,0,10
+
+node BLOCK_EXIT 144,0,0,11
+
+node BLOCK_QUEST_INACTIVE 144,0,0,15
+
+node MONO 144,0,0,14
+mono 19 129,2,0,0 129,3,0,0
+mono 75 129,2,0,1 129,3,0,1
+mono 19 129,2,0,3 129,3,0,3
+mono 76 129,2,0,2 129,3,0,2
+connected to 144,0,0,15
+

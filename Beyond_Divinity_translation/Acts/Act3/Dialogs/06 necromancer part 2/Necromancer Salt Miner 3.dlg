@@ -1,0 +1,117 @@
+version 11
+id 6,1,0,74
+name "Necromancer Salt Miner 3"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 74,0,0,1
+connected to 74,0,0,12
+
+node BLOCK_GREET_AVAILABLE 74,0,0,2
+
+node BLOCK_GREET_ACTIVE 74,0,0,3
+
+node BLOCK_GREET_SUCCESS 74,0,0,4
+
+node BLOCK_GREET_COMPLETED 74,0,0,5
+
+node BLOCK_GREET_FAILURE 74,0,0,6
+
+node BLOCK_GREET_FAILED 74,0,0,7
+
+node BLOCK_GREET_REFUSED 74,0,0,8
+
+node BLOCK_STD 74,0,0,9
+connected to 74,0,0,14
+connected to 74,0,0,17
+connected to 74,0,0,20
+connected to 74,0,0,30
+
+node BLOCK_SERV 74,0,0,10
+connected to 74,0,0,33
+connected to 74,0,0,35
+
+node BLOCK_EXIT 74,0,0,11
+connected to 74,0,0,23
+
+node TEXT_NPC 74,0,0,12
+text 54,1,0,0
+alttext 54,1,0,8
+connected to 74,0,0,13
+
+node BLOCK_QUEST_INACTIVE 74,0,0,13
+
+node TEXT_HERO 74,0,0,14
+stdnode
+text 54,0,0,0
+alttext 65,0,0,0
+connected to 74,0,0,15
+
+node TEXT_NPC 74,0,0,15
+text 54,1,0,1
+alttext 54,1,0,9
+connected to 74,0,0,16
+
+node BLOCK_STD 74,0,0,16
+
+node TEXT_HERO 74,0,0,17
+stdnode
+text 54,0,0,1
+alttext 63,0,0,0
+connected to 74,0,0,18
+
+node TEXT_NPC 74,0,0,18
+text 54,1,0,2
+alttext 54,1,0,10
+connected to 74,0,0,19
+
+node BLOCK_STD 74,0,0,19
+
+node TEXT_HERO 74,0,0,20
+stdnode
+text 54,0,0,2
+alttext 54,0,0,8
+connected to 74,0,0,21
+
+node TEXT_NPC 74,0,0,21
+text 54,1,0,3
+alttext 54,1,0,11
+connected to 74,0,0,22
+
+node BLOCK_STD 74,0,0,22
+
+node TEXT_HERO 74,0,0,23
+text 54,0,0,3
+
+node TEXT_HERO 74,0,0,30
+stdnode
+text 54,0,0,7
+alttext 65,0,0,1
+connected to 74,0,0,31
+
+node TEXT_NPC 74,0,0,31
+text 54,1,0,7
+connected to 74,0,0,32
+
+node BLOCK_STD 74,0,0,32
+
+node TEXT_HERO 74,0,0,33
+servnode 2 1
+text 63,0,0,1
+alttext 63,0,0,2
+connected to 74,0,0,34
+
+node TEXT_NPC 74,0,0,34
+text 63,1,0,0
+alttext 63,1,0,1
+
+node TEXT_HERO 74,0,0,35
+servnode 4 1
+text 63,0,0,3
+alttext 63,0,0,4
+connected to 74,0,0,36
+
+node TEXT_NPC 74,0,0,36
+text 63,1,0,2
+alttext 63,1,0,3
+

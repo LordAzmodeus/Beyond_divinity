@@ -1,0 +1,140 @@
+version 11
+id 6,1,0,165
+name "Officer Guard"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 165,0,0,1
+connected to 165,0,0,12
+
+node BLOCK_GREET_AVAILABLE 165,0,0,2
+connected to 165,0,0,23
+
+node BLOCK_GREET_ACTIVE 165,0,0,3
+connected to 165,0,0,34
+
+node BLOCK_GREET_SUCCESS 165,0,0,4
+connected to 165,0,0,36
+
+node BLOCK_GREET_COMPLETED 165,0,0,5
+connected to 165,0,0,40
+
+node BLOCK_GREET_FAILURE 165,0,0,6
+
+node BLOCK_GREET_FAILED 165,0,0,7
+
+node BLOCK_GREET_REFUSED 165,0,0,8
+
+node BLOCK_STD 165,0,0,9
+connected to 165,0,0,14
+connected to 165,0,0,17
+
+node BLOCK_SERV 165,0,0,10
+
+node BLOCK_EXIT 165,0,0,11
+connected to 165,0,0,22
+
+node TEXT_NPC 165,0,0,12
+text 39,1,0,0
+alttext 163,1,0,0
+connected to 165,0,0,13
+
+node BLOCK_QUEST_INACTIVE 165,0,0,13
+
+node TEXT_HERO 165,0,0,14
+stdnode
+text 39,0,0,0
+connected to 165,0,0,15
+
+node TEXT_NPC 165,0,0,15
+text 39,1,0,1
+connected to 165,0,0,16
+
+node BLOCK_STD 165,0,0,16
+
+node TEXT_HERO 165,0,0,17
+stdnode
+text 39,0,0,1
+connected to 165,0,0,18
+
+node TEXT_NPC 165,0,0,18
+text 39,1,0,2
+connected to 165,0,0,19
+
+node BLOCK_STD 165,0,0,19
+connected to 165,0,0,30
+connected to 165,0,0,32
+
+node TEXT_HERO 165,0,0,22
+text 39,0,0,3
+
+node TEXT_NPC 165,0,0,23
+text 39,1,0,3
+connected to 165,0,0,24
+
+node BLOCK_QUEST_AVAILABLE 165,0,0,24
+connected to 165,0,0,25
+
+node TEXT_HERO 165,0,0,25
+text 39,0,0,4
+quest event 2
+connected to 165,0,0,26
+
+node TEXT_HERO 165,0,0,30
+stdnode
+text 39,0,0,6
+connected to 165,0,0,31
+
+node TEXT_NPC 165,0,0,31
+text 39,1,0,6
+
+node TEXT_HERO 165,0,0,32
+stdnode
+text 39,0,0,7
+connected to 165,0,0,33
+
+node TEXT_NPC 165,0,0,33
+text 39,1,0,7
+
+node TEXT_NPC 165,0,0,34
+text 39,1,0,8
+alttext 163,1,0,1
+connected to 165,0,0,35
+
+node BLOCK_QUEST_ACTIVE 165,0,0,35
+
+node TEXT_NPC 165,0,0,36
+text 39,1,0,9
+alttext 163,1,0,2
+connected to 165,0,0,37
+
+node BLOCK_QUEST_SUCCESS 165,0,0,37
+connected to 165,0,0,38
+
+node TEXT_HERO 165,0,0,38
+text 39,0,0,8
+quest event 4
+connected to 165,0,0,39
+
+node TEXT_NPC 165,0,0,40
+text 39,1,0,11
+connected to 165,0,0,41
+
+node BLOCK_QUEST_COMPLETED 165,0,0,41
+
+node MONO 165,0,0,26
+mono 64 39,2,0,0 39,3,0,0
+mono 64 39,2,0,1 39,3,0,1
+mono 1 39,2,0,2 39,3,0,2
+mono 64 39,2,0,3 39,3,0,3
+mono 64 39,2,0,4 39,3,0,4
+
+node MONO 165,0,0,39
+mono 64 39,2,0,5 39,3,0,5
+mono 1 39,2,0,6 39,3,0,6
+mono 64 39,2,0,7 39,3,0,7
+mono 0 39,2,0,8 39,3,0,8
+mono 64 39,2,0,9 39,3,0,9
+mono 0 39,2,0,10 39,3,0,10
+mono 64 39,2,0,11 39,3,0,11
+

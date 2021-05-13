@@ -1,0 +1,77 @@
+version 11
+id 6,1,0,161
+name "Interfere Prisoner 2"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 161,0,0,1
+
+node BLOCK_GREET_AVAILABLE 161,0,0,2
+connected to 161,0,0,12
+
+node BLOCK_GREET_ACTIVE 161,0,0,3
+connected to 161,0,0,14
+
+node BLOCK_GREET_SUCCESS 161,0,0,4
+connected to 161,0,0,16
+
+node BLOCK_GREET_COMPLETED 161,0,0,5
+
+node BLOCK_GREET_FAILURE 161,0,0,6
+connected to 161,0,0,18
+
+node BLOCK_GREET_FAILED 161,0,0,7
+
+node BLOCK_GREET_REFUSED 161,0,0,8
+
+node BLOCK_STD 161,0,0,9
+
+node BLOCK_SERV 161,0,0,10
+
+node BLOCK_EXIT 161,0,0,11
+connected to 161,0,0,22
+
+node TEXT_NPC 161,0,0,12
+text 192,1,0,0
+alttext 195,1,0,0
+connected to 161,0,0,13
+
+node BLOCK_QUEST_AVAILABLE 161,0,0,13
+connected to 161,0,0,20
+
+node TEXT_NPC 161,0,0,14
+text 192,1,0,1
+alttext 195,1,0,1
+connected to 161,0,0,15
+
+node BLOCK_QUEST_ACTIVE 161,0,0,15
+
+node TEXT_NPC 161,0,0,16
+text 192,1,0,2
+alttext 195,1,0,3
+connected to 161,0,0,17
+
+node BLOCK_QUEST_SUCCESS 161,0,0,17
+
+node TEXT_NPC 161,0,0,18
+text 192,1,0,3
+alttext 195,1,0,2
+connected to 161,0,0,19
+
+node BLOCK_QUEST_FAILURE 161,0,0,19
+
+node TEXT_HERO 161,0,0,20
+text 192,0,0,0
+alttext 195,0,0,0
+quest event 2
+connected to 161,0,0,21
+
+node TEXT_HERO 161,0,0,22
+text 192,0,0,1
+alttext 195,0,0,1
+
+node MONO 161,0,0,21
+mono 63 195,2,0,0 195,3,0,0
+mono 62 195,2,0,1 195,3,0,1
+mono 63 195,2,0,2 195,3,0,2
+

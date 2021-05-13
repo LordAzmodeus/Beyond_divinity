@@ -1,0 +1,42 @@
+version 11
+id 6,1,0,39
+name "Deathknight_Where"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 39,0,0,1
+connected to 39,0,0,12
+
+node BLOCK_GREET_AVAILABLE 39,0,0,2
+
+node BLOCK_GREET_ACTIVE 39,0,0,3
+
+node BLOCK_GREET_SUCCESS 39,0,0,4
+
+node BLOCK_GREET_COMPLETED 39,0,0,5
+
+node BLOCK_GREET_FAILURE 39,0,0,6
+
+node BLOCK_GREET_FAILED 39,0,0,7
+
+node BLOCK_GREET_REFUSED 39,0,0,8
+
+node BLOCK_STD 39,0,0,9
+
+node BLOCK_SERV 39,0,0,10
+
+node BLOCK_EXIT 39,0,0,11
+
+node BLOCK_QUEST_INACTIVE 39,0,0,13
+
+node MONO 39,0,0,12
+mono 1 216,2,0,0 216,3,0,0
+mono 0 216,2,0,1 216,3,0,1
+mono 1 216,2,0,4 216,3,0,2
+mono 0 216,2,0,5 216,3,0,3
+mono 1 216,2,0,6 216,3,0,4
+mono 0 216,2,0,7 216,3,0,5
+mono 1 216,2,0,8 216,3,0,6
+mono 1 216,2,0,9 216,3,0,7
+connected to 39,0,0,13
+

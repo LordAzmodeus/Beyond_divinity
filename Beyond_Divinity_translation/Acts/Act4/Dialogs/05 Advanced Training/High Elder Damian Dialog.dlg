@@ -1,0 +1,43 @@
+version 11
+id 6,1,0,185
+name "High Elder Damian Dialog"
+face npc 1
+quest id -1
+
+node BLOCK_GREET_INACTIVE 185,0,0,1
+connected to 185,0,0,12
+
+node BLOCK_GREET_AVAILABLE 185,0,0,2
+
+node BLOCK_GREET_ACTIVE 185,0,0,3
+
+node BLOCK_GREET_SUCCESS 185,0,0,4
+
+node BLOCK_GREET_COMPLETED 185,0,0,5
+
+node BLOCK_GREET_FAILURE 185,0,0,6
+
+node BLOCK_GREET_FAILED 185,0,0,7
+
+node BLOCK_GREET_REFUSED 185,0,0,8
+
+node BLOCK_STD 185,0,0,9
+
+node BLOCK_SERV 185,0,0,10
+
+node BLOCK_EXIT 185,0,0,11
+
+node BLOCK_QUEST_INACTIVE 185,0,0,13
+
+node MONO 185,0,0,12
+mono 54 218,2,0,0 218,3,0,0
+mono 54 218,2,0,1 218,3,0,1
+mono 54 218,2,0,3 218,3,0,3
+mono 54 218,2,0,5 218,3,0,5
+mono 54 218,2,0,4 218,3,0,4
+mono 54 218,2,0,6 218,3,0,6
+mono 54 218,2,0,7 218,3,0,7
+mono 54 218,2,0,8 218,3,0,8
+mono 113 218,2,0,2 218,3,0,2
+connected to 185,0,0,13
+
