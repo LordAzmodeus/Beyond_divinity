@@ -5,6 +5,13 @@ Step 1
 Inizio traduzione sommaria per cercare di capire come si adatta il testo al contesto.
 
 Note.
+
+- GLOBAL -
+
+Cercare i riferimenti alla frase "la mia ex amante" <--- Quando il Death Knight si riferisce a Isolde credo che non debba essere tradotto così. Quello che vuole dire, forse, con ex mistress è la mia "ex Padrona" o "ex Signora" comunque un riferimento alla superiorità, anche se in qualche modo c'è un implicito riferimento a un eventuale legame "affettivo".
+
+Cercare i riferimenti alla frase "del caos piu' totale" <--- Quando il Death Knight si riferisce all'utter caos si traduce meglio in caos assoluto
+
 01. torture level
 - Chaos = divinità che vorrebbe scatenare il delirio sul Rivellion forse... Dark knight lo invoca nel primo atto, penso si riferisca a lui.
 - Imp = Diavoletto
@@ -24,6 +31,41 @@ Note.
 02. Pit Level
 Imp 1.gsm * riga 1 - Our Odox is a good 'un! <--- che significa 'un??? piccolo? Amico? riferimento a imp avvelenato... vada per amico, per ora... No, è suo fratello, un nello slang potrebbe essere "stupido", vada per stupido, per ora.... un buono stupido o un bravo stupido?
 
+03. First Dungeon Level
+- Chained Monsters Riddle.gsm - riga 20 * Right again (di nuovo a destra o di nuovo giusto?)
+- Chained Monsters.gsm riga 6* He's the *special* friend of the Master alright. I heard the master only puts him in the iron maiden every *other* day (rivedere only puts him in the iron maiden every *other* day)
+-Taxlehix Leave.gsm 
+    * riga 6, rivedere traduzione
+    * riga 11, la frase è
+Choose a way from this room, but two of them are your doom... death is cold, so I'm told, so be like me and go for gold!
+The golden way è un riferimento al concetto filosofico di aurea moderazione, aurea via di mezzo, nessun eccesso ne in un senso ne nell'altro.
+Ho stravolto la rima per fare un porting all'italiana cercando di mantenere il concetto. Si accettano consigli. (La preparazione in materia di conoscenza generale necessaria è la stessa, in fondo.)
+
+04. Second Dungeon Level
+
+05. 
+Gargoyle 1/2/3.gsm attenzione, quelli sembrano indizi per risolvere qualcosa in questo livello. Controllare
+
+07. 
+riga 2 *
+the weapons officer has his stock in the west wing.
+Scorta nel magazzino? Magazzino e basta? C'è, li, un magazzino?
+riga 10 *
+We'll need to equip ourselves properly first, for the exit is heavily protected. We must figure out a way around, or...if we have to... through them
+through who??? Ho immaginato le guardie... tenere d'occhio!
+
+Drill Ground Archer 1a.gsm 
+riga 13 * I think I could give you a run for your money <--- Credo che ptorei darti una scappatoia per i tuoi soldi ???????? una dritta, per i tuoi soldi? Insegna qualcosa? Tenere d'occhio!
+
+Medical officer.gsm
+riga 2 e 3 * non sono per nulla chiare
+
+08. 
+Deathknight 8 alarm.gsm
+riga ? * Listen, it's the alarm gong! Maybe we can use it to our advantage? The way out of the Citadel is very near <-- alarm gong??? campanello d'allarme? Sirena? O solo allarme?
+
+Deathknight Patrol Area.gsm
+riga 18 * The weapons forge and the weapons locker are in the north-east. We have to keep on going right <--- dobbiamo andare avanti sulla destra? O dobbiamo semplicemente andare avanti?
 
 Sezione Quests :
 - ArcherImp.gsm * riga 6 * 
@@ -40,11 +82,11 @@ idem per file successivi, riferimenti e gender case
  **************************************** Progress: ****************************************
 Atto 1 :
     01 Torture Level        - 100%
-    02 Pit Level            - 0%
-    03 First Dungeon Level  - 0%
-    04 Second Dungeon Level - 0%
-    05 Maze Level           - 0%
-    06 Key Level            - 0%
+    02 Pit Level            - 100%
+    03 First Dungeon Level  - 100%
+    04 Second Dungeon Level - 100%
+    05 Maze Level           - 100%
+    06 Key Level            - 100%
     07 Drill Ground Level   - 0%
     08 Barracks Level       - 0%
     09 Demons Lair          - 0%
